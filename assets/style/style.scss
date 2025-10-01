@@ -1,0 +1,76 @@
+:root {
+    --sidebar-width: 20vw;
+    --main-width: calc(100vw - var(--sidebar-width));
+}
+
+
+
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never; /* Note: font-smooth is not widely supported */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: "Monument";
+    src: url("../fonts/MonumentGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Monument Italic";
+    src: url("../fonts/MonumentGrotesk-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Monument Mono";
+    src: url("../fonts/MonumentGroteskMono-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Monument Mono Italic";
+    src: url("../fonts/MonumentGroteskMono-RegularItalic.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Monument";
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: var(--sidebar-width);
+    overflow-y: auto;
+
+}
+
+#main {
+    width: var(--main-width);
+    height: 100%;
+}
+
+#website-title-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: var(--main-width);
+    background-color: #000;
+    color: white;
+    font-size: 5.3vw;
+    line-height: 0.9;
+    display: flex;
+    align-items: center;
+}
+
+#website-title {
+    padding-left: 2vw;
+}
