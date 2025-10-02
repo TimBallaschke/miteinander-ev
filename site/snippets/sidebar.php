@@ -12,12 +12,14 @@
                 <?php snippet('single-select-button', [
                     'variable' => 'view',
                     'value' => 'grid',
-                    'label' => 'Kachel'
+                    'label' => 'Kachel',
+                    'colorClass' => 'black'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'view',
                     'value' => 'list',
-                    'label' => 'Liste'
+                    'label' => 'Liste',
+                    'colorClass' => 'black'
                 ]) ?>
             </div>
         </div>
@@ -27,37 +29,40 @@
                 <?php snippet('single-select-button', [
                     'variable' => 'audience',
                     'value' => 'all',
-                    'label' => 'Alle'
+                    'label' => 'Alle',
+                    'colorClass' => 'black'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'audience',
                     'value' => 'teacher',
-                    'label' => 'Pädagogische Fachkraft'
+                    'label' => 'Pädagogische Fachkraft',
+                    'colorClass' => 'purple'  
                 ]) ?>
+                <div id="teacher-types-filter" class="options-element">
+                    <?php snippet('multi-select-button', [
+                        'array' => 'teacherTypes',
+                        'value' => 'school',
+                        'label' => 'Schule',
+                        'colorClass' => 'purple'
+                    ]) ?>
+                    <?php snippet('multi-select-button', [
+                        'array' => 'teacherTypes',
+                        'value' => 'kita',
+                        'label' => 'Kita',
+                        'colorClass' => 'purple'
+                    ]) ?>
+                    <?php snippet('multi-select-button', [
+                        'array' => 'teacherTypes',
+                        'value' => 'social',
+                        'label' => 'Sozialarbeit, Kinder- und Jugendhilfe',
+                        'colorClass' => 'purple'
+                    ]) ?>
+                </div>
                 <?php snippet('single-select-button', [
                     'variable' => 'audience',
                     'value' => 'parents',
-                    'label' => 'Eltern und Angehörige'
-                ]) ?>
-            </div>
-        </div>
-        <div class="options-container">
-            <div class="options-title">Arbeitsbereich:</div>
-            <div id="teacher-types-filter" class="options-element">
-                <?php snippet('multi-select-button', [
-                    'array' => 'teacherTypes',
-                    'value' => 'school',
-                    'label' => 'Schule'
-                ]) ?>
-                <?php snippet('multi-select-button', [
-                    'array' => 'teacherTypes',
-                    'value' => 'kita',
-                    'label' => 'Kita'
-                ]) ?>
-                <?php snippet('multi-select-button', [
-                    'array' => 'teacherTypes',
-                    'value' => 'social',
-                    'label' => 'Sozialarbeit, Kinder- und Jugendhilfe'
+                    'label' => 'Eltern und Angehörige',
+                    'colorClass' => 'orange'
                 ]) ?>
             </div>
         </div>
@@ -67,22 +72,26 @@
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
                     'value' => 'all',
-                    'label' => 'Alle'
+                    'label' => 'Alle',
+                    'colorClass' => 'black'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
                     'value' => 'methods',
-                    'label' => 'Methoden'
+                    'label' => 'Methoden',
+                    'colorClass' => 'magenta'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
                     'value' => 'case-studies',
-                    'label' => 'Fallbeispiele'
+                    'label' => 'Fallbeispiele',
+                    'colorClass' => 'cyan'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
                     'value' => 'brochures',
-                    'label' => 'Broschüren und Informationen'
+                    'label' => 'Broschüren und Informationen',
+                    'colorClass' => 'yellow'
                 ]) ?>
             </div>
         </div>

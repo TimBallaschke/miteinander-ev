@@ -1,5 +1,5 @@
 <button 
-    class="option-button" 
+    class="option-button <?= $colorClass ?? '' ?>" 
     @click="<?= $variable ?> = '<?= $value ?>'" 
     :class="{ 'active': <?= $variable ?> === '<?= $value ?>' }">
     <div class="button-dot"></div>
