@@ -37,7 +37,7 @@
 
 .top-menu-element {
 
-    transform: translateX(-1.6rem);
+    transform: translateX(-2.2rem);
     transition: all 0.3s ease;
     cursor: pointer;
 
@@ -56,12 +56,14 @@
     }
 
     &:hover {
-        transform: translateX(0);
-        &::before {
-            height: 1.6rem;
-            width: 1.6rem;
-            opacity: 1;
-            transform: translateY(0.15rem) scale(1);
+        .top-menu-element {
+            transform: translateX(0);
+            &::before {
+                height: 1.6rem;
+                width: 1.6rem;
+                opacity: 1;
+                transform: translateY(0.15rem) scale(1);
+            }
         }
     }
 }

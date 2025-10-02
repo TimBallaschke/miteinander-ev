@@ -8,6 +8,21 @@
     border-right: solid 1px black;
 }
 
+.options-container {
+    padding: var(--page-padding);
+    width: 100%;
+    border-bottom: solid 1px black;
+}
+
+.options-title {
+    font-size: var(--regular-small-font-size);
+    padding-bottom: 0.5rem;
+}
+
+.options-element {
+    transform: translateX(-0.2rem);
+}
+
 .option-button {
     font-family: "Monument Mono";
     font-size: var(--mono-font-size-small);
@@ -17,6 +32,8 @@
     transition: var(--transition-s);
     position: relative;
     border: none;
+    display: block;
+    margin-bottom: var(--small-mono-padding-v);
 
     .button-content {
         transition: var(--transition-s);
@@ -64,6 +81,21 @@
         }
     }
 
+    &.outline {
+        background-color: transparent;
+        border: solid 1px black;
+        color: black;
+
+        &.active {
+            background-color: black;
+            color: white;
+        }
+
+        .button-dot {
+            background-color: white;
+        }
+    }
+    
     &.black {
         background-color: black;
         color: white;
@@ -75,7 +107,6 @@
 
     &.purple {
         background-color: #99A5FF;
-    
     }
 
     &.orange {
@@ -103,4 +134,16 @@
     border-radius: var(--small-mono-border-radius);
     cursor: pointer;
     border: none;
+    opacity: 0.5;
+    margin-left: 1.8rem;
+    white-space: nowrap;
+    margin-bottom: var(--small-mono-padding-v);
+
+    &.purple {
+        background-color: #99A5FF;
+    }
+
+    &.active {
+        opacity: 1;
+    }
 }

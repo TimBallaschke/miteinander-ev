@@ -13,13 +13,13 @@
                     'variable' => 'view',
                     'value' => 'grid',
                     'label' => 'Kachel',
-                    'colorClass' => 'black'
+                    'colorClass' => 'outline'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'view',
                     'value' => 'list',
                     'label' => 'Liste',
-                    'colorClass' => 'black'
+                    'colorClass' => 'outline'
                 ]) ?>
             </div>
         </div>
@@ -77,12 +77,6 @@
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
-                    'value' => 'methods',
-                    'label' => 'Methoden',
-                    'colorClass' => 'magenta'
-                ]) ?>
-                <?php snippet('single-select-button', [
-                    'variable' => 'content',
                     'value' => 'case-studies',
                     'label' => 'Fallbeispiele',
                     'colorClass' => 'cyan'
@@ -92,6 +86,12 @@
                     'value' => 'brochures',
                     'label' => 'Broschüren und Informationen',
                     'colorClass' => 'yellow'
+                ]) ?>
+                <?php snippet('single-select-button', [
+                    'variable' => 'content',
+                    'value' => 'methods',
+                    'label' => 'Methoden',
+                    'colorClass' => 'magenta'
                 ]) ?>
             </div>
         </div>
