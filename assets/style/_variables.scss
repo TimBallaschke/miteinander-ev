@@ -1,0 +1,6 @@
+:root {
+    --sidebar-width: 25vw;
+    --main-width: calc(100vw - var(--sidebar-width));
+    --page-padding: 1.3rem;
+    --top-menu-element-height: 3.3rem;
+}

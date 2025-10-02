@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never; /* Note: font-smooth is not widely supported */
+    font-size: 1vw;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
