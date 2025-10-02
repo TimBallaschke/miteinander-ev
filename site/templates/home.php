@@ -27,8 +27,14 @@
             <div class="options-container">
                 <div class="options-title">Ansicht:</div>
                 <div id="view-switch" class="options-element">
-                    <button @click="view = 'grid'" :class="{ 'active': view === 'grid' }">Grid</button>
-                    <button @click="view = 'list'" :class="{ 'active': view === 'list' }">List</button>
+                    <button class="option-button" @click="view = 'grid'" :class="{ 'active': view === 'grid' }">
+                        <div class="button-dot"></div>
+                        <div class="button-content">Kachel</div>
+                    </button>
+                    <button class="option-button" @click="view = 'list'" :class="{ 'active': view === 'list' }">
+                        <div class="button-dot"></div>
+                        <div class="button-content">Liste</div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -38,6 +44,27 @@
             <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
         </div>
         <div id="content" :class="view">
+            <div class="article-container">
+                <div class="article-headline">Extrem rechtes Elternhaus</div>
+                <div class="article-teaser-text">
+                    what if I wanted to make this some kind of component as it gets repeated multiple times. There will be multiple options-container always with a title element and a options element. Would it make sense to use alpine.js for this? Please do not implement any code but explain to me if this would make sense.
+                </div>
+                <div class="article-tags"></div>
+            </div>
+            <div class="article-container">
+                <div class="article-headline">Extrem rechtes Elternhaus</div>
+                <div class="article-teaser-text">
+                    what if I wanted to make this some kind of component as it gets repeated multiple times. There will be multiple options-container always with a title element and a options element. Would it make sense to use alpine.js for this? Please do not implement any code but explain to me if this would make sense.
+                </div>
+                <div class="article-tags"></div>
+            </div>
+            <div class="article-container">
+                <div class="article-headline">Extrem rechtes Elternhaus</div>
+                <div class="article-teaser-text">
+                    what if I wanted to make this some kind of component as it gets repeated multiple times. There will be multiple options-container always with a title element and a options element. Would it make sense to use alpine.js for this? Please do not implement any code but explain to me if this would make sense.
+                </div>
+                <div class="article-tags"></div>
+            </div>
             <div class="article-container">
                 <div class="article-headline">Extrem rechtes Elternhaus</div>
                 <div class="article-teaser-text">
