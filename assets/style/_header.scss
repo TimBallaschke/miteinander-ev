@@ -33,6 +33,7 @@
     align-items: center;
     z-index: 1;
     transition: var(--transition-s);
+    border-bottom: solid 1px black;
 
 
     .grid & {

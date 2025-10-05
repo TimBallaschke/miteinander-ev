@@ -5,6 +5,9 @@
         <?php snippet('menu-item', ['label' => 'Beratungsangebote']) ?>
         <?php snippet('menu-item', ['label' => 'Kontakt']) ?>
     </div>
+    <div id="sidebar-search">
+        <input id="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)">
+    </div>
     <div class="sidebar-options">
         <div class="options-container">
             <div class="options-title">Ansicht:</div>
