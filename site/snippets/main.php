@@ -25,6 +25,21 @@
         if ($methoden) $allArticles = $allArticles->add($methoden);
         if ($broschueren) $allArticles = $allArticles->add($broschueren);
         
+        // Label and color mappings for tags
+        $tagConfig = [
+            // Inhaltsart
+            'fallbeispiele' => ['label' => 'Fallbeispiele', 'color' => 'cyan'],
+            'methoden' => ['label' => 'Methoden', 'color' => 'magenta'],
+            'broschuere-und-information' => ['label' => 'Broschüre und Information', 'color' => 'yellow'],
+            // Kategorie
+            'paedagogische-fachkraft' => ['label' => 'Pädagogische Fachkraft', 'color' => 'purple'],
+            'eltern-und-angehoerige' => ['label' => 'Eltern und Angehörige', 'color' => 'orange'],
+            // Unterkategorie
+            'schule' => ['label' => 'Schule', 'color' => 'purple'],
+            'kita' => ['label' => 'Kita', 'color' => 'purple'],
+            'sozialarbeit' => ['label' => 'Sozialarbeit, Kinder- und Jugendhilfe', 'color' => 'purple']
+        ];
+        
         // Loop through all articles and display them
         foreach ($allArticles as $article): 
             // Collect tags from the article fields
@@ -32,17 +47,20 @@
             
             // Add Inhaltsart (new_category)
             if ($article->new_category()->isNotEmpty()) {
-                $tags[] = $article->new_category()->value();
+                $key = $article->new_category()->value();
+                $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
             }
             
             // Add Kategorie (category)
             if ($article->category()->isNotEmpty()) {
-                $tags[] = $article->category()->value();
+                $key = $article->category()->value();
+                $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
             }
             
             // Add Unterkategorie (subcategory)
             if ($article->subcategory()->isNotEmpty()) {
-                $tags[] = $article->subcategory()->value();
+                $key = $article->subcategory()->value();
+                $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
             }
         ?>
             <?php snippet('article-card', [

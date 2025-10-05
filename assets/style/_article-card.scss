@@ -37,7 +37,11 @@
 .article-publisher {
     font-family: "Monument Mono";
     font-size: var(--mono-font-size-small);
-    padding: calc(var(--mono-font-size-small) * 1.2) 0;
+    padding: calc(var(--mono-font-size-small) * 1.2) 0 0 0;
+}
+
+.article-tags {
+    margin-top: var(--page-padding);
 }
 
 .article-tag {
@@ -46,7 +50,28 @@
     font-size: var(--mono-font-size-small);
     padding: var(--small-mono-padding-v) var(--small-mono-padding-h);
     border-radius: var(--small-mono-border-radius);
-    border: solid 1px black;
+    margin-right: 0.1rem;
+    margin-top: 0.4rem;
+
+    &.purple {
+        background-color: #99A5FF;
+    }
+
+    &.orange {
+        background-color: #FFBC69;
+    }
+    
+    &.magenta {
+        background-color: #FF99F5;
+    }
+    
+    &.cyan {
+        background-color: #82E8FC;
+    }
+    
+    &.yellow {
+        background-color: #EAFF00;
+    }
 }
 
 
