@@ -44,30 +44,38 @@
         foreach ($allArticles as $article): 
             // Collect tags from the article fields
             $tags = [];
+            $filterKeys = []; // Raw keys for filtering
             
             // Add Inhaltsart (new_category)
             if ($article->new_category()->isNotEmpty()) {
                 $key = $article->new_category()->value();
                 $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $filterKeys[] = $key;
             }
             
             // Add Kategorie (category)
             if ($article->category()->isNotEmpty()) {
                 $key = $article->category()->value();
                 $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $filterKeys[] = $key;
             }
             
             // Add Unterkategorie (subcategory)
             if ($article->subcategory()->isNotEmpty()) {
                 $key = $article->subcategory()->value();
                 $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $filterKeys[] = $key;
             }
+            
+            // Convert filter keys to JSON for Alpine.js
+            $filterKeysJson = htmlspecialchars(json_encode($filterKeys), ENT_QUOTES, 'UTF-8');
         ?>
             <?php snippet('article-card', [
                 'headline' => $article->page_title()->value(),
                 'teaser' => $article->intro_text()->value(),
                 'publisher' => $article->publisher()->value(),
-                'tags' => $tags
+                'tags' => $tags,
+                'filterKeys' => $filterKeysJson
             ]) ?>
         <?php endforeach ?>
     </div>

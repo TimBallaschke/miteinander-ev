@@ -33,39 +33,45 @@
                     'variable' => 'audience',
                     'value' => 'all',
                     'label' => 'Alle',
-                    'colorClass' => 'black'
+                    'colorClass' => 'black',
+                    'showTotal' => true
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'audience',
                     'value' => 'teacher',
                     'label' => 'Pädagogische Fachkraft',
-                    'colorClass' => 'purple'  
+                    'colorClass' => 'purple',
+                    'tagKey' => 'paedagogische-fachkraft'
                 ]) ?>
                 <div id="teacher-types-filter" class="options-element">
                     <?php snippet('multi-select-button', [
                         'array' => 'teacherTypes',
                         'value' => 'school',
                         'label' => 'Schule',
-                        'colorClass' => 'purple'
+                        'colorClass' => 'purple',
+                        'tagKey' => 'schule'
                     ]) ?>
                     <?php snippet('multi-select-button', [
                         'array' => 'teacherTypes',
                         'value' => 'kita',
                         'label' => 'Kita',
-                        'colorClass' => 'purple'
+                        'colorClass' => 'purple',
+                        'tagKey' => 'kita'
                     ]) ?>
                     <?php snippet('multi-select-button', [
                         'array' => 'teacherTypes',
                         'value' => 'social',
                         'label' => 'Sozialarbeit, Kinder- und Jugendhilfe',
-                        'colorClass' => 'purple'
+                        'colorClass' => 'purple',
+                        'tagKey' => 'sozialarbeit'
                     ]) ?>
                 </div>
                 <?php snippet('single-select-button', [
                     'variable' => 'audience',
                     'value' => 'parents',
                     'label' => 'Eltern und Angehörige',
-                    'colorClass' => 'orange'
+                    'colorClass' => 'orange',
+                    'tagKey' => 'eltern-und-angehoerige'
                 ]) ?>
             </div>
         </div>
@@ -76,25 +82,29 @@
                     'variable' => 'content',
                     'value' => 'all',
                     'label' => 'Alle',
-                    'colorClass' => 'black'
+                    'colorClass' => 'black',
+                    'showTotal' => true
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
                     'value' => 'case-studies',
                     'label' => 'Fallbeispiele',
-                    'colorClass' => 'cyan'
+                    'colorClass' => 'cyan',
+                    'tagKey' => 'fallbeispiele'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
                     'value' => 'brochures',
                     'label' => 'Broschüren und Informationen',
-                    'colorClass' => 'yellow'
+                    'colorClass' => 'yellow',
+                    'tagKey' => 'broschuere-und-information'
                 ]) ?>
                 <?php snippet('single-select-button', [
                     'variable' => 'content',
                     'value' => 'methods',
                     'label' => 'Methoden',
-                    'colorClass' => 'magenta'
+                    'colorClass' => 'magenta',
+                    'tagKey' => 'methoden'
                 ]) ?>
             </div>
         </div>

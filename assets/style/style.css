@@ -1,10 +1,10 @@
 :root {
-  --sidebar-width: 26vw;
+  --sidebar-width: 28vw;
   --main-width: calc(100vw - var(--sidebar-width));
   --page-padding: 1.3rem;
   --top-menu-element-height: 3.3rem;
   --mono-font-size-small: 0.8rem;
-  --small-mono-padding-h: 1.2rem;
+  --small-mono-padding-h: 1.1rem;
   --small-mono-padding-v: 0.5rem;
   --small-mono-border-radius: calc(var(--small-mono-padding-v) * 2 + var(--mono-font-size-small));
   --regular-small-font-size: 1.2rem;
@@ -365,6 +365,7 @@ body {
 
 .article-headline {
   font-family: "Monument Mono";
+  line-height: 1.2;
 }
 .list .article-headline {
   font-size: var(--mono-font-size-small);

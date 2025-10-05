@@ -22,6 +22,36 @@
         });
     }
 }">
+    <?php
+    // Calculate tag counts before rendering sidebar
+    $fallbeispiele = page('fallbeispiele')?->children()->listed();
+    $methoden = page('methoden')?->children()->listed();
+    $broschueren = page('broschueren-und-informationen')?->children()->listed();
+    
+    $allArticles = new Pages([]);
+    if ($fallbeispiele) $allArticles = $allArticles->add($fallbeispiele);
+    if ($methoden) $allArticles = $allArticles->add($methoden);
+    if ($broschueren) $allArticles = $allArticles->add($broschueren);
+    
+    $tagCounts = [];
+    foreach ($allArticles as $article) {
+        if ($article->new_category()->isNotEmpty()) {
+            $key = $article->new_category()->value();
+            $tagCounts[$key] = ($tagCounts[$key] ?? 0) + 1;
+        }
+        if ($article->category()->isNotEmpty()) {
+            $key = $article->category()->value();
+            $tagCounts[$key] = ($tagCounts[$key] ?? 0) + 1;
+        }
+        if ($article->subcategory()->isNotEmpty()) {
+            $key = $article->subcategory()->value();
+            $tagCounts[$key] = ($tagCounts[$key] ?? 0) + 1;
+        }
+    }
+    
+    $GLOBALS['tagCounts'] = $tagCounts;
+    $GLOBALS['totalArticles'] = $allArticles->count();
+    ?>
     <?php snippet('sidebar') ?>
     <?php snippet('main') ?>
 </body>
