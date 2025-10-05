@@ -1,5 +1,5 @@
 :root {
-    --sidebar-width: 25vw;
+    --sidebar-width: 26vw;
     --main-width: calc(100vw - var(--sidebar-width));
     --page-padding: 1.3rem;
     --top-menu-element-height: 3.3rem;
@@ -10,6 +10,11 @@
     --small-mono-border-radius: calc(var(--small-mono-padding-v) * 2 + var(--mono-font-size-small));
 
     --regular-small-font-size: 1.2rem;
+
+    --mono-font-size-large: 1.9rem;
+    --mono-large-letter-spacing: -0.3%;
+
+    --search-bar-container-height: 2rem;
     
     --transition-s: all 0.3s ease;
 }   

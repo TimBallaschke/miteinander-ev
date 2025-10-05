@@ -1,0 +1,45 @@
+.article-container {
+    background-color: #E8E8E8;
+    padding: var(--page-padding);
+    margin-bottom: var(--page-padding);
+    border-radius: 0.5rem;
+
+    .list & {
+
+    }
+
+    .grid & {
+
+    }
+}
+
+.article-headline {
+    font-family: "Monument Mono";
+
+    .list & {
+        font-size: var(--mono-font-size-small);
+        letter-spacing: 0;
+    }
+
+    .grid & {
+        font-size: var(--mono-font-size-large);
+        letter-spacing: var(--mono-large-letter-spacing);
+    }
+}
+
+.article-teaser-text {
+    font-size: var(--regular-small-font-size);
+    line-height: 1.2;
+    padding-top: calc(var(--mono-font-size-large) * 0.8);
+
+    .list & {
+        display: none;
+    }
+
+    .grid & {
+        display: block;
+    }
+}
+
+
+

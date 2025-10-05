@@ -138,6 +138,35 @@
     margin-left: 1.8rem;
     white-space: nowrap;
     margin-bottom: var(--small-mono-padding-v);
+    position: relative;
+
+    .button-content {
+        transition: var(--transition-s);
+        transform: translateY(calc(var(--mono-font-size-small) * -0.05));
+
+        &::before {
+            content: "";
+            display: inline-block;
+            position: relative;
+            width: 0rem;
+            height: 1rem;
+            transition: var(--transition-s);
+        }
+    }
+
+    .button-dot {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        transition: var(--transition-s);
+        position: absolute;
+        top: 50%;
+        left: calc(var(--mono-font-size-small) * 0.9);
+        transform: translateY(-50%) scale(0.1);
+        opacity: 0;
+        transition: var(--transition-s);
+        background-color: black;
+    }
 
     &.purple {
         background-color: #99A5FF;
@@ -145,5 +174,19 @@
 
     &.active {
         opacity: 1;
+
+        .button-content {
+
+            &::before {
+                width: calc(var(--mono-font-size-small) * 1.5);
+            }
+    
+        }
+
+        .button-dot {
+            left: calc(var(--mono-font-size-small) * 0.9);
+            transform: translateY(-50%) scale(1);
+            opacity: 1;
+        }
     }
 }
