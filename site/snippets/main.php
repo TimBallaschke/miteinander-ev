@@ -7,8 +7,7 @@
             <div id="list-view-header">
                 <div class="list-view-header-item">Titel</div>
                 <div class="list-view-header-item">Herausgeber*in</div>
-                <div class="list-view-header-item">Zielgruppe</div>
-                <div class="list-view-header-item">Art des Inhalts</div>
+                <div class="list-view-header-item">Zielgruppe & Art des Inhalts</div>
             </div>
         </div>
     </div>
