@@ -27,11 +27,29 @@
         
         // Loop through all articles and display them
         foreach ($allArticles as $article): 
+            // Collect tags from the article fields
+            $tags = [];
+            
+            // Add Inhaltsart (new_category)
+            if ($article->new_category()->isNotEmpty()) {
+                $tags[] = $article->new_category()->value();
+            }
+            
+            // Add Kategorie (category)
+            if ($article->category()->isNotEmpty()) {
+                $tags[] = $article->category()->value();
+            }
+            
+            // Add Unterkategorie (subcategory)
+            if ($article->subcategory()->isNotEmpty()) {
+                $tags[] = $article->subcategory()->value();
+            }
         ?>
             <?php snippet('article-card', [
                 'headline' => $article->page_title()->value(),
-                'teaser' => '',
-                'tags' => []
+                'teaser' => $article->intro_text()->value(),
+                'publisher' => $article->publisher()->value(),
+                'tags' => $tags
             ]) ?>
         <?php endforeach ?>
     </div>
