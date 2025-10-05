@@ -1,6 +1,12 @@
 <div class="article-container" 
-    x-data="{ articleTags: <?= $filterKeys ?? '[]' ?> }"
+    x-data="{ 
+        articleTags: <?= $filterKeys ?? '[]' ?>,
+        searchableText: <?= $searchableText ?? '""' ?>
+    }"
     x-show="
+        // Search filter
+        (searchQuery === '' || searchableText.includes(searchQuery.toLowerCase())) &&
+        
         // Content type filter
         (content === 'all' || 
          (content === 'case-studies' && articleTags.includes('fallbeispiele')) ||

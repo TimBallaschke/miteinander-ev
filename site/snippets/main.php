@@ -69,13 +69,22 @@
             
             // Convert filter keys to JSON for Alpine.js
             $filterKeysJson = htmlspecialchars(json_encode($filterKeys), ENT_QUOTES, 'UTF-8');
+            
+            // Prepare searchable text (title, publisher, intro text combined)
+            $searchableText = strtolower(
+                $article->page_title()->value() . ' ' . 
+                $article->publisher()->value() . ' ' . 
+                $article->intro_text()->value()
+            );
+            $searchableJson = htmlspecialchars(json_encode($searchableText), ENT_QUOTES, 'UTF-8');
         ?>
             <?php snippet('article-card', [
                 'headline' => $article->page_title()->value(),
                 'teaser' => $article->intro_text()->value(),
                 'publisher' => $article->publisher()->value(),
                 'tags' => $tags,
-                'filterKeys' => $filterKeysJson
+                'filterKeys' => $filterKeysJson,
+                'searchableText' => $searchableJson
             ]) ?>
         <?php endforeach ?>
     </div>

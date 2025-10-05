@@ -12,6 +12,7 @@
     audience: 'all', 
     content: 'all', 
     teacherTypes: [],
+    searchQuery: '',
     init() {
         this.$watch('audience', (value) => {
             if (value === 'teacher') {

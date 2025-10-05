@@ -6,7 +6,7 @@
         <?php snippet('menu-item', ['label' => 'Kontakt']) ?>
     </div>
     <div id="sidebar-search">
-        <input id="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)">
+        <input id="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
     </div>
     <div class="sidebar-options">
         <div class="options-container">

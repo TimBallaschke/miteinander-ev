@@ -105,6 +105,9 @@ body {
   border-radius: var(--small-mono-border-radius);
   border: solid 1px black;
 }
+#sidebar-search-input:focus {
+  outline: none;
+}
 
 .options-container {
   padding: var(--page-padding);
@@ -262,7 +265,7 @@ body {
   width: var(--main-width);
   background-color: #000;
   color: white;
-  font-size: 5rem;
+  font-size: 4.8rem;
   line-height: 1;
   display: flex;
   align-items: center;

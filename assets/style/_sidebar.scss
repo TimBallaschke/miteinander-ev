@@ -26,6 +26,10 @@
     padding: var(--small-mono-padding-v) var(--small-mono-padding-h);
     border-radius: var(--small-mono-border-radius);
     border: solid 1px black;
+    
+    &:focus {
+        outline: none;
+    }
 }
 
 .options-container {
