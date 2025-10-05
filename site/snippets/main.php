@@ -1,13 +1,15 @@
-<div id="main">
+<div id="main" :class="view">
     <div id="header-main">
         <div id="website-title-container">
             <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
         </div>
-        <div id="list-view-header">
-            <div class="list-view-header-item">Titel</div>
-            <div class="list-view-header-item">Herausgeber*in</div>
-            <div class="list-view-header-item">Zielgruppe</div>
-            <div class="list-view-header-item">Art des Inhalts</div>
+        <div id="list-view-header-container">
+            <div id="list-view-header">
+                <div class="list-view-header-item">Titel</div>
+                <div class="list-view-header-item">Herausgeber*in</div>
+                <div class="list-view-header-item">Zielgruppe</div>
+                <div class="list-view-header-item">Art des Inhalts</div>
+            </div>
         </div>
     </div>
     <div id="content" :class="view">

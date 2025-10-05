@@ -6,20 +6,22 @@
 }
 
 #content {
-    padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding));
     padding-left: var(--page-padding);
     padding-right: var(--page-padding);
     width: 100%;
+    transition: var(--transition-s);
 
     &.grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: var(--page-padding);
+        padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding));
     }
 
     &.list {
         display: flex;
         flex-direction: column;
+        padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding) + var(--search-bar-container-height));
     }
 }
 
