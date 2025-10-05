@@ -101,7 +101,6 @@ body {
   width: 100%;
   font-family: "Monument Mono";
   font-size: var(--mono-font-size-small);
-  font-size: var(--mono-font-size-small);
   padding: var(--small-mono-padding-v) var(--small-mono-padding-h);
   border-radius: var(--small-mono-border-radius);
   border: solid 1px black;
