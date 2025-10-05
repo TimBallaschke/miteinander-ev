@@ -36,7 +36,7 @@
     <div class="article-tags">
         <?php if (isset($tags) && !empty($tags)): ?>
             <?php foreach ($tags as $tag): ?>
-                <div class="article-tag <?= $tag['color'] ?? '' ?>"><?= $tag['label'] ?? $tag ?></div>
+                <div class="article-tag <?= $tag['color'] ?? '' ?> <?= $tag['type'] ?? '' ?> <?= $tag['key'] ?? '' ?>"><?= $tag['label'] ?? $tag ?></div>
             <?php endforeach ?>
         <?php endif ?>
     </div>

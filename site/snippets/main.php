@@ -49,21 +49,30 @@
             // Add Inhaltsart (new_category)
             if ($article->new_category()->isNotEmpty()) {
                 $key = $article->new_category()->value();
-                $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $tagData['type'] = 'content-type';
+                $tagData['key'] = $key;
+                $tags[] = $tagData;
                 $filterKeys[] = $key;
             }
             
             // Add Kategorie (category)
             if ($article->category()->isNotEmpty()) {
                 $key = $article->category()->value();
-                $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $tagData['type'] = 'audience';
+                $tagData['key'] = $key;
+                $tags[] = $tagData;
                 $filterKeys[] = $key;
             }
             
             // Add Unterkategorie (subcategory)
             if ($article->subcategory()->isNotEmpty()) {
                 $key = $article->subcategory()->value();
-                $tags[] = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                $tagData['type'] = 'subcategory';
+                $tagData['key'] = $key;
+                $tags[] = $tagData;
                 $filterKeys[] = $key;
             }
             

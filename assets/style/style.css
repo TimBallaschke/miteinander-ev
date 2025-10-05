@@ -365,7 +365,34 @@ body {
   -moz-column-break-inside: avoid;
        break-inside: avoid;
 }
-
+.list .article-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 5fr;
+  -moz-column-gap: var(--page-padding);
+       column-gap: var(--page-padding);
+  align-items: center;
+}
+.list .article-container .article-headline {
+  grid-column: 1/2;
+}
+.list .article-container .article-publisher {
+  grid-column: 2/3;
+  padding: 0;
+}
+.list .article-container .article-tags {
+  grid-column: 3/4;
+  margin-top: 0;
+}
+.list .article-container .article-tag {
+  margin-top: 0;
+  display: inline;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  white-space: nowrap;
+}
+.list .article-container .paedagogische-fachkraft {
+  display: none;
+}
 .article-headline {
   font-family: "Monument Mono";
   line-height: 1.2;

@@ -4,6 +4,50 @@
     margin-bottom: var(--page-padding);
     border-radius: 0.5rem;
     break-inside: avoid;
+
+    .list & {
+        display: grid;
+        grid-template-columns: 2fr 2fr 5fr;
+        column-gap: var(--page-padding);
+        align-items: center;
+
+        .article-headline {
+            grid-column: 1 / 2;
+        }
+
+        .article-publisher {
+            grid-column: 2 / 3;
+            padding: 0;
+        }
+
+        .article-tags {
+            grid-column: 3 / 4;
+            margin-top: 0;
+        }
+
+        .article-tag {
+            margin-top: 0;
+            display: inline;
+            break-inside: avoid;
+            white-space: nowrap;
+        }
+
+        .paedagogische-fachkraft {
+            display: none;
+        }
+
+        // .audience {
+        //     width: calc(var(--small-mono-padding-v) * 2 + var(--mono-font-size-small));
+        //     height: calc(var(--small-mono-padding-v) * 2 + var(--mono-font-size-small));
+        //     font-size: 0;
+        //     overflow: hidden;
+        //     padding: 0;
+        // }
+    }
+
+    .grid & {
+
+    }
 }
 
 .article-headline {
