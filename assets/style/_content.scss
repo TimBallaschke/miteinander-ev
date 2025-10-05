@@ -12,8 +12,7 @@
     transition: var(--transition-s);
 
     &.grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        column-count: 2;
         column-gap: var(--page-padding);
         padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding));
     }

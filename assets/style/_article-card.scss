@@ -3,14 +3,7 @@
     padding: var(--page-padding);
     margin-bottom: var(--page-padding);
     border-radius: 0.5rem;
-
-    .list & {
-
-    }
-
-    .grid & {
-
-    }
+    break-inside: avoid;
 }
 
 .article-headline {
@@ -41,5 +34,19 @@
     }
 }
 
+.article-publisher {
+    font-family: "Monument Mono";
+    font-size: var(--mono-font-size-small);
+    padding: calc(var(--mono-font-size-small) * 1.2) 0;
+}
+
+.article-tag {
+    display: inline-block;
+    font-family: "Monument Mono";
+    font-size: var(--mono-font-size-small);
+    padding: var(--small-mono-padding-v) var(--small-mono-padding-h);
+    border-radius: var(--small-mono-border-radius);
+    border: solid 1px black;
+}
 
 

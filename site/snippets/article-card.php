@@ -9,7 +9,7 @@
     <div class="article-tags">
         <?php if (isset($tags) && !empty($tags)): ?>
             <?php foreach ($tags as $tag): ?>
-                <span class="tag"><?= $tag ?></span>
+                <div class="article-tag"><?= $tag ?></div>
             <?php endforeach ?>
         <?php endif ?>
     </div>
