@@ -1,0 +1,58 @@
+Title: Heute schon gehetzt? Rechtspopulismus erkennen - verstehen - begegnen
+
+----
+
+Page-title: Heute schon gehetzt? Rechtspopulismus erkennen - verstehen - begegnen
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: Heute schon gehetzt?
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Heute schon gehetzt?
+  external_link: >
+    https://kjr-ml.de/wp-content/uploads/2020/02/Handbuch-Rechtspopulismus-erkennen-verstehen-begegnen.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Das Handbuch hilft Fachkräften, Rechtspopulismus bei Jugendlichen zu erkennen, zu verstehen und pädagogisch zu begegnen. Es bietet Analysen, Methoden und Handlungstipps zur Stärkung demokratischer Werte und zum Umgang mit antipluralistischen Haltungen.
+
+----
+
+Publisher: Kreisjugendring München-Land
+
+----
+
+Year: 2019
+
+----
+
+Uuid: jjzWNw5FvCw9Peha

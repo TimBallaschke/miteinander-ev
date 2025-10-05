@@ -1,0 +1,239 @@
+Title: Antidemokratisches T-Shirt im Jugendclub
+
+----
+
+Page-title: Antidemokratisches T-Shirt im Jugendclub
+
+----
+
+Flow-text-1: Ein Junge trägt in einem Jugendclub ein T-Shirt mit dem Schriftzug „Die Demokraten bringen uns den Volkstod“. Auf die Frage anderer Jugendlicher, was es damit auf sich habe, antwortet er, dass das seine Privatsache wäre und sie den Hintergrund sowieso nicht verstehen würden. Die anwesende Sozialarbeiterin reagiert nicht auf die Situation. Als sie im Nachhinein darauf angesprochen wird, erklärt sie,  keinen Handlungsbedarf gesehen zu haben, da der Junge bislang in keiner Weise politisch aufgefallen sei, und sein Verhalten daher eher als reine Provokation gewertet werden müsse. Schließlich – so die pädagogische Fachkraft – könne man sich nicht um alles kümmern.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"0add37f9-61e4-4b28-84d4-42e9c019fd62","isHidden":false,"type":"heading"},{"content":{"text":"<p>Die Aufschrift auf dem T-Shirt des Jugendlichen bezieht sich auf den Kerngedanken der völkischen Ideologie, nach dem eine imaginierte, ethnisch homogene „Volksgemeinschaft“ vor der Auslöschung steht. Gleichzeitig werden Demokraten als die Verantwortlichen dafür benannt und so als Feindbild markiert. Es handelt sich um ein in extrem rechten Milieus weit verbreitetes Untergangsnarrativ mit menschenverachtenden, rassistischen und antidemokratischen Inhalten.</p><p>Der Jugendliche lässt sich nicht auf eine inhaltliche Auseinandersetzung zu dem T-Shirt ein.</p><p>Die Nichteinmischung der anwesende Sozialarbeiterin kann als Zustimmung verstanden werden. Die Jugendlichen, die auf das T-Shirt reagiert haben, fühlen sich dadurch möglicherweise im Stich gelassen.</p><p>Die Sozialarbeiterin verharmlost den Vorfall als reine Provokation und sieht weder Handlungsbedarf noch ihre Verantwortung einzugreifen.</p>"},"id":"81f4767f-d2ef-4e31-bca6-3b0caa25d2b6","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"7584c762-692a-4780-a4f3-eb06fb8332bf","isHidden":false,"type":"heading"},{"content":{"text":"<p>Den Vorfall im Kollegium besprechen. Hierbei können folgende Fragen hilfreich sein:</p><ul><li><p>Wie steht das Kollegium zu dem Vorfall? Inwiefern sind extrem rechte Sprüche und Haltungen mit dem Leitbild und der Hausordnung der Einrichtung vereinbar?</p></li><li><p>Was für eine Motivation steckt hinter dem Verhalten und dem Auftreten des Jugendlichen? Meist erfüllt die Hinwendung zu rechten Positionen eine gewisse Funktion für die Jugendlichen (Integration und Anerkennung von der Peergroup, Aufwertung der eigenen Position durch Abwertung anderer, etc.). Diese Einschätzung hilft, dem Jugendlichen Wege abseits von extrem rechten Positionen aufzuzeigen.</p></li><li><p>Mögliche Interventions- und Sanktionsmaßnahmen und Abläufe besprechen. Was soll erreicht werden?</p></li></ul><p>Die Sozialarbeiterin, die keinen Handlungsbedarf gesehen hat, in einem Einzelgespräch für die Thematik sensibilisieren</p><p>Gespräche mit den anderen Jugendlichen führen. Sie darin bestärken, auf rechte Haltungen zu reagieren, und herausfinden, ob es hierbei weiteren Unterstützungsbedarf gibt. Welche Themen beschäftigen die Jugendlichen im Umgang mit Rechtsextremismus und darüber hinaus?</p><p>Einzelgespräch mit dem Jugendlichen suchen, der das rechte T-Shirt getragen hat. Hierbei kann zunächst erfragt werden, was der Jugendliche mit dem T-Shirt erreichen möchte:</p><ul><li><p>Welche Funktion erfüllen der Spruch und eventuell das Kokettieren mit der rechten Szene für ihn?</p></li><li><p>Darüber hinaus ist es wichtig, Ungleichwertigkeitsvorstellungen zurückweisen, auf vereinbarte Grenzen in der Einrichtung hinzuweisen und die Konsequenzen ihrer Übertretung transparent zu machen.</p></li></ul><p>Bei Bedarf können auch Beratungsstellen und andere Instanzen wie eine externe Supervision einbezogen werden.</p>"},"id":"b26ebf44-dc82-459e-a0eb-be149dbcbd91","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: Jugendarbeit gegen Rechtsextremismus
+  internal_link:
+    - page://UQkxYVxE548FZA1t
+  external_link_title: ""
+  external_link: ""
+  title: Jugendarbeit gegen Rechtsextremismus
+- 
+  type: internal
+  internal_link_title: (K)ein Auge zudrücken!?
+  internal_link:
+    - page://ZSX6yLgDmJtPL8V4
+  external_link_title: ""
+  external_link: ""
+  title: (K)ein Auge zudrücken!?
+- 
+  type: internal
+  internal_link_title: 'Heute schon gehetzt? Rechtspopulismus erkennen - verstehen - begegnen'
+  internal_link:
+    - page://jjzWNw5FvCw9Peha
+  external_link_title: ""
+  external_link: ""
+  title: 'Heute schon gehetzt? Rechtspopulismus erkennen - verstehen - begegnen'
+- 
+  type: internal
+  internal_link_title: >
+    Eine Broschüre über Rechtsextremismus
+    als Thema in der Jugendhilfe
+  internal_link:
+    - page://C3I7jmZT4APmiViE
+  external_link_title: ""
+  external_link: ""
+  title: >
+    Eine Broschüre über Rechtsextremismus
+    als Thema in der Jugendhilfe
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Bundeszentrale für politische Bildung
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/infopool-rechtsextremismus/522418/jugendarbeit-soziale-arbeit/
+  title: Bundeszentrale für politische Bildung
+- 
+  type: internal
+  internal_link_title: 'Der Wind von rechts wird stärker - die Jugendhilfe reagiert'
+  internal_link:
+    - page://YpmKKRCzWgBPRVFf
+  external_link_title: ""
+  external_link: ""
+  title: 'Der Wind von rechts wird stärker - die Jugendhilfe reagiert'
+- 
+  type: internal
+  internal_link_title: >
+    Organize! Extreme Rechte und
+    Rechtspopulismus im Rahmen Sozialer
+    Arbeit
+  internal_link:
+    - page://qlD2cltDDjjVF0LS
+  external_link_title: ""
+  external_link: ""
+  title: >
+    Organize! Extreme Rechte und
+    Rechtspopulismus im Rahmen Sozialer
+    Arbeit
+- 
+  type: internal
+  internal_link_title: >
+    Have a "BRAKE" hava a
+    Distanzierungsprozess
+  internal_link:
+    - page://BP6MJLy96hba4uzo
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Ein Junge trägt in einem Jugendclub ein T-Shirt mit dem Slogan „Die Demokraten bringen uns den Volkstod“. Auf Nachfrage erklärt er, es sei seine Privatsache. Die Sozialarbeiterin reagiert nicht und sieht keinen Handlungsbedarf, da der Junge politisch nicht aufgefallen sei.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Die Aufschrift auf dem T-Shirt des
+        Jugendlichen bezieht sich auf den
+        Kerngedanken der völkischen Ideologie,
+        nach dem eine imaginierte, ethnisch
+        homogene „Volksgemeinschaft“ vor der
+        Auslöschung steht. Gleichzeitig werden
+        Demokraten als die Verantwortlichen
+        dafür benannt und so als Feindbild
+        markiert. Es handelt sich um ein in
+        extrem rechten Milieus weit verbreitetes
+        Untergangsnarrativ mit
+        menschenverachtenden, rassistischen und
+        antidemokratischen Inhalten.
+      highlight: 'false'
+    - 
+      text: >
+        Der Jugendliche lässt sich nicht auf
+        eine inhaltliche Auseinandersetzung zu
+        dem T-Shirt ein.
+      highlight: 'false'
+    - 
+      text: >
+        Die Nichteinmischung der anwesende
+        Sozialarbeiterin kann als Zustimmung
+        verstanden werden. Die Jugendlichen, die
+        auf das T-Shirt reagiert haben, fühlen
+        sich dadurch möglicherweise im Stich
+        gelassen.
+      highlight: 'false'
+    - 
+      text: >
+        Die Sozialarbeiterin verharmlost den
+        Vorfall als reine Provokation und sieht
+        weder Handlungsbedarf noch ihre
+        Verantwortung einzugreifen.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: 'Den Vorfall im Kollegium besprechen. Hierbei können folgende Fragen hilfreich sein:'
+      highlight: 'false'
+    - 
+      text: >
+        Wie steht das Kollegium zu dem Vorfall?
+        Inwiefern sind extrem rechte Sprüche
+        und Haltungen mit dem Leitbild und der
+        Hausordnung der Einrichtung vereinbar?
+      highlight: 'true'
+    - 
+      text: >
+        Was für eine Motivation steckt hinter
+        dem Verhalten und dem Auftreten des
+        Jugendlichen? Meist erfüllt die
+        Hinwendung zu rechten Positionen eine
+        gewisse Funktion für die Jugendlichen
+        (Integration und Anerkennung von der
+        Peergroup, Aufwertung der eigenen
+        Position durch Abwertung anderer, etc.).
+        Diese Einschätzung hilft, dem
+        Jugendlichen Wege abseits von extrem
+        rechten Positionen aufzuzeigen.
+      highlight: 'true'
+    - 
+      text: 'Mögliche Interventions- und Sanktionsmaßnahmen und Abläufe besprechen. Was soll erreicht werden?'
+      highlight: 'true'
+    - 
+      text: >
+        Die Sozialarbeiterin, die keinen
+        Handlungsbedarf gesehen hat, in einem
+        Einzelgespräch für die Thematik
+        sensibilisieren
+      highlight: 'false'
+    - 
+      text: >
+        Gespräche mit den anderen Jugendlichen
+        führen. Sie darin bestärken, auf
+        rechte Haltungen zu reagieren, und
+        herausfinden, ob es hierbei weiteren
+        Unterstützungsbedarf gibt. Welche
+        Themen beschäftigen die Jugendlichen im
+        Umgang mit Rechtsextremismus und
+        darüber hinaus?
+      highlight: 'false'
+    - 
+      text: 'Einzelgespräch mit dem Jugendlichen suchen, der das rechte T-Shirt getragen hat. Hierbei kann zunächst erfragt werden, was der Jugendliche mit dem T-Shirt erreichen möchte:'
+      highlight: 'false'
+    - 
+      text: >
+        Welche Funktion erfüllen der Spruch und
+        eventuell das Kokettieren mit der
+        rechten Szene für ihn?
+      highlight: 'true'
+    - 
+      text: >
+        Darüber hinaus ist es wichtig,
+        Ungleichwertigkeitsvorstellungen
+        zurückweisen, auf vereinbarte Grenzen
+        in der Einrichtung hinzuweisen und die
+        Konsequenzen ihrer Übertretung
+        transparent zu machen.
+      highlight: 'true'
+    - 
+      text: >
+        Bei Bedarf können auch Beratungsstellen
+        und andere Instanzen wie eine externe
+        Supervision einbezogen werden.
+      highlight: 'false'
+
+----
+
+Uuid: YQcuhZSiko95MsDK

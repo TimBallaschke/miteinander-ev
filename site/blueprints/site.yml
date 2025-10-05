@@ -1,5 +1,27 @@
-title: Site
+title: Seitenverwaltung
 
-sections:
-  pages:
-    type: pages
+columns:
+  left:
+    width: 1/3
+    sections:
+      menu:
+        label: Menü
+        type: pages
+        templates:
+          - information
+          - beratungsangebot
+          - impressum-und-datenschutz
+          - startseite
+          - footer
+
+
+  right:
+    width: 2/3
+    sections:
+      content_areas:
+        label: Inhaltsarten
+        type: pages
+        templates:
+          - fallbeispiele
+          - methoden
+          - broschueren-und-informationen

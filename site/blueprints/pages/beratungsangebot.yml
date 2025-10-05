@@ -1,0 +1,92 @@
+name: Beratungsangebot
+title: Beratungsangebot
+
+fields:
+  page_title:
+    label: Titel
+    type: text
+    required: true
+
+  flow_text_1:
+    label: Fließtext
+    type: textarea
+    size: small
+    translate: true
+    buttons:
+      - italic
+      - link
+
+  bundesweite_beratungsangebote:
+    label: Bundesweite Beratungsangebote
+    type: structure
+    fields:
+      titel_beratungsstelle:
+        label: Titel Beratungsstelle
+        type: text
+        required: true
+
+      traeger:
+        label: Träger
+        type: text
+
+      email:
+        label: E-Mail
+        type: email
+
+      telefon:
+        label: Telefon
+        type: text
+
+      website:
+        label: Website
+        type: url
+
+  bundeslaender:
+    label: Beratungsangebote nach Bundesland
+    type: structure
+    fields:
+      bundesland:
+        label: Bundesland
+        type: text
+        required: true
+
+      beratungsstellen:
+        label: Beratungsstellen
+        type: structure
+        fields:
+          titel:
+            label: Titel Beratungsstelle
+            type: text
+            required: true
+
+          email:
+            label: E-Mail
+            type: email
+
+          telefon:
+            label: Telefon
+            type: text
+
+          website:
+            label: Website
+            type: url
+
+          unterberatungsstellen:
+            label: Unterberatungsstellen
+            type: structure
+            fields:
+              titel:
+                label: Titel Unterberatungsstelle
+                type: text
+
+              email:
+                label: E-Mail
+                type: email
+
+              telefon:
+                label: Telefon
+                type: text
+
+              website:
+                label: Website
+                type: url

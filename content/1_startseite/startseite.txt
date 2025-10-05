@@ -1,0 +1,21 @@
+Title: Startseite
+
+----
+
+Page-title: Rechtsextremismus in Familie und Pädagogik begegnen
+
+----
+
+Flow-text: Diese Website widmet sich den Themen rund um Pädagogik, Familie und Rechtsextremismus. Im Mittelpunkt steht die Frage, wie rechtsextremen Haltungen in (sozial-)pädagogischen Einrichtungen oder in familiären Kontexten begegnet werden kann. Hier können sich Zu- und Angehörige, ebenso wie pädagogische Fachkräfte darüber informieren, welche Beratungsstellen es gibt und welche Methoden bereits erprobt sind. Anhand von praxisnahen Fallbeispielen werden Möglichkeiten aufgezeigt, wie in verschiedenen Situationen kompetent und nachhaltig reagiert werden kann. Zudem stellen wir eine Sammlung von Materialien bereit (wie Broschüren, weiterführende Literatur und konkrete Methoden), die dabei unterstützen, das Thema Rechtsextremismus zu verstehen und ihm präventiv oder reaktiv zu begegnen. Die Inhalte der Website sind darauf ausgerichtet, betroffene Personen zu stärken und sie bei der Entwicklung eigener Lösungsansätze zu unterstützen.
+
+----
+
+Authors: 
+
+----
+
+Template: startseite
+
+----
+
+Uuid: Xi8BnzvPSLYf9nyA

@@ -1,0 +1,179 @@
+Title: Radikalisierung eines Jugendlichen
+
+----
+
+Page-title: Radikalisierung eines Jugendlichen
+
+----
+
+Flow-text-1:
+
+Eine alleinerziehende Mutter fühlt sich mit ihrem 14-jährigen Sohn zunehmend überfordert. Sie wurde bereits mehrfach von seiner Klassenlehrerin kontaktiert, nachdem er Schüler:innen mit Migrationserfahrung beleidigt hatte. Außerdem sei er neulich mit einem Hitler-Gruß in den Klassenraum gekommen. 
+Nach einem Schulwechsel hatte sich der Jugendliche mit jemandem angefreundet, dem nachgesagt wird, aus einer „Nazi-Familie“ zu kommen. Bald veränderte sich das Erscheinungsbild des Jugendlichen, er trägt jetzt einen strengen Scheitel und betont sportliche Kleidung. Außerdem verbringt er viel Zeit bei TikTok, wo er prominenten AfD-Politiker:innen folgt.
+Der Jugendliche geht weiterhin in seinen örtlichen Jugendtreff und hält Kontakt zu den Sozialarbeiter:innen dort. Im Gespräch mit einem Sozialarbeiter betont er, dass er sich eben gegen Pädophile engagieren und deshalb an der rechtsextremen Demonstration gegen den lokalen CSD teilnehmen wolle.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"<strong>Was ist das Problem?</strong>"},"id":"046cb221-8bde-4b33-9051-f0832cebcece","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Der Jugendliche befindet sich am Beginn einer extrem rechten Radikalisierung.</p></li><li><p>Die Radikalisierung erfolgt sowohl durch den Freund im sozialen Umfeld als auch im digitalen Raum.</p></li><li><p>In der Zuwendung zur extrem rechten Ideologie spiegelt sich zum einen das Bedürfnis des Jugendlichen nach Selbstwirksamkeit, aber auch das nach emotionaler Nähe und Fürsorge.</p></li><li><p>Die Mutter fühlt sich in ihrer Handlungsfähigkeit eingeschränkt.</p></li><li><p>Ein möglicher Distanzierungsprozess benötigt von Sozialarbeitenden Ressourcen, die im Regelfall nicht vorhanden sind.</p></li></ul>"},"id":"93c70eef-f13f-462a-85de-da2059ba07bd","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>Was kann getan werden?</strong>"},"id":"a58d453b-f358-4cf4-973f-9465f59ad400","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Für die Mutter ist das Wichtigste, das Vertrauensverhältnis zum Sohn aufrechtzuerhalten, gleichzeitig aber auch Grenzen zu setzen und sich klar gegen menschenverachtende Aussagen zu positionieren.</p></li><li><p>Die Mutter kann beispielsweise mit Ausflügen und Unternehmungen versuchen, für den Jugendlichen positive Erfahrungsräume zu schaffen, in denen er sich in seinen Bedürfnissen wahrgenommen fühlt.</p></li><li><p>Die Mutter kann gemeinsam mit den Sozialarbeitenden des Jugendtreffs nach Sport- und Freizeitangeboten, Jugendfreizeiten und anderen Möglichkeiten für ihn suchen, im Sozialraum Selbstwirksamkeitserfahrungen zu machen.</p></li><li><p>Die Mutter kann proaktiv auf die Sozialarbeitenden und die Lehrkräfte der Schule zugehen, um ihre Sicht auf das Problem zu teilen und gemeinsame Schritte zu verabreden.</p></li><li><p>Die Mutter kann externe Beratung zum Umgang mit rechtsextremer Radikalisierung in Anspruch nehmen.</p></li><li><p>Um längerfristige Unterstützung zu erhalten, hätte die Mutter die Möglichkeit, beim Jugendamt eine ambulante Erziehungshilfe und/oder einen&nbsp;Erziehungsbeistand zu beantragen.</p></li></ul>"},"id":"a7c20333-7c5e-4b93-bfa8-c6381490d1d6","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: >
+    Entfremdet? Hilfestellungen für
+    Angehörige rechtsextrem und
+    verschwörungsideologisch orientierter
+    Menschen
+  internal_link:
+    - page://SMwpJ5U1S0QuSckg
+  external_link_title: ""
+  external_link: ""
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    Wenn extrem rechte Gesinnung die Familie
+    stört
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/infopool-rechtsextremismus/550350/wenn-extrem-rechte-gesinnung-die-familie-stoert/
+- 
+  type: internal
+  internal_link_title: >
+    Mein Kind und rechtsextrem ... wie
+    abwegig ist das denn?!
+  internal_link:
+    - page://baczWdx8WpvMCl6Q
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Was macht rechtsextreme Jugendkulturen
+    für junge Leute attraktiv?
+  internal_link:
+    - page://hSJQEaI2TwSe3MlD
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    »Was ein rechter Mann ist ...«
+    Männlichkeiten im Rechtsextremismus
+  internal_link:
+    - page://ZN5vmmSEicmThUGg
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: eltern-und-angehoerige
+
+----
+
+Subcategory: 
+
+----
+
+Intro-text: Eine alleinerziehende Mutter ist mit ihrem 14-jährigen Sohn überfordert. Er hat Mitschüler:innen beleidigt und zeigte einen Hitler-Gruß. Nach einem Schulwechsel verändert er sein Aussehen und folgt AfD-Politikern auf TikTok. Er möchte an einer rechtsextremen Demo teilnehmen.
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Der Jugendliche befindet sich am Beginn
+        einer extrem rechten Radikalisierung.
+      highlight: 'false'
+    - 
+      text: >
+        Die Radikalisierung erfolgt sowohl durch
+        den Freund im sozialen Umfeld als auch
+        im digitalen Raum.
+      highlight: 'false'
+    - 
+      text: >
+        In der Zuwendung zur extrem rechten
+        Ideologie spiegelt sich zum einen das
+        Bedürfnis des Jugendlichen nach
+        Selbstwirksamkeit, aber auch das nach
+        emotionaler Nähe und Fürsorge.
+      highlight: 'false'
+    - 
+      text: >
+        Die Mutter fühlt sich in ihrer
+        Handlungsfähigkeit eingeschränkt.
+      highlight: 'false'
+    - 
+      text: >
+        Ein möglicher Distanzierungsprozess
+        benötigt von Sozialarbeitenden
+        Ressourcen, die im Regelfall nicht
+        vorhanden sind.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: >
+        Für die Mutter ist das Wichtigste, das
+        Vertrauensverhältnis zum Sohn
+        aufrechtzuerhalten, gleichzeitig aber
+        auch Grenzen zu setzen und sich klar
+        gegen menschenverachtende Aussagen zu
+        positionieren.
+      highlight: 'false'
+    - 
+      text: >
+        Für die Mutter ist das Wichtigste, das
+        Vertrauensverhältnis zum Sohn
+        aufrechtzuerhalten, gleichzeitig aber
+        auch Grenzen zu setzen und sich klar
+        gegen menschenverachtende Aussagen zu
+        positionieren.
+      highlight: 'false'
+    - 
+      text: >
+        Die Mutter kann beispielsweise mit
+        Ausflügen und Unternehmungen versuchen,
+        für den Jugendlichen positive
+        Erfahrungsräume zu schaffen, in denen
+        er sich in seinen Bedürfnissen
+        wahrgenommen fühlt.
+      highlight: 'false'
+    - 
+      text: 'Die Mutter kann gemeinsam mit den Sozialarbeitenden des Jugendtreffs nach Sport- und Freizeitangeboten, Jugendfreizeiten und anderen Möglichkeiten für ihn suchen, im Sozialraum Selbstwirksamkeitserfahrungen zu machen.'
+      highlight: 'false'
+    - 
+      text: >
+        Die Mutter kann proaktiv auf die
+        Sozialarbeitenden und die Lehrkräfte
+        der Schule zugehen, um ihre Sicht auf
+        das Problem zu teilen und gemeinsame
+        Schritte zu verabreden.
+      highlight: 'false'
+    - 
+      text: 'Die Mutter kann externe Beratung zum Umgang mit rechtsextremer Radikalisierung (zum Beispiel die (link: https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/ text: Kompetenzsstelle Eltern und Rechtsextremismus)) in Anspruch nehmen.'
+      highlight: 'false'
+    - 
+      text: 'Um längerfristige Unterstützung zu erhalten, hätte die Mutter die Möglichkeit, beim Jugendamt eine ambulante Erziehungshilfe und/oder einen  Erziehungsbeistand zu beantragen.'
+      highlight: 'false'
+
+----
+
+Uuid: pd7yvi4vyXVH8hRc

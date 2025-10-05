@@ -1,1 +1,10 @@
 Title: Home
+Template: home
+
+----
+
+Text: Startseite
+
+----
+
+Uuid: TSBecUbS9V0rVlra

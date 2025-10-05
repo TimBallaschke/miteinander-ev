@@ -1,0 +1,229 @@
+Title: NS-Spruch in Jugendwohngruppe
+
+----
+
+Page-title: NS-Spruch in Jugendwohngruppe
+
+----
+
+Flow-text-1: In einer Jugendwohngruppe leben vier Jugendliche zwischen 14 und 17 Jahren zusammen. Ihre Wohngruppe soll sie auf ein Leben in Selbständigkeit vorbereiten. Der älteste Jugendliche ist 17 und erst seit kurzem in der Gruppe. Gegenüber den anderen Jugendlichen tritt er sehr dominant auf und geht mit den betreuenden Personen viel in Konflikt. In seiner Freizeit besucht er ein Kampfsportstudio. Zu einem Themenabend trägt er mit einen „Thor Steinar“-Pullover und einen Kettenanhänger in Form eines Sonnenrads. Darauf angesprochen sagt er, beide Kleidungsstücke seien ihm sehr wichtig, da er sie von seinem Vater geerbt habe. Von der Bedeutung wisse er aber nichts. Bei einem Wohnungsbesuch eskaliert ein Streit unter den Jugendlichen. Der 17-Jährige boxt gegen die Küchentür, schreit: „Die soll man alle vergasen!“, und rennt aus der Wohnung.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"03b0180f-a188-461d-b3bf-14a8d36ca634","isHidden":false,"type":"heading"},{"content":{"text":"<p>Der Jugendliche trägt rechtsextreme Symbole und Kleidermarken, die mit einer menschenverachtenden Einstellung verknüpft (jedoch nicht verboten) sind.</p><p>Seine Äußerungen lassen darauf schließen, dass er damit einerseits eine emotionale Bindung mit seinem Vater verknüpft und andererseits eine extrem rechte Gesinnung zum Ausdruck bringen möchte.</p><p>Der Jugendliche tritt dominant und aggressiv auf und zeigt in Konfliktsituationen Gewaltpotential.</p><p>Die anderen Jugendlichen in der Einrichtung müssen sowohl vor körperlichen Aggressionen als auch vor Diskriminierungen jeglicher Art geschützt werden.</p>"},"id":"95bf26d3-0bcd-4168-87f4-ad2829321d48","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"34ceacaf-d57e-4045-8702-2c28075bc9f2","isHidden":false,"type":"heading"},{"content":{"text":"<p>Gespräch mit dem Jugendlichen führen, um über Grenzen aufzuklären und die Konsequenzen seines Handelns transparent zu machen</p><ul><li><p>Ungleichwertigkeitsvorstellungen zurückweisen</p></li></ul><p>Gespräch mit den anderen Jugendlichen der Wohngruppe führen</p><p>Gespräch mit allen Mitarbeiter:innen der Einrichtung führen, um zu folgenden Punkten eine gemeinsame Strategie zu entwickeln:</p><ul><li><p>Was passiert, wenn sich Jugendliche diskriminierend oder NS- verherrlichend äußern?</p></li><li><p>Was für eine Motivation steckt hinter dem Verhalten und Auftreten?</p></li><li><p>Was soll erreicht werden und wie lässt sich dies umsetzen?</p></li><li><p>Welche Stellen müssen informiert und miteinbezogen werden?</p></li><li><p>Mögliche Interventions- und Sanktionsmaßnahmen und Abläufe besprechen</p></li></ul><p>Gemeinsame Verhaltens- und Umgangsregeln mit den Jugendlichen aufstellen oder auf bestehende Regeln aufmerksam machen</p><ul><li><p>Respektvoller, diskriminierungs- und gewaltfreier Umgang</p></li><li><p>Konsequenzen klären: Was passiert, wenn sich Jugendliche nicht an die Umgangsregeln halten?</p></li></ul><p>In den Hausregeln kann der Ausschluss von rechtsextremen Marken und Symbolen festgelegt werden.</p><p>Präventive Angebote mit thematischen Bezügen zu einer weltoffenen, demokratischen und solidarischen Gesellschaft in die Arbeit mit den Jugendlichen integrieren</p><p>Selbstwirksamkeitserfahrungen ermöglichen</p><p>Partizipation stärken</p><ul><li><p>Beteiligungsmöglichkeiten für Jugendliche schaffen</p></li><li><p>Jugendlichen Verantwortung übertragen</p></li><li><p>Angebote nach Bedürfnissen und Interessen der Jugendlichen gestalten</p></li></ul>"},"id":"38e00abb-cc8b-4a84-8802-311eb5871da9","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: >
+    Distanzierungsarbeit als
+    Queerschnittsaufgabe pädagogischer
+    Praxis
+  internal_link:
+    - page://k25QsyRyhfjpKj0m
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    „Heute schon gehetzt? Rechtspopulismus
+    erkennen – verstehen – begegnen.
+  internal_link:
+    - page://jjzWNw5FvCw9Peha
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: 'Jugendarbeit gegen Rechtsextremismus - Integrierte Handlungsstrategien zur Rechtsextremismus- Prävention und -Intervention bei Jugendlichen'
+  internal_link:
+    - page://UQkxYVxE548FZA1t
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Organize! Extreme Rechte und
+    Rechtspopulismus im Rahmen Sozialer
+    Arbeit
+  internal_link:
+    - page://qlD2cltDDjjVF0LS
+  external_link_title: ""
+  external_link: ""
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'InfoPool Rechtsextremismus - Landeszentrale für politische Bildung'
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/infopool-rechtsextremismus/522418/jugendarbeit-soziale-arbeit/
+- 
+  type: internal
+  internal_link_title: 'Pädagogische Praxis als Schutzraum: Orte der Demokratie und Menschlichkeit'
+  internal_link:
+    - page://5MKpsihqQZ8CtJB6
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Mit Rückgrat gegen PAKOs!
+  internal_link:
+    - page://wZ7joQcNlEFiUwj6
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: In dem Fall geht es um einen 17-jährigen Jugendlichen in einer Wohngruppe, der dominant auftritt und oft in Konflikt mit Betreuern gerät. Er trägt einen „Thor Steinar“-Pullover und einen Sonnenrad-Anhänger, die er von seinem Vater geerbt hat. Bei einem Streit eskaliert es.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Der Jugendliche trägt rechtsextreme
+        Symbole und Kleidermarken, die mit einer
+        menschenverachtenden Einstellung
+        verknüpft (jedoch nicht verboten) sind.
+      highlight: 'false'
+    - 
+      text: >
+        Seine Äußerungen lassen darauf
+        schließen, dass er damit einerseits
+        eine emotionale Bindung mit seinem Vater
+        verknüpft und andererseits eine extrem
+        rechte Gesinnung zum Ausdruck bringen
+        möchte.
+      highlight: 'false'
+    - 
+      text: >
+        Der Jugendliche tritt dominant und
+        aggressiv auf und zeigt in
+        Konfliktsituationen Gewaltpotential.
+      highlight: 'false'
+    - 
+      text: >
+        Die anderen Jugendlichen in der
+        Einrichtung müssen sowohl vor
+        körperlichen Aggressionen als auch vor
+        Diskriminierungen jeglicher Art
+        geschützt werden.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: >
+        Gespräch mit dem Jugendlichen führen,
+        um über Grenzen aufzuklären und die
+        Konsequenzen seines Handelns transparent
+        zu machen
+      highlight: 'false'
+    - 
+      text: >
+        Ungleichwertigkeitsvorstellungen
+        zurückweisen
+      highlight: 'true'
+    - 
+      text: >
+        Gespräch mit den anderen Jugendlichen
+        der Wohngruppe führen
+      highlight: 'false'
+    - 
+      text: 'Gespräch mit allen Mitarbeiter:innen der Einrichtung führen, um zu folgenden Punkten eine gemeinsame Strategie zu entwickeln:'
+      highlight: 'false'
+    - 
+      text: 'Was passiert, wenn sich Jugendliche diskriminierend oder NS- verherrlichend äußern?'
+      highlight: 'true'
+    - 
+      text: >
+        Was für eine Motivation steckt hinter
+        dem Verhalten und Auftreten?
+      highlight: 'true'
+    - 
+      text: >
+        Was soll erreicht werden und wie lässt
+        sich dies umsetzen?
+      highlight: 'true'
+    - 
+      text: >
+        Welche Stellen müssen informiert und
+        miteinbezogen werden?
+      highlight: 'true'
+    - 
+      text: 'Mögliche Interventions- und Sanktionsmaßnahmen und Abläufe besprechen'
+      highlight: 'true'
+    - 
+      text: 'Gemeinsame Verhaltens- und Umgangsregeln mit den Jugendlichen aufstellen oder auf bestehende Regeln aufmerksam machen'
+      highlight: 'false'
+    - 
+      text: 'Respektvoller, diskriminierungs- und gewaltfreier Umgang'
+      highlight: 'true'
+    - 
+      text: 'Konsequenzen klären: Was passiert, wenn sich Jugendliche nicht an die Umgangsregeln halten?'
+      highlight: 'true'
+    - 
+      text: >
+        In den Hausregeln kann der Ausschluss
+        von rechtsextremen Marken und Symbolen
+        festgelegt werden.
+      highlight: 'false'
+    - 
+      text: >
+        Präventive Angebote mit thematischen
+        Bezügen zu einer weltoffenen,
+        demokratischen und solidarischen
+        Gesellschaft in die Arbeit mit den
+        Jugendlichen integrieren
+      highlight: 'false'
+    - 
+      text: >
+        Selbstwirksamkeitserfahrungen
+        ermöglichen
+      highlight: 'false'
+    - 
+      text: Partizipation stärken
+      highlight: 'false'
+    - 
+      text: >
+        Beteiligungsmöglichkeiten für
+        Jugendliche schaffen
+      highlight: 'true'
+    - 
+      text: Jugendlichen Verantwortung übertragen
+      highlight: 'true'
+    - 
+      text: >
+        Angebote nach Bedürfnissen und
+        Interessen der Jugendlichen gestalten
+      highlight: 'true'
+
+----
+
+Uuid: 9ZN4EuY0Pro2x5n8

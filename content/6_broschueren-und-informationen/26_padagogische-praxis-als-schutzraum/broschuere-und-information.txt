@@ -1,0 +1,58 @@
+Title: Pädagogische Praxis als Schutzraum: Orte der Demokratie und Menschlichkeit
+
+----
+
+Page-title: Pädagogische Praxis als Schutzraum: Orte der Demokratie und Menschlichkeit
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: 'Pädagogische Praxis als Schutzraum: Orte der Demokratie und Menschlichkeit'
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'Pädagogische Praxis als Schutzraum: Orte der Demokratie und Menschlichkeit'
+  external_link: >
+    https://jugendhilfeportal.de/artikel/paedagogische-praxis-als-schutzraum-orte-der-demokratie-und-menschlichkeit
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Die Autorin Nadine Salihi betont in dem Artikel die Bedeutung von Bildungseinrichtungen als sichere Räume, in denen demokratische Werte und Menschlichkeit gefördert werden. Sie hebt hervor, wie wichtig es ist, dass Fachkräfte in der Kinder- und Jugendhilfe aktiv gegen Diskriminierung und Ausgrenzung eintreten und eine inklusive Atmosphäre schaffen.
+
+----
+
+Publisher: Das Portal der Kinder- und Jugendhilfe
+
+----
+
+Year: 2025
+
+----
+
+Uuid: 5MKpsihqQZ8CtJB6

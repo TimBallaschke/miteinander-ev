@@ -1,0 +1,207 @@
+Title: Information
+
+----
+
+Page-title: Info
+
+----
+
+Flow-text-1: Hier steht der Fließtext für die Information.
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"<strong>Warum diese Website?</strong>"},"id":"8fa881d1-ebc1-4d0f-a558-1b6bcb300bc2","isHidden":false,"type":"heading"},{"content":{"text":"<p>Rechtsextreme Äußerungen auf dem Pausenhof, Symbole im Jugendclub, SS-Sprüche auf dem Elternabend oder Jugendliche bei extrem rechten Demonstrationen – extrem rechte Diskurse und Praktiken sind längst Teil des Alltags, besonders auch in pädagogischen Handlungsfeldern. Die Konfrontation damit verunsichert und stellt sowohl Familien als auch pädagogische Fachkräfte vor große Herausforderungen.</p><p>Wie kann frühzeitig auf Radikalisierung reagiert werden? Was hilft im Umgang mit rechtsextremen Vorfällen? Und wie lässt sich eine tragfähige Beziehung aufrechterhalten, wenn gleichzeitig menschenfeindlichen Haltungen klar widersprochen werden muss?</p><p>Diese Website möchte Orientierung bieten, Handlungsmöglichkeiten aufzeigen und fundiertes Hintergrundwissen bündeln – für alle, die sich mit Rechtsextremismus im pädagogischen Alltag auseinandersetzen.</p>"},"id":"755336d9-cded-48fb-b194-a3905b3e7627","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>Wann sprechen wir von Rechtsextremismus?</strong>"},"id":"485b4092-3af9-40bf-8d6e-ba31cadf03ef","isHidden":false,"type":"heading"},{"content":{"text":"<p>Das rechtsextreme Weltbild ist von der Annahme bestimmt, dass Menschen ungleichwertig sind und daher nicht alle dieselben Rechte haben sollten. Das äußert sich beispielsweise in einem Überlegenheitsgefühl aufgrund von Herkunft, der Verharmlosung oder Rechtfertigung des Nationalsozialismus und in antisemitischen, rassistischen und antifeministischen Äußerungen. &nbsp;Die Idee der „Volksgemeinschaft“ ist ebenso ein wichtiges Element rechtsextremer Ideologien. Sie basiert auf der Vorstellung eines homogenen \"Volkes\", welches sich ethnisch, kulturell, sprachlich und historisch abgrenzen ließe. Personen und Gruppen, die dieser vermeintlich einheitlichen Volksgemeinschaft nicht entsprechen, werden als Bedrohung und „Volksfeinde“ angesehen. So werden Menschen mit Migrationsgeschichte, queere Menschen, Jüdinnen und Juden, Wohnungslose oder Menschen mit Behinderung zu Feindbildern erklärt. Sie sollen ausgeschlossen werden, wenn nötig auch mit Gewalt. Die Vorstellung eines homogenen „Volkes“ wird als Gegenentwurf einer pluralen Gesellschaft herangezogen. Auch die parlamentarische Demokratie wird im rechtsextremen Weltbild abgelehnt – sie dient allenfalls als Mittel zum Zweck der Machtergreifung.</p>"},"id":"0a81ce71-8e23-4f4e-8116-f8ccb57db147","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>Warum braucht es pädagogische Antworten?</strong>"},"id":"685b1896-d497-4aa5-9a38-38443d8498ad","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Bereits junge Menschen können rechtsextreme Weltbilder vertreten.</strong> Sie befinden sich jedoch in unterschiedlichen Phasen der Identitätsfindung – geprägt durch Pubertät, die Abnabelung vom Elternhaus, erste politische Orientierungen usw. In der Regel handelt es sich dabei nicht um gefestigte rechtsextreme Überzeugungen. Deshalb gehen wir davon aus, dass junge Menschen noch besser erreichbar und veränderungsbereiter sind als im späteren Erwachsenenalter.</p><p>Kommt es zu rechtsextremen Vorfällen, braucht es in erster Linie adäquate pädagogische Antworten. Das Eingreifen sollte nicht erst bei strafrechtlich relevanten Ereignissen erfolgen, sondern frühzeitig und präventiv ansetzen. Diese Website möchte Wissen über die Hintergründe von Radikalisierungsprozessen zugänglich machen. Denn häufig erfüllt die Hinwendung zur rechtsextremen Ideologie bestimmte soziale und psychologische Funktionen – etwa das Bedürfnis nach Selbstaufwertung durch die Abwertung anderer, das Ausüben von Macht, das Streben nach Gruppenzugehörigkeit, Anerkennung und Aufmerksamkeit.</p><p>Das Aufdecken der Funktionen der Vorfälle soll diese weder verharmlosen noch die transportierte rechtsextreme Ideologie ausklammern. Vielmehr bietet dieser Blickwinkel Ansatzpunkte für einen pädagogischen Umgang mit den Geschehnissen. Konkrete Handlungsansätze werden auf dieser Website anhand anonymisierter Fallbeispiele veranschaulicht, die wir in unserer Beratungspraxis so oder in ähnlicher Form erlebt haben.</p>"},"id":"b0466225-8e28-4044-9d99-7eed0c190cc0","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>Prävention statt bloßer Intervention</strong>"},"id":"e693106e-56b5-4a46-afa0-37c74c06434c","isHidden":false,"type":"heading"},{"content":{"text":"<p>Kinder und Jugendliche kommen heute früh mit rechtsextremen Inhalten in Berührung – online über soziale Medien und Foren, aber auch im analogen Alltag, etwa im Freundeskreis oder familiären Umfeld. Umso wichtiger ist es, ihnen frühzeitig eine demokratische, menschenrechtsorientierte Haltung zu vermitteln.</p><p>Prävention bedeutet, Radikalisierung frühzeitig entgegenzuwirken – bevor es zu konkreten Vorfällen kommt. Dafür braucht es pädagogische Konzepte, die Vielfalt stärken und Diskriminierung aktiv entgegentreten. Wichtige Ansätze dabei sind Demokratiebildung, diskriminierungskritische und diversitätsbewusste Pädagogik, antirassistische und geschlechterreflektierende Bildung.</p><p>Diese Website bündelt Materialien, Projekte und Netzwerkstellen, die solche präventiven Zugänge für pädagogische Einrichtungen unterstützen.</p>"},"id":"23f978ea-64fe-4746-b595-fc9d24c194e5","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>Schutz von betroffenen Personen</strong>"},"id":"e7081a64-fdc9-4a1c-964b-158126bc0266","isHidden":false,"type":"heading"},{"content":{"text":"<p>Bei rechtsextremen Vorfällen liegt der Fokus häufig auf den Täter:innen oder den Ursachen der Tat – die betroffenen Personen geraten dabei schnell aus dem Blick. Doch sie brauchen in besonderem Maße Schutz, Aufmerksamkeit und Unterstützung.</p><p>Pädagogische Fachkräfte haben die Aufgabe, sichere Räume zu schaffen, in denen Betroffene ernst genommen werden und sich sicher fühlen können. Ihre Perspektiven sollten aktiv einbezogen und ihre Bedürfnisse sensibel berücksichtigt werden – das ist ein zentraler Bestandteil eines diskriminierungssensiblen Umgangs.</p><p>Diese Website möchte auch dazu beitragen, den Blick auf die Betroffenen zu stärken. Die vorgestellten Fallbeispiele und Handlungsoptionen zeigen auf, wie sowohl mit rechtsextremen Vorfällen als auch mit den Auswirkungen auf betroffene Personen pädagogisch angemessen umgegangen werden kann.</p>"},"id":"af386a6f-16af-484b-807a-df849fb6c2f6","isHidden":false,"type":"text"}]
+
+----
+
+Flow-text-2: 
+
+----
+
+Content-blocks-2: 
+
+----
+
+Template:
+
+information
+Title: Information
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: 'Für den Bruder ist es zunächst notwendig herauszufinden, was er in der Auseinandersetzung mit seiner Schwester erreichen will und wo dabei seine eigenen Grenzen liegen – Fragen, die dabei helfen können, sind:'
+      highlight: 'false'
+    - 
+      text: >
+        Was möchte ich im Konflikt mit meiner
+        Schwester erreichen?
+      highlight: 'true'
+    - 
+      text: Inwiefern kann ich das leisten?
+      highlight: 'true'
+    - 
+      text: >
+        Wo liegen meine Grenzen im Umgang mit
+        meiner Schwester?
+      highlight: 'true'
+    - 
+      text: >
+        Woran merke ich, dass diese Grenzen
+        überschritten sind? Was hilft mir meine
+        Grenzen einzuhalten?
+      highlight: 'true'
+    - 
+      text: 'Für den Bruder ist es wichtig im Rahmen seiner Ressourcen zu handeln:'
+      highlight: 'false'
+    - 
+      text: >
+        Falls er die Ressourcen hat, in einen
+        aktiven Prozess mit seiner Schwester zu
+        gehen, in dem er auf Grundlage ihrer
+        Beziehung sich kontinuierlich gegen ihre
+        rechtsextremen Einstellungen
+        positioniert, kann er eine wichtige
+        Figur im möglichen
+        Distanzierungsprozess seiner Schwester
+        darstellen
+      highlight: 'true'
+    - 
+      text: >
+        Falls er die Ressourcen jedoch nicht
+        hat, ist eine Einschränkung oder
+        Unterbrechung der Beziehung für ihn
+        sinnvoll, um im Kontext der Familie
+        überhaupt noch handlungsfähig zu
+        bleiben
+      highlight: 'true'
+    - 
+      text: >
+        Es kann hilfreich sein, sich andere
+        Personen im Familienumfeld zu suchen,
+        die ein ähnliches Problembewusstsein
+        haben, um sich weniger allein damit zu
+        fühlen
+      highlight: 'false'
+    - 
+      text: >
+        Es ist immer ratsam, sich externe
+        Unterstützung zu holen, etwa in Form
+        einer Beratungsstelle zum Umgang mit
+        Rechtsextremismus im Familienkontext
+        (LINK KER)
+      highlight: 'false'
+
+----
+
+Content-blocks:
+
+- 
+  _id: d4f16066-3566-4b9e-aa92-285477958e76
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: 'Für den Bruder ist es zunächst notwendig herauszufinden, was er in der Auseinandersetzung mit seiner Schwester erreichen will und wo dabei seine eigenen Grenzen liegen – Fragen, die dabei helfen können, sind:'
+      highlight: false
+      _id: b10fd998-ee60-49f7-9c5a-3df51e0542a2
+    - 
+      text: |
+        Was möchte ich im Konflikt mit meiner Schwester erreichen?
+      highlight: true
+      _id: f21eddb4-4244-452f-93f2-cb2900637d8c
+    - 
+      text: Inwiefern kann ich das leisten?
+      highlight: true
+      _id: 3fe9ba4c-32bb-4c79-bbc9-c1b9ec1124d7
+    - 
+      text: |
+        Wo liegen meine Grenzen im Umgang mit meiner Schwester?
+      highlight: true
+      _id: d13e43a9-dd66-4c73-954c-7720b359e755
+    - 
+      text: >
+        Woran merke ich, dass diese Grenzen
+        überschritten sind? Was hilft mir meine
+        Grenzen einzuhalten?
+      highlight: true
+      _id: a11642da-405f-468d-aefa-77786950d156
+    - 
+      text: |
+        Für den Bruder ist es wichtig im Rahmen seiner Ressourcen zu handeln:
+      highlight: false
+      _id: d3829e5f-4c30-4327-93e8-027db8b27156
+    - 
+      text: >
+        Falls er die Ressourcen hat, in einen
+        aktiven Prozess mit seiner Schwester zu
+        gehen, in dem er auf Grundlage ihrer
+        Beziehung sich kontinuierlich gegen ihre
+        rechtsextremen Einstellungen
+        positioniert, kann er eine wichtige
+        Figur im möglichen
+        Distanzierungsprozess seiner Schwester
+        darstellen
+      highlight: true
+      _id: 093b9ec7-0788-41c6-9e25-488ced5f6d3b
+    - 
+      text: >
+        Falls er die Ressourcen jedoch nicht
+        hat, ist eine Einschränkung oder
+        Unterbrechung der Beziehung für ihn
+        sinnvoll, um im Kontext der Familie
+        überhaupt noch handlungsfähig zu
+        bleiben
+      highlight: true
+      _id: 682cf71d-6bd5-4f7f-a900-36eaf5bdf21b
+    - 
+      text: >
+        Es kann hilfreich sein, sich andere
+        Personen im Familienumfeld zu suchen,
+        die ein ähnliches Problembewusstsein
+        haben, um sich weniger allein damit zu
+        fühlen
+      highlight: false
+      _id: 369a7d42-b445-4e4b-9f96-4ad2b69e2e01
+    - 
+      text: >
+        Es ist immer ratsam, sich externe
+        Unterstützung zu holen, etwa in Form
+        einer Beratungsstelle zum Umgang mit
+        Rechtsextremismus im Familienkontext
+        (LINK KER)
+      highlight: false
+      _id: 23f9edff-f3c1-46c0-99f8-fe2abcdbe58b
+
+----
+
+Uuid: q1y4vW9G1PGIyeLu
+
+----
+
+Flow-text: asdasdasd
+
+----
+
+Content:
+
+- 
+  type: flow_text
+  content_area: ""
+  content_blocks: [ ]
+  _id: 0e19a755-ff86-420d-ae3e-ccc46fe32afa
+
+----
+
+Additional-flow-texts:
+
+- 
+  _id: 42d470ef-facf-4ea8-b21b-ff7e9e50202b
+  text: asdasdasd
+- 
+  text: asdasdasd
+  _id: 8c5ee132-6e86-46b3-a6df-4235de0553c5

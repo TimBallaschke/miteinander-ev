@@ -1,0 +1,182 @@
+Title: Ausschließendes Verhalten und Nationalsozialistische Symbole
+
+----
+
+Page-title: Ausschließendes Verhalten und Nationalsozialistische Symbole
+
+----
+
+Flow-text-1: In einer Kindertagesstätte fällt ein 5-jähriges Kind auf, weil es beim Malen Hakenkreuze zeichnet und dies auf Nachfrage damit rechtfertigt, dass seine Eltern dieses Zeichen gut fänden: „Das gibt es bei uns zu Hause. Meine Mama sagt, das Kreuz ist etwas Gutes!“ Die Erzieher:innen tauschen sich im Team darüber aus. Alle sind sich einig, dass das Kind im Umgang mit Erwachsenen sehr höflich, „unkompliziert“ und unauffällig sei. Allerdings gibt die Bezugserzieherin an, dass das Kind in Konfliktsituationen mit anderen Kindern dazu neigt, sich mit Schlagen und Beißen durchzusetzen. Kurze Zeit später beobachtet ein Erzieher, wie sich der 5-Jährige weigert, mit einem Schwarzen Kind zu spielen. Als der Erzieher nach dem Grund fragt, erhält er die Antwort: „Der ist dreckig.“
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"12ff415a-7999-4de8-b980-24bd55c531af","isHidden":false,"type":"heading"},{"content":{"text":"<p>Das Zeichnen eines explizit rechtsextremen Symbols zeugt davon, dass das Kind wahrscheinlich aus einer Familie mit einem gefestigten rechtsextremen Weltbild kommt.</p><p>Das Kind reproduziert das rassistische Weltbild, indem es das andere Kind vom gemeinsamen Spiel ausschließt.</p><p>Darüber hinaus scheint sich das Kind in Konfliktsituationen mit anderen Kindern nur über Gewalt ausdrücken zu können, was auf eine autoritäre und gewaltvolle Erziehung hindeuten kann.</p>"},"id":"e57159fc-df37-4194-b9de-a4b30e1c1a81","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"c31f5f32-7980-410d-9e7e-f8eb3d78287f","isHidden":false,"type":"heading"},{"content":{"text":"<p>In der Kita muss der Fokus auf den Schutz und die freie Entfaltung der von diskriminierendem Verhalten betroffenen Kinder gelegt werden.</p><p>Auch hier ist es sinnvoll, die Eltern des von Diskriminierung betroffenen Kindes über die Vorkommnisse zu informieren und zu signalisieren, dass dieses Thema ernst genommen wird und ihr Kind in der Kita sicher ist.</p><p>Dem Kind gegenüber braucht es eine kindgerechte Erklärung, warum die rechtsextremen Symbole in der Kita keinen Platz haben und welche Auswirkungen das ausschließende Verhalten auf die anderen Kinder hat.</p><p>Gleichzeitig sollte das Kind nicht in eine Sonderrolle gedrängt werden, sondern vielmehr spüren, dass es wie jedes andere Kind in der Kita angenommen wird und seinen Platz hat.</p><p>Einerseits braucht es in der Zusammenarbeit mit den Eltern die Anerkennung in ihrer Elternrolle:</p><ul><li><p>Transparente Kooperation mit klarem Fokus auf Kind und Kindeswohl.</p></li><li><p>Auch die Eltern sind am Wohle ihres Kindes interessiert, und eine kindzentrierte Haltung ermöglicht im Idealfall eine Bildungs- und Erziehungspartnerschaft mit den Eltern.</p></li><li><p>Den Eltern sollte verdeutlicht werden, dass gemeinsame Interessen verfolgt werden. Dabei kann an die gemeinsame Verantwortung appelliert werden, für das Kind eine gute Lösung zu finden.</p></li></ul><p>Andererseits ist es notwendig, diskriminierende Äußerungen und Verhaltensweisen der Eltern zurückzuweisen und nicht zu verharmlosen:</p><ul><li><p>In diesem Fall müssen die Eltern darauf hingewiesen werden, dass rechtsextreme Zeichen wie das Hakenkreuz und diskriminierende Haltungen keinen Platz in der Kita haben.</p></li><li><p>Elternarbeit hat klare Grenzen: Es kann keine Distanzierungsarbeit für Eltern aus rechtsextremen Milieus geleistet werden.</p></li></ul>"},"id":"c7f1398c-1c48-44e4-99d9-f9e7648422c3","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: 'Demokratie & Vielfalt - Alle inklusive? Der KiTa-Podcast'
+  internal_link:
+    - page://tttRn8AVGa2YSWRJ
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: 'Demokratie ist (k)ein Kindergeburtstag - Handreichung für Kindertagesstätten im Umgang mit Rechtsextremismus '
+  internal_link:
+    - page://AOAcEiHMGZHukjnj
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Eine Broschüre über Rechtsextremismus
+    als Thema in der Kita
+  internal_link:
+    - page://z2ZMPwkIGAxQGcL2
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Funktionalisierte Kinder
+  internal_link:
+    - page://60xfUUVqqcKEHDJ5
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: 'Pädagogische Praxis als Schutzraum: Orte der Demokratie und Menschlichkeit'
+  internal_link:
+    - page://5MKpsihqQZ8CtJB6
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: kita
+
+----
+
+Intro-text: In dem Fall geht es um ein 5-jähriges Kind in einer Kindertagesstätte, das Hakenkreuze malt und sagt, seine Eltern fänden das Zeichen gut. Das Kind ist höflich zu Erwachsenen, zeigt aber in Konflikten aggressives Verhalten. Es weigert sich, mit einem schwarzen Kind zu spielen und nennt es „dreckig“.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Das Zeichnen eines explizit
+        rechtsextremen Symbols zeugt davon, dass
+        das Kind wahrscheinlich aus einer
+        Familie mit einem gefestigten
+        rechtsextremen Weltbild kommt.
+      highlight: 'false'
+    - 
+      text: >
+        Das Kind reproduziert das rassistische
+        Weltbild, indem es das andere Kind vom
+        gemeinsamen Spiel ausschließt.
+      highlight: 'false'
+    - 
+      text: >
+        Darüber hinaus scheint sich das Kind in
+        Konfliktsituationen mit anderen Kindern
+        nur über Gewalt ausdrücken zu können,
+        was auf eine autoritäre und gewaltvolle
+        Erziehung hindeuten kann.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: >
+        In der Kita muss der Fokus auf den
+        Schutz und die freie Entfaltung der von
+        diskriminierendem Verhalten betroffenen
+        Kinder gelegt werden.
+      highlight: 'false'
+    - 
+      text: >
+        Auch hier ist es sinnvoll, die Eltern
+        des von Diskriminierung betroffenen
+        Kindes über die Vorkommnisse zu
+        informieren und zu signalisieren, dass
+        dieses Thema ernst genommen wird und ihr
+        Kind in der Kita sicher ist.
+      highlight: 'false'
+    - 
+      text: >
+        Dem Kind gegenüber braucht es eine
+        kindgerechte Erklärung, warum die
+        rechtsextremen Symbole in der Kita
+        keinen Platz haben und welche
+        Auswirkungen das ausschließende
+        Verhalten auf die anderen Kinder hat.
+      highlight: 'false'
+    - 
+      text: >
+        Gleichzeitig sollte das Kind nicht in
+        eine Sonderrolle gedrängt werden,
+        sondern vielmehr spüren, dass es wie
+        jedes andere Kind in der Kita angenommen
+        wird und seinen Platz hat.
+      highlight: 'false'
+    - 
+      text: 'Einerseits braucht es in der Zusammenarbeit mit den Eltern die Anerkennung in ihrer Elternrolle:'
+      highlight: 'false'
+    - 
+      text: >
+        Transparente Kooperation mit klarem
+        Fokus auf Kind und Kindeswohl.
+      highlight: 'true'
+    - 
+      text: 'Auch die Eltern sind am Wohle ihres Kindes interessiert, und eine kindzentrierte Haltung ermöglicht im Idealfall eine Bildungs- und Erziehungspartnerschaft mit den Eltern.'
+      highlight: 'true'
+    - 
+      text: >
+        Den Eltern sollte verdeutlicht werden,
+        dass gemeinsame Interessen verfolgt
+        werden. Dabei kann an die gemeinsame
+        Verantwortung appelliert werden, für
+        das Kind eine gute Lösung zu finden.
+      highlight: 'true'
+    - 
+      text: 'Andererseits ist es notwendig, diskriminierende Äußerungen und Verhaltensweisen der Eltern zurückzuweisen und nicht zu verharmlosen:'
+      highlight: 'false'
+    - 
+      text: >
+        In diesem Fall müssen die Eltern darauf
+        hingewiesen werden, dass rechtsextreme
+        Zeichen wie das Hakenkreuz und
+        diskriminierende Haltungen keinen Platz
+        in der Kita haben.
+      highlight: 'true'
+    - 
+      text: 'Elternarbeit hat klare Grenzen: Es kann keine Distanzierungsarbeit für Eltern aus rechtsextremen Milieus geleistet werden.'
+      highlight: 'true'
+
+----
+
+Uuid: 2IjFH059EqFcegx7

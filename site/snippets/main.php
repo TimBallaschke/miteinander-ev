@@ -13,26 +13,27 @@
         </div>
     </div>
     <div id="content" :class="view">
-        <?php snippet('article-card', [
-            'headline' => 'Extrem rechtes Elternhaus',
-            'teaser' => 'what if I wanted to make this some kind of component as it gets repeated multiple times. There will be multiple options-container always with a title element and a options element. Would it make sense to use alpine.js for this? Please do not implement any code but explain to me if this would make sense.',
-            'tags' => []
-        ]) ?>
-        <?php snippet('article-card', [
-            'headline' => 'Extrem rechtes Elternhaus',
-            'teaser' => 'what if I wanted to make this some kind of component as it gets repeated multiple times. There will be multiple options-container always with a title element and a options element. Would it make sense to use alpine.js for this? Please do not implement any code but explain to me if this would make sense.',
-            'tags' => []
-        ]) ?>
-        <?php snippet('article-card', [
-            'headline' => 'Extrem rechtes Elternhaus',
-            'teaser' => 'what if I wanted to make this some kind of component as it gets repeated multiple times. There will be multiple options-container always with a title element and a options element. Would it make sense to use alpine.js for this? Please do not implement any code but explain to me if this would make sense.',
-            'tags' => []
-        ]) ?>
-        <?php snippet('article-card', [
-            'headline' => 'Extrem rechtes Elternhaus',
-            'teaser' => 'what if I wanted to make this some kind of component as it gets repeated multiple times. There will be multiple options-container always with a title element and a options element. Would it make sense to use alpine.js for this? Please do not implement any code but explain to me if this would make sense.',
-            'tags' => []
-        ]) ?>
+        <?php 
+        // Get all articles from the three main sections
+        $fallbeispiele = page('fallbeispiele')?->children()->listed();
+        $methoden = page('methoden')?->children()->listed();
+        $broschueren = page('broschueren-und-informationen')?->children()->listed();
+        
+        // Combine all articles into one collection
+        $allArticles = new Pages([]);
+        if ($fallbeispiele) $allArticles = $allArticles->add($fallbeispiele);
+        if ($methoden) $allArticles = $allArticles->add($methoden);
+        if ($broschueren) $allArticles = $allArticles->add($broschueren);
+        
+        // Loop through all articles and display them
+        foreach ($allArticles as $article): 
+        ?>
+            <?php snippet('article-card', [
+                'headline' => $article->page_title()->value(),
+                'teaser' => '',
+                'tags' => []
+            ]) ?>
+        <?php endforeach ?>
     </div>
 </div>
 

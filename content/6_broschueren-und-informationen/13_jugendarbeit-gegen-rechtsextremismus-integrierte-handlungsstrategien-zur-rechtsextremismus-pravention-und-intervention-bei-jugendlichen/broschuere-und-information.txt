@@ -1,0 +1,62 @@
+Title: Jugendarbeit gegen Rechtsextremismus - Integrierte Handlungsstrategien zur Rechtsextremismus- Prävention und -Intervention bei Jugendlichen
+
+----
+
+Page-title: Jugendarbeit gegen Rechtsextremismus - Integrierte Handlungsstrategien zur Rechtsextremismus- Prävention und -Intervention bei Jugendlichen
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Broschüre Jugendarbeit gegen
+    Rechsextremismus
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    Broschüre Jugendarbeit gegen
+    Rechsextremismus
+  external_link: >
+    https://mbr-berlin.de/wp-content/uploads/2021/02/MBR_HR_Jugendarbeit_2016_web.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Die Broschüre zeigt Strategien für Fachkräfte der Jugendarbeit auf, um rechtsextremen Orientierungen bei Jugendlichen professionell zu begegnen. Sie betont Prävention, klare Wertehaltung, geschlechterreflektierte Arbeit und die Stärkung demokratischer Jugendkulturen.
+
+----
+
+Publisher: Verein für Demokratische Kultur in Berlin & Mobile Beratung gegen Rechtsextremismus Berlin
+
+----
+
+Year: 2016
+
+----
+
+Pdf-title: 
+
+----
+
+Uuid: UQkxYVxE548FZA1t

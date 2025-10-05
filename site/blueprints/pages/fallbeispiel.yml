@@ -1,0 +1,118 @@
+name: Fallbeispiel
+title: Fallbeispiel
+
+columns:
+  - width: 2/3
+    fields:
+      page_title:
+        label: Titel
+        type: text
+        required: true
+
+      flow_text_1:
+        label: Fließtext 
+        type: textarea
+        size: small
+        translate: true
+        buttons:
+          - italic
+          - link
+
+      headline_1:
+        label: Überschrift für Auflistung (optional)
+        type: text
+        required: false
+
+      question_answer_block:
+        label: Frage-Antwort-Block
+        type: blocks
+        fieldsets:
+          - type: heading
+            extends: blocks/heading
+            name: Frage
+          - type: text
+            extends: blocks/text
+            fields:
+              text:
+                type: writer
+                nodes:
+                  - bulletList
+
+      related_posts:
+        label: Weiterführende Materialien (Verlinkungen)
+        type: structure
+        fields:
+          type:
+            label: Link-Typ
+            type: radio
+            options:
+              internal: Interne Seite
+              external: Externer Link
+            required: true
+
+          internal_link_title:
+            label: Titel der internen Seite
+            type: text
+            required: true
+            when:
+              type: internal
+
+          internal_link:
+            label: Interne Seite
+            type: pages
+            query: site.pages
+            required: true
+            when:
+              type: internal
+
+          external_link_title:
+            label: Titel des externen Links
+            type: text
+            required: true
+            when:
+              type: external
+
+          external_link:
+            label: Externer Link
+            type: url
+            required: true
+            when:
+              type: external
+
+  - width: 1/3
+    fields:
+      new_category:
+        label: Inhaltsart
+        type: select
+        options:
+          fallbeispiele: Fallbeispiele
+          methoden: Methoden
+          broschuere-und-information: Broschüre und Information
+        required: true
+        
+      category:
+        label: Kategorie
+        type: select
+        options: 
+          paedagogische-fachkraft: Pädagogische Fachkraft
+          eltern-und-angehoerige: Eltern und Angehörige
+        required: true
+
+      subcategory:
+        label: Unterkategorie
+        type: select
+        options:
+          schule: Schule
+          kita: Kita
+          sozialarbeit: Sozialarbeit, Kinder- und Jugendhilfe
+        required: true
+        when: 
+          category: "paedagogische-fachkraft"
+
+      intro_text:
+        label: Vorschautext Startseite, max. 280 Zeichen
+        type: textarea
+        size: small
+        translate: true
+        buttons:
+          - italic

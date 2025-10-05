@@ -1,0 +1,50 @@
+name: Information
+title: Information
+
+fields:
+  page_title:
+    label: Seitentitel
+    type: text
+    required: true
+
+  impressum_sections:
+    label: Impressum
+    type: structure
+    translate: true
+    fields:
+      title:
+        label: Große Abschnittsüberschrift (z. B. Haftungsausschluss)
+        type: text
+        required: false
+      text:
+        label: Inhalt (mit kleinen Zwischenüberschriften fett)
+        type: textarea
+        size: medium
+        translate: true
+        buttons:
+          - bold
+          - italic
+          - link
+        help: "Kleine Zwischenüberschriften innerhalb des Textes einfach fett setzen (`**Überschrift**`)."
+    help: "Füge hier die einzelnen Abschnitte für das Impressum ein."
+
+  datenschutz_sections:
+    label: Datenschutz
+    type: structure
+    translate: true
+    fields:
+      title:
+        label: Große Abschnittsüberschrift (z. B. Datenerfassung)
+        type: text
+        required: false
+      text:
+        label: Inhalt (mit kleinen Zwischenüberschriften fett)
+        type: textarea
+        size: medium
+        translate: true
+        buttons:
+          - bold
+          - italic
+          - link
+        help: "Kleine Zwischenüberschriften innerhalb des Textes einfach fett setzen (`**Überschrift**`)."
+    help: "Füge hier die Abschnitte der Datenschutzerklärung ein."

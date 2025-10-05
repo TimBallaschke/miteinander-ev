@@ -1,0 +1,49 @@
+Title: „Ich gehöre hier hin, so wie ich bin“
+
+----
+
+Page-title: „Ich gehöre hier hin, so wie ich bin“ - Eine Broschüre für Fachberater*innen zur Stärkung von Vielfalt und demokratischen Orientierungen in der Kindertagespflege.
+
+----
+
+Upload-or-link: pdf
+
+----
+
+Pdf-title: „Ich gehöre hier hin, so wie ich bin“ - Eine Broschüre für Fachberater*innen zur Stärkung von Vielfalt und demokratischen Orientierungen in der Kindertagespflege.
+
+----
+
+Pdf-upload: - file://J2YMOWs7N4B8nZmh
+
+----
+
+Related-posts: 
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: kita
+
+----
+
+Intro-text: Die Broschüre stärkt Fachberater*innen in der Kindertagespflege bei der Prävention von Diskriminierung und Rechtsextremismus. Sie bietet rechtliche Grundlagen, Befragungsergebnisse, praktische Handlungsempfehlungen und Instrumente zur Förderung von Vielfalt und Kinderrechten.
+
+----
+
+Publisher: Bundesverband für Kindertagespflege e. V.
+
+----
+
+Year: 2024
+
+----
+
+Uuid: WS3I3F4f7c4OyAnF

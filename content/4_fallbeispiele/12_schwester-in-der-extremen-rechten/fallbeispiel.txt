@@ -1,0 +1,187 @@
+Title: Schwester in der extremen Rechten
+
+----
+
+Page-title: Schwester in der extremen Rechten
+
+----
+
+Flow-text-1:
+
+Einem Studenten stoßen bei Familientreffen die wiederholt fremdenfeindlichen Aussagen seiner jüngeren Schwester auf. Sie studiert Jura in einer anderen Stadt und sagt aus, für sie seien "seit 2015 deutsche Frauen nicht mehr sicher, da die arabischen Männer eben keinen Respekt vor Frauen haben.“ 
+
+Wenig später entdeckt er ein Video, in dem seine Schwester in einer Fußgängerzone Pfeffersprays an Frauen verteilt, um sich gegen "übergriffige Migranten" zu wehren. Das Video wurde von der rechtsextremen Frauengruppe "Lukreta" gepostet. Die Gruppe ist ein Zusammenschluss rechtsextremer Frauen, die unter anderem im Namen der "Sicherheit von Frauen" gegen Menschen mit Flucht- und Migrationserfahrung hetzen. 
+
+Daraufhin eskaliert die Situation zwischen den Geschwistern und der Bruder beschließt, den Kontakt zu seiner Schwester abzubrechen. Er fordert von seinen Eltern, sich klar gegen die Schwester zu positionieren. Da die Geschwister in der Wahrnehmung der Eltern jedoch beide "extreme Positionen einnehmen", wollen sie sich "nicht auf eine Seite schlagen" und wünschen sich nur eine Aussöhnung ihrer Kinder.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"dc22d38d-0810-45b9-bfec-929c32a70953","isHidden":false,"type":"heading"},{"content":{"text":"<p>Konflikte um rechtsextreme Radikalisierung im Nahumfeld der Familie erzeugen einen hohen Leidensdruck.</p><p>Die Schwester scheint sich radikalisiert zu haben und bereits in rechtsextremen Strukturen eingebunden zu sein.</p><p>Der Bruder bekommt keine Unterstützung von den Eltern.</p><p>Die Eltern versuchen, den Konflikt zu entpolitisieren.</p>"},"id":"f3227aee-1354-4f03-b583-53cdb7195340","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"c1c26efc-0983-4637-b54d-359d8d87645d","isHidden":false,"type":"heading"},{"content":{"text":"<p>Zunächst sollte der Bruder für sich klären, was er in der Auseinandersetzung mit seiner Schwester erreichen will und wo dabei seine eigenen Grenzen liegen. Dazu können folgende Fragen hilfreich sein:</p><ul><li><p>Was möchte ich im Konflikt mit meiner Schwester erreichen?</p></li><li><p>Wo liegen meine Grenzen im Umgang mit meiner Schwester?</p></li><li><p>Woran merke ich, dass diese Grenzen überschritten sind? Was hilft mir meine Grenzen einzuhalten?</p></li><li><p>Was hilft mir, meine Grenzen einzuhalten?</p></li></ul><p>Für den Bruder ist es wichtig im Rahmen seiner Ressourcen zu handeln:</p><ul><li><p>Falls er dafür über genügend Ressourcen verfügt, könnte er an der Beziehung zu seiner Schwester festhalten, sich kontinuierlich und aktiv gegen ihre rechtsextremen Einstellungen positionieren und so im möglichen Distanzierungsprozess seiner Schwester eine wichtige Figur darstellen.</p></li><li><p>Falls er über diese Ressourcen jedoch nicht verfügt, ist eine Einschränkung oder Unterbrechung der Beziehung sinnvoll, um im familiären Kontext überhaupt noch handlungsfähig zu bleiben.</p></li></ul><p>Falls er dafür über genügend Ressourcen verfügt, könnte er an der Beziehung zu seiner Schwester festhalten, sich kontinuierlich und aktiv gegen ihre rechtsextremen Einstellungen positionieren und so im möglichen Distanzierungsprozess seiner Schwester eine wichtige Figur darstellen.</p><p>Falls er über diese Ressourcen jedoch nicht verfügt, ist eine Einschränkung oder Unterbrechung der Beziehung sinnvoll, um im familiären Kontext überhaupt noch handlungsfähig zu bleiben.</p><ul><li><p>Um sich in dieser Situation weniger allein zu fühlen, kann es hilfreich sein, sich im Familienumfeld Personen mit einem ähnlichen Problembewusstsein zu suchen.</p></li><li><p>Es ist immer ratsam, sich externe Unterstützung zu holen, etwa in Form einer <a href=\"https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/\">Beratungsstelle zum Umgang mit Rechtsextremismus im Familienkontext</a></p></li></ul>"},"id":"305d44f2-5a3b-4387-aa51-c3c700054253","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: >
+    Entfremdet? Hilfestellungen für
+    Angehörige rechtsextrem und
+    verschwörungsideologisch orientierter
+    Menschen
+  internal_link:
+    - page://SMwpJ5U1S0QuSckg
+  external_link_title: ""
+  external_link: ""
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'Wenn extrem rechte Gesinnung die Familie stört - RuF'
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/infopool-rechtsextremismus/550350/wenn-extrem-rechte-gesinnung-die-familie-stoert/
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Frauen in der extremen Rechten
+  external_link: https://rechte-frauen.de/
+- 
+  type: internal
+  internal_link_title: (Un)sichtbare Frauen
+  internal_link:
+    - page://p99aGMZNW6U5hSVh
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: eltern-und-angehoerige
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Ein Student distanziert sich von seiner jüngeren Schwester, da sie rassistische Positionen vertritt und sich einer rechtsextremen Gruppierung anschließt. Die Distanzierung führt innerhalb der Familie zu Spannungen.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Konflikte um rechtsextreme
+        Radikalisierung im Nahumfeld der Familie
+        erzeugen einen hohen Leidensdruck.
+      highlight: 'false'
+    - 
+      text: >
+        Die Schwester scheint sich radikalisiert
+        zu haben und bereits in rechtsextremen
+        Strukturen eingebunden zu sein.
+      highlight: 'false'
+    - 
+      text: >
+        Der Bruder bekommt keine Unterstützung
+        von den Eltern.
+      highlight: 'false'
+    - 
+      text: >
+        Die Eltern versuchen, den Konflikt zu
+        entpolitisieren.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: 'Zunächst sollte der Bruder für sich klären, was er in der Auseinandersetzung mit seiner Schwester erreichen will und wo dabei seine eigenen Grenzen liegen. Dazu können folgende Fragen hilfreich sein:'
+      highlight: 'false'
+    - 
+      text: >
+        Was möchte ich im Konflikt mit meiner
+        Schwester erreichen?
+      highlight: 'true'
+    - 
+      text: >
+        Wo liegen meine Grenzen im Umgang mit
+        meiner Schwester?
+      highlight: 'true'
+    - 
+      text: >
+        Woran merke ich, dass diese Grenzen
+        überschritten sind? Was hilft mir meine
+        Grenzen einzuhalten?
+      highlight: 'true'
+    - 
+      text: >
+        Was hilft mir, meine Grenzen
+        einzuhalten?
+      highlight: 'true'
+    - 
+      text: 'Für den Bruder ist es wichtig im Rahmen seiner Ressourcen zu handeln:'
+      highlight: 'false'
+    - 
+      text: >
+        Falls er dafür über genügend
+        Ressourcen verfügt, könnte er an der
+        Beziehung zu seiner Schwester
+        festhalten, sich kontinuierlich und
+        aktiv gegen ihre rechtsextremen
+        Einstellungen positionieren und so im
+        möglichen Distanzierungsprozess seiner
+        Schwester eine wichtige Figur
+        darstellen.
+      highlight: 'true'
+    - 
+      text: >
+        Falls er über diese Ressourcen jedoch
+        nicht verfügt, ist eine Einschränkung
+        oder Unterbrechung der Beziehung
+        sinnvoll, um im familiären Kontext
+        überhaupt noch handlungsfähig zu
+        bleiben.
+      highlight: 'true'
+    - 
+      text: >
+        Um sich in dieser Situation weniger
+        allein zu fühlen, kann es hilfreich
+        sein, sich im Familienumfeld Personen
+        mit einem ähnlichen Problembewusstsein
+        zu suchen.
+      highlight: 'false'
+    - 
+      text: 'Es ist immer ratsam, sich externe Unterstützung zu holen, etwa in Form einer (link: https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/ text: Beratungsstelle zum Umgang mit Rechtsextremismus im Familienkontext)'
+      highlight: 'false'
+
+----
+
+Publisher: name e
+
+----
+
+Year: 
+
+----
+
+Intro: 
+
+----
+
+Uuid: 4hG2fLq83lQtkwFx

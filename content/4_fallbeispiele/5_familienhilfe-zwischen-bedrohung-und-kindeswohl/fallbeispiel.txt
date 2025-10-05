@@ -1,0 +1,246 @@
+Title: Familienhilfe zwischen Bedrohung und Kindeswohl
+
+----
+
+Page-title: Familienhilfe zwischen Bedrohung und Kindeswohl
+
+----
+
+Flow-text-1: In einer Familie mit drei Kindern im Alter zwischen 3 und 14 Jahren wird eine Familienhilfe installiert, um die konfliktreiche Trennung der Eltern abzufedern und die nun alleinerziehende Mutter bei Alltags- und Erziehungsherausforderungen zu unterstützen. Nach einigen Monaten findet die Mutter einen neuen Partner und der Familienhelferin fallen zunehmend Veränderungen im Verhalten der Kinder auf. Unter anderem gerät der älteste Sohn vermehrt in Konflikte mit Gleichaltrigen, die auch in der Schule zu Problemen führen. Darauf angesprochen, rechtfertigt er sein Verhalten mit rassistischen Positionen. Beim darauffolgenden Gespräch mit der Mutter fallen der Familienhelferin im Wohnzimmer eine Reichskriegsflagge und ein gerahmtes Bild von einer bekannten Rechtsrockband auf. Das Verhalten des ältesten Sohnes wird von der Mutter verharmlost. Bevor die Familienhelferin auf die Folgen hinweisen kann, die sein Verhalten auch auf seine Schulbildung haben könnte, kommt der neue Partner der Kindsmutter dazu – auf seinem Shirt der Schriftzug eines verbotenen, rechtsextremen Kampfsportturniers. Er baut sich bedrohlich vor der Familienhelferin auf und fragt provokant, was sie denn für ein Problem habe und ob sie nicht verstanden habe, dass das Verhalten des Jungen kein Problem sei. Um die Situation zu deeskalieren, bricht die Familienhelferin das Gespräch ab. Beim Verlassen der Wohnung hört sie den neuen Partner der Kindsmutter laut sagen: „So eine brauchen wir nicht, die hier bei uns rumschnüffelt.“
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"cbadfc2e-b7cb-4446-bd9b-37c7ae2586d8","isHidden":false,"type":"heading"},{"content":{"text":"<p>Der 14-jährige Sohn zeigt rassistische Haltungen, die sich auch in aggressivem Verhalten gegenüber Gleichaltrigen widerspiegeln. Dadurch wird er zur Bedrohung für andere Jugendliche und bringt sich gleichzeitig selbst in Schwierigkeiten.</p><p>Die verharmlosende Reaktion der Mutter auf das Verhalten ihres Sohnes wirft die Frage auf, ob Wertevermittlung und Erziehung dazu beitragen, dass sich der Sohn zu einer offenen und gemeinschaftsfähigen Persönlichkeit entwickeln kann.</p><p>Die provokante Einmischung des neuen Partners und sein bedrohliches Auftreten, werfen Fragen nach der Sicherheit der Familienhelferin auf. Hier stehen der Eigenschutz der Familienhelferin und der Hilfeauftrag zum Wohl der in der Familie lebenden Kinder einander gegenüber.</p><p>Die Mitwirkbereitschaft der Mutter ist Bedingung für die Familienhilfe.</p>"},"id":"9af74a18-b657-4006-8e46-5ee15f49deb0","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"271b9167-fc53-4035-85a4-8e2088c9927c","isHidden":false,"type":"heading"},{"content":{"text":"<p>Innerhalb des Familienhilfeträgers:</p><ul><li><p>Teamgespräch über die Vorkommnisse und besorgniserregenden Veränderungen innerhalb der Familie</p></li><li><p>Kann die Familienhilfe unter gegebenen Umständen fortgeführt werden? Der Schutz der Familienhelferin muss hier eine entscheidende Rolle spielen.</p></li></ul><p>Welche Bedingungen sind hierfür notwendig? Mögliche Szenarien:</p><ul><li><p>Weiterführung der Beratung gemeinsam mit eine:r Kolleg:in</p></li><li><p>Weiterführung der Beratung im Büro der Familienhelferin</p></li><li><p>Wechsel der Familienhelferin und erneuter Beziehungsaufbau</p></li><li><p>Klärendes Gespräch mit der Kindsmutter über Umgangsformen, mögliche Konsequenzen für die Familienhilfe sowie eine Einigung über das Arbeitsbündnis zum Wohl der in der Familie lebenden Kinder</p></li></ul><p>Supervision und regelmäßige Fallberatung</p><p>Einbeziehung von entsprechenden Fachstellen, die zum Thema Rechtsextremismus und Familie beraten</p><p>Fortbildung bspw. zum „Thema Rechtsextremismus und Familie“ oder „Konfliktsituationen“ für das Team</p><p>Mit der Kindsmutter:</p><ul><li><p>Notwendigkeit der Herstellung eines Arbeitsbündnisses</p></li><li><p>Im Sinne des Kindeswohls Positionierung gegen Menschenverachtung</p></li></ul><p>Rücksprache mit Sachbearbeiter:in des Jugendamts</p><ul><li><p>Anpassung des Hilfeplans und der zu ergreifenden Maßnahmen</p></li><li><p>Maßnahmen und Angebote für in die in der Familie lebenden Kinder</p></li></ul><p>Gespräch mit Schule des 14-jährigen Kindes, um weiteres Vorgehen zu besprechen</p><p>Die Schulsozialarbeit könnte als Ressource einbezogen werden</p>"},"id":"2dec14ca-53e4-43d9-8319-2ba7bbf60cf8","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: >
+    Organize! Extrem Rechte und
+    Rechtspopulismus im Rahmen Sozialer
+    Arbeit
+  internal_link:
+    - page://qlD2cltDDjjVF0LS
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Eine Broschüre über Rechtsextremismus
+    als Thema in der Jugendhilfe
+  internal_link:
+    - page://C3I7jmZT4APmiViE
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: 'Der Wind von rechts wird stärker - die Jugendhilfe reagiert'
+  internal_link:
+    - page://YpmKKRCzWgBPRVFf
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Funktionalisierte Kinder
+  internal_link:
+    - page://60xfUUVqqcKEHDJ5
+  external_link_title: ""
+  external_link: ""
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'Bundeszentrale für politische Bildung '
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/infopool-rechtsextremismus/522418/jugendarbeit-soziale-arbeit/
+- 
+  type: internal
+  internal_link_title: 'Jugendarbeit gegen Rechtsextremismus - Integrierte Handlungsstrategien zur Rechtsextremismus - Prävention und -Intervention bei Jugendlichen'
+  internal_link:
+    - page://UQkxYVxE548FZA1t
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Kindeswohlgefährdung in Neonazifamilien
+  internal_link:
+    - page://j8liwU48RlEJO53e
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Eine Familienhilfe wird zur Unterstützung einer alleinerziehenden Mutter mit drei Kindern installiert. Der älteste Sohn zeigt rassistische Haltung und verhält sich zunehmend problematisch. Die Familienhelferin entdeckt rechtsextreme Symbole und wird vom neuen Partner der Mutter bedroht.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Der 14-jährige Sohn zeigt rassistische
+        Haltungen, die sich auch in aggressivem
+        Verhalten gegenüber Gleichaltrigen
+        widerspiegeln. Dadurch wird er zur
+        Bedrohung für andere Jugendliche und
+        bringt sich gleichzeitig selbst in
+        Schwierigkeiten.
+      highlight: 'false'
+    - 
+      text: >
+        Die verharmlosende Reaktion der Mutter
+        auf das Verhalten ihres Sohnes wirft die
+        Frage auf, ob Wertevermittlung und
+        Erziehung dazu beitragen, dass sich der
+        Sohn zu einer offenen und
+        gemeinschaftsfähigen Persönlichkeit
+        entwickeln kann.
+      highlight: 'false'
+    - 
+      text: >
+        Die provokante Einmischung des neuen
+        Partners und sein bedrohliches
+        Auftreten, werfen Fragen nach der
+        Sicherheit der Familienhelferin auf.
+        Hier stehen der Eigenschutz der
+        Familienhelferin und der Hilfeauftrag
+        zum Wohl der in der Familie lebenden
+        Kinder einander gegenüber.
+      highlight: 'false'
+    - 
+      text: >
+        Die Mitwirkbereitschaft der Mutter ist
+        Bedingung für die Familienhilfe.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: 'Innerhalb des Familienhilfeträgers:'
+      highlight: 'false'
+    - 
+      text: >
+        Teamgespräch über die Vorkommnisse und
+        besorgniserregenden Veränderungen
+        innerhalb der Familie
+      highlight: 'true'
+    - 
+      text: >
+        Kann die Familienhilfe unter gegebenen
+        Umständen fortgeführt werden? Der
+        Schutz der Familienhelferin muss hier
+        eine entscheidende Rolle spielen.
+      highlight: 'true'
+    - 
+      text: 'Welche Bedingungen sind hierfür notwendig? Mögliche Szenarien:'
+      highlight: 'false'
+    - 
+      text: >
+        Weiterführung der Beratung gemeinsam
+        mit eine:r Kolleg:in
+      highlight: 'true'
+    - 
+      text: >
+        Weiterführung der Beratung im Büro der
+        Familienhelferin
+      highlight: 'true'
+    - 
+      text: >
+        Wechsel der Familienhelferin und
+        erneuter Beziehungsaufbau
+      highlight: 'true'
+    - 
+      text: >
+        Klärendes Gespräch mit der Kindsmutter
+        über Umgangsformen, mögliche
+        Konsequenzen für die Familienhilfe
+        sowie eine Einigung über das
+        Arbeitsbündnis zum Wohl der in der
+        Familie lebenden Kinder
+      highlight: 'true'
+    - 
+      text: >
+        Supervision und regelmäßige
+        Fallberatung
+      highlight: 'false'
+    - 
+      text: >
+        Einbeziehung von entsprechenden
+        Fachstellen, die zum Thema
+        Rechtsextremismus und Familie beraten
+      highlight: 'false'
+    - 
+      text: >
+        Fortbildung bspw. zum „Thema
+        Rechtsextremismus und Familie“ oder
+        „Konfliktsituationen“ für das Team
+      highlight: 'false'
+    - 
+      text: 'Mit der Kindsmutter:'
+      highlight: 'false'
+    - 
+      text: >
+        Notwendigkeit der Herstellung eines
+        Arbeitsbündnisses
+      highlight: 'true'
+    - 
+      text: >
+        Im Sinne des Kindeswohls Positionierung
+        gegen Menschenverachtung
+      highlight: 'true'
+    - 
+      text: >
+        Rücksprache mit Sachbearbeiter:in des
+        Jugendamts
+      highlight: 'false'
+    - 
+      text: >
+        Anpassung des Hilfeplans und der zu
+        ergreifenden Maßnahmen
+      highlight: 'true'
+    - 
+      text: >
+        Maßnahmen und Angebote für in die in
+        der Familie lebenden Kinder
+      highlight: 'true'
+    - 
+      text: >
+        Gespräch mit Schule des 14-jährigen
+        Kindes, um weiteres Vorgehen zu
+        besprechen
+      highlight: 'false'
+    - 
+      text: >
+        Die Schulsozialarbeit könnte als
+        Ressource einbezogen werden
+      highlight: 'false'
+
+----
+
+Uuid: Jw4gWHlTQzPmN3XY

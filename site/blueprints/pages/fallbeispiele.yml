@@ -1,0 +1,7 @@
+name: Fallbeispiele
+title: Fallbeispiele
+sections:
+  children:
+    label: Fallbeispiele
+    type: pages
+    template: fallbeispiel

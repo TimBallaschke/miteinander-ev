@@ -1,0 +1,21 @@
+title: home
+name: home
+
+columns:
+  left:
+    width: 2/3
+    sections:
+      sorted_pages:
+        label: Sortierte Seiten
+        type: pages
+        status: all
+        query: site.children.filterBy("num", ">", 0) # Alle nummerierten Seiten
+
+  right:
+    width: 1/3
+    sections:
+      unsorted_pages:
+        label: Unsortierte Seiten
+        type: pages
+        status: all
+        query: site.children.filterBy("num", "==", null) # Alle nicht nummerierten Seiten

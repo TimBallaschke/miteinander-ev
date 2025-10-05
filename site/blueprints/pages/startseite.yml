@@ -1,0 +1,19 @@
+title: Startseite
+
+fields:
+  page_title:
+    label: Titel der Website
+    type: text
+
+  flow_text:
+    label: Fließtext
+    type: textarea
+    size: medium
+    buttons:
+      - italic
+      - link
+    translate: true
+
+  authors:
+    label: Autor_Innen
+    type: text

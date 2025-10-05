@@ -1,0 +1,62 @@
+name: Information
+title: Information
+
+fields:
+  page_title:
+    label: Titel
+    type: text
+    required: true
+
+  flow_text_1:
+    label: Fließtext
+    type: textarea
+    size: small
+    translate: true
+    buttons:
+      - italic
+      - link
+
+  question_answer_block:
+    label: Frage-Antwort-Block
+    type: blocks
+    fieldsets:
+      - type: heading
+        extends: blocks/heading
+        name: Frage
+      - type: text
+        extends: blocks/text
+        fields:
+          text:
+            type: writer
+            nodes:
+              - bulletList
+
+  flow_text_2:
+    label: Weiterer Fließtext (optional)
+    type: textarea
+    size: small
+    translate: true
+    buttons: 
+      - italic
+      - link    
+
+  content_blocks_2:
+    label: Weitere Auflistung (Tabelle)(optional)
+    type: structure
+    fields:
+      question:
+        label: Frage/Überschrift
+        type: text
+      answers:
+        label: Antworten/Fließtext
+        type: structure
+        fields:
+          text:
+            label: Antworten/Fließtext
+            type: textarea
+            buttons:
+              - italic
+              - link
+          highlight:
+            label: Fließtext eingerückt?
+            type: toggle

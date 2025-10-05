@@ -1,0 +1,819 @@
+Title: Beratungsangebot
+
+----
+
+Template: beratungsangebot
+
+----
+
+Page-title: Beratungsangebot
+
+----
+
+Flow-text-1:
+
+Bundesweit bieten unterschiedliche Beratungsstellen und Projekte Unterstützung zum Umgang mit Rechtsextremismus, Rassismus, Antisemitismus, Antifeminismus und Verschwörungserzählungen an. So gibt es in jedem Bundesland Mobile Beratungsteams gegen Rechtsextremismus, die bedarfsgerechte Beratung und Unterstützung für alle anbieten, die sich gegen Rechtsextremismus, Rassismus, Antisemitismus und Verschwörungserzählungen engagieren. Betroffene von rechter, rassistischer und antisemitischer Gewalt können sich ebenso an Beratungsstellen wenden, die in allen Bundesländern vertreten. 
+Darüber hinaus gibt es an vielen Orten spezifische Angebote, Beratungsstellen und Projekte die sich zu diesen Themen engagieren. Diese Seite bietet eine bundesweite Übersicht verschiedener Beratungsstellen.
+
+----
+
+Bundeslaender:
+
+- 
+  bundesland: Baden-Würrtemberg
+  beratungsstellen:
+    - 
+      titel: 'Fachstelle mobirex - Monitoring | Bildung | Information'
+      träger: ""
+      email: mobirex@lago-bw.de
+      telefon: 0711 896915-23
+      website: https://mobirex.de
+      unterberatungsstellen:
+        - 
+          titel: ""
+          email: ""
+          telefon: ""
+          website: ""
+    - 
+      titel: >
+        LEUCHTLINIE – Beratung für Betroffene
+        von rechter Gewalt in Baden-Württemberg
+      träger: ""
+      email: kontakt@leuchtlinie.de
+      telefon: 0711 88899933
+      website: https://leuchtlinie.de
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        BEWARE – Beratungsportal des Landes
+        Baden-Württemberg für gefährliche und
+        religiöse Angebote
+      träger: ""
+      email: beware@km.kv.bwl.de
+      telefon: 0711 2792876
+      website: https://beware.kultus-bw.de/Startseite
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Bayern
+  beratungsstellen:
+    - 
+      titel: >
+        Mobile Beratung gegen Rechtsextremismus
+        in Bayern
+      träger: ""
+      email: ""
+      telefon: ""
+      website: >
+        https://www.lks-bayern.de/ueber-uns/mobile-beratung/
+      unterberatungsstellen:
+        - 
+          titel: Büro Nordwest (Nürnberg)
+          email: mb-nordwest@mbr-bayern.de
+          telefon: 0911 92300454
+          website: ""
+        - 
+          titel: Büro Nordost (Regensburg)
+          email: mb-nordost@mbr-bayern.de
+          telefon: 0941 46528140
+          website: ""
+        - 
+          titel: Büro Süd (Ebersberg)
+          email: mb-sued@mbr-bayern.de
+          telefon: 08092 2509955
+          website: ""
+    - 
+      titel: >
+        B.U.D. – Beratung. Unterstützung.
+        Dokumentation.
+      träger: ""
+      email: info@bud-bayern.de
+      telefon: 0151 21653187
+      website: https://bud-bayern.de
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'BEFORE - Beratung und Unterstützung bei Diskriminierung, Rassismus und rechter Gewalt'
+      träger: ""
+      email: kontakt@before-muenchen.de
+      telefon: 089 46224670
+      website: https://www.before-muenchen.de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Berlin
+  beratungsstellen:
+    - 
+      titel: >
+        Mobile Beratung gegen Rechtsextremismus
+        Berlin (MBR)
+      träger: ""
+      email: info@mbr-berlin.de
+      telefon: 030 817 985 810
+      website: https://www.mbr-berlin.de/?lang=de
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'ReachOut - Opferberatung und Bildung gegen Rechtsextremismus, Rassismus und Antisemitismus'
+      träger: ""
+      email: info@reachoutberlin.de
+      telefon: 030 695 683 39
+      website: 'https://www.reachoutberlin.de/de/Unsere%20Arbeit/Beratung/'
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'OPRA - Psychologische Beratung für Opfer rechter Gewalt'
+      träger: ""
+      email: info@opra-gewalt.de
+      telefon: 030 92218241
+      website: https://www.opra-gewalt.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        ElternStärken – Fortbildung,
+        Vernetzung, Beratung zum Thema Familie
+        und Rechtsextremismus
+      träger: ""
+      email: eva_prausner@elternstaerken.de
+      telefon: "01776843959"
+      website: https://www.elternstaerken.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'IZRD - Interdisziplinären Zentrum für Radikalisierungs­präven­tion und Demokratieförderung'
+      träger: ""
+      email: info@izrd.de
+      telefon: 030 83543072
+      website: https://www.izrd.de/de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        Entschwört – Beratung zu
+        Verschwörungsmythen im persönlichen
+        Umfeld
+      träger: ""
+      email: beratung@entschwoert.de
+      telefon: "01785728103"
+      website: https://entschwoert.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        Cultures interactive e.V. – Verein zur
+        interkulturellen Bildung und
+        Gewaltprävention
+      träger: ""
+      email: info@cultures-interactive.de
+      telefon: "03060401950"
+      website: https://www.cultures-interactive.de/de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Brandenburg
+  beratungsstellen:
+    - 
+      titel: Mobile Beratungsteams Brandenburg
+      träger: ""
+      email: ""
+      telefon: ""
+      website: >
+        https://www.gemeinwesenberatung-demos.de/mobile-beratungsteams/
+      unterberatungsstellen:
+        - 
+          titel: Mobiles Beratungsteam Angermünde
+          email: mbt-angermuende@big-demos.de
+          telefon: 03331 299980
+          website: ""
+        - 
+          titel: >
+            Mobiles Beratungsteam Cottbus (Cottbus /
+            Spree-Neiße)
+          email: mbt-cottbus1@big-demos.de
+          telefon: 0355 4302441
+          website: ""
+        - 
+          titel: >
+            Mobiles Beratungsteam Cottbus
+            (Elbe-Elster / Oberspreewald-Lausitz)
+          email: mbt-cottbus2@big-demos.de
+          telefon: 0355 4993751
+          website: ""
+        - 
+          titel: Mobiles Beratungsteam Frankfurt (Oder)
+          email: mbt-ff@big-demos.de
+          telefon: 0335 5009664
+          website: ""
+        - 
+          titel: Mobiles Beratungsteam Neuruppin
+          email: mbt-neuruppin@big-demos.de
+          telefon: 03391 359189
+          website: ""
+        - 
+          titel: Mobiles Beratungsteam Potsdam
+          email: mbt-potsdam@big-demos.de
+          telefon: 0331 5058883
+          website: ""
+        - 
+          titel: Mobiles Beratungsteam Trebbin
+          email: mbt-trebbin@big-demos.de
+          telefon: 033731 32909
+          website: ""
+    - 
+      titel: 'Opferperspektive - Beratung für Betroffene rechter Gewalt'
+      träger: ""
+      email: info@opferperspektive.de
+      telefon: 0331 817 00 00
+      website: https://www.opferperspektive.de/home
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        MITMENSCH – Beratung bei Konflikten im
+        Zusammenhang mit
+        Verschwörungserzählungen
+      träger: ""
+      email: mitmensch@big-demos.de
+      telefon: 0331 740 62 48
+      website: >
+        https://www.gemeinwesenberatung-demos.de/konfliktberatung-verschwoerungserzaehlung/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Bremen
+  beratungsstellen:
+    - 
+      titel: >
+        Mobiles Beratungsteam gegen
+        Rechtsextremismus in Bremen und
+        Bremerhaven
+      träger: ""
+      email: info@mbt-hb.de
+      telefon: 0421 692 722 12
+      website: https://www.mbt-hb.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'soliport - Betroffene rechter, rassistischer und antisemitischer Gewalt solidarisch beraten'
+      träger: ""
+      email: info@soliport.de
+      telefon: 0421 17831212
+      website: https://www.soliport.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'Sichtwechsel – Distanzierungs- und Ausstiegsberatung'
+      träger: ""
+      email: beratung@perspektive-ausstieg.de
+      telefon: 0160 9555 9182
+      website: https://sichtwechsel-bremen.de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Hamburg
+  beratungsstellen:
+    - 
+      titel: >
+        Mobiles Beratungsteam gegen
+        Rechtsextremismus Hamburg
+      träger: ""
+      email: mbt@hamburg.arbeitundleben.de
+      telefon: 040 284016202
+      website: https://mobileberatunghamburg.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'empower - Beratungsstelle für Betroffene rechter, rassistischer und antisemitischer Gewalt'
+      träger: ""
+      email: empower@hamburg.arbeitundleben.de
+      telefon: 040 284 016 67
+      website: >
+        https://hamburg.arbeitundleben.de/politische-bildung/empower/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        Gegenverschwörung – Beratungsangebote
+        zum Umgang mit
+        Verschwörungserzählungen
+      träger: ""
+      email: vernetztgegenrechts@lawaetz.de
+      telefon: 040 42863 3625
+      website: https://gegenverschwoerung.hamburg/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Hessen
+  beratungsstellen:
+    - 
+      titel: >
+        Mobiles Beratungsteam gegen Rassismus
+        und Rechtsextremismus für demokratische
+        Kultur in Hessen
+      träger: ""
+      email: info@mbt-hessen.org
+      telefon: 0561 86 16 766
+      website: https://mbt-hessen.org/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'response - Beratung für Betroffene von rechter und rassistischer Gewalt'
+      träger: ""
+      email: ""
+      telefon: ""
+      website: https://response-hessen.de/
+      unterberatungsstellen:
+        - 
+          titel: Büro Frankfurt
+          email: kontakt@response-hessen.de
+          telefon: 069 348 770 530
+          website: ""
+        - 
+          titel: Büro Kassel
+          email: kassel@response-hessen.de
+          telefon: 0561 72 98 97 00
+          website: ""
+    - 
+      titel: >
+        rote line – Pädagogische Fachstelle
+        Rechtsextremismus
+      träger: ""
+      email: kontakt@rote-linie.net
+      telefon: '06421  889 0998'
+      website: https://www.rote-linie.net/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        Beratungsnetzwerk Hessen – Gemeinsam
+        für Demokratie und gegen
+        Rechtsextremismus
+      träger: ""
+      email: kontakt@beratungsnetzwerk-hessen.de
+      telefon: "064212821110"
+      website: https://beratungsnetzwerk-hessen.de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Mecklenburg-Vorpommern
+  beratungsstellen:
+    - 
+      titel: >
+        Regionalzentrum für demokratische
+        Kultur Westmecklenburg
+      träger: ""
+      email: westmecklenburg@raa-mv.de
+      telefon: 0385 30309037
+      website: https://www.demokratie-mv.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        LOBBI – Landesweite Opferberatung,
+        Beistand und Information für Betroffene
+        rechter Gewalt
+      träger: ""
+      email: ""
+      telefon: ""
+      website: https://lobbi-mv.de/
+      unterberatungsstellen:
+        - 
+          titel: Regionalbüro Ost
+          email: ost@lobbi-mv.de
+          telefon: 0395 4550 718
+          website: ""
+        - 
+          titel: Regionalbüro West
+          email: west@lobbi-mv.de
+          telefon: 0381 2009377
+          website: ""
+        - 
+          titel: 'Regionalbüro Nord '
+          email: nord@lobbi-mv.de
+          telefon: 0381 2009379
+          website: ""
+- 
+  bundesland: Niedersachsen
+  beratungsstellen:
+    - 
+      titel: >
+        Mobile Beratung gegen Rechtsextremismus
+        Niedersachsen
+      träger: ""
+      email: ""
+      telefon: ""
+      website: https://mbt-niedersachsen.de/
+      unterberatungsstellen:
+        - 
+          titel: Regionalbüro Nord/West (Oldenburg)
+          email: nordwest@mbt-niedersachsen.de
+          telefon: 0157 32883589
+          website: ""
+        - 
+          titel: Regionalbüro Nord/Ost (Verden, Aller)
+          email: nordost@mbt-niedersachsen.de
+          telefon: 0159 06504599
+          website: ""
+        - 
+          titel: Regionalbüro Süd (Hildesheim)
+          email: sued@mbt-niedersachsen.de
+          telefon: 0152 03431429
+          website: ""
+    - 
+      titel: Betroffenenberatung Niedersachsen
+      träger: ""
+      email: ""
+      telefon: ""
+      website: https://betroffenenberatung.de/
+      unterberatungsstellen:
+        - 
+          titel: Region Nordwest-Niedersachsen
+          email: nordwest@betroffenenberatung.de
+          telefon: 0541 38069923
+          website: ""
+        - 
+          titel: 'Regionalbüro Nordost-Niedersachsen '
+          email: betroffenenberatung.nds.nordost@cjd.de
+          telefon: 05021 971111
+          website: ""
+        - 
+          titel: 'Regionalbüro Süd-Niedersachsen '
+          email: sued-nds@betroffenenberatung.de
+          telefon: 0179 1255333
+          website: ""
+- 
+  bundesland: Nordrhein-Westfalen
+  beratungsstellen:
+    - 
+      titel: >
+        Mobile Beratung gegen Rechtsextremismus
+        NRW
+      träger: ""
+      email: info@mobile-beratung-nrw.de
+      telefon: 0159 06450241
+      website: ""
+      unterberatungsstellen:
+        - 
+          titel: >
+            Mobile Beratung im Regierungsbezirk
+            Arnsberg
+          email: info@mbr-arnsberg.de
+          telefon: 02304 7554141
+          website: >
+            https://www.mobile-beratung-gegen-rechts.de/
+        - 
+          titel: >
+            Mobile Beratung Ostwestfalen-Lippe
+            (OWL)/Regierungsbezirk Detmold
+          email: info@mbr-owl.de
+          telefon: 05221 1745726
+          website: https://www.mbr-owl.de/
+        - 
+          titel: >
+            Mobile Beratung im Regierungsbezirk
+            Düsseldorf
+          email: info@mbr-duesseldorf.de
+          telefon: 0202 5632809
+          website: https://www.mbr-duesseldorf.de/
+        - 
+          titel: >
+            Mobile Beratung im Regierungsbezirk
+            Köln
+          email: mbr@stadt-koeln.de
+          telefon: 0221 221 27162
+          website: https://www.mbr-koeln.de/
+        - 
+          titel: >
+            Mobile Beratung im Regierungsbezirk
+            Münster (mobim)
+          email: mobim@vse-nrw.de
+          telefon: ""
+          website: >
+            https://www.vse-nrw.de/der-vse/vse-muensterland/einrichtungen/muenster/mobim/
+    - 
+      titel: Opferberatung Rheinland (OBR)
+      träger: ""
+      email: info@opferberatung-rheinland.de
+      telefon: 0178 811 3900
+      website: https://www.opferberatung-rheinland.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'Back Up - Beratung für Opfer rechtsextremer und rassistischer Gewalt'
+      träger: ""
+      email: contact@backup-nrw.org
+      telefon: 0231 956 524 82
+      website: https://backup-nrw.org/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        Netzwerk gegen rechts im Oberbergischen
+        Kreis
+      träger: ""
+      email: netzgegenrechts-obk@pariberg.de
+      telefon: 0160 96906178
+      website: https://netzgegenrechts-oberberg.org/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'NinA NRW – Ausstiegs- und Distanzierungsberatung im Kontext Rechtsextremismus'
+      träger: ""
+      email: nina.nrw@reinit.de
+      telefon: "017693119765"
+      website: https://nina-nrw.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'IDA-NRW – Informations- und Dokumentationszentrum für Antirassismusarbeit in Nordrhein-Westfalen'
+      träger: ""
+      email: info@ida-nrw.de
+      telefon: 0211 1592 555
+      website: https://www.ida-nrw.de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Rheinland-Pfalz
+  beratungsstellen:
+    - 
+      titel: >
+        Mobile Beratung gegen Rechtsextremismus
+        Rheinland-Pfalz
+      träger: ""
+      email: lks-demokratie-leben@lsjv.rlp.de
+      telefon: 06131 967 185
+      website: >
+        https://demokratiezentrum.rlp.de/beratung/mobile-beratung-gegen-rechtsextremismus-in-rheinland-pfalz
+      unterberatungsstellen:
+        - 
+          titel: Regionalstelle Nord (Koblenz)
+          email: regionalstelle-nord@mbr-rlp.de
+          telefon: 0261 9735815
+          website: ""
+        - 
+          titel: Regionalstelle West (Trier)
+          email: regionalstelle-west@mbr-rlp.de
+          telefon: 0151 17164379
+          website: ""
+        - 
+          titel: Regionalstelle Mitte (Mainz)
+          email: regionalstelle-mitte@mbr-rlp.de
+          telefon: 0163 4145236
+          website: ""
+        - 
+          titel: Regionalstelle Süd (Neustadt)
+          email: regionalstelle-sued@mbr-rlp.de
+          telefon: "015110591049"
+          website: ""
+    - 
+      titel: >
+        Betroffenenberatung Rheinland-Pfalz –
+        Beratung für Betroffene rechter,
+        rassistischer und antisemitischer Gewalt
+      träger: ""
+      email: ""
+      telefon: ""
+      website: >
+        https://demokratiezentrum.rlp.de/beratung/betroffenenberatung
+      unterberatungsstellen:
+        - 
+          titel: Beratungsstelle Nord-West
+          email: betroffenenberatung@awo-rheinland.de
+          telefon: '0261 3006400 '
+          website: ""
+        - 
+          titel: Beratungsstelle Mitte-Süd
+          email: betroffenenberatung@wertzeug.org
+          telefon: 0176 63380145
+          website: ""
+    - 
+      titel: demokratiezentrum Rehinland-pfalz
+      träger: ""
+      email: demokratiezentrum@lsjv.rlp.de
+      telefon: 06131 967 497
+      website: https://demokratiezentrum.rlp.de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Saarland
+  beratungsstellen:
+    - 
+      titel: >
+        Fachstelle gegen Rechtsextremismus –
+        für Demokratie
+      träger: ""
+      email: fachstelle@adolf-bender.de
+      telefon: 06851 808279 5
+      website: >
+        https://adolfbender.de/beratung/fachstelle-gegen-rechtsextremismus/
+      unterberatungsstellen: [ ]
+    - 
+      titel: Bounce Back – Opferberatung Saarland
+      träger: ""
+      email: info@bounceback.de
+      telefon: 0681 302-4437
+      website: https://www.bounceback.de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Sachsen
+  beratungsstellen:
+    - 
+      titel: Mobile Beratungsteams in Sachsen
+      träger: ""
+      email: buero@kulturbuero-sachsen.de
+      telefon: 0351 272 14 90
+      website: >
+        https://kulturbuero-sachsen.de/arbeitsbereiche/mobile-beratung/
+      unterberatungsstellen:
+        - 
+          titel: >
+            Mobiles Beratungsteam – Regionalbüro
+            Ost
+          email: mbt.ost@kulturbuero-sachsen.de
+          telefon: "035816842711"
+          website: ""
+        - 
+          titel: >
+            Mobiles Beratungsteam – Regionalbüro
+            Mitte-Ost
+          email: mbt.mitte-ost@kulturbuero-sachsen.de
+          telefon: "035181069680"
+          website: ""
+        - 
+          titel: >
+            Mobiles Beratungsteam – Regionalbüro
+            Mitte-Süd
+          email: mbt.mitte-ost@kulturbuero-sachsen.de
+          telefon: "03712781565"
+          website: ""
+        - 
+          titel: >
+            Mobiles Beratungsteam – Regionalbüro
+            West
+          email: mbt.west@kulturbuero-sachsen.de
+          telefon: "037520036575"
+          website: ""
+        - 
+          titel: >
+            Mobiles Beratungsteam – Regionalbüro
+            Nordwest
+          email: mbt.nordwest@kulturbuero-sachsen.de
+          telefon: "034125668000"
+          website: ""
+    - 
+      titel: 'SUPPORT des RAA Sachsen e.V. - Für Betroffene rechter Gewalt'
+      träger: ""
+      email: ""
+      telefon: 0351 500 25 67
+      website: https://www.raa-sachsen.de/
+      unterberatungsstellen:
+        - 
+          titel: Beratungsstelle Dresden
+          email: opferberatung.dresden@raa-sachsen.de
+          telefon: "03518894174"
+          website: ""
+        - 
+          titel: 'Beratungsstelle Chemnitz & Plauen'
+          email: opferberatung.chemnitz@raa-sachsen.de
+          telefon: "03714819451"
+          website: ""
+        - 
+          titel: Beratungsstelle Leipzig
+          email: opferberatung.leipzig@raa-sachsen.de
+          telefon: "03412254957"
+          website: ""
+        - 
+          titel: Beratungsstelle Görlitz
+          email: opferberatung.goerlitz@raa-sachsen.de
+          telefon: 03581 6845696
+          website: ""
+- 
+  bundesland: Sachsen-Anhalt
+  beratungsstellen:
+    - 
+      titel: >
+        Kompetenzstelle Eltern Und
+        Rechtsextremismus
+      träger: ""
+      email: ker@miteinander-ev.de
+      telefon: 0345 22 67 098
+      website: >
+        https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        Mobile Beratung gegen Rechtsextremismus
+        in Sachsen-Anhalt
+      träger: ""
+      email: ""
+      telefon: ""
+      website: ""
+      unterberatungsstellen:
+        - 
+          titel: Regionales Beratungsteam Nord
+          email: rbt.rzn@miteinander-ev.de
+          telefon: 03901 305 99 61
+          website: >
+            https://www.miteinander-ev.de/regionale-beratungsteams-gegen-rechtsextremismus/
+        - 
+          titel: Regionales Beratungsteam Mitte
+          email: rbt.gs@miteinander-ev.de
+          telefon: "03916207744"
+          website: >
+            https://www.miteinander-ev.de/regionale-beratungsteams-gegen-rechtsextremismus/
+        - 
+          titel: Regionales Beratungsteam Süd
+          email: rbt.rzs@miteinander-ev.de
+          telefon: "03452267099"
+          website: >
+            https://www.miteinander-ev.de/regionale-beratungsteams-gegen-rechtsextremismus/
+        - 
+          titel: >
+            Projekt GegenPart – Mobiles
+            Beratungsteam gegen Rechtsextremismus in
+            Anhalt
+          email: buero@projektgegenpart.org
+          telefon: "034052098027"
+          website: https://projektgegenpart.de/
+    - 
+      titel: 'Mobile Opferberatung - Unterstützung für Betroffene rechter, rassistischer und antisemitischer Gewalt'
+      träger: ""
+      email: ""
+      telefon: ""
+      website: https://www.mobile-opferberatung.de/
+      unterberatungsstellen:
+        - 
+          titel: Anlaufstelle Süd
+          email: opferberatung.sued@miteinander-ev.de
+          telefon: "03452267100"
+          website: ""
+        - 
+          titel: Anlaufstelle Nord
+          email: opferberatung.nord@miteinander-ev.de
+          telefon: "03901306431"
+          website: ""
+        - 
+          titel: Anlaufstelle Mitte
+          email: opferberatung.mitte@miteinander-ev.de
+          telefon: "03916207752"
+          website: ""
+    - 
+      titel: 'Beratungsstelle für Betroffene rechter Gewalt - Region Anhalt/Bitterfeld/Wittenberg'
+      träger: ""
+      email: opferberatung@datel-dessau.de
+      telefon: "034066128537"
+      website: >
+        https://awo-spi.de/projekt/beratungsstelle-fuer-betroffene-rechter-gewalt-anhalt-bitterfeld-wittenberg/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'Kompetent in der Krise - Rechtsextremen und verschwörungsideologischen Diskursen begegnen'
+      träger: ""
+      email: bildung@miteinander-ev.de
+      telefon: ""
+      website: >
+        https://www.miteinander-ev.de/kompetent-in-der-krise-rechtsextremen-und-verschwoerungsideologischen-diskursen-begegnen/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'veritas - Beratungsstelle für Betroffene von Verschwörungserzählungen in Sachsen-Anhalt'
+      träger: ""
+      email: sachsen-anhalt@veritas-beratung.de
+      telefon: 0160 98 62 25 41
+      website: https://www.veritas-beratung.de/
+      unterberatungsstellen: [ ]
+- 
+  bundesland: Schleswig-Holstein
+  beratungsstellen:
+    - 
+      titel: >
+        Regionale Beratungsteams gegen
+        Rechtsextremismus Schleswig-Holstein
+      träger: ""
+      email: ""
+      telefon: ""
+      website: http://www.rbt-sh.de/
+      unterberatungsstellen:
+        - 
+          titel: Regionales Beratungsteam Flensburg
+          email: flensburg@rbt-sh.de
+          telefon: 0461 48065160
+          website: ""
+        - 
+          titel: Regionales Beratungsteam Kiel
+          email: kiel@rbt-sh.de
+          telefon: >
+            0431 99049505 (AWO) und 0431 2606873
+            (AKJS)
+          website: ""
+        - 
+          titel: Regionales Beratungsteam Itzehoe
+          email: itzehoe@rbt-sh.de
+          telefon: "048217796012"
+          website: ""
+        - 
+          titel: Regionales Beratungsteam Lübeck
+          email: luebeck@rbt-sh.de
+          telefon: "045129690995"
+          website: ""
+    - 
+      titel: 'ZEBRA - Zentrum für Betroffene rechter Angriffe'
+      träger: ""
+      email: info@zebraev.de
+      telefon: "043130140379"
+      website: https://www.zebraev.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'KAST - Ausstiegs- und Distanzierungsberatung'
+      träger: ""
+      email: team@kast-sh.de
+      telefon: 0170 5494484
+      website: >
+        https://www.landesdemokratiezentrum-sh.de/themen/extremismus-bekaempfen/rechtsextremismus/ausstiegs-und-distanzierungsberatung
+      unterberatungsstellen: [ ]
+
+----
+
+Bundesweit: 
+
+----
+
+Template:
+
+beratungsangebot
+Title: Beratungsangebot
+
+----
+
+Uuid: 025J8XAtvDUFYS0L

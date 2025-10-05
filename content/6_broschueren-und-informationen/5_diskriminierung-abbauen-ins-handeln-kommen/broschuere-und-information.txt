@@ -1,0 +1,61 @@
+Title: Diskriminierung abbauen – ins Handeln kommen
+
+----
+
+Page-title: Diskriminierung abbauen – ins Handeln kommen. Eine Handreichung für Ausbildungs- verantwortliche und Lehrkräfte
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Diskriminierung abbauen – ins Handeln
+    kommen
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    https://www.netzwerk-courage.de/angebot/diskriminierung-abbauen-ins-handeln-kommen/
+  external_link: >
+    https://www.netzwerk-courage.de/angebot/diskriminierung-abbauen-ins-handeln-kommen/
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Die Broschüre zeigt, wie Ausbildende und Lehrkräfte Vielfalt fördern und Diskriminierung abbauen können – mit praktischen Beispielen für Unterricht und Betrieb sowie einem 7-Schritte-Plan für couragiertes Eingreifen bei Vorfällen.
+
+----
+
+Publisher: Courage – Werkstatt für demokratische Bildungsarbeit e.V.
+
+----
+
+Year: 2024
+
+----
+
+Uuid: Xk8PNvF2zVSqkliw

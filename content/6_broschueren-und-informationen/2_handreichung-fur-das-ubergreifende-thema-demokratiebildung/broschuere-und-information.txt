@@ -1,0 +1,62 @@
+Title: Handreichung für das übergreifende Thema Demokratiebildung
+
+----
+
+Page-title: Handreichung für das übergreifende Thema Demokratiebildung
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Handreichung für das übergreifende
+    Thema Demokratiebildung
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    Handreichung für das übergreifende
+    Thema Demokratiebildung
+  external_link: >
+    https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/themen/Demokratiebildung/Schulentwicklung_Demokratie/2023-02-01_HR-Demokratiebildung.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Die Handreichung unterstützt Schulen in Berlin-Brandenburg bei der systematischen Umsetzung von Demokratiebildung. Sie bietet fachbezogene Praxisbeispiele, betont Partizipation, Anerkennungskultur und Grundrechtsklarheit – für eine demokratische Schul- und Unterrichtsentwicklung.
+
+----
+
+Publisher: Landesinstitut für Schule und Medien Berlin-Brandenburg (LISUM)
+
+----
+
+Year: 2023
+
+----
+
+Uuid: EWFyMdS8gamZe6rs

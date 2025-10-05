@@ -1,0 +1,31 @@
+name: Footer
+title: Footer
+
+fields:
+  sender:
+    label: Absender
+    type: textarea
+    buttons:
+      - link
+    translate: true
+
+  logos:
+    label: Logos
+    type: structure
+    fields:
+      logo_title:
+        label: kleiner Text unter dem Logo
+        type: text
+        required: false
+
+      logo_file:
+        label: Logo-Datei (JPG, PNG, PDF)
+        type: files
+        required: true
+        multiple: true
+        uploads:
+          - mime: image/jpeg
+          - mime: image/png
+          - mime: application/pdf
+        image: true
+        layout: cards

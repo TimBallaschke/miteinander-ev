@@ -1,0 +1,61 @@
+Title: Rechtsextremismus und Schule
+
+----
+
+Page-title: Rechtsextremismus und Schule
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Themenheft "Rechtsextremismus und
+    Schule"
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    https://www.schule-ohne-rassismus.org/produkt/themenheft-rechtsextremismus-schule/
+  external_link: >
+    https://www.schule-ohne-rassismus.org/produkt/themenheft-rechtsextremismus-schule/
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Das Themenheft „Rechtsextremismus & Schule“ von Schule ohne Rassismus – Schule mit Courage analysiert aktuelle rechte Strategien und deren Einfluss auf Schulen. Es bietet fundierte Einblicke, Praxisbeispiele und zeigt Wege für demokratisches Engagement und klare Haltung im Schulalltag.
+
+----
+
+Publisher: Schule ohne Rassismus – Schule mit Courage
+
+----
+
+Year: 2024
+
+----
+
+Uuid: p67c8vly7Zr4mog6

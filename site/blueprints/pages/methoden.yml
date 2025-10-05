@@ -1,0 +1,8 @@
+name: Methoden
+title: Methoden
+sections:
+  children:
+    label: Methoden
+    type: pages
+    template: methode
+

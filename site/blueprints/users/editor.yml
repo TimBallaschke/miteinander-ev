@@ -1,0 +1,15 @@
+title: Editor
+description: "Ein Editor kann das Panel nutzen und Inhalte bearbeiten, aber keine Einstellungen ändern."
+permissions:
+  access:
+    panel: true
+  site:
+    update: false
+  users:
+    create: false
+    update: false
+    delete: false
+  languages:
+    create: false
+    update: false
+    delete: false

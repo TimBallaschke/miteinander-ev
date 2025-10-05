@@ -1,0 +1,49 @@
+Title: Eine Broschüre über Rechtsextremismus als Thema in der Jugendhilfe
+
+----
+
+Page-title: Eine Broschüre über Rechtsextremismus als Thema in der Jugendhilfe
+
+----
+
+Upload-or-link: pdf
+
+----
+
+Pdf-title: Eine Broschüre über Rechtsextremismus als Thema in der Jugendhilfe
+
+----
+
+Pdf-upload: - file://cSXzBmisEHf1wzR0
+
+----
+
+Related-posts: 
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Die Broschüre beleuchtet die Spannungsfelder und Dilemmata, denen Fachkräfte in der Jugendhilfe begegnen wenn es zu rechtsextremen Vorfällen kommt - von strafrechtlich relevaten Fällen, Grenzen und Chancen sozialarbeiterischen Interventionen bis hin zu Fragen von Kindeswohlgefährdung. Sie liefert Praxiserfahrungen und konkrete Impulse für Handlungsoptionen.
+
+----
+
+Publisher: Projekt ElternStärken
+
+----
+
+Year: 2020
+
+----
+
+Uuid: C3I7jmZT4APmiViE

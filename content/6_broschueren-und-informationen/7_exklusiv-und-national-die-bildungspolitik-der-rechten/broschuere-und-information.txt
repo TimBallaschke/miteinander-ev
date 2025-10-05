@@ -1,0 +1,59 @@
+Title: Exklusiv und national ‐ die Bildungspolitik der Rechten
+
+----
+
+Page-title: Exklusiv und national ‐ die Bildungspolitik der Rechten
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: Exklusiv und national
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    https://www.gew.de/aktuelles/detailseite/exklusiv-und-national-die-bildungspolitik-der-rechten
+  external_link: >
+    https://www.gew.de/aktuelles/detailseite/exklusiv-und-national-die-bildungspolitik-der-rechten
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Der Artikel zeigt, dass die AfD eine exklusive, autoritäre Schule will: Migranten sollen ausgegrenzt, Inklusion und politische Bildung abgelehnt, Lehrkräfte eingeschüchtert werden. Die GEW zeigt wie eine AfD-Regierungsbeteiligung Demokratie und Vielfalt im Bildungssystem gefährdet.
+
+----
+
+Publisher: GEW
+
+----
+
+Year: 2024
+
+----
+
+Uuid: nsHXf2EOrLybN9d7

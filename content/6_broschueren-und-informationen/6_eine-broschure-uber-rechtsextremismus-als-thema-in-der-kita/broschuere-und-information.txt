@@ -1,0 +1,49 @@
+Title: Eine Broschüre über Rechtsextremismus als Thema in der Kita
+
+----
+
+Page-title: Eine Broschüre über Rechtsextremismus als Thema in der Kita
+
+----
+
+Upload-or-link: pdf
+
+----
+
+Pdf-title: Eine Broschüre über Rechtsextremismus als Thema in der Kita
+
+----
+
+Pdf-upload: - file://qwIO7G88mNt9IiWp
+
+----
+
+Related-posts: 
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: kita
+
+----
+
+Intro-text: Die Broschüre beleuchtet rechtsextreme Einflussversuche in Kitas und zeigt anhand von Fallbeispielen, wie sich rechtsextreme Erziehungsstile und Ideologien äußern. Sie gibt Fachkräften Impulse für den Umgang mit Eltern, Kindern und Teams – zwischen Schutz, Dialog und klarer Haltung.
+
+----
+
+Publisher: ElternStärken
+
+----
+
+Year: 2015
+
+----
+
+Uuid: z2ZMPwkIGAxQGcL2

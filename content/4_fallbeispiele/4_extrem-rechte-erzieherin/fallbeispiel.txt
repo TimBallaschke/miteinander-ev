@@ -1,0 +1,210 @@
+Title: Extrem rechte Erzieherin
+
+----
+
+Page-title: Extrem rechte Erzieherin in der Kita
+
+----
+
+Flow-text-1:
+
+Im Briefkasten einer Kita werden „Outing-Flyer“ gefunden, in denen eine Erzieherin der Kita als Teil einer rechtsextremen Gruppe sichtbar gemacht wird, die regelmäßig gegen marginalisierte Gruppen hetzt und politische Gegner:innen bedroht. Die Erzieherin ist in der Kita bisher nicht besonders aufgefallen und wird von Kolleg:innen im Umgang mit den Kindern als „liebevoll“ beschrieben.
+
+Als Reaktion auf den Flyer beschweren sich einige Eltern bei der Kita-Leitung. Sie seien insbesondere um das Wohl ihrer Kinder und darüber besorgt, dass die Erzieherin Zugriff auf ihre persönlichen Daten habe. Die Kita-Leitung nimmt die Erzieherin mit der Begründung in Schutz, dass diese in ihrer Freizeit tun und lassen könne, was sie wolle, solange sich dies nicht negativ auf ihre Arbeit auswirke. Wenig später stellt sich heraus, dass die Leitung schon seit längerer Zeit über die politische Aktivität der Erzieherin im Bilde war. Anschließend wird in sozialen Netzwerken ein Video geteilt, in dem zu sehen ist, wie die Erzieherin bei einer Demonstration auf jemanden einschlägt.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"00b8574a-8466-43fe-ad93-d9d5a54ba9c0","isHidden":false,"type":"heading"},{"content":{"text":"<p>Durch die Teilnahme an den neonazistischen Demonstrationen und das gewalttätige Verhalten muss bei der Erzieherin von einem gefestigten rechtsextremen Weltbild ausgegangen werden.</p><p>Ein rechtsextremes Weltbild kann während der Arbeitszeit nicht einfach abgelegt werden, sondern wirkt in die pädagogischen Tätigkeiten hinein.</p><p>Dies widerspricht den unter anderem im (link: <a href=\"https://ms.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MS/MS/4_KifoeG/Kinderfoerderungsgesetz__bf.pdf\">https://ms.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MS/MS/4_KifoeG/Kinderfoerderungsgesetz__bf.pdf</a> text: Kitafördergesetz des Landes Sachsen-Anhalt )gesetzlich festgelegten Aufgaben einer Tageseinrichtung: „Sie sollen insbesondere den Erwerb sozialer Kompetenzen, wie Selbständigkeit, Verantwortungsbereitschaft und Gemeinschaftsfähigkeit, Toleranz und Akzeptanz gegenüber anderen Menschen, Kulturen und Lebensweisen, interkulturelle Kompetenz und Sensibilität […] fördern.“</p><p>Insbesondere der Schutz der Kinder, die von Diskriminierung betroffen sein können, ist hier nicht mehr gewährleistet.</p><p>Die Kommunikation vonseiten der Kita-Leitung war sehr intransparent.</p>"},"id":"1612d78c-2f62-409f-a2d9-77ae6c30a634","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"e52c7a6e-51ef-4bdd-9e2b-1339f3b3da28","isHidden":false,"type":"heading"},{"content":{"text":"<p>Die Sorgen der Eltern ernst nehmen und klar kommunizieren, wie diesen begegnet wird und wie genau der weitere Klärungsprozess aussehen soll. Mögliche Schritte wären die Einbeziehung des Elternrats, ein Elternabend und das Verfassen einer Elterninformation.</p><p>Priorität haben das Wohl der Kinder und die Sorge der Eltern. Bis zur weiteren Klärung sollte die Erzieherin aus der Gruppe genommen werden.</p><p>Die Kinder in dem Prozess kindgerecht begleiten</p><p>Transparente Kommunikation zum weiteren Umgang braucht es auch für die weiteren Mitarbeiter:innen: Möglichkeit einer Supervision anbieten</p><p>In einem Personalgespräch mit der betreffenden Erzieherin klar die Unvereinbarkeit von rechtsextremer Gesinnung und der erzieherischen Tätigkeit herausstellen</p><ul><li><p>Zeigt die Erzieherin keine Einsicht, können eine Abmahnung und ggf. weitere arbeitsrechtliche Schritte eingeleitet werden. Dazu ist es unbedingt notwendig, sich im Vorfeld juristischen Beistand einzuholen.</p></li></ul><p>Die Kita sollte sich Unterstützung sowohl beim Träger als auch bei Beratungsstellen holen, die zum Thema Diskriminierung und Rechtsextremismus im Kontext Kita (Link KER) arbeiten.</p><p>Im Nachgang des Falls können weitere präventive Maßnahmen angeschlossen werden:</p><ul><li><p>Fortbildung zum Umgang mit Diskriminierung und Rechtsextremismus im Kontext Kita für Leitung und Mitarbeiter:innen</p></li><li><p>Gemeinsam mit den Mitarbeiter:innen ein Leitbild und eine Kitakonzeption entwickeln, in denen die Themen Vielfalt und Diskriminierungssensibilität explizit verankert werden</p></li><li><p>Kindgerechte Besprechung der Themen Vielfalt und Diversität in den Kitagruppen</p></li><li><p>Überarbeitung der Hausordnung zum Ausschluss diskriminierender Verhaltensverweisen und rechter Symbolik</p></li></ul>"},"id":"e52dea19-34ed-4df0-864a-36accbb4f651","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: 'Demokratie ist (k)ein Kindergeburtstag - Handreichung für Kindertagesstätten im Umgang mit Rechtsextremismus'
+  internal_link:
+    - page://AOAcEiHMGZHukjnj
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Ich gehöre hier hin, wo wie ich bin
+  internal_link:
+    - page://WS3I3F4f7c4OyAnF
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Eine Broschüre über Rechtsextremismus
+    als Thema in der Kita
+  internal_link:
+    - page://z2ZMPwkIGAxQGcL2
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: 'Demokratie & Vielfalt - Alle inklusive? Der KiTa-Podcast'
+  internal_link:
+    - page://tttRn8AVGa2YSWRJ
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Wer kommt denn da sein Kind abholen?
+  internal_link:
+    - page://9s7BU07fL30B9uPF
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: kita
+
+----
+
+Intro-text: In dem Fall geht es um eine Erzieherin in einer Kita, die sich als Teil einer rechtsextremen Gruppe entpuppt. Darauf beschweren sich Eltern. Die Kita-Leitung verteidigt sie, bis ein Video auftaucht, das zeigt, wie sie bei einer Demo jemanden schlägt.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Durch die Teilnahme an den
+        neonazistischen Demonstrationen und das
+        gewalttätige Verhalten muss bei der
+        Erzieherin von einem gefestigten
+        rechtsextremen Weltbild ausgegangen
+        werden.
+      highlight: 'false'
+    - 
+      text: >
+        Ein rechtsextremes Weltbild kann
+        während der Arbeitszeit nicht einfach
+        abgelegt werden, sondern wirkt in die
+        pädagogischen Tätigkeiten hinein.
+      highlight: 'false'
+    - 
+      text: 'Dies widerspricht den unter anderem im (link: https://ms.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MS/MS/4_KifoeG/Kinderfoerderungsgesetz__bf.pdf text: Kitafördergesetz des Landes Sachsen-Anhalt )gesetzlich festgelegten Aufgaben einer Tageseinrichtung: „Sie sollen insbesondere den Erwerb sozialer Kompetenzen, wie Selbständigkeit, Verantwortungsbereitschaft und Gemeinschaftsfähigkeit, Toleranz und Akzeptanz gegenüber anderen Menschen, Kulturen und Lebensweisen, interkulturelle Kompetenz und Sensibilität […] fördern.“'
+      highlight: 'false'
+    - 
+      text: >
+        Insbesondere der Schutz der Kinder, die
+        von Diskriminierung betroffen sein
+        können, ist hier nicht mehr
+        gewährleistet.
+      highlight: 'false'
+    - 
+      text: >
+        Die Kommunikation vonseiten der
+        Kita-Leitung war sehr intransparent.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: >
+        Die Sorgen der Eltern ernst nehmen und
+        klar kommunizieren, wie diesen begegnet
+        wird und wie genau der weitere
+        Klärungsprozess aussehen soll.
+        Mögliche Schritte wären die
+        Einbeziehung des Elternrats, ein
+        Elternabend und das Verfassen einer
+        Elterninformation.
+      highlight: 'false'
+    - 
+      text: >
+        Priorität haben das Wohl der Kinder und
+        die Sorge der Eltern. Bis zur weiteren
+        Klärung sollte die Erzieherin aus der
+        Gruppe genommen werden.
+      highlight: 'false'
+    - 
+      text: >
+        Die Kinder in dem Prozess kindgerecht
+        begleiten
+      highlight: 'false'
+    - 
+      text: 'Transparente Kommunikation zum weiteren Umgang braucht es auch für die weiteren Mitarbeiter:innen: Möglichkeit einer Supervision anbieten'
+      highlight: 'false'
+    - 
+      text: >
+        In einem Personalgespräch mit der
+        betreffenden Erzieherin klar die
+        Unvereinbarkeit von rechtsextremer
+        Gesinnung und der erzieherischen
+        Tätigkeit herausstellen
+      highlight: 'false'
+    - 
+      text: >
+        Zeigt die Erzieherin keine Einsicht,
+        können eine Abmahnung und ggf. weitere
+        arbeitsrechtliche Schritte eingeleitet
+        werden. Dazu ist es unbedingt notwendig,
+        sich im Vorfeld juristischen Beistand
+        einzuholen.
+      highlight: 'true'
+    - 
+      text: >
+        Die Kita sollte sich Unterstützung
+        sowohl beim Träger als auch bei
+        Beratungsstellen holen, die zum Thema
+        Diskriminierung und Rechtsextremismus im
+        Kontext Kita (Link KER) arbeiten.
+      highlight: 'false'
+    - 
+      text: 'Im Nachgang des Falls können weitere präventive Maßnahmen angeschlossen werden:'
+      highlight: 'false'
+    - 
+      text: >
+        Fortbildung zum Umgang mit
+        Diskriminierung und Rechtsextremismus im
+        Kontext Kita für Leitung und
+        Mitarbeiter:innen
+      highlight: 'true'
+    - 
+      text: >
+        Gemeinsam mit den Mitarbeiter:innen ein
+        Leitbild und eine Kitakonzeption
+        entwickeln, in denen die Themen Vielfalt
+        und Diskriminierungssensibilität
+        explizit verankert werden
+      highlight: 'true'
+    - 
+      text: >
+        Kindgerechte Besprechung der Themen
+        Vielfalt und Diversität in den
+        Kitagruppen
+      highlight: 'true'
+    - 
+      text: >
+        Überarbeitung der Hausordnung zum
+        Ausschluss diskriminierender
+        Verhaltensverweisen und rechter Symbolik
+      highlight: 'true'
+
+----
+
+Uuid: uGFnKoGJtHnB6F2F

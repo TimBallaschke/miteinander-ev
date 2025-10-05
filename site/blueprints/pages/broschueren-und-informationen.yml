@@ -1,0 +1,9 @@
+name: Broschüren und Informationen
+title: Broschüren und Informationen
+create: broschuere-und-information
+
+sections:
+  children:
+    label: Broschüren und Informationen Einträge
+    type: pages
+    template: broschuere-und-information

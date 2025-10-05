@@ -1,0 +1,58 @@
+Title: Warum wir nicht neutral sein dürfen
+
+----
+
+Page-title: Warum wir nicht neutral sein dürfen - Eine Handreichung für Ausbildungs- verantwortliche und Lehrkräfte
+
+----
+
+Upload-or-link: pdf
+
+----
+
+Pdf-title: handreichungSKA2_NichtNeutral_SAX
+
+----
+
+Pdf-upload: - file://srwxqG1XiJfSdEW5
+
+----
+
+Related-posts:
+
+- 
+  title: Warum wir nicht neutral sein dürfen
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Warum wir nicht neutral sein dürfen
+  external_link: >
+    https://www.netzwerk-courage.de/wp-content/uploads/2024/12/handreichungSKA2_NichtNeutral_SAX.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Die Broschüre erklärt, warum Schulen nicht politisch neutral sein dürfen: Demokratie, Menschenrechte und Vielfalt sind Grundwerte, die aktiv verteidigt werden müssen. Lehrkräfte sollen klar gegen Diskriminierung Stellung beziehen – ohne dabei zu indoktrinieren.
+
+----
+
+Publisher: Courage – Werkstatt für demokratische Bildungsarbeit e.V.
+
+----
+
+Year: 2024
+
+----
+
+Uuid: iPqHkR9ViyWb0VFB

@@ -1,0 +1,35 @@
+Title: Footer
+
+----
+
+Sender: 
+
+----
+
+Logos:
+
+- 
+  logo_title: ""
+  logo_file:
+    - file://rittMAqCCUlSYK39
+- 
+  logo_title: >
+    Die Veröffentlichung stellt keine
+    Meinungsäußerung des BMBFSFJ oder des
+    BAFzA dar. Für inhaltliche Aussagen
+    tragen die Autorinnen und Autoren die
+    Verantwortung.
+  logo_file:
+    - file://Cl87eJmgiykqzEdm
+- 
+  logo_title: ""
+  logo_file:
+    - file://Lhdr5cRNW6uQNe9C
+
+----
+
+Template: footer
+
+----
+
+Uuid: TSBecUbS9V0rVlra
