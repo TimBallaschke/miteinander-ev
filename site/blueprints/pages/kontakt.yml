@@ -17,7 +17,6 @@ columns:
       projekt_1_name:
         label: Projektname
         type: text
-        required: true
 
       projekt_1_adresse:
         label: Adresse
@@ -64,7 +63,6 @@ columns:
       projekt_2_name:
         label: Projektname (Magdeburg)
         type: text
-        required: true
 
       projekt_2_adresse:
         label: Adresse
