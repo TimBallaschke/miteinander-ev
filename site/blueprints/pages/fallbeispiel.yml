@@ -9,6 +9,15 @@ columns:
         type: text
         required: true
 
+      disclaimer:
+        label: Disclaimer 
+        type: textarea
+        size: small
+        translate: true
+        buttons:
+          - italic
+          - link
+
       flow_text_1:
         label: Fließtext 
         type: textarea

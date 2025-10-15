@@ -1,0 +1,107 @@
+name: Kontakt
+title: Kontakt
+
+columns:
+  - width: 1/1
+    fields:
+      flow_text:
+        label: Fließtext
+        type: textarea
+        size: medium
+        translate: true
+        buttons:
+          - italic
+          - link
+  - width: 1/2
+    fields:
+      projekt_1_name:
+        label: Projektname
+        type: text
+        required: true
+
+      projekt_1_adresse:
+        label: Adresse
+        type: textarea
+        size: small
+        buttons: false
+
+      projekt_1_emails:
+        label: E-Mails
+        type: structure
+        fields:
+          email:
+            label: E-Mail
+            type: email
+            required: true
+
+      projekt_1_website:
+        label: Website
+        type: url
+
+      projekt_1_socials:
+        label: Social Media
+        type: structure
+        fields:
+          plattform:
+            label: Plattform
+            type: select
+            options:
+              facebook: Facebook
+              twitter: Twitter / X
+              instagram: Instagram
+              linkedin: LinkedIn
+              youtube: YouTube
+              mastodon: Mastodon
+              andere: Andere
+
+          url:
+            label: URL
+            type: url
+            required: true
+
+  - width: 1/2
+    fields:
+      projekt_2_name:
+        label: Projektname (Magdeburg)
+        type: text
+        required: true
+
+      projekt_2_adresse:
+        label: Adresse
+        type: textarea
+        size: small
+        buttons: false
+
+      projekt_2_emails:
+        label: E-Mails
+        type: structure
+        fields:
+          email:
+            label: E-Mail
+            type: email
+            required: true
+
+      projekt_2_website:
+        label: Website
+        type: url
+
+      projekt_2_socials:
+        label: Social Media
+        type: structure
+        fields:
+          plattform:
+            label: Plattform
+            type: select
+            options:
+              facebook: Facebook
+              twitter: Twitter / X
+              instagram: Instagram
+              linkedin: LinkedIn
+              youtube: YouTube
+              mastodon: Mastodon
+              andere: Andere
+
+          url:
+            label: URL
+            type: url
+            required: true

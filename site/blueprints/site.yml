@@ -10,6 +10,7 @@ columns:
         templates:
           - information
           - beratungsangebot
+          - kontakt
           - impressum-und-datenschutz
           - startseite
           - footer
