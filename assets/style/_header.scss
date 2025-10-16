@@ -218,12 +218,10 @@
     pointer-events: none;
     cursor: pointer;
     transition: var(--transition-s);
-    transform: rotate(45deg);
 
     .scrolled & {
         opacity: 1;
         pointer-events: auto;
-        transform: rotate(0deg);
     }
 }
 

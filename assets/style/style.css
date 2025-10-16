@@ -462,12 +462,10 @@ body {
   pointer-events: none;
   cursor: pointer;
   transition: var(--transition-s);
-  transform: rotate(45deg);
 }
 .scrolled .top-menu-plus {
   opacity: 1;
   pointer-events: auto;
-  transform: rotate(0deg);
 }
 
 .plus-line-horizontal {

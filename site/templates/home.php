@@ -15,6 +15,7 @@
     searchQuery: '',
     isScrolled: false,
     scrollThreshold: 0,
+    menuUnfolded: false,
     init() {
         this.$watch('audience', (value) => {
             if (value === 'teacher') {
