@@ -1,6 +1,6 @@
 <div id="sidebar">
-    <div id="top-menu">
-        <?php snippet('menu-item', ['label' => 'Inhalte']) ?>
+    <div id="top-menu" :class="{ 'scrolled': isScrolled }">
+        <?php snippet('menu-item', ['label' => 'Inhalte', 'active' => true]) ?>
         <?php snippet('menu-item', ['label' => 'Informationen']) ?>
         <?php snippet('menu-item', ['label' => 'Beratungsangebote']) ?>
         <?php snippet('menu-item', ['label' => 'Kontakt']) ?>

@@ -296,7 +296,7 @@ body {
   width: var(--main-width);
   display: flex;
   align-items: center;
-  height: var(--top-menu-element-height);
+  height: calc(var(--top-menu-element-height) - 1px);
   transition: var(--transition-s);
   transform: translateY(-100%);
 }
@@ -357,6 +357,8 @@ body {
   padding-left: var(--page-padding);
   height: var(--top-menu-element-height);
   border-bottom: solid 1px white;
+  overflow: hidden;
+  transition: var(--transition-s);
 }
 .top-menu-element-container:hover .top-menu-element {
   transform: translateX(0);
@@ -367,11 +369,33 @@ body {
   opacity: 1;
   transform: translateY(0.15rem) scale(1);
 }
+.top-menu-element-container.active .top-menu-element {
+  transform: translateX(0);
+}
+.top-menu-element-container.active .top-menu-element::before {
+  height: 1.6rem;
+  width: 1.6rem;
+  opacity: 1;
+  transform: translateY(0.15rem) scale(1);
+}
+.scrolled .top-menu-element-container {
+  height: 0;
+}
+.scrolled .top-menu-element-container .top-menu-element {
+  opacity: 0;
+}
+.scrolled .top-menu-element-container.active {
+  height: var(--top-menu-element-height);
+}
+.scrolled .top-menu-element-container.active .top-menu-element {
+  opacity: 1;
+}
 
 .top-menu-element {
   transform: translateX(-2.2rem);
-  transition: all 0.3s ease;
+  transition: var(--transition-s);
   cursor: pointer;
+  opacity: 1;
 }
 .top-menu-element::before {
   content: "";
