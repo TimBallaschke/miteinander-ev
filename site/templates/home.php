@@ -43,7 +43,7 @@
         });
     }
 }" 
-@scroll.window="isScrolled = (window.pageYOffset > scrollThreshold)">
+@scroll.window="isScrolled = (window.pageYOffset > 0)">
     <?php
     // Calculate tag counts before rendering sidebar
     $fallbeispiele = page('fallbeispiele')?->children()->listed();

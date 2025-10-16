@@ -6,15 +6,15 @@
         <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
             <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
         </div>
-        <div id="list-view-header-container">
+        <!-- <div id="list-view-header-container">
             <div id="list-view-header">
                 <div class="list-view-header-item">Titel</div>
                 <div class="list-view-header-item">Herausgeber*in</div>
                 <div class="list-view-header-item">Zielgruppe & Art des Inhalts</div>
             </div>
-        </div>
+        </div> -->
     </div>
-    <div id="content" :class="view">
+    <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
         <?php 
         // Get all articles from the three main sections
         $fallbeispiele = page('fallbeispiele')?->children()->listed();

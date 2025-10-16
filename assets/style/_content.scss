@@ -22,6 +22,10 @@
         flex-direction: column;
         padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding) + var(--search-bar-container-height));
     }
+
+    &.scrolled {
+        padding-top: calc(var(--top-menu-element-height) * 2 + var(--page-padding));
+    }
 }
 
 

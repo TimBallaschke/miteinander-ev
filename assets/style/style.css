@@ -60,6 +60,9 @@ body {
   flex-direction: column;
   padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding) + var(--search-bar-container-height));
 }
+#content.scrolled {
+  padding-top: calc(var(--top-menu-element-height) * 2 + var(--page-padding));
+}
 
 @font-face {
   font-family: "Monument";
@@ -259,7 +262,7 @@ body {
 }
 
 #website-title-container {
-  position: relative;
+  position: fixed;
   top: 0;
   right: 0;
   width: var(--main-width);
@@ -274,7 +277,9 @@ body {
   z-index: 2;
   transition: var(--transition-s);
   transform: translateY(0);
-  transition-delay: 0.3s;
+}
+#website-title-container.scrolled {
+  transform: translateY(-100%);
 }
 
 #website-title {
@@ -289,7 +294,6 @@ body {
   color: white;
   font-size: 2rem;
   width: var(--main-width);
-  border-bottom: solid 1px white;
   display: flex;
   align-items: center;
   height: var(--top-menu-element-height);
@@ -298,7 +302,7 @@ body {
 }
 #website-title-container-small.scrolled {
   transform: translateY(0);
-  transition-delay: 0.5s;
+  transition-delay: 0.2s;
 }
 
 #website-title-small {

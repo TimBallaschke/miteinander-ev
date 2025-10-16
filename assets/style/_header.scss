@@ -1,5 +1,5 @@
 #website-title-container {
-    position: relative;
+    position: fixed;
     top: 0;
     right: 0;
     width: var(--main-width);
@@ -14,11 +14,10 @@
     z-index: 2;
     transition: var(--transition-s);
     transform: translateY(0);
-    transition-delay: 0.3s;
 
-    // &.scrolled {
-    //     transform: translateY(-100%);
-    // }
+    &.scrolled {
+        transform: translateY(-100%);
+    }
 }
 
 #website-title {
@@ -33,7 +32,7 @@
     color: white;
     font-size: 2rem;
     width: var(--main-width);
-    border-bottom: solid 1px white;
+    // border-bottom: solid 1px white;
     display: flex;
     align-items: center;
     height: var(--top-menu-element-height);
@@ -42,7 +41,7 @@
 
     &.scrolled {
         transform: translateY(0);
-        transition-delay: 0.5s;
+        transition-delay: 0.2s;
     }
 }
 
