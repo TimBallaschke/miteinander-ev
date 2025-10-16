@@ -1,9 +1,15 @@
 <div id="sidebar">
     <div id="top-menu" :class="{ 'scrolled': isScrolled }">
-        <?php snippet('menu-item', ['label' => 'Inhalte', 'active' => true]) ?>
-        <?php snippet('menu-item', ['label' => 'Informationen']) ?>
-        <?php snippet('menu-item', ['label' => 'Beratungsangebote']) ?>
-        <?php snippet('menu-item', ['label' => 'Kontakt']) ?>
+        <div id="top-menu-content">
+            <?php snippet('menu-item', ['label' => 'Inhalte', 'active' => true]) ?>
+            <?php snippet('menu-item', ['label' => 'Informationen']) ?>
+            <?php snippet('menu-item', ['label' => 'Beratungsangebote']) ?>
+            <?php snippet('menu-item', ['label' => 'Kontakt']) ?>
+            <div class="top-menu-plus">
+                <div class="plus-line-horizontal"></div>
+                <div class="plus-line-vertical"></div>
+            </div>
+        </div>
     </div>
     <div id="sidebar-content" :class="{ 'scrolled': isScrolled }">
         <div id="sidebar-search">
