@@ -16,6 +16,7 @@
     isScrolled: false,
     scrollThreshold: 0,
     menuUnfolded: false,
+    introTextUnfolded: false,
     init() {
         this.$watch('audience', (value) => {
             if (value === 'teacher') {

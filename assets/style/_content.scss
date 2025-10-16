@@ -6,25 +6,85 @@
 }
 
 #content {
-    padding-left: var(--page-padding);
-    padding-right: var(--page-padding);
     width: 100%;
     transition: var(--transition-s);
 
     &.grid {
-        column-count: 2;
-        column-gap: var(--page-padding);
         padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding));
     }
 
     &.list {
-        display: flex;
-        flex-direction: column;
         padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding) + var(--search-bar-container-height));
     }
 
     &.scrolled {
         padding-top: calc(var(--top-menu-element-height) * 2 + var(--page-padding));
+    }
+}
+
+#intro-text {
+    font-size: var(--regular-font-size-large);
+    line-height: var(--regular-line-height-large);
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+    padding-bottom: var(--page-padding);
+    border-bottom: solid 1px black;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    p {
+        width: 90%;
+    }
+
+    .intro-text-plus {
+        width: 1.6rem;
+        height: 1.6rem;
+        position: absolute;
+        right: var(--page-padding);
+        top: 0.2rem;
+        cursor: pointer;
+        transition: var(--transition-s);
+    }
+
+    &.unfolded .intro-text-plus {
+        transform: rotate(45deg);
+    }
+    
+    .plus-line-horizontal {
+        width: 100%;
+        height: 0;
+        border-top: solid 1px black;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    
+    .plus-line-vertical {
+        width: 0;
+        height: 100%;
+        border-right: solid 1px black;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+#article-overview {
+    padding-top: var(--page-padding);
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+
+    &.grid {
+        column-count: 2;
+        column-gap: var(--page-padding);
+    }
+
+    &.list {
+        display: flex;
+        flex-direction: column;
     }
 }
 
