@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <div id="sidebar-content" :class="{ 'scrolled': isScrolled }">
+    <div id="sidebar-content" :class="{ 'scrolled': isScrolled, 'menu-unfolded': menuUnfolded }">
         <div id="sidebar-search">
             <input id="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
         </div>

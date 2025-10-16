@@ -184,6 +184,15 @@
             }
         }
     }
+
+    .scrolled.menu-unfolded & {
+        height: var(--top-menu-element-height);
+        border-bottom: solid 1px white;
+
+        .top-menu-element {
+            opacity: 1;
+        }
+    }
 }
 
 .top-menu-element {
@@ -221,6 +230,11 @@
 
     .scrolled & {
         opacity: 1;
+        pointer-events: auto;
+    }
+
+    .menu-unfolded & {
+        transform: rotate(45deg);
         pointer-events: auto;
     }
 }
