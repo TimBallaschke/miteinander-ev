@@ -34,7 +34,7 @@
     width: var(--main-width);
     display: flex;
     align-items: center;
-    height: calc(var(--top-menu-element-height) - 1px);
+    height: calc(var(--top-menu-element-height));
     transition: var(--transition-s);
     transform: translateY(-100%);
 
@@ -48,7 +48,7 @@
     padding-left: var(--page-padding);
 }
 
-#list-view-header-container {
+.list-view-header-container {
     position: fixed;
     top: calc(var(--top-menu-element-height) * 4);
     right: 0;
@@ -65,18 +65,46 @@
     transition: var(--transition-s);
     border-bottom: solid 1px black;
 
+    #header-main-large & {
+        top: calc(var(--top-menu-element-height) * 4);
 
-    .grid & {
-        transform: translateY(-100%);
+        .grid & {
+            transform: translateY(calc(var(--top-menu-element-height) * (-4) - var(--search-bar-container-height)));
+        }
+
+        .list & {
+            transform: translateY(0);
+        }
+
+        &.scrolled {
+            .list & {
+                transform: translateY(calc(var(--top-menu-element-height) * (-4) - var(--search-bar-container-height)));
+            }
+        }
     }
 
-    .list & {
-        transform: translateY(0);
-    }
+    #header-main-small & {
+        top: calc(var(--top-menu-element-height) * 1);
+        border-top: solid 1px white;
 
+        .grid & {
+            transform: translateY(calc(var(--top-menu-element-height) * (-1) - var(--search-bar-container-height)));
+        }
+
+        .list & {
+            transform: translateY(calc(var(--top-menu-element-height) * (-1) - var(--search-bar-container-height)));
+        }
+
+        &.scrolled {
+            .list & {
+                transform: translateY(0);
+                transition-delay: 0.2s;
+            }
+        }
+    }
 }
 
-#list-view-header {
+.list-view-header {
     display: grid;
     grid-template-columns: 2fr 2fr 5fr;
     column-gap: var(--page-padding);
@@ -94,7 +122,10 @@
     font-size: 2rem;
     border-right: solid 1px white;
     z-index: 100;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--sidebar-width);
 
 }
 
@@ -133,6 +164,7 @@
 
     .scrolled &  {
         height: 0;
+        border-bottom: none;
 
         .top-menu-element {
             opacity: 0;

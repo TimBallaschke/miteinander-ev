@@ -1,18 +1,17 @@
 <div id="main" :class="view">
     <div id="header-main">
-        <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
-            <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
-        </div>
-        <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
-            <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
-        </div>
-        <!-- <div id="list-view-header-container">
-            <div id="list-view-header">
-                <div class="list-view-header-item">Titel</div>
-                <div class="list-view-header-item">Herausgeber*in</div>
-                <div class="list-view-header-item">Zielgruppe & Art des Inhalts</div>
+        <div id="header-main-large" :class="{ 'scrolled': isScrolled }">
+            <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
+                <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
             </div>
-        </div> -->
+            <?php snippet('list-view-header') ?>
+        </div>
+        <div id="header-main-small" :class="{ 'scrolled': isScrolled }">
+            <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
+                <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
+            </div>
+            <?php snippet('list-view-header') ?>
+        </div>
     </div>
     <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
         <?php 
