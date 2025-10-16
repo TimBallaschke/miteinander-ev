@@ -1,9 +1,23 @@
+.article-container-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .article-container {
     background-color: #E8E8E8;
+    color: black;
     padding: var(--page-padding);
     margin-bottom: var(--page-padding);
     border-radius: 0.5rem;
     break-inside: avoid;
+    transition: var(--transition-s);
+    cursor: pointer;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
 
     .list & {
         display: grid;
@@ -97,6 +111,7 @@
     border-radius: var(--small-mono-border-radius);
     margin-right: 0.1rem;
     margin-top: 0.4rem;
+    color: black;
 
     &.purple {
         background-color: #99A5FF;

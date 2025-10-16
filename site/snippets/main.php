@@ -121,8 +121,13 @@
                     $article->intro_text()->value()
                 );
                 $searchableJson = htmlspecialchars(json_encode($searchableText), ENT_QUOTES, 'UTF-8');
+                
+                // Brochures should not be clickable
+                $isClickable = $article->template()->name() !== 'broschuere-und-information';
             ?>
                 <?php snippet('article-card', [
+                    'url' => $article->url(),
+                    'isClickable' => $isClickable,
                     'headline' => $article->page_title()->value(),
                     'teaser' => $article->intro_text()->value(),
                     'publisher' => $article->publisher()->value(),
