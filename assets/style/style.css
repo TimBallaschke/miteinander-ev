@@ -118,6 +118,9 @@ em {
   left: 50%;
   transform: translateX(-50%);
 }
+.list #intro-text {
+  display: none;
+}
 
 #article-overview {
   padding-top: var(--page-padding);
