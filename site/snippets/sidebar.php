@@ -1,10 +1,26 @@
 <div id="sidebar">
     <div id="top-menu" :class="{ 'scrolled': isScrolled, 'menu-unfolded': menuUnfolded }">
         <div id="top-menu-content">
-            <?php snippet('menu-item', ['label' => 'Inhalte', 'active' => true]) ?>
-            <?php snippet('menu-item', ['label' => 'Informationen']) ?>
-            <?php snippet('menu-item', ['label' => 'Beratungsangebote']) ?>
-            <?php snippet('menu-item', ['label' => 'Kontakt']) ?>
+            <?php snippet('menu-item', [
+                'label' => 'Inhalte',
+                'url' => url(),
+                'active' => $page->isHomePage()
+            ]) ?>
+            <?php snippet('menu-item', [
+                'label' => 'Informationen',
+                'url' => page('information')?->url() ?? '#',
+                'active' => $page->is('information')
+            ]) ?>
+            <?php snippet('menu-item', [
+                'label' => 'Beratungsangebote',
+                'url' => page('beratungsangebot')?->url() ?? '#',
+                'active' => $page->is('beratungsangebot')
+            ]) ?>
+            <?php snippet('menu-item', [
+                'label' => 'Kontakt',
+                'url' => page('kontakt')?->url() ?? '#',
+                'active' => $page->is('kontakt')
+            ]) ?>
             <div class="top-menu-plus" @click="menuUnfolded = !menuUnfolded">
                 <div class="plus-line-horizontal"></div>
                 <div class="plus-line-vertical"></div>

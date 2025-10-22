@@ -53,6 +53,11 @@ em {
   font-family: "Monument Italic";
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #main {
   width: var(--main-width);
   height: 100%;

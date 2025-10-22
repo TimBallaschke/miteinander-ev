@@ -1,6 +1,6 @@
-<?php if ($isClickable ?? true): ?>
-<a href="<?= $url ?? '#' ?>" class="article-container-link">
-<?php endif ?>
+<a href="<?= $url ?? '#' ?>" 
+   class="article-container-link"
+   <?= ($isExternal ?? false) ? 'target="_blank" rel="noopener noreferrer"' : '' ?>>
     <div class="article-container" 
         x-data="{ 
             articleTags: <?= $filterKeys ?? '[]' ?>,
@@ -44,7 +44,5 @@
             <?php endif ?>
         </div>
     </div>
-<?php if ($isClickable ?? true): ?>
 </a>
-<?php endif ?>
 

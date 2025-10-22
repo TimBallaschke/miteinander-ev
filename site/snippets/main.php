@@ -122,12 +122,27 @@
                 );
                 $searchableJson = htmlspecialchars(json_encode($searchableText), ENT_QUOTES, 'UTF-8');
                 
-                // Brochures should not be clickable
-                $isClickable = $article->template()->name() !== 'broschuere-und-information';
+                // Brochures: Open PDF directly, otherwise open detail page
+                $isExternal = false;
+                $isBrochure = $article->new_category()->value() === 'broschuere-und-information';
+                
+                if ($isBrochure) {
+                    // Brochure: Try to get PDF file
+                    $pdfFile = $article->files()->first();
+                    if ($pdfFile) {
+                        $articleUrl = $pdfFile->url();
+                        $isExternal = true;
+                    } else {
+                        $articleUrl = '#';
+                    }
+                } else {
+                    // Fallbeispiel or Methode: Link to detail page
+                    $articleUrl = $article->url();
+                }
             ?>
                 <?php snippet('article-card', [
-                    'url' => $article->url(),
-                    'isClickable' => $isClickable,
+                    'url' => $articleUrl,
+                    'isExternal' => $isExternal,
                     'headline' => $article->page_title()->value(),
                     'teaser' => $article->intro_text()->value(),
                     'publisher' => $article->publisher()->value(),
