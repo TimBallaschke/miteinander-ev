@@ -8,6 +8,13 @@ Page-title: Modul 3 – Auswirkungen von Rechtsextremismus
 
 Flow-text-1:
 
+Die zusammengestellten Methoden sind aus einer langfristigen Praxis politischer Bildungsarbeit entstanden. Bereits bestehende Methoden wurden hierfür weiterentwickelt und adaptiert. Die Anwendung dieser Methoden setzt jedoch eine reflektierte Haltung sowie ein tiefes Verständnis seitens der pädagogischen Fachkräfte voraus.
+Methoden sind keine Selbstzwecke, sondern Werkzeuge, um miteinander ins Gespräch zu kommen und damit Themen zu vertiefen. Ihre Wirksamkeit hängt von einer angepassten Auswahl ab, die sich an den Bedürfnissen der Lernenden orientiert. Dabei ist zu beachten, dass nicht alle Lernenden gleichermaßen auf Methoden ansprechen und pädagogische Settings stets dynamische, interaktive Prozess sind.
+
+----
+
+Flow-text-2:
+
 *Ziel:* Die Lehrkräfte können für die Auswirkungen von Rechtsextremismus sensibilisieren
 *Material:* Beamer, Boxen und Flim, oder Textblätter
 Gut kombinierbar mit: Modul 1, 2 und 5

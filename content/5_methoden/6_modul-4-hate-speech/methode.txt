@@ -1,0 +1,65 @@
+Title: Modul 4 - Hate Speech
+
+----
+
+Page-title: Modul 4 - Hate Speech
+
+----
+
+Flow-text-1:
+
+Die zusammengestellten Methoden sind aus einer langfristigen Praxis politischer Bildungsarbeit entstanden. Bereits bestehende Methoden wurden hierfür weiterentwickelt und adaptiert. Die Anwendung dieser Methoden setzt jedoch eine reflektierte Haltung sowie ein tiefes Verständnis seitens der pädagogischen Fachkräfte voraus.
+
+Methoden sind keine Selbstzwecke, sondern Werkzeuge, um miteinander ins Gespräch zu kommen und damit Themen zu vertiefen. Ihre Wirksamkeit hängt von einer angepassten Auswahl ab, die sich an den Bedürfnissen der Lernenden orientiert. Dabei ist zu beachten, dass nicht alle Lernenden gleichermaßen auf Methoden ansprechen und pädagogische Settings stets dynamische, interaktive Prozess sind.
+
+----
+
+Flow-text-2:
+
+*Ziel: *Die Lehrkräfte haben auf das Problem von Hate Speech im Netz aufmerksam gemacht
+*Material: *Umfragetool, ggf. Schullaptops, Beamer, Papier, Stifte, Kreide
+Gut kombinierbar mit: Modul 1 und 5
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"<u><strong>1. Begrüßung der Schüler:innen (5 Minuten)</strong></u>"},"id":"69c2fd50-4500-4899-ad28-26aabde121b4","isHidden":false,"type":"heading"},{"content":{"text":"<p>kurze Vorstellung des Ablaufplan und Grund/Ziel des heutigen Tages werden erklärt</p>"},"id":"e5cd9229-1b81-45cb-9afe-eb3e97999b88","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>2. (Anonyme) Abfrage zum Thema digitale Kommunikation (15 Minuten)</strong></u>"},"id":"405baef6-6241-4369-a84e-ec98756757e3","isHidden":false,"type":"heading"},{"content":{"text":"<p>Die Schüler:innen nehmen möglichst anonym an einer Umfrage teil. Die Fragen sollen dabei die Selbstreflexion anregen und als Grundlage dienen, um miteinander ins Gespräch zu kommen.</p><p>Die Umfrage kann dabei analog oder digital organisiert werden. Klassische Abfragewerkzeuge wären ausgedruckte Fragezettel oder leere Moderationskarten.</p><p>Falls die SuS über eigene Smartphones oder schulinterne Geräte verfügen, bietet sich aufgrund der Anonymität eine Online-Umfrage an.&nbsp; Mögliche Tools: <a href=\"https://www.lamapoll.de/\" title=\"Lamapoll\">Lamapoll</a>, <a href=\"https://lerntools.org/\" title=\"Lerntools\">Lerntools</a>, <a href=\"https://edkimo.com/de/\" title=\"Edkimo\">Edkimo</a>.</p><p>Hinweis: Datenschutzkonformität im Vorfeld mit der Schule absprechen. Oft gibt es schon genutzte Tools, die die SuS bereits kennen.</p><p>Mögliche Fragen: siehe Anhang des Moduls. Je nach Vorfall/Schwerpunkt in der Klasse, können diese angepasst werden.</p>"},"id":"748dbad3-94f1-41ec-88a3-446f673f4b17","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>3. Auswertung (15 Minuten)</strong></u>"},"id":"7a983104-e12b-4867-a3b1-b0411d8b607e","isHidden":false,"type":"heading"},{"content":{"text":"<p>Ergebnisse werden vorgestellt (an der Tafel oder über Beamer)</p><p>Schüler:innen können Verständnisfragen klären</p><p>&nbsp;Lehrkräfte schreiben den Begriff Hate Speech/ Hassrede an die Tafel und geben eine Definition <em>(Quelle: </em><a href=\"https://no-hate-speech.de/de/wissen/\" title=\"No Hate Speech\"><em>No Hate Speech</em></a><em>)</em>:</p><ul><li><p><em>Als Hassrede bezeichnen wir sprachliche Handlungen gegen Einzelpersonen und/oder Gruppen mit dem Ziel der Abwertung oder Bedrohung aufgrund ihrer Zugehörigkeit zu einer benachteiligten Gruppe in der Gesellschaft. Die Person oder Gruppe muss dafür rein zahlenmäßig nicht in der Minderheit sein, andersherum sind Minderheitengruppen nicht automatisch benachteiligt.</em></p></li><li><p><em>Beispiele für Hassrede sind für uns Sexismus, (antimuslimischer) Rassismus, Antisemitismus, Antiziganismus, Neonazismus, Klassismus (Diskriminierung der „niedrigeren“ Schichten), Ableismus (Diskriminierung von Menschen mit Behinderung), Homo- und Transphobie.</em></p></li></ul><p>Einfachere Sprache (<em>Quelle: </em><a href=\"https://www.juuuport.de/infos/lexikon/hate-speech\" title=\"Juuuport\"><em>Juuuport</em></a><em>)</em>:</p><ul><li><p><em>Mit \"Hate Speech\", also auf Deutsch \"Hassrede\", sind hasserfüllte, hetzendeund beleidigende Kommentare im Netz gemeint, die sich gegen ganze Gruppen oder einzelne Vertreter:innen bestimmter Gruppen wenden. Dabei werden&nbsp; Menschen wegen ihres Glaubens, ihrer Hautfarbe, ihrer politischen Ansichten oder ihrer Sexualität [oder anderer Merkmale] angegriffen und schikaniert.</em></p></li></ul><p>Diskussion der Umfrageergebnisse anhand folgender Leitfragen:</p><ul><li><p><em>Wie geht es euch mit den Ergebnissen? Was überrascht euch? Was fällt auf?Was ärgert euch?</em></p></li><li><p><em>Warum könnten bestimmte Inhalte problematisch sein? Welche Inhalte findet ihrproblematisch? Warum?</em></p></li><li><p><em>Welche Beispiele für Hasskommentare/ Hate Speech kennt ihr?</em></p></li></ul><p>Wenn extrem-rechte Äußerungen (z.B. im Klassenchat) zunächst unwidersprochen getätigt wurden, sollte gezielt nachgefragt werden:</p><ul><li><p><em>&nbsp;&nbsp;Gibt es auch andere Meinungen? Was sagen die anderen?</em></p></li></ul><p>Im Anschluss wird die Diskussion zusammengefasst. Der Fokus sollte dabei auf den positiven Rückmeldungen und den<strong> Verabredungen zum zukünftigen Umgang</strong> <strong>mit rechtsextremen Äußerungen</strong> liegen.</p><ul><li><p><em>Wie wollen wir in Zukunft damit umgehen, wenn wir verletzende Kommentare/Beiträge sehen oder rechtsextreme Inhalte im Chat geteilt werden?</em></p></li></ul><p>(Hinweis: Methode abgewandelt übernommen aus der Broschüre <a href=\"https://www.bundesverband-mobile-beratung.de/wp-content/uploads/2022/02/BMB_Handreichung_Klassenchats_Was-machen-wir-denn-jetzt.pdf\" title=\"Was machen wir denn jetzt?\">“Was machen wir denn jetzt?! -Zum schulischen und pädagogischen Umgang mit rechten,rassistischen, antisemitischen und antifeministischen Inhalten in Klassenchats”</a> )</p>"},"id":"c1b4a737-c653-477c-9e20-ee9ddefdf422","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>4. Beispiele für Hate Speech (15 Minuten)</strong></u>"},"id":"1a87f706-43c0-47cc-b7f5-c7f33fe989e8","isHidden":false,"type":"heading"},{"content":{"text":"<p>Sammeln: &nbsp;&nbsp;&nbsp;&nbsp;</p><ul><li><p><em>Was kennt ihr? Was ist euch schonmal begegnet?&nbsp;</em></p></li></ul><p>(Hinweis: Erfahrungsberichte ernst nehmen und sensibel mit Betroffenheiten umgehen, siehe auch Modul 3)</p><p>&nbsp;Ggf. Beispiele mitbringen und (über Beamer) zeigen, z.B.<strong> </strong><a href=\"https://perlen-aus-freital.tumblr.com/\">https://perlen-aus-freital.tumblr.com/</a></p><p>Sammeln (an der Tafel):</p><ul><li><p>&nbsp;<em>Wie kann ich Hate Speech erkennen?</em></p></li></ul><p>&nbsp;Mögliche Antworten:</p><ul><li><p>Menschen werden abgewertet oder angegriffen</p></li><li><p>Menschengruppen werden mit Tieren verglichen</p></li><li><p>Menschen werden diskriminiert, z.B. Rassismus, Antisemitismus, Sexismus, Homo-/Transfeindlichkeit</p></li><li><p>Es wird zu Hass oder Gewalt gegen Menschen aufgerufen</p></li></ul>"},"id":"f197959a-16ed-4345-9b1d-0c7de0e57111","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>5. Strafbarkeit (10-20 Minuten)</strong></u>"},"id":"629bfc21-2b48-4ddc-bb94-cbf146da1bc1","isHidden":false,"type":"heading"},{"content":{"text":"<p>Manche Inhalte verletzen, andere sind tatsächlich auch strafbar.</p><p>Die Kriminalitätsstatistik der Polizei kennt Hate Speech zwar nicht als eigenständige Kategorie (deswegen gibt es wenig Zahlen zum Ausmaß von Hate Speech), aber bestehende Gesetze gelten natürlich auch im Internet. Lehrkräfte bringen Beispiele mit (siehe <a href=\"https://no-hate-speech.de/de/wissen/welche-gesetze-gibt-es-gegen-hate-speech/\">https://no-hate-speech.de/de/wissen/welche-gesetze-gibt-es-gegen-hate-speech/</a> ), und erklären den Schüler:innen welche strafrechtlichen Konsequenzen es gibt.</p><p>&nbsp;Beispiele für strafbare Inhalte:</p><ul><li><p>Volksverhetzung, Holocaustleugnung, Symbole/Kennzeichen verfassungswidriger</p></li><li><p>Organisationen, öffentliche Aufforderung zu Straf- und Gewalttaten, Gewaltdarstellungen, Beleidigungen,...</p></li></ul><p>&nbsp;Wenn Zeit da ist, können zum Thema Strafbarkeit auch die Kurzfilme vom No Hate Speech Movement Deutschland gezeigt werden: <a href=\"https://www.youtube.com/watch?v=lyCRdRC1344&amp;list=PLu2oS3hfblKRUMq6hLQS2b6wWEpa0F3ED\">https://www.youtube.com/watch?v=lyCRdRC1344&amp;list=PLu2oS3hfblKRUMq6hLQS2b6wWEpa0F3ED</a></p>"},"id":"ae875ce7-b0e9-46b4-adbe-23f12e5c09ac","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>6. Anlaufstellen vorstellen (5 Minuten)</strong></u>"},"id":"eb769cdb-31ed-4d30-8006-99ee09d4f3a9","isHidden":false,"type":"heading"},{"content":{"text":"<p><u><strong>6. Anlaufstellen vorstellen (5 Minuten)</strong></u></p><ul><li><p><a href=\"https://www.fairsprechen.net/\" title=\"Fairsprechen\">Fairsprechen </a>(Magdeburg): </p></li><li><p><a href=\"https://hateaid.org/\" title=\"Hate Aid\">Hate Aid</a></p></li><li><p><a href=\"https://no-hate-speech.de/\" title=\"No Hate Speech\">No Hate Speech</a></p></li><li><p><a href=\"https://www.klicksafe.de/\" title=\"Klicksafe\">Klicksafe</a></p></li><li><p><a href=\"https://www.juuuport.de/\" title=\"Juuuport\">Juuuport</a></p></li></ul><p>Hinweis:&nbsp; Außerdem ist es wichtig, (andere) Lehrkräfte darin zu bestärken das Thema Medienkompetenz im Unterricht zu behandeln</p>"},"id":"bf96e476-11d0-4937-ba5a-2323832946e0","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>7. Was tun? (variabel)</strong></u>"},"id":"c24ca07c-6bda-493f-8fa6-ed8e72e7f591","isHidden":false,"type":"heading"},{"content":{"text":"<p>Zum Abschluss jedes Moduls bietet sich an Modul 5 – oder zumindest eine Methode daraus – anzuschließen, um die Schüler:innen auch zum Handeln und aktiv werden zu motivieren und bestärken.</p>"},"id":"0ea293e7-1c06-4b2e-b225-be6f48086a22","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>8. Abschluss/Überleitung (5 Minuten)</strong></u>"},"id":"d8cc7ebe-7c39-4deb-8534-8a74e082d850","isHidden":false,"type":"heading"},{"content":{"text":"<p>Je nachdem ob ein weiteres Modul anschließt:  Übergang zum nächsten Thema,</p><p>oder</p><p>Abschlussrunde, in der die Lehrkräfte erneut auf die Verabredungen und Handlungsoptionen verweisen und verdeutlichen, dass es wichtig ist, sich gegen Hate Speech einzusetzen</p>"},"id":"18ac331b-3beb-4931-998c-d3408dc38f1c","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts: 
+
+----
+
+New-category: methoden
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: In diesem Modul beschäftigen sich die Schüler:innen mit verschiedenen Formen von Hate-Speech und deren Folgen.
+
+----
+
+Publisher: Miteinander e.V.
+
+----
+
+Year: 2025
+
+----
+
+Images: - file://zu018JG05jgpw3NX
+
+----
+
+Uuid: 7vF23YXQIS4HKpVT

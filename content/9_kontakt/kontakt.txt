@@ -2,19 +2,32 @@ Title: Kontakt
 
 ----
 
-Flow-text: 
+Flow-text:
+
+Die „Kompetenzstelle Eltern und Rechtsextremismus“ ist ein landesweites Angebot an Beratungsstellen und Einrichtungen der Kinder- und Jugendhilfe im Kontext von Rechtsextremismus und Familie. Das Projekt wird gefördert vom Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend  im Rahmen des Bundesprogramms „Demokratie Leben!“ sowie durch das Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung des Landes Sachsen-Anhalt.
+
+Fachträger der Kompetenzstelle Eltern und Rechtsextremismus ist Miteinander - Netzwerk für Demokratie und Weltoffenheit in Sachsen-Anhalt e.V. Der Verein ist seit 1999 der Fachträger für Bildungs- und Beratungsarbeit zum Thema Rechtsextremismus und Demokratiestärkung. Der gemeinnützige Verein ist anerkannter Träger der freien Jugendhilfe.
 
 ----
 
-Projekt-1-name: 
+Projekt-1-name: Kompetenzstelle Eltern und Rechtsextremismus
 
 ----
 
-Projekt-1-adresse: 
+Projekt-1-adresse:
+
+Miteinander e.V.
+Landsberger Straße 1
+06112 Halle (Saale)
+
+Tel.: (0345) 22 67 098
 
 ----
 
-Projekt-1-emails: 
+Projekt-1-emails:
+
+- 
+  email: ker@miteinander-ev.de
 
 ----
 
@@ -26,23 +39,41 @@ Projekt-1-socials:
 
 ----
 
-Projekt-2-name: 
+Projekt-2-name: Geschäftsstelle Miteinander e.V.
 
 ----
 
-Projekt-2-adresse: 
+Projekt-2-adresse:
+
+Miteinander e.V.
+Erich-Weinert-Straße 30
+39104 Magdeburg
+
+Tel.: (0391) 62077 3
 
 ----
 
-Projekt-2-emails: 
+Projekt-2-emails:
+
+- 
+  email: net.gs@miteinander-ev.de
 
 ----
 
-Projekt-2-website: 
+Projekt-2-website: https://www.miteinander-ev.de/
 
 ----
 
-Projekt-2-socials: 
+Projekt-2-socials:
+
+- 
+  plattform: instagram
+  url: >
+    https://www.instagram.com/miteinanderlsa/
+- 
+  plattform: andere
+  url: >
+    https://blueskydirectory.com/profiles/miteinanderlsa.bsky.social
 
 ----
 

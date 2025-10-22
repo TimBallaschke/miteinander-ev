@@ -1,0 +1,68 @@
+Title: Modul 5 – Mutig sein
+
+----
+
+Page-title: Modul 5 – Mutig sein
+
+----
+
+Flow-text-1:
+
+Die zusammengestellten Methoden sind aus einer langfristigen Praxis politischer Bildungsarbeit entstanden. Bereits bestehende Methoden wurden hierfür weiterentwickelt und adaptiert. Die Anwendung dieser Methoden setzt jedoch eine reflektierte Haltung sowie ein tiefes Verständnis seitens der pädagogischen Fachkräfte voraus.
+
+Methoden sind keine Selbstzwecke, sondern Werkzeuge, um miteinander ins Gespräch zu kommen und damit Themen zu vertiefen. Ihre Wirksamkeit hängt von einer angepassten Auswahl ab, die sich an den Bedürfnissen der Lernenden orientiert. Dabei ist zu beachten, dass nicht alle Lernenden gleichermaßen auf Methoden ansprechen und pädagogische Settings stets dynamische, interaktive Prozess sind.
+
+----
+
+Flow-text-2:
+
+*Ziel: *Die Lehrkräfte haben die Schüler:innen motiviert sich gegen rechtsextrem Aussagen einzusetzen
+*Material:* Papier, Stifte, Bastelmaterial, Kreide, Flyer von Anlaufstellen
+
+Gut kombinierbar mit: allen Modulen
+
+*Hinweis: Die Methoden aus diesem Modul können alle einzeln auch als Abschlussmethode für die anderen Module genutzt werden. *
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"<u><strong>1. Begrüßung der Schüler:innen (5 Minuten)</strong></u>"},"id":"3f15ea6d-ba78-47e1-9090-572a699872f0","isHidden":false,"type":"heading"},{"content":{"text":"<p>kurze Vorstellung des Ablaufplans</p>"},"id":"6ec28b18-6e0a-4d8c-ba35-5d3c704b422a","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>2. Plakate gestalten (20 Minuten)</strong></u>"},"id":"9a4b9d43-834e-4cd0-8bc4-2c4572ecf3af","isHidden":false,"type":"heading"},{"content":{"text":"<p>Schüler:innen&nbsp; tauschen sich in Kleingruppen über die Frage aus:</p><ul><li><p><em>In welcher Welt möchte ich leben? Was ist mir wichtig im Leben?</em></p></li></ul><p>Sie gestalten gemeinsam ein Plakat zum Thema. Alle Gruppen können danach ihr Plakat vorstellen und erzählen, was ihnen wichtig ist.</p>"},"id":"3b52f2d5-c3cd-4562-bae6-eec672574e5c","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>3. Eigene Motivation (10 Minuten)</strong></u>"},"id":"286ec59b-0f08-4709-a118-220951bb1636","isHidden":false,"type":"heading"},{"content":{"text":"<p>Schüler:innen tauschen sich in kleinen Gruppen (2-3 Personen) 5 Minuten darüber aus, warum es wichtig ist, für Gleichberechtigung und gegen Diskriminierung, sowie gegen rechtsextreme Einstellungen einzustehen. Sie teilen die wichtigsten Erkenntnisse kurz mit dem Rest der Klasse.</p>"},"id":"bef92653-daaa-438c-bf29-28ce8884cb09","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"ODER: <u><strong>Kurzer Input/ Motivationstalk (5 Minuten)</strong></u>"},"id":"1349979c-169c-4568-9495-3e6161f9e6d1","isHidden":false,"type":"heading"},{"content":{"text":"<p>Die Lehrkräfte erläutern warum es für eine Demokratie wichtig ist, für Gleichberechtigung und gegen Diskriminierung einzustehen, und zu handeln, wenn man mitbekommt, dass jemand rechtsextreme Aussagen (in der Klasse, oder im digitalen Raum) äußert.</p>"},"id":"6a0e1c5e-159f-42c2-a6f5-357fd1a88bab","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>4. Gegenrede üben (20 Minuten)</strong></u>"},"id":"d0e4c4d4-ed7f-464a-b365-9179b0efbd5f","isHidden":false,"type":"heading"},{"content":{"text":"<p>Die Schüler:innen haben 10 Minuten Zeit, einzeln oder in Kleingruppen, zu überlegen, was sie in der jeweiligen Situation ganz konkret sagen/schreiben würden.</p><p>Ideen für Situationen sind beispielsweise:</p><ul><li><p><em>Auf dem Pausenhof wird ein sexistischer Witz erzählt.</em></p></li><li><p><em>Im Klassenchat wird ein Bild mit einem positiven Bezug auf Adolf Hitler geteilt.</em></p></li><li><p><em>Bei einer Party wird Rechtsrock abgespielt.</em></p></li><li><p><em>Ein Mitschüler erzählt, dass er den 3. Weg (eine rechtsextreme Partei) wählen würde.</em></p></li></ul><p>&nbsp;Abschließend können einzelne Beispiele von freiwilligen Schüler:innen vorgestellt werden.</p><p>Hinweis: An dieser Stelle kann auch die App <a href=\"https://konterbunt.de/\" title=\"Konterbunt\">Konterbunt </a>vorgestellt werden, mit der geübt werden kann, Stammtischparolen zu widersprechen.</p>"},"id":"9f430f24-da0c-43c6-82fa-e0d6d8043e01","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>5. Handlungsoptionen sammeln (15 Minuten)</strong></u>"},"id":"d34c9a29-5b7f-4c18-97fd-653daa1f79e1","isHidden":false,"type":"heading"},{"content":{"text":"<p>An der Tafel werden gemeinsam Handlungsoptionen gesammelt.</p><ul><li><p><em>Was kann ich tun, wenn ich von rechtsextremen Aussagen/Handlungen mitbekomme?</em></p></li></ul><p><em>Hinweis:</em> Sollten die Schüler:innen Handlungen vorschlagen, die problematisch sind (z.B. selbst Gewalt anwenden, oder sich selbst in Gefahr bringen), dann nicht (direkt) aufschreiben, sondern in die Klasse rückfragen, ob das alle gut finden, oder was daran problematisch sein könnte.</p><p>Ein Visualisierungsvorschlag findet sich im Anhang </p>"},"id":"e157ac42-51d3-4371-a508-04f8083bbaab","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<u><strong>6. Anlaufstellen vorstellen (5 Minuten)</strong></u>"},"id":"ddccc0ba-4b5d-468a-b433-d1bfead4a0dc","isHidden":false,"type":"heading"},{"content":{"text":"<p>Den Schüler:innen wird verdeutlicht, dass sie nicht alleine sind, sondern dass sie sich Unterstützung holen können/sollen, wenn sie rechtsextreme/diskriminierende Äußerungen und Handlungen mitbekommen, oder sogar selbst betroffen sind.</p><p>&nbsp;An wen können sich Schüler:innen wenden:</p><ul><li><p>Lehrkräfte / Schulsozialarbeiter:innen / Vertrauenslehrer:innen</p></li><li><p>Eltern</p></li><li><p>andere Erwachsene</p></li><li><p>Klassensprecher:innen/ Schulsprecher:innen</p></li><li><p>Organisationen, siehe unten</p></li></ul><p><u>Mögliche weitere Anlaufstellen, wenn Schüler:innen selbst (oder Freund:innen) betroffen sind:</u></p><p>Rechtsextremismus:</p><ul><li><p>Online Beratung gegen Rechtsextremismus: <a href=\"https://www.online-beratung-gegen-rechtsextremismus.de/startseite.html\">https://www.online-beratung-gegen-rechtsextremismus.de/startseite.html</a></p></li></ul><p>Hass im Netz/ HateSpeech:</p><ul><li><p>Hate Aid: <a href=\"https://hateaid.org/\">https://hateaid.org/</a></p></li></ul><p>rechte Bedrohungen/Gewalt:</p><ul><li><p>Mobile Opferberatung Süd: <a href=\"https://www.mobile-opferberatung.de/\">https://www.mobile-opferberatung.de/</a></p></li></ul><p>&nbsp;Rassismus:</p><ul><li><p>Entknoten - Beratungsstelle gegen Alltagsrassismus und Diskriminierung: <a href=\"https://www.alltagsrassismus-entknoten.de/\">https://www.alltagsrassismus-entknoten.de/</a></p></li></ul><p>&nbsp;antisemitische Vorfälle:</p><ul><li><p>OFEK Sachsen-Anhalt: <a href=\"https://ofek-beratung.de/sachsenanhalt\">https://ofek-beratung.de/sachsenanhalt</a></p></li></ul><p>&nbsp;Beratung zum Thema sexuelle und geschlechtliche Vielfalt:</p><ul><li><p>BBZ Lebensart (Halle): <a href=\"http://www.bbz-lebensart.de/CMS2021/index.php?page=beratung\">http://www.bbz-lebensart.de/CMS2021/index.php?page=beratung</a></p></li></ul><p>&nbsp;Hilfetelefon Schule für mehr Demokratie:</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0800 0060108 (Di 13:30-16:30, Do 18:00-21:00)</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"https://schule-fuer-mehr-demokratie.de/index.php/hilfetelefon\">https://schule-fuer-mehr-demokratie.de/index.php/hilfetelefon</a></p><p>&nbsp;Ausstiegsberatung für Menschen in der rechtsextremen Szene:</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exit Deutschland: <a href=\"http://www.exit-deutschland.de/\">http://www.exit-deutschland.de/</a></p>"},"id":"422d72e6-a9c1-43ac-8fe7-013a43948aa4","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>5. Abschluss (5 Minuten)</strong>"},"id":"1ebd7069-e6e2-45cc-8c75-26bf17fa9764","isHidden":false,"type":"heading"},{"content":{"text":"<p>Abschlussrunde, in der die Lehrkräfte motivierend die Schüler:innen darin bestärken, sich gegen extrem rechte Inhalte einzusetzen.</p>"},"id":"c14f51b5-469f-43c6-9af7-e168b3726aed","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts: 
+
+----
+
+New-category: methoden
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: In dieser Methode geht es darum, die Schüler:innen zu motivieren, sich gegen rechtsextreme Aussagen oder sonstigen Verhalten im Alltag einzusetzen,
+
+----
+
+Publisher: Miteinander e.V.
+
+----
+
+Year: 2025
+
+----
+
+Images: - file://pkqlhPurDke52NIW
+
+----
+
+Uuid: aJCVXvCvGymzvPoK

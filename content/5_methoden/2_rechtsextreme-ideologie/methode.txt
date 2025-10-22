@@ -8,6 +8,13 @@ Page-title: Modul 2 – Rechtsextreme Ideologie
 
 Flow-text-1:
 
+Die zusammengestellten Methoden sind aus einer langfristigen Praxis politischer Bildungsarbeit entstanden. Bereits bestehende Methoden wurden hierfür weiterentwickelt und adaptiert. Die Anwendung dieser Methoden setzt jedoch eine reflektierte Haltung sowie ein tiefes Verständnis seitens der pädagogischen Fachkräfte voraus.
+Methoden sind keine Selbstzwecke, sondern Werkzeuge, um miteinander ins Gespräch zu kommen und damit Themen zu vertiefen. Ihre Wirksamkeit hängt von einer angepassten Auswahl ab, die sich an den Bedürfnissen der Lernenden orientiert. Dabei ist zu beachten, dass nicht alle Lernenden gleichermaßen auf Methoden ansprechen und pädagogische Settings stets dynamische, interaktive Prozess sind.
+
+----
+
+Flow-text-2:
+
 *Ziel:* : Die Lehrkräfte können den Schüler:innen Grundlagen rechtsextremer Ideologie an  Beispielen aufzeigen
 *Material:* Definitionskarten, Bildbeispiele, Kreide
 Gut kombinierbar mit: Modul 1 (davor), Modul 3+5 (danach)
@@ -38,7 +45,7 @@ Subcategory: schule
 
 ----
 
-Intro-text: In der Methode wird mit Beispielen menschenverachtender Ideologien gearbeitet, die Schüler:innen analysieren, einordnen und diskutieren. Dadurch wird sich gemeinsam ein Bild davon gemacht, was unter Rechtsextremismus zu verstehen ist und welche Auswirkungen es hat.
+Intro-text: In der Methode wird mit Beispielen menschenverachtender Ideologien gearbeitet, die Schüler:innen analysieren, einordnen und diskutieren. Dadurch wird sich gemeinsam ein Bild davon gemacht, was unter Rechtsextremismus zu verstehen ist und welche Auswirkungen damit verbunden sind.
 
 ----
 

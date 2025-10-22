@@ -116,7 +116,7 @@
                 
                 // Prepare searchable text (title, publisher, intro text combined)
                 $searchableText = strtolower(
-                    $article->page_title()->value() . ' ' . 
+                    $article->title()->value() . ' ' . 
                     $article->publisher()->value() . ' ' . 
                     $article->intro_text()->value()
                 );
@@ -143,7 +143,7 @@
                 <?php snippet('article-card', [
                     'url' => $articleUrl,
                     'isExternal' => $isExternal,
-                    'headline' => $article->page_title()->value(),
+                    'headline' => $article->title()->value(),
                     'teaser' => $article->intro_text()->value(),
                     'publisher' => $article->publisher()->value(),
                     'tags' => $tags,

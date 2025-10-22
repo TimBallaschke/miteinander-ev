@@ -1,8 +1,11 @@
-Title: Beratungsangebot
+Title: Beratungsstellen
 
 ----
 
-Template: beratungsangebot
+Template:
+
+beratungsangebot
+Title: Beratungsangebot
 
 ----
 
@@ -806,13 +809,6 @@ Bundeslaender:
 ----
 
 Bundesweit: 
-
-----
-
-Template:
-
-beratungsangebot
-Title: Beratungsangebot
 
 ----
 
