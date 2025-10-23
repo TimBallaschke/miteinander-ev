@@ -1,0 +1,64 @@
+Title: Modul 3 – Auswirkungen von Rechtsextremismus
+
+----
+
+Page-title: Modul 3 – Auswirkungen von Rechtsextremismus
+
+----
+
+Flow-text-1:
+
+*Ziel:* Die Lehrkräfte können für die Auswirkungen von Rechtsextremismus sensibilisieren
+*Material:* Beamer, Boxen und Flim, oder Textblätter
+Gut kombinierbar mit: Modul 1, 2 und 5
+
+----
+
+Flow-text-2:
+
+Die zusammengestellten Methoden sind aus einer langfristigen Praxis politischer Bildungsarbeit entstanden. Bereits bestehende Methoden wurden hierfür weiterentwickelt und adaptiert. Die Anwendung dieser Methoden setzt jedoch eine reflektierte Haltung sowie ein tiefes Verständnis seitens der pädagogischen Fachkräfte voraus.
+Methoden sind keine Selbstzwecke, sondern Werkzeuge, um miteinander ins Gespräch zu kommen und damit Themen zu vertiefen. Ihre Wirksamkeit hängt von einer angepassten Auswahl ab, die sich an den Bedürfnissen der Lernenden orientiert. Dabei ist zu beachten, dass nicht alle Lernenden gleichermaßen auf Methoden ansprechen und pädagogische Settings stets dynamische, interaktive Prozess sind.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"1. Begrüßung der Schüler:innen (5 Minuten)"},"id":"f21252eb-279b-400b-9a94-2c31f54a5707","isHidden":false,"type":"heading"},{"content":{"text":"<p>Kurze Vorstellung des Ablaufplans und des Inhalts. Hinweis, dass es ein sensibles und belastendes Thema sein kann. Idealerweise Rückzugsmöglichkeiten geben, und zulassen, dass einzelne Schüler:innen an dem Modul nicht teilnehmen und stattdessen raus gehen. Geschützten Raum und achtsame Atmosphäre schaffen.</p>"},"id":"7bb3f60b-24ab-4330-ae1e-44712ef106de","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>2. Betroffenenperspektive (30 Minuten)</strong>"},"id":"7ba1bc94-04b5-45d6-a300-456eb2172fd5","isHidden":false,"type":"heading"},{"content":{"text":"<p>Die Schüler:innen schauen einen kurzen Film (max. 10 Minuten) oder lesen Textauszüge von Statements von Betroffenen rechtsextremer Gewalt. [Film und Textbeispiele in der angehangenen Methodenbeschreibung als pdf-Dokument.]</p><p>Danach tauschen sie sich in Kleingruppen zu folgenden Fragen aus:</p><ul><li><p><em>Wie geht es euch mit dem Gesehenen/dem Gelesenen?</em></p></li><li><p><em>Wie geht es Betroffenen?&nbsp; Was sind ihre Erfahrungen?</em></p></li><li><p>Bonus: <em>Habt ihr so etwas schonmal erlebt/mitbekommen?</em></p></li></ul><p>→ Unbedingt darauf achten, dass Betroffene nicht genötigt werden, über ihre Erlebnisse zu erzählen, wenn sie das nicht wollen. Nur von eigenen Erfahrungen berichten lassen, nicht über andere Mitschüler:innen reden.&nbsp;</p><p>Danach teilen sie die wichtigsten Erkenntnisse ihrer Diskussion mit der Gesamtgruppe.</p>"},"id":"a42ce8e2-c30d-4d42-a456-8d719f92ac81","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>3. Auswirkungen / Gefahren</strong>"},"id":"63116951-9004-4213-b3b0-0ed554a205d7","isHidden":false,"type":"heading"},{"content":{"text":"<p><u>Option 1 (15 Minuten):</u> Im Raum werden 3 große Papiere verteilt:</p><ul><li><p>1. Auswirkungen/Gefahren für einzelne Personen</p></li><li><p>2. Auswirkungen/Gefahren für die Klassen-/Schulgemeinschaft</p></li><li><p>3. Auswirkungen/Gefahren für die gesamte Gesellschaft</p></li><li><p>Alle Schüler:innen bekommen einen Stift und dürfen (ohne zu sprechen) alles notieren, was ihnen einfällt.</p></li><li><p>Abschließend lesen die Lehrkräfte die Ergebnisse vor und ergänzen gegebenfalls.</p></li></ul><p><u>Option 2 (20 Minuten):</u> </p><ul><li><p>Die Schüler:innen werden in 3 oder mehr Gruppen eingeteilt (dabei auf die Gruppendynamik achten, idealerweise Wohlfühlgruppen). Jede Gruppe bekommt ein anderes Papier und hat 10 Minuten Zeit sich darüber auszutauschen und die Antworten zu notieren. Danach werden die Ergebnisse kurz vorgestellt.</p></li></ul><p>&nbsp;<u>Option 3 (10 Minuten):</u>&nbsp; </p><ul><li><p>Die Gefahren werden per Zurufabfrage abgefragt und die Antworten an der Tafel gesammelt</p></li></ul>"},"id":"fdd3a87a-5f26-4089-9cbe-fa226a13ef87","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>4. Was tun? (variabel)</strong>"},"id":"8614b28b-4009-4967-8ec5-b69da84271fb","isHidden":false,"type":"heading"},{"content":{"text":"<p>Zum Abschluss jedes Moduls bietet sich an Modul 5 – oder zumindest eine Methode daraus – anzuschließen, um die Schüler:innen auch zum Handeln und aktiv werden zu motivieren und bestärken. Insbesondere sollten hier auch Anlaufstellen (in der Schule, z.B. Vertrauenslehrer:in, aber auch externe Initiativen) vorgestellt werden, und Überlegungen Platz haben, wie mit Vorfällen in der Schule umgegangen wird, was schon gut läuft und was eher anders bzw. besser laufen müsste.</p>"},"id":"712d4563-3caf-4816-9efe-a02792ab0c3d","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"5. Verabschiedung/Überleitung (5 Minuten)"},"id":"d29f522f-19b1-43ca-adb5-8616583cf638","isHidden":false,"type":"heading"},{"content":{"text":"<p>Je nachdem ob ein weiteres Modul anschließt:&nbsp; Übergang zum nächsten Thema,</p><p>&nbsp;oder</p><p>Abschlussrunde, mit motivierenden Worten, bei denen die Lehrkräfte auf die Wichtigkeit der Betroffenenperspektive hinweisen und verdeutlichen, dass es wichtig ist, sich gegen Rechtsextremismus einzusetzen. </p>"},"id":"57e1e67a-ae01-4b34-b11c-ca9a13a8e58c","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts: 
+
+----
+
+New-category: methoden
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: In der Methode wird mit Berichten und Videos von Betroffenen rechtsextremer Gewalt gearbeitet. Schüler:innen reflektieren in Kleingruppen, welche Auswirkungen Rechtsextremismus auf Individuen, Schule und Gesellschaft hat.
+
+----
+
+Publisher: Miteinander e.V.
+
+----
+
+Year: 2025
+
+----
+
+Images: - file://9F3lMzGh5m9tJMVf
+
+----
+
+Uuid: yCNZosStF0NYx6Jx

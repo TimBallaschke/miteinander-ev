@@ -25,27 +25,9 @@
                 this.teacherTypes = [];
             }
         });
-        
-        // Calculate scroll threshold: 4x the CSS variable --top-menu-element-height
-        // Get the value in rem and convert to pixels
-        const menuHeightRem = getComputedStyle(document.documentElement).getPropertyValue('--top-menu-element-height').trim();
-        const rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
-        const menuHeightPx = parseFloat(menuHeightRem) * rootFontSize;
-        this.scrollThreshold = menuHeightPx * 4;
-        
-        console.log('Scroll threshold set to:', this.scrollThreshold, 'px');
-        
-        // Watch scroll state and log to console
-        this.$watch('isScrolled', (value) => {
-            if (value) {
-                console.log('Page is scrolled down');
-            } else {
-                console.log('Page is at the top');
-            }
-        });
     }
 }" 
-@scroll.window="isScrolled = (window.pageYOffset > scrollThreshold)">
+@scroll.window="isScrolled = (window.pageYOffset > 0)">
     <?php snippet('sidebar') ?>
     <div id="main" :class="view">
         <div id="header-main">
@@ -63,26 +45,11 @@
             </div>
         </div>
         <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
-            <div id="article-content">
-                <h1><?= $page->title() ?></h1>
-                
-                <?php if ($page->intro_text()->isNotEmpty()): ?>
-                    <div class="article-intro">
-                        <?= $page->intro_text()->kt() ?>
-                    </div>
-                <?php endif ?>
-                
-                <div class="article-meta">
-                    <?php if ($page->publisher()->isNotEmpty()): ?>
-                        <div><strong>Herausgeber*in:</strong> <?= $page->publisher() ?></div>
-                    <?php endif ?>
-                    <?php if ($page->year()->isNotEmpty()): ?>
-                        <div><strong>Jahr:</strong> <?= $page->year() ?></div>
-                    <?php endif ?>
-                </div>
-                
+            <div class="article-content">
+                <div class="article-page-title"><?= $page->title() ?></div>
+                                                
                 <?php if ($page->flow_text_1()->isNotEmpty()): ?>
-                    <div class="article-disclaimer">
+                    <div class="article-disclaimer orange">
                         <?= $page->flow_text_1()->kt() ?>
                     </div>
                 <?php endif ?>
@@ -94,7 +61,7 @@
                 <?php endif ?>
                 
                 <?php if ($page->headline_1()->isNotEmpty()): ?>
-                    <h2><?= $page->headline_1() ?></h2>
+                    <div><?= $page->headline_1() ?></div>
                 <?php endif ?>
                 
                 <?php if ($page->question_answer_block()->isNotEmpty()): ?>
@@ -103,18 +70,6 @@
                     </div>
                 <?php endif ?>
                 
-                <?php if ($page->images()->isNotEmpty()): ?>
-                    <div class="article-images">
-                        <?php foreach ($page->images() as $image): ?>
-                            <figure>
-                                <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
-                                <?php if ($image->caption()->isNotEmpty()): ?>
-                                    <figcaption><?= $image->caption() ?></figcaption>
-                                <?php endif ?>
-                            </figure>
-                        <?php endforeach ?>
-                    </div>
-                <?php endif ?>
             </div>
         </div>
     </div>

@@ -11,21 +11,25 @@ columns:
 
       disclaimer:
         label: Disclaimer 
-        type: textarea
-        size: small
+        type: writer
         translate: true
-        buttons:
+        marks:
           - italic
-          - link
+          - bold
+        nodes:
+          - paragraph
+        breaks: true
 
       flow_text_1:
         label: Fließtext 
-        type: textarea
-        size: small
+        type: writer
         translate: true
-        buttons:
+        marks:
           - italic
-          - link
+          - bold
+        nodes:
+          - paragraph
+        breaks: true
 
       headline_1:
         label: Überschrift für Auflistung (optional)
@@ -44,8 +48,15 @@ columns:
             fields:
               text:
                 type: writer
+                marks:
+                  - italic
+                  - bold
                 nodes:
+                  - paragraph
                   - bulletList
+                  - heading
+                  - hardBreak
+                breaks: true
 
       related_posts:
         label: Weiterführende Materialien (Verlinkungen)

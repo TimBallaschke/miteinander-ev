@@ -25,24 +25,6 @@
                 this.teacherTypes = [];
             }
         });
-        
-        // Calculate scroll threshold: 4x the CSS variable --top-menu-element-height
-        // Get the value in rem and convert to pixels
-        const menuHeightRem = getComputedStyle(document.documentElement).getPropertyValue('--top-menu-element-height').trim();
-        const rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
-        const menuHeightPx = parseFloat(menuHeightRem) * rootFontSize;
-        this.scrollThreshold = menuHeightPx * 4;
-        
-        console.log('Scroll threshold set to:', this.scrollThreshold, 'px');
-        
-        // Watch scroll state and log to console
-        this.$watch('isScrolled', (value) => {
-            if (value) {
-                console.log('Page is scrolled down');
-            } else {
-                console.log('Page is at the top');
-            }
-        });
     }
 }" 
 @scroll.window="isScrolled = (window.pageYOffset > 0)">

@@ -1,0 +1,130 @@
+.article-content {
+    padding: var(--page-padding);
+}
+
+.article-page-title {
+    font-size: var(--font-size-title);
+    line-height: var(--line-height-title);
+    letter-spacing: -0.2rem;
+    font-family: "Monument Mono";
+    padding-bottom: calc(var(--mono-font-size-large) * 1.2);
+}
+
+.article-disclaimer {
+    font-family: "Monument Mono";
+    font-size: var(--mono-font-size-large);
+    line-height: 1.2;
+    border-radius: var(--small-mono-border-radius);
+    padding: var(--page-padding);
+
+    em {
+        font-family: "Monument Mono";
+        font-style: normal;
+    }
+
+    p:not(:first-child) {
+        padding-top: calc(var(--mono-font-size-large) * 1.2);
+    }
+
+
+    &.orange {
+        background-color: #FF8A00;
+    }
+}
+
+.article-flow-text {
+    font-size: var(--mono-font-size-large);
+    line-height: 1.2;
+
+    p {
+        padding-top: calc(var(--mono-font-size-large) * 1.2);
+    }
+}
+
+.article-qa-block {
+    * {
+        text-decoration: none !important;
+        font-size: var(--mono-font-size-large);
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: var(--mono-font-size-large);
+        text-transform: uppercase;
+        letter-spacing: 0;
+        font-family: "Monument";
+        padding: 5rem 0 0.6rem 0;
+        border-bottom: solid 1px black;
+        margin: 0;
+        margin-bottom: 0.8rem;
+        font-weight: normal;
+
+        strong {
+            font-weight: normal;
+        }
+    }
+
+    p:not(:has(strong)) {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-height: 2rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    li {
+        position: relative;
+        padding-left: 2.7rem;
+        
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.2rem;
+            width: 2rem;
+            height: 2rem;
+            background-color: #AAFF67;
+            display: inline-block;
+            border-radius: 50%;
+        }
+
+        p {
+            padding: 0;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    em::before {
+        display: none;
+    }
+
+    strong {
+        font-size: var(--mono-font-size-large);
+        padding: 0.8rem 0 0.6rem 0;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: var(--mono-font-size-large);
+        line-height: 1.2;
+
+        strong {
+            display: block;
+            border-bottom: solid 1px black;
+            padding-top: 5rem;
+            padding-bottom: 0.6rem;
+            margin-bottom: 0.8rem;
+        }
+    }
+
+
+}

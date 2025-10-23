@@ -134,9 +134,9 @@
             </div>
         </div>
         <?php elseif ($page->template()->name() === 'fallbeispiel' || $page->template()->name() === 'methode'): ?>
+            <?php if ($page->related_posts()->isNotEmpty()): ?>
         <div id="sidebar-related-materials">
             <div class="sidebar-section-title options-title">Weiterführende Materialien:</div>
-            <?php if ($page->related_posts()->isNotEmpty()): ?>
                 <?php 
                 // Tag config for related posts
                 $tagConfig = [
@@ -208,8 +208,8 @@
                         'tags' => $tags ?? []
                     ]) ?>
                 <?php endforeach ?>
-            <?php endif ?>
         </div>
+            <?php endif ?>
         <?php endif ?>
     </div>
 </div>
