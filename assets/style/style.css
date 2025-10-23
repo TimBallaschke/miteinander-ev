@@ -986,4 +986,31 @@ a {
   border: solid 2px #AAFF67;
   display: inline-block;
   border-radius: 50%;
+}
+
+.contact-section {
+  padding: var(--page-padding);
+}
+
+.contact-project-section {
+  display: grid;
+  grid-template-columns: calc(var(--sidebar-width)) 1fr;
+  font-size: var(--mono-font-size-large);
+  line-height: 1.2;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  border-top: solid 1px black;
+}
+.contact-project-section .contact-project-title {
+  font-family: "Monument Mono";
+}
+.contact-project-section span {
+  font-family: "Monument Mono";
+}
+.contact-project-section .contact-project-details {
+  padding-left: 8rem;
+}
+.contact-project-section .contact-detail {
+  padding-top: calc(var(--mono-font-size-large) * 1.2);
 }/*# sourceMappingURL=style.css.map */
