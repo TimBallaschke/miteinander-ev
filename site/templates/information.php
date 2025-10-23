@@ -37,7 +37,7 @@
                     'active' => $page->isHomePage() || $page->template()->name() === 'fallbeispiel' || $page->template()->name() === 'methode'
                 ]) ?>
                 <?php snippet('menu-item', [
-                    'label' => 'Informationen',
+                    'label' => 'Grundlagen & Kontext',
                     'url' => page('information')?->url() ?? '#',
                     'active' => $page->is('information')
                 ]) ?>
