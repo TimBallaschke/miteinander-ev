@@ -30,7 +30,7 @@
     right: 0;
     background-color: black;
     color: white;
-    font-size: 2rem;
+    font-size: var(--mono-font-size-large);
     width: var(--main-width);
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@
 #top-menu {
     background-color: black;
     color: white;
-    font-size: 2rem;
+    font-size: var(--mono-font-size-large);
     border-right: solid 1px white;
     z-index: 100;
     position: fixed;

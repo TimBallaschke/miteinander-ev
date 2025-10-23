@@ -25,56 +25,76 @@
                 this.teacherTypes = [];
             }
         });
-        
-        // Calculate scroll threshold: 4x the CSS variable --top-menu-element-height
-        const menuHeightRem = getComputedStyle(document.documentElement).getPropertyValue('--top-menu-element-height').trim();
-        const rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
-        const menuHeightPx = parseFloat(menuHeightRem) * rootFontSize;
-        this.scrollThreshold = menuHeightPx * 4;
-        
-        // Watch scroll state
-        this.$watch('isScrolled', (value) => {
-            if (value) {
-                console.log('Page is scrolled down');
-            } else {
-                console.log('Page is at the top');
-            }
-        });
     }
 }" 
-@scroll.window="isScrolled = (window.pageYOffset > scrollThreshold)">
-    <?php snippet('sidebar') ?>
-    <div id="main" class="list">
-        <div id="header-main">
-            <div id="header-main-large" :class="{ 'scrolled': isScrolled }">
-                <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title"><?= $page->page_title() ?></div>
-                </div>
-            </div>
-            <div id="header-main-small" :class="{ 'scrolled': isScrolled }">
-                <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title-small"><?= $page->page_title() ?></div>
+@scroll.window="isScrolled = (window.pageYOffset > 0)">
+    <div id="sidebar" class="no-sidebar">
+        <div id="top-menu" :class="{ 'scrolled': isScrolled, 'menu-unfolded': menuUnfolded }">
+            <div id="top-menu-content">
+                <?php snippet('menu-item', [
+                    'label' => 'Inhalte',
+                    'url' => url(),
+                    'active' => $page->isHomePage() || $page->template()->name() === 'fallbeispiel' || $page->template()->name() === 'methode'
+                ]) ?>
+                <?php snippet('menu-item', [
+                    'label' => 'Informationen',
+                    'url' => page('information')?->url() ?? '#',
+                    'active' => $page->is('information')
+                ]) ?>
+                <?php snippet('menu-item', [
+                    'label' => 'Beratungsangebote',
+                    'url' => page('beratungsangebot')?->url() ?? '#',
+                    'active' => $page->is('beratungsangebot')
+                ]) ?>
+                <?php snippet('menu-item', [
+                    'label' => 'Kontakt',
+                    'url' => page('kontakt')?->url() ?? '#',
+                    'active' => $page->is('kontakt')
+                ]) ?>
+                <div class="top-menu-plus" @click="menuUnfolded = !menuUnfolded">
+                    <div class="plus-line-horizontal"></div>
+                    <div class="plus-line-vertical"></div>
                 </div>
             </div>
         </div>
-        <div id="content">
-            <div id="article-content">
+    </div>
+    <div id="main" class="no-sidebar" :class="view">
+        <div id="header-main">
+            <div id="header-main-large" :class="{ 'scrolled': isScrolled }">
+                <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
+                    <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
+                </div>
+                <?php snippet('list-view-header') ?>
+            </div>
+            <div id="header-main-small" :class="{ 'scrolled': isScrolled }">
+                <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
+                    <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
+                </div>
+                <?php snippet('list-view-header') ?>
+            </div>
+        </div>
+        <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
+            <div class="subpage-content">
+                <div class="subpage-title"><?= $page->title() ?></div>
                 <?php if ($page->flow_text_1()->isNotEmpty()): ?>
-                    <div class="content-flow-text">
-                        <?= $page->flow_text_1()->kt() ?>
+                    <div class="subpage-flow-text">
+                        <?php 
+                        $text = $page->flow_text_1()->value();
+                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
+                        echo kirbytext($text);
+                        ?>
                     </div>
                 <?php endif ?>
                 
                 <?php if ($page->bundesweite_beratungsangebote()->isNotEmpty()): ?>
                     <div class="counseling-section">
-                        <h2>Bundesweite Beratungsangebote</h2>
                         <div class="counseling-list">
                             <?php foreach ($page->bundesweite_beratungsangebote()->toStructure() as $counseling): ?>
                                 <div class="counseling-item">
                                     <h3><?= $counseling->titel_beratungsstelle() ?></h3>
                                     <?php if ($counseling->traeger()->isNotEmpty()): ?>
                                         <div class="counseling-detail">
-                                            <strong>Träger:</strong> <?= $counseling->traeger() ?>
+                                            <?= $counseling->traeger() ?>
                                         </div>
                                     <?php endif ?>
                                     <?php if ($counseling->email()->isNotEmpty()): ?>
@@ -100,28 +120,27 @@
                 
                 <?php if ($page->bundeslaender()->isNotEmpty()): ?>
                     <div class="counseling-section">
-                        <h2>Beratungsangebote nach Bundesland</h2>
                         <?php foreach ($page->bundeslaender()->toStructure() as $bundesland): ?>
                             <div class="bundesland-section">
-                                <h3><?= $bundesland->bundesland() ?></h3>
+                                <div class="bundesland-title"><?= $bundesland->bundesland() ?></div>
                                 <?php if ($bundesland->beratungsstellen()->isNotEmpty()): ?>
                                     <div class="counseling-list">
                                         <?php foreach ($bundesland->beratungsstellen()->toStructure() as $beratungsstelle): ?>
                                             <div class="counseling-item">
-                                                <h4><?= $beratungsstelle->titel() ?></h4>
+                                                <div class="counseling-title"><?= $beratungsstelle->titel() ?></div>
                                                 <?php if ($beratungsstelle->email()->isNotEmpty()): ?>
                                                     <div class="counseling-detail">
-                                                        <strong>E-Mail:</strong> <a href="mailto:<?= $beratungsstelle->email() ?>"><?= $beratungsstelle->email() ?></a>
+                                                        <span>E-Mail:</span> <a href="mailto:<?= $beratungsstelle->email() ?>"><?= $beratungsstelle->email() ?></a>
                                                     </div>
                                                 <?php endif ?>
                                                 <?php if ($beratungsstelle->telefon()->isNotEmpty()): ?>
                                                     <div class="counseling-detail">
-                                                        <strong>Telefon:</strong> <a href="tel:<?= $beratungsstelle->telefon() ?>"><?= $beratungsstelle->telefon() ?></a>
+                                                        <span>Telefon:</span> <a href="tel:<?= $beratungsstelle->telefon() ?>"><?= $beratungsstelle->telefon() ?></a>
                                                     </div>
                                                 <?php endif ?>
                                                 <?php if ($beratungsstelle->website()->isNotEmpty()): ?>
                                                     <div class="counseling-detail">
-                                                        <strong>Website:</strong> <a href="<?= $beratungsstelle->website() ?>" target="_blank" rel="noopener noreferrer"><?= $beratungsstelle->website() ?></a>
+                                                        <span>Website:</span> <a href="<?= $beratungsstelle->website() ?>" target="_blank" rel="noopener noreferrer"><?= $beratungsstelle->website() ?></a>
                                                     </div>
                                                 <?php endif ?>
                                                 
@@ -129,20 +148,20 @@
                                                     <div class="sub-counseling-list">
                                                         <?php foreach ($beratungsstelle->unterberatungsstellen()->toStructure() as $unter): ?>
                                                             <div class="counseling-sub-item">
-                                                                <h5><?= $unter->titel() ?></h5>
+                                                                <div class="counseling-sub-title"><?= $unter->titel() ?></div>
                                                                 <?php if ($unter->email()->isNotEmpty()): ?>
                                                                     <div class="counseling-detail">
-                                                                        <strong>E-Mail:</strong> <a href="mailto:<?= $unter->email() ?>"><?= $unter->email() ?></a>
+                                                                        <span>E-Mail:</span> <a href="mailto:<?= $unter->email() ?>"><?= $unter->email() ?></a>
                                                                     </div>
                                                                 <?php endif ?>
                                                                 <?php if ($unter->telefon()->isNotEmpty()): ?>
                                                                     <div class="counseling-detail">
-                                                                        <strong>Telefon:</strong> <a href="tel:<?= $unter->telefon() ?>"><?= $unter->telefon() ?></a>
+                                                                        <span>Telefon:</span> <a href="tel:<?= $unter->telefon() ?>"><?= $unter->telefon() ?></a>
                                                                     </div>
                                                                 <?php endif ?>
                                                                 <?php if ($unter->website()->isNotEmpty()): ?>
                                                                     <div class="counseling-detail">
-                                                                        <strong>Website:</strong> <a href="<?= $unter->website() ?>" target="_blank" rel="noopener noreferrer"><?= $unter->website() ?></a>
+                                                                        <span>Website:</span> <a href="<?= $unter->website() ?>" target="_blank" rel="noopener noreferrer"><?= $unter->website() ?></a>
                                                                     </div>
                                                                 <?php endif ?>
                                                             </div>

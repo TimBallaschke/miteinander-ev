@@ -10,7 +10,7 @@
   --regular-small-font-size: 1.2rem;
   --regular-font-size-large: 2rem;
   --regular-line-height-large: 1.2;
-  --mono-font-size-large: 1.9rem;
+  --mono-font-size-large: 1.8rem;
   --mono-large-letter-spacing: -0.3%;
   --font-size-title: 4.8rem;
   --line-height-title: 1;
@@ -65,6 +65,10 @@ a {
   height: 100%;
   padding-left: var(--sidebar-width);
   width: 100%;
+}
+#main.no-sidebar {
+  padding-left: 0;
+  background-color: #fff;
 }
 
 #content {
@@ -176,6 +180,9 @@ a {
 }
 #sidebar::-webkit-scrollbar {
   display: none;
+}
+#sidebar.no-sidebar {
+  border-right: none;
 }
 
 #sidebar-content {
@@ -399,7 +406,7 @@ a {
   right: 0;
   background-color: black;
   color: white;
-  font-size: 2rem;
+  font-size: var(--mono-font-size-large);
   width: var(--main-width);
   display: flex;
   align-items: center;
@@ -473,7 +480,7 @@ a {
 #top-menu {
   background-color: black;
   color: white;
-  font-size: 2rem;
+  font-size: var(--mono-font-size-large);
   border-right: solid 1px white;
   z-index: 100;
   position: fixed;
@@ -847,4 +854,87 @@ a {
   padding-top: 5rem;
   padding-bottom: 0.9rem;
   margin-bottom: 1.2rem;
+}
+
+.subpage-title {
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-title);
+  letter-spacing: -0.2rem;
+  font-family: "Monument Mono";
+  padding-left: calc(var(--page-padding) + var(--sidebar-width));
+  padding-bottom: 0;
+}
+
+.subpage-flow-text {
+  font-size: var(--mono-font-size-large);
+  line-height: 1.2;
+  padding-left: calc(var(--page-padding) + var(--sidebar-width));
+}
+.subpage-flow-text p {
+  padding-top: calc(var(--mono-font-size-large) * 1.2);
+}
+
+.counseling-section {
+  padding: var(--page-padding);
+}
+
+.bundesland-section {
+  display: grid;
+  grid-template-columns: calc(var(--sidebar-width)) 1fr;
+  font-size: var(--mono-font-size-large);
+  line-height: 1.2;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  border-top: solid 1px black;
+}
+.bundesland-section .bundesland-title {
+  font-family: "Monument Mono";
+}
+.bundesland-section span {
+  font-family: "Monument Mono";
+}
+.bundesland-section .counseling-item {
+  padding-bottom: 1rem;
+}
+.bundesland-section .counseling-item + .counseling-item {
+  border-top: solid 1px black;
+  padding-top: 1.2rem;
+}
+.bundesland-section .counseling-title {
+  position: relative;
+  padding-left: 2.7rem;
+}
+.bundesland-section .counseling-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #AAFF67;
+  display: inline-block;
+  border-radius: 50%;
+}
+.bundesland-section .counseling-detail {
+  padding-left: 8rem;
+}
+.bundesland-section .sub-counseling-list {
+  padding-top: calc(var(--mono-font-size-large) * 1.2);
+  padding-left: 8rem;
+}
+.bundesland-section .counseling-sub-title {
+  position: relative;
+  padding-left: 2.7rem;
+}
+.bundesland-section .counseling-sub-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  border: solid 2px #AAFF67;
+  display: inline-block;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
