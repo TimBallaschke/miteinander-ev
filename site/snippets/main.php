@@ -122,18 +122,43 @@
                 );
                 $searchableJson = htmlspecialchars(json_encode($searchableText), ENT_QUOTES, 'UTF-8');
                 
-                // Brochures: Open PDF directly, otherwise open detail page
+                // Brochures: Check for PDF, then check for related posts link
                 $isExternal = false;
                 $isBrochure = $article->new_category()->value() === 'broschuere-und-information';
                 
                 if ($isBrochure) {
-                    // Brochure: Try to get PDF file
+                    // Brochure: First try to get PDF file
                     $pdfFile = $article->files()->first();
                     if ($pdfFile) {
                         $articleUrl = $pdfFile->url();
                         $isExternal = true;
                     } else {
-                        $articleUrl = '#';
+                        // No PDF, check for related posts (Weiterführende Materialien)
+                        $hasLink = false;
+                        if ($article->related_posts()->isNotEmpty()) {
+                            $firstPost = $article->related_posts()->toStructure()->first();
+                            if ($firstPost) {
+                                // Prefer external link over internal link
+                                if ($firstPost->external_link()->isNotEmpty()) {
+                                    // Use external link
+                                    $articleUrl = $firstPost->external_link()->value();
+                                    $isExternal = true;
+                                    $hasLink = true;
+                                } else {
+                                    // Check if there's an internal link
+                                    $linkedPage = $firstPost->internal_link()->toPage();
+                                    if ($linkedPage) {
+                                        $articleUrl = $linkedPage->url();
+                                        $isExternal = false;
+                                        $hasLink = true;
+                                    }
+                                }
+                            }
+                        }
+                        // If no link found, set to #
+                        if (!$hasLink) {
+                            $articleUrl = '#';
+                        }
                     }
                 } else {
                     // Fallbeispiel or Methode: Link to detail page

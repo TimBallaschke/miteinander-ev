@@ -163,9 +163,25 @@
                     
                     if ($isValidArticle) {
                         // Internal link exists and points to valid article - use it
-                        $url = $linkedPage->url();
                         $title = $post->internal_link_title()->value();
-                        $isExternal = false;
+                        
+                        // Check if it's a brochure - if so, link to PDF
+                        $isBrochure = $linkedPage->new_category()->value() === 'broschuere-und-information';
+                        if ($isBrochure) {
+                            // Brochure: Try to get PDF file
+                            $pdfFile = $linkedPage->files()->first();
+                            if ($pdfFile) {
+                                $url = $pdfFile->url();
+                                $isExternal = true;
+                            } else {
+                                $url = '#';
+                                $isExternal = false;
+                            }
+                        } else {
+                            // Fallbeispiel or Methode: Link to detail page
+                            $url = $linkedPage->url();
+                            $isExternal = false;
+                        }
                         
                         // Get tags from the linked page
                         $tags = [];
