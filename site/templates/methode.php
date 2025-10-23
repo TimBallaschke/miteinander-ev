@@ -110,7 +110,7 @@
                 <?php endif ?>
                 
                 <?php if ($page->question_answer_block()->isNotEmpty()): ?>
-                    <div class="article-qa-block">
+                    <div class="article-qa-block no-question-circles">
                         <?= $page->question_answer_block()->toBlocks() ?>
                     </div>
                 <?php endif ?>
