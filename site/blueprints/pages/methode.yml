@@ -11,25 +11,21 @@ columns:
 
       flow_text_1:
         label: Disclaimer 
-        type: writer
+        type: textarea
+        size: small
         translate: true
-        marks:
+        buttons:
           - italic
-          - bold
-        nodes:
-          - paragraph
-        breaks: true
+          - link
 
       flow_text_2:
         label: Fließtext 
-        type: writer
+        type: textarea
+        size: small
         translate: true
-        marks:
+        buttons:
           - italic
-          - bold
-        nodes:
-          - paragraph
-        breaks: true
+          - link
 
       headline_1:
         label: Überschrift für Auflistung (optional)

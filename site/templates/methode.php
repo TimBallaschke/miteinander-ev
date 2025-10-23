@@ -47,16 +47,61 @@
         <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
             <div class="article-content">
                 <div class="article-page-title"><?= $page->title() ?></div>
+                
+                <div class="article-tags">
+                    <?php 
+                    // Tag configuration
+                    $tagConfig = [
+                        'fallbeispiele' => ['label' => 'Fallbeispiele', 'color' => 'cyan'],
+                        'methoden' => ['label' => 'Methoden', 'color' => 'magenta'],
+                        'broschuere-und-information' => ['label' => 'Literatur & Material', 'color' => 'yellow'],
+                        'paedagogische-fachkraft' => ['label' => 'Pädagogische Fachkraft', 'color' => 'purple'],
+                        'eltern-und-angehoerige' => ['label' => 'Eltern und Angehörige', 'color' => 'orange'],
+                        'schule' => ['label' => 'Schule', 'color' => 'purple'],
+                        'kita' => ['label' => 'Kita', 'color' => 'purple'],
+                        'sozialarbeit' => ['label' => 'Sozialarbeit, Kinder- und Jugendhilfe', 'color' => 'purple']
+                    ];
+                    
+                    // Add Inhaltsart (new_category)
+                    if ($page->new_category()->isNotEmpty()) {
+                        $key = $page->new_category()->value();
+                        $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                        echo '<div class="article-tag ' . $tagData['color'] . '">' . $tagData['label'] . '</div>';
+                    }
+                    
+                    // Add Kategorie (category)
+                    if ($page->category()->isNotEmpty()) {
+                        $key = $page->category()->value();
+                        $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                        echo '<div class="article-tag ' . $tagData['color'] . '">' . $tagData['label'] . '</div>';
+                    }
+                    
+                    // Add Unterkategorie (subcategory)
+                    if ($page->subcategory()->isNotEmpty()) {
+                        $key = $page->subcategory()->value();
+                        $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                        echo '<div class="article-tag ' . $tagData['color'] . '">' . $tagData['label'] . '</div>';
+                    }
+                    ?>
+                </div>
                                                 
                 <?php if ($page->flow_text_1()->isNotEmpty()): ?>
                     <div class="article-disclaimer orange">
-                        <?= $page->flow_text_1()->kt() ?>
+                        <?php 
+                        $text = $page->flow_text_1()->value();
+                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
+                        echo kirbytext($text);
+                        ?>
                     </div>
                 <?php endif ?>
                 
                 <?php if ($page->flow_text_2()->isNotEmpty()): ?>
                     <div class="article-flow-text">
-                        <?= $page->flow_text_2()->kt() ?>
+                        <?php 
+                        $text = $page->flow_text_2()->value();
+                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
+                        echo kirbytext($text);
+                        ?>
                     </div>
                 <?php endif ?>
                 
