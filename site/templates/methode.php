@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $page->page_title() ?> - Miteinander e.V.</title>
+    <title><?= $page->title() ?> - Miteinander e.V.</title>
     <link rel="stylesheet" href="<?= url('assets/style/style.css') ?>?v=3">
     <script src="<?= url('assets/js/alpine.min.js') ?>" defer></script>
 </head>
@@ -45,24 +45,26 @@
         });
     }
 }" 
-@scroll.window="isScrolled = (window.pageYOffset > 0)">
+@scroll.window="isScrolled = (window.pageYOffset > scrollThreshold)">
     <?php snippet('sidebar') ?>
-    <div id="main" class="list">
+    <div id="main" :class="view">
         <div id="header-main">
             <div id="header-main-large" :class="{ 'scrolled': isScrolled }">
                 <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title"><?= $page->page_title() ?></div>
+                    <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
                 </div>
+                <?php snippet('list-view-header') ?>
             </div>
             <div id="header-main-small" :class="{ 'scrolled': isScrolled }">
                 <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title-small"><?= $page->page_title() ?></div>
+                    <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
                 </div>
+                <?php snippet('list-view-header') ?>
             </div>
         </div>
-        <div id="content">
+        <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
             <div id="article-content">
-                <h1><?= $page->page_title() ?></h1>
+                <h1><?= $page->title() ?></h1>
                 
                 <?php if ($page->intro_text()->isNotEmpty()): ?>
                     <div class="article-intro">
@@ -111,30 +113,6 @@
                                 <?php endif ?>
                             </figure>
                         <?php endforeach ?>
-                    </div>
-                <?php endif ?>
-                
-                <?php if ($page->related_posts()->isNotEmpty()): ?>
-                    <div class="article-related-posts">
-                        <h2>Weiterführende Materialien</h2>
-                        <ul>
-                            <?php foreach ($page->related_posts()->toStructure() as $link): ?>
-                                <li>
-                                    <?php if ($link->type()->value() === 'internal'): ?>
-                                        <?php $linkedPage = $link->internal_link()->toPage() ?>
-                                        <?php if ($linkedPage): ?>
-                                            <a href="<?= $linkedPage->url() ?>">
-                                                <?= $link->title_internal() ?>
-                                            </a>
-                                        <?php endif ?>
-                                    <?php elseif ($link->type()->value() === 'external'): ?>
-                                        <a href="<?= $link->external_link() ?>" target="_blank" rel="noopener noreferrer">
-                                            <?= $link->title_external() ?>
-                                        </a>
-                                    <?php endif ?>
-                                </li>
-                            <?php endforeach ?>
-                        </ul>
                     </div>
                 <?php endif ?>
             </div>

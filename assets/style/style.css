@@ -220,7 +220,7 @@ a {
 
 .options-title {
   font-size: var(--regular-small-font-size);
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.9rem;
 }
 
 .options-element {
@@ -359,6 +359,11 @@ a {
   left: calc(var(--mono-font-size-small) * 0.9);
   transform: translateY(-50%) scale(1);
   opacity: 1;
+}
+
+#sidebar-related-materials {
+  padding: 1.2rem;
+  width: 100%;
 }
 
 #website-title-container {
@@ -697,4 +702,29 @@ a {
 }
 .article-tag.yellow {
   background-color: #EAFF00;
+}
+.article-tag.red {
+  background-color: #FF7979;
+}
+
+.related-post-container {
+  background-color: #E8E8E8;
+  color: black;
+  padding: 0.6rem 1rem 1rem 1rem;
+  margin-bottom: var(--page-padding);
+  border-radius: 0.5rem;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  transition: var(--transition-s);
+  cursor: pointer;
+}
+.related-post-container:hover {
+  background-color: black;
+  color: white;
+}
+
+.related-post-headline {
+  font-family: "Monument Mono";
+  font-size: var(--regular-small-font-size);
+  letter-spacing: 0;
 }/*# sourceMappingURL=style.css.map */

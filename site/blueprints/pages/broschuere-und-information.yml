@@ -1,5 +1,5 @@
 name: broschuere-und-information
-title: Broschüre und Information
+title: Literatur & Material
 
 columns:
   - width: 2/3
@@ -81,7 +81,7 @@ columns:
         options:
           fallbeispiele: Fallbeispiele
           methoden: Methoden
-          broschuere-und-information: Broschüre und Information
+          broschuere-und-information: Literatur & Material
         required: true
 
       category:

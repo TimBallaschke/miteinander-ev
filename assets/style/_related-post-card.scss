@@ -1,0 +1,21 @@
+.related-post-container {
+    background-color: #E8E8E8;
+    color: black;
+    padding: 0.6rem 1rem 1rem 1rem;
+    margin-bottom: var(--page-padding);
+    border-radius: 0.5rem;
+    break-inside: avoid;
+    transition: var(--transition-s);
+    cursor: pointer;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.related-post-headline {
+    font-family: "Monument Mono";
+    font-size: var(--regular-small-font-size);
+    letter-spacing: 0;
+}

@@ -4,7 +4,7 @@
             <?php snippet('menu-item', [
                 'label' => 'Inhalte',
                 'url' => url(),
-                'active' => $page->isHomePage()
+                'active' => $page->isHomePage() || $page->template()->name() === 'fallbeispiel' || $page->template()->name() === 'methode'
             ]) ?>
             <?php snippet('menu-item', [
                 'label' => 'Informationen',
@@ -28,6 +28,7 @@
         </div>
     </div>
     <div id="sidebar-content" :class="{ 'scrolled': isScrolled, 'menu-unfolded': menuUnfolded }">
+        <?php if ($page->isHomePage()): ?>
         <div id="sidebar-search">
             <input id="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
         </div>
@@ -118,7 +119,7 @@
                     <?php snippet('single-select-button', [
                         'variable' => 'content',
                         'value' => 'brochures',
-                        'label' => 'Broschüren und Informationen',
+                        'label' => 'Literatur & Material',
                         'colorClass' => 'yellow',
                         'tagKey' => 'broschuere-und-information'
                     ]) ?>
@@ -132,6 +133,84 @@
                 </div>
             </div>
         </div>
+        <?php elseif ($page->template()->name() === 'fallbeispiel' || $page->template()->name() === 'methode'): ?>
+        <div id="sidebar-related-materials">
+            <div class="sidebar-section-title options-title">Weiterführende Materialien:</div>
+            <?php if ($page->related_posts()->isNotEmpty()): ?>
+                <?php 
+                // Tag config for related posts
+                $tagConfig = [
+                    'fallbeispiele' => ['label' => 'Fallbeispiele', 'color' => 'cyan'],
+                    'methoden' => ['label' => 'Methoden', 'color' => 'magenta'],
+                    'broschuere-und-information' => ['label' => 'Literatur & Material', 'color' => 'yellow'],
+                    'paedagogische-fachkraft' => ['label' => 'Pädagogische Fachkraft', 'color' => 'purple'],
+                    'eltern-und-angehoerige' => ['label' => 'Eltern und Angehörige', 'color' => 'orange'],
+                    'schule' => ['label' => 'Schule', 'color' => 'purple'],
+                    'kita' => ['label' => 'Kita', 'color' => 'purple'],
+                    'sozialarbeit' => ['label' => 'Sozialarbeit, Kinder- und Jugendhilfe', 'color' => 'purple']
+                ];
+                
+                foreach ($page->related_posts()->toStructure() as $post): 
+                    // Always prioritize internal links over external links
+                    $linkedPage = $post->internal_link()->toPage();
+                    
+                    // Validate that internal link points to an actual article (not overview page)
+                    // Check by new_category field since templates may be 'default'
+                    $validArticleCategories = ['fallbeispiele', 'methoden', 'broschuere-und-information'];
+                    $isValidArticle = $linkedPage && 
+                                     $linkedPage->new_category()->isNotEmpty() && 
+                                     in_array($linkedPage->new_category()->value(), $validArticleCategories);
+                    
+                    if ($isValidArticle) {
+                        // Internal link exists and points to valid article - use it
+                        $url = $linkedPage->url();
+                        $title = $post->internal_link_title()->value();
+                        $isExternal = false;
+                        
+                        // Get tags from the linked page
+                        $tags = [];
+                        if ($linkedPage->new_category()->isNotEmpty()) {
+                            $key = $linkedPage->new_category()->value();
+                            $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                            $tagData['type'] = 'content-type';
+                            $tagData['key'] = $key;
+                            $tags[] = $tagData;
+                        }
+                        if ($linkedPage->category()->isNotEmpty()) {
+                            $key = $linkedPage->category()->value();
+                            $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                            $tagData['type'] = 'audience';
+                            $tagData['key'] = $key;
+                            $tags[] = $tagData;
+                        }
+                        if ($linkedPage->subcategory()->isNotEmpty()) {
+                            $key = $linkedPage->subcategory()->value();
+                            $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                            $tagData['type'] = 'subcategory';
+                            $tagData['key'] = $key;
+                            $tags[] = $tagData;
+                        }
+                    } elseif ($post->external_link()->isNotEmpty()) {
+                        // No internal link - use external link
+                        $url = $post->external_link()->value();
+                        $title = $post->external_link_title()->value();
+                        $isExternal = true;
+                        $tags = [];
+                    } else {
+                        // Neither internal nor external link available - skip
+                        continue;
+                    }
+                ?>
+                    <?php snippet('related-post-card', [
+                        'url' => $url,
+                        'title' => $title,
+                        'isExternal' => $isExternal,
+                        'tags' => $tags ?? []
+                    ]) ?>
+                <?php endforeach ?>
+            <?php endif ?>
+        </div>
+        <?php endif ?>
     </div>
 </div>
 

@@ -68,7 +68,7 @@
 
 .options-title {
     font-size: var(--regular-small-font-size);
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.9rem;
 }
 
 .options-element {
@@ -241,4 +241,9 @@
             opacity: 1;
         }
     }
+}
+
+#sidebar-related-materials {
+    padding: 1.2rem;
+    width: 100%;
 }

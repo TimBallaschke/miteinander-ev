@@ -65,7 +65,7 @@
                 // Inhaltsart
                 'fallbeispiele' => ['label' => 'Fallbeispiele', 'color' => 'cyan'],
                 'methoden' => ['label' => 'Methoden', 'color' => 'magenta'],
-                'broschuere-und-information' => ['label' => 'Broschüre und Information', 'color' => 'yellow'],
+                'broschuere-und-information' => ['label' => 'Literatur & Material', 'color' => 'yellow'],
                 // Kategorie
                 'paedagogische-fachkraft' => ['label' => 'Pädagogische Fachkraft', 'color' => 'purple'],
                 'eltern-und-angehoerige' => ['label' => 'Eltern und Angehörige', 'color' => 'orange'],

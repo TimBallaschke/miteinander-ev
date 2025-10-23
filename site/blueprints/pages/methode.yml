@@ -96,7 +96,7 @@ columns:
         options:
           fallbeispiele: Fallbeispiele
           methoden: Methoden
-          broschuere-und-information: Broschüre und Information
+          broschuere-und-information: Literatur & Material
         required: true
 
       category:

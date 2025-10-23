@@ -36,7 +36,6 @@ Related-posts:
   type: internal
   internal_link_title: Auch das noch?!
   internal_link:
-    - page://TPh2P1JHkbwVh5V6
     - page://DRMQVzJ1g7f0xdHf
   external_link_title: ""
   external_link: ""
