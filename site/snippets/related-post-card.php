@@ -9,7 +9,7 @@
                     <div class="article-tag <?= $tag['color'] ?? '' ?> <?= $tag['type'] ?? '' ?> <?= $tag['key'] ?? '' ?>"><?= $tag['label'] ?? $tag ?></div>
                 <?php endforeach ?>
             <?php endif ?>
-            <?php if ($isExternal ?? false): ?>
+            <?php if ($showExternalTag ?? false): ?>
                 <div class="article-tag red external-link">Externer Link</div>
             <?php endif ?>
         </div>

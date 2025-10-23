@@ -164,18 +164,31 @@
                     if ($isValidArticle) {
                         // Internal link exists and points to valid article - use it
                         $title = $post->internal_link_title()->value();
-                        
-                        // Check if it's a brochure - if so, link to PDF
                         $isBrochure = $linkedPage->new_category()->value() === 'broschuere-und-information';
+                        $showExternalTag = false; // Only show tag for actual external links, not brochures
+                        
                         if ($isBrochure) {
-                            // Brochure: Try to get PDF file
+                            // Brochure: First try to get PDF file
                             $pdfFile = $linkedPage->files()->first();
                             if ($pdfFile) {
                                 $url = $pdfFile->url();
                                 $isExternal = true;
                             } else {
-                                $url = '#';
-                                $isExternal = false;
+                                // No PDF, check for external link in brochure's related posts
+                                $hasLink = false;
+                                if ($linkedPage->related_posts()->isNotEmpty()) {
+                                    $firstBrochurePost = $linkedPage->related_posts()->toStructure()->first();
+                                    if ($firstBrochurePost && $firstBrochurePost->external_link()->isNotEmpty()) {
+                                        $url = $firstBrochurePost->external_link()->value();
+                                        $isExternal = true;
+                                        $hasLink = true;
+                                    }
+                                }
+                                // If no link found, set to #
+                                if (!$hasLink) {
+                                    $url = '#';
+                                    $isExternal = false;
+                                }
                             }
                         } else {
                             // Fallbeispiel or Methode: Link to detail page
@@ -211,6 +224,7 @@
                         $url = $post->external_link()->value();
                         $title = $post->external_link_title()->value();
                         $isExternal = true;
+                        $showExternalTag = true; // Show tag for actual external links
                         $tags = [];
                     } else {
                         // Neither internal nor external link available - skip
@@ -221,6 +235,7 @@
                         'url' => $url,
                         'title' => $title,
                         'isExternal' => $isExternal,
+                        'showExternalTag' => $showExternalTag ?? false,
                         'tags' => $tags ?? []
                     ]) ?>
                 <?php endforeach ?>
