@@ -76,46 +76,44 @@
         <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
             <div class="subpage-content">
                 <div class="subpage-title"><?= $page->title() ?></div>
-                <?php if ($page->flow_text_1()->isNotEmpty()): ?>
-                    <div class="subpage-flow-text">
-                        <?php 
-                        $text = $page->flow_text_1()->value();
-                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                        echo kirbytext($text);
-                        ?>
-                    </div>
-                <?php endif ?>
                 
-                <?php if ($page->question_answer_block()->isNotEmpty()): ?>
-                    <div class="article-qa-block">
-                        <?= $page->question_answer_block()->toBlocks() ?>
-                    </div>
-                <?php endif ?>
-                
-                <?php if ($page->flow_text_2()->isNotEmpty()): ?>
-                    <div class="subpage-flow-text">
-                        <?php 
-                        $text = $page->flow_text_2()->value();
-                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                        echo kirbytext($text);
-                        ?>
-                    </div>
-                <?php endif ?>
-                
-                <?php if ($page->content_blocks_2()->isNotEmpty()): ?>
-                    <div class="content-blocks">
-                        <?php foreach ($page->content_blocks_2()->toStructure() as $block): ?>
-                            <div class="content-block">
-                                <?php if ($block->question()->isNotEmpty()): ?>
-                                    <h3><?= $block->question() ?></h3>
+                <?php if ($page->impressum_sections()->isNotEmpty()): ?>
+                    <div class="impressum-section">
+                        <h2>Impressum</h2>
+                        <?php foreach ($page->impressum_sections()->toStructure() as $section): ?>
+                            <div class="impressum-block">
+                                <?php if ($section->title()->isNotEmpty()): ?>
+                                    <h3><?= $section->title() ?></h3>
                                 <?php endif ?>
-                                <?php if ($block->answers()->isNotEmpty()): ?>
-                                    <div class="content-block-answers">
-                                        <?php foreach ($block->answers()->toStructure() as $answer): ?>
-                                            <div class="content-block-answer <?= $answer->highlight()->toBool() ? 'highlighted' : '' ?>">
-                                                <?= $answer->text()->kt() ?>
-                                            </div>
-                                        <?php endforeach ?>
+                                <?php if ($section->text()->isNotEmpty()): ?>
+                                    <div class="impressum-text">
+                                        <?php 
+                                        $text = $section->text()->value();
+                                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
+                                        echo kirbytext($text);
+                                        ?>
+                                    </div>
+                                <?php endif ?>
+                            </div>
+                        <?php endforeach ?>
+                    </div>
+                <?php endif ?>
+                
+                <?php if ($page->datenschutz_sections()->isNotEmpty()): ?>
+                    <div class="datenschutz-section">
+                        <h2>Datenschutz</h2>
+                        <?php foreach ($page->datenschutz_sections()->toStructure() as $section): ?>
+                            <div class="datenschutz-block">
+                                <?php if ($section->title()->isNotEmpty()): ?>
+                                    <h3><?= $section->title() ?></h3>
+                                <?php endif ?>
+                                <?php if ($section->text()->isNotEmpty()): ?>
+                                    <div class="datenschutz-text">
+                                        <?php 
+                                        $text = $section->text()->value();
+                                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
+                                        echo kirbytext($text);
+                                        ?>
                                     </div>
                                 <?php endif ?>
                             </div>

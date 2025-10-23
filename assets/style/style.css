@@ -26,6 +26,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never; /* Note: font-smooth is not widely supported */
   font-size: 1vw;
+  overscroll-behavior: none;
 }
 
 *, *:before, *:after {
@@ -36,6 +37,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overscroll-behavior: none;
   font-family: "Monument";
   /* Hide scrollbar for Chrome, Safari and Opera */
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -306,7 +308,7 @@ a {
   background-color: #99A5FF;
 }
 .option-button.orange {
-  background-color: #FFBC69;
+  background-color: #FF8A00;
 }
 .option-button.magenta {
   background-color: #FF99F5;
@@ -1013,4 +1015,44 @@ a {
 }
 .contact-project-section .contact-detail {
   padding-top: calc(var(--mono-font-size-large) * 1.2);
+}
+
+#footer {
+  background-color: white;
+  border-top: solid 1px black;
+  padding: var(--page-padding);
+  margin-top: var(--page-padding);
+  position: relative;
+  z-index: 200;
+}
+
+#footer-content {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+}
+
+.logo-titles-bottom {
+  grid-column: 1/-1;
+}
+
+.footer-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */

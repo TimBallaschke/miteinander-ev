@@ -60,5 +60,6 @@
     ?>
     <?php snippet('sidebar') ?>
     <?php snippet('main') ?>
+    <?php snippet('footer') ?>
 </body>
 </html>

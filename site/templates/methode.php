@@ -118,6 +118,7 @@
             </div>
         </div>
     </div>
+    <?php snippet('footer') ?>
 </body>
 </html>
 
