@@ -17,6 +17,7 @@
     scrollThreshold: 0,
     menuUnfolded: false,
     introTextUnfolded: false,
+    mobileFilterVisible: false,
     init() {
         this.$watch('audience', (value) => {
             if (value === 'teacher') {
@@ -27,7 +28,7 @@
         });
     }
 }" 
-@scroll.window="isScrolled = (window.pageYOffset > 0)">
+@scroll.window="isScrolled = (window.pageYOffset > 0) && (window.innerWidth > 767)">
     <?php
     // Calculate tag counts before rendering sidebar
     $fallbeispiele = page('fallbeispiele')?->children()->listed();

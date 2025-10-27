@@ -1,0 +1,46 @@
+.mobile-filter-header {
+    font-family: "Monument Mono";
+    font-size: var(--mono-font-size-large);
+    position: fixed;
+    top: 4.8rem;
+    left: 0;
+    z-index: 300;
+    width: 100%;
+    overflow: scroll;
+    pointer-events: none;
+
+    .options-title {
+        font-family: "Monument";
+        font-size: var(--regular-small-font-size-small);
+        padding-bottom: 0.6rem;
+    }
+}
+
+.mobile-filter-header-title-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 100%;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+    z-index: 300;
+    pointer-events: auto;
+}
+
+.mobile-filter-header-content {
+    position: relative;
+    transform: translateY(-100%);
+    z-index: 0;
+    transition: all 800ms ease-in-out;
+    height: calc(100dvh - 4.8rem - 3rem - var(--search-bar-container-height));
+    pointer-events: none;
+
+    .filter-visible & {
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+}

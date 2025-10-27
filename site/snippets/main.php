@@ -10,10 +10,11 @@
             <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
                 <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
             </div>
+            <?php snippet('mobile-filter-header') ?>
             <?php snippet('list-view-header') ?>
         </div>
     </div>
-    <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
+    <div id="content" :class="view + (isScrolled ? ' scrolled' : '') + (mobileFilterVisible ? ' filter-visible' : '')">
         <div id="intro-text" :class="{ 'unfolded': introTextUnfolded }">
             <?php 
             $fullText = page('startseite')?->flow_text()->value() ?? '';

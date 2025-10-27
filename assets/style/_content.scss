@@ -8,6 +8,10 @@
         padding-left: 0;
         background-color: #fff;
     }
+
+    @include mobile {
+        padding-left: 0;
+    }
 }
 
 #content {
@@ -16,6 +20,10 @@
 
     &.grid {
         padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding));
+
+        @include mobile {
+            padding-top: 11.8rem;
+        }
     }
 
     &.list {
@@ -89,6 +97,10 @@
     &.grid {
         column-count: 2;
         column-gap: var(--page-padding);
+
+        @include mobile {
+            column-count: 1;
+        }
     }
 
     &.list {

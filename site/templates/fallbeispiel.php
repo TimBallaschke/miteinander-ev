@@ -27,7 +27,7 @@
         });
     }
 }" 
-@scroll.window="isScrolled = (window.pageYOffset > 0)">
+@scroll.window="isScrolled = (window.pageYOffset > 0) && (window.innerWidth > 767)">
     <?php snippet('sidebar') ?>
     <div id="main" :class="view">
         <div id="header-main">

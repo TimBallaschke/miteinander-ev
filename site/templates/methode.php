@@ -17,6 +17,7 @@
     scrollThreshold: 0,
     menuUnfolded: false,
     introTextUnfolded: false,
+    mobileFilterVisible: false,
     init() {
         this.$watch('audience', (value) => {
             if (value === 'teacher') {
@@ -27,7 +28,7 @@
         });
     }
 }" 
-@scroll.window="isScrolled = (window.pageYOffset > 0)">
+@scroll.window="isScrolled = (window.pageYOffset > 0) && (window.innerWidth > 767)">
     <?php snippet('sidebar') ?>
     <div id="main" :class="view">
         <div id="header-main">
@@ -44,7 +45,7 @@
                 <?php snippet('list-view-header') ?>
             </div>
         </div>
-        <div id="content" :class="view + (isScrolled ? ' scrolled' : '')">
+        <div id="content" :class="view + (isScrolled ? ' scrolled' : '') + (mobileFilterVisible ? ' filter-visible' : '')">
             <div class="article-content">
                 <div class="article-page-title"><?= $page->title() ?></div>
                 

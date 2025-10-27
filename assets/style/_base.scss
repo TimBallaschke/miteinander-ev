@@ -5,6 +5,10 @@ html {
     font-smooth: never; /* Note: font-smooth is not widely supported */
     font-size: 1vw;
     overscroll-behavior: none;
+
+    @include mobile {
+        font-size: 3.5vw;
+    }
 }
 
 *, *:before, *:after {

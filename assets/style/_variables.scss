@@ -1,3 +1,27 @@
+// Responsive Breakpoints Mixins
+// Define mixins first so they can be used in :root
+
+@mixin mobile {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+// Tablet only (768px to 1023px)
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 1023px) {
+        @content;
+    }
+}
+
+// Desktop only (1024px to 1439px)
+@mixin desktop {
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        @content;
+    }
+}
+
+// CSS Custom Properties
 :root {
     --sidebar-width: 28vw;
     --main-width: calc(100vw - var(--sidebar-width));
@@ -24,4 +48,17 @@
     --transition-s: all 0.3s ease-in-out;
     --transition-m: all 0.6s ease-in-out;
     --transition-l: all 0.9s ease-in-out;
-}   
+
+    @include mobile {
+        --mono-font-size-small: 0.83rem;
+        --regular-font-size-large: 1.6rem;
+        --mono-font-size-large: 1.5rem;
+
+        --regular-small-font-size-small: 0.95rem;
+
+
+        --page-padding: 1rem;
+
+        --search-bar-container-height: 3.4rem;
+    }
+}

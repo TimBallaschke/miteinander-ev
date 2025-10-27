@@ -21,6 +21,10 @@
         border-right: none;
         pointer-events: none;
     }
+
+    @include mobile {
+        display: none;
+    }
 }
 
 #sidebar-content {
@@ -42,6 +46,8 @@
 }
 
 #sidebar-search {
+    position: relative;
+    z-index: 310;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +55,8 @@
     width: 100%;
     border-bottom: solid 1px black;
     padding: 0 var(--page-padding);
-
+    background-color: white;
+    pointer-events: auto;
 }
 
 
@@ -70,6 +77,12 @@
     padding: var(--page-padding);
     width: 100%;
     border-bottom: solid 1px black;
+    background-color: white;
+
+    @include mobile {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
 }
 
 .options-title {
