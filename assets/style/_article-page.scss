@@ -197,3 +197,20 @@
         }
     }
 }
+
+.article-related-materials {
+    display: none;
+    border-top: solid 1px black;
+    padding: var(--page-padding);
+    
+    @include mobile {
+        display: block;
+    }
+    
+    .related-materials-title {
+        font-family: "Monument";
+        font-size: var(--regular-small-font-size-small);
+        line-height: 1.2;
+        padding-bottom: var(--page-padding);
+    }
+}

@@ -133,6 +133,114 @@
                 <?php endif ?>
                 
             </div>
+            
+            <?php if ($page->related_posts()->isNotEmpty()): ?>
+            <div class="article-related-materials mobile-only">
+                <div class="related-materials-title">Weiterführende Materialien:</div>
+                <?php 
+                // Tag config for related posts
+                $tagConfig = [
+                    'fallbeispiele' => ['label' => 'Fallbeispiele', 'color' => 'cyan'],
+                    'methoden' => ['label' => 'Methoden', 'color' => 'magenta'],
+                    'broschuere-und-information' => ['label' => 'Literatur & Material', 'color' => 'yellow'],
+                    'paedagogische-fachkraft' => ['label' => 'Pädagogische Fachkraft', 'color' => 'purple'],
+                    'eltern-und-angehoerige' => ['label' => 'Eltern und Angehörige', 'color' => 'orange'],
+                    'schule' => ['label' => 'Schule', 'color' => 'purple'],
+                    'kita' => ['label' => 'Kita', 'color' => 'purple'],
+                    'sozialarbeit' => ['label' => 'Sozialarbeit, Kinder- und Jugendhilfe', 'color' => 'purple']
+                ];
+                
+                foreach ($page->related_posts()->toStructure() as $post): 
+                    // Always prioritize internal links over external links
+                    $linkedPage = $post->internal_link()->toPage();
+                    
+                    // Validate that internal link points to an actual article (not overview page)
+                    // Check by new_category field since templates may be 'default'
+                    $validArticleCategories = ['fallbeispiele', 'methoden', 'broschuere-und-information'];
+                    $isValidArticle = $linkedPage && 
+                                     $linkedPage->new_category()->isNotEmpty() && 
+                                     in_array($linkedPage->new_category()->value(), $validArticleCategories);
+                    
+                    if ($isValidArticle) {
+                        // Internal link exists and points to valid article - use it
+                        $title = $post->internal_link_title()->value();
+                        $isBrochure = $linkedPage->new_category()->value() === 'broschuere-und-information';
+                        $showExternalTag = false; // Only show tag for actual external links, not brochures
+                        
+                        if ($isBrochure) {
+                            // Brochure: First try to get PDF file
+                            $pdfFile = $linkedPage->files()->first();
+                            if ($pdfFile) {
+                                $url = $pdfFile->url();
+                                $isExternal = true;
+                            } else {
+                                // No PDF, check for external link in brochure's related posts
+                                $hasLink = false;
+                                if ($linkedPage->related_posts()->isNotEmpty()) {
+                                    $firstBrochurePost = $linkedPage->related_posts()->toStructure()->first();
+                                    if ($firstBrochurePost && $firstBrochurePost->external_link()->isNotEmpty()) {
+                                        $url = $firstBrochurePost->external_link()->value();
+                                        $isExternal = true;
+                                        $hasLink = true;
+                                    }
+                                }
+                                // If no link found, set to #
+                                if (!$hasLink) {
+                                    $url = '#';
+                                    $isExternal = false;
+                                }
+                            }
+                        } else {
+                            // Fallbeispiel or Methode: Link to detail page
+                            $url = $linkedPage->url();
+                            $isExternal = false;
+                        }
+                        
+                        // Get tags from the linked page
+                        $tags = [];
+                        if ($linkedPage->new_category()->isNotEmpty()) {
+                            $key = $linkedPage->new_category()->value();
+                            $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                            $tagData['type'] = 'content-type';
+                            $tagData['key'] = $key;
+                            $tags[] = $tagData;
+                        }
+                        if ($linkedPage->category()->isNotEmpty()) {
+                            $key = $linkedPage->category()->value();
+                            $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                            $tagData['type'] = 'audience';
+                            $tagData['key'] = $key;
+                            $tags[] = $tagData;
+                        }
+                        if ($linkedPage->subcategory()->isNotEmpty()) {
+                            $key = $linkedPage->subcategory()->value();
+                            $tagData = $tagConfig[$key] ?? ['label' => $key, 'color' => ''];
+                            $tagData['type'] = 'subcategory';
+                            $tagData['key'] = $key;
+                            $tags[] = $tagData;
+                        }
+                    } elseif ($post->external_link()->isNotEmpty()) {
+                        // No internal link - use external link
+                        $url = $post->external_link()->value();
+                        $title = $post->external_link_title()->value();
+                        $isExternal = true;
+                        $showExternalTag = true; // Show tag for actual external links
+                        $tags = [];
+                    } else {
+                        // Neither internal nor external link available - skip
+                        continue;
+                    }
+                ?>
+                    <?php snippet('related-post-card', [
+                        'url' => $url,
+                        'title' => $title,
+                        'isExternal' => $isExternal,
+                        'showExternalTag' => $showExternalTag ?? false,
+                        'tags' => $tags ?? []
+                    ]) ?>
+                <?php endforeach ?>
+            </div>
+            <?php endif ?>
         </div>
     </div>
     <?php snippet('footer') ?>

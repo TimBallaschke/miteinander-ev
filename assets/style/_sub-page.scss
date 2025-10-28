@@ -85,7 +85,6 @@
 
     .bundesland-title {
         font-family: "Monument Mono";
-        border-bottom: solid 1px black;
         padding-bottom: 1rem;
         min-width: 0;
         overflow-wrap: break-word;
@@ -93,6 +92,7 @@
 
         @include mobile {
             font-size: var(--mono-font-size-large);
+            border-bottom: solid 1px black;
         }
     }
 

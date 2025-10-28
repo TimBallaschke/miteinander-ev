@@ -263,4 +263,8 @@
 #sidebar-related-materials {
     padding: 1.2rem;
     width: 100%;
+    
+    @include mobile {
+        display: none;
+    }
 }

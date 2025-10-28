@@ -460,6 +460,11 @@ a {
   padding: 1.2rem;
   width: 100%;
 }
+@media (max-width: 767px) {
+  #sidebar-related-materials {
+    display: none;
+  }
+}
 
 @media (max-width: 767px) {
   #header-main {
@@ -1098,6 +1103,23 @@ a {
   display: none;
 }
 
+.article-related-materials {
+  display: none;
+  border-top: solid 1px black;
+  padding: var(--page-padding);
+}
+@media (max-width: 767px) {
+  .article-related-materials {
+    display: block;
+  }
+}
+.article-related-materials .related-materials-title {
+  font-family: "Monument";
+  font-size: var(--regular-small-font-size-small);
+  line-height: 1.2;
+  padding-bottom: var(--page-padding);
+}
+
 .subpage-content {
   padding: var(--page-padding);
   max-width: 100%;
@@ -1179,7 +1201,6 @@ a {
 }
 .bundesland-section .bundesland-title {
   font-family: "Monument Mono";
-  border-bottom: solid 1px black;
   padding-bottom: 1rem;
   min-width: 0;
   overflow-wrap: break-word;
@@ -1188,6 +1209,7 @@ a {
 @media (max-width: 767px) {
   .bundesland-section .bundesland-title {
     font-size: var(--mono-font-size-large);
+    border-bottom: solid 1px black;
   }
 }
 .bundesland-section span {
