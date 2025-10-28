@@ -1,7 +1,15 @@
 .subpage-content {
-    padding: var(--page-padding);
+    padding: 0 var(--page-padding) var(--page-padding) var(--page-padding);
     max-width: 100%;
     overflow-x: hidden;
+
+    @include mobile {
+        padding: var(--page-padding);
+    }
+
+    @include tablet {
+        padding: var(--page-padding);
+    }
 
     .article-qa-block {
         p {
@@ -183,18 +191,14 @@
 }
 
 .contact-section {
-    padding: var(--page-padding);
 }
 
 .contact-project-section {
-    display: grid;
-    grid-template-columns: calc(var(--sidebar-width)) 1fr;
     font-size: var(--mono-font-size-large);
     line-height: 1.2;
     padding-top: 1.2rem;
     padding-bottom: 1rem;
     margin-top: 5rem;
-    border-top: solid 1px black;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
@@ -218,6 +222,23 @@
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
+        display: block;
+        padding-bottom: 1rem;
+        border-bottom: solid 1px black;
+        position: relative;
+        padding-left: 2.7rem;
+        
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.1rem;
+            width: 1.8rem;
+            height: 1.8rem;
+            background-color: #AAFF67;
+            display: inline-block;
+            border-radius: 50%;
+        }
     }
 
     span {
@@ -227,13 +248,14 @@
     }
 
     .contact-project-details {
-        padding-left: 8rem;
+        padding-left: var(--sidebar-width);
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
 
         @include mobile {
             padding-left: 0;
+            padding-left: 2.7rem;
         }
     }
 
@@ -242,5 +264,11 @@
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
+
+    }
+
+    .contact-detail-title {
+        font-family: "Monument Mono";
+        padding-right: 1rem;
     }
 }

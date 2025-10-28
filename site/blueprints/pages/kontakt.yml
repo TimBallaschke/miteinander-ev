@@ -24,6 +24,10 @@ columns:
         size: small
         buttons: false
 
+      projekt_1_telefon:
+        label: Telefon
+        type: tel
+
       projekt_1_emails:
         label: E-Mails
         type: structure
@@ -69,6 +73,10 @@ columns:
         type: textarea
         size: small
         buttons: false
+
+      projekt_2_telefon:
+        label: Telefon
+        type: tel
 
       projekt_2_emails:
         label: E-Mails

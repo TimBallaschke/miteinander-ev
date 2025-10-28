@@ -20,7 +20,9 @@ Miteinander e.V.
 Landsberger Straße 1
 06112 Halle (Saale)
 
-Tel.: (0345) 22 67 098
+----
+
+Projekt-1-telefon: (0345) 22 67 098
 
 ----
 
@@ -49,7 +51,9 @@ Miteinander e.V.
 Erich-Weinert-Straße 30
 39104 Magdeburg
 
-Tel.: (0391) 62077 3
+----
+
+Projekt-2-telefon: (0391) 62077 3
 
 ----
 

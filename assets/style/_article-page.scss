@@ -1,5 +1,13 @@
 .article-content {
     padding: 0 var(--page-padding) var(--page-padding) var(--page-padding);
+
+    @include mobile {
+        padding: var(--page-padding);
+    }
+
+    @include tablet {
+        padding: var(--page-padding);
+    }
 }
 
 .article-page-title {

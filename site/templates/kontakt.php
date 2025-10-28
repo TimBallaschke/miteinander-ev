@@ -110,35 +110,52 @@
                             <div class="contact-project-details">
                                 <?php if ($page->projekt_1_adresse()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>Adresse:</span><br>
-                                        <?= nl2br($page->projekt_1_adresse()) ?>
+                                        <div class="contact-detail-title">Adresse:</div>
+                                        <div class="contact-detail-content">
+                                            <?= nl2br($page->projekt_1_adresse()) ?>
+                                        </div>
+                                    </div>
+                                <?php endif ?>
+                                
+                                <?php if ($page->projekt_1_telefon()->isNotEmpty()): ?>
+                                    <div class="contact-detail">
+                                        <div class="contact-detail-title">Telefon:</div>
+                                        <div class="contact-detail-content">
+                                            <a href="tel:<?= preg_replace('/[^\d+]/', '', $page->projekt_1_telefon()) ?>"><?= $page->projekt_1_telefon() ?></a>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                                 
                                 <?php if ($page->projekt_1_emails()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>E-Mail:</span><br>
-                                        <?php foreach ($page->projekt_1_emails()->toStructure() as $email): ?>
-                                            <a href="mailto:<?= $email->email() ?>"><?= $email->email() ?></a><br>
-                                        <?php endforeach ?>
+                                        <div class="contact-detail-title">E-Mail:</div>
+                                        <div class="contact-detail-content">
+                                            <?php foreach ($page->projekt_1_emails()->toStructure() as $email): ?>
+                                                <a href="mailto:<?= $email->email() ?>"><?= $email->email() ?></a><br>
+                                            <?php endforeach ?>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                                 
                                 <?php if ($page->projekt_1_website()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>Website:</span><br>
-                                        <a href="<?= $page->projekt_1_website() ?>" target="_blank" rel="noopener noreferrer"><?= $page->projekt_1_website() ?></a>
+                                        <div class="contact-detail-title">Website:</div>
+                                        <div class="contact-detail-content">
+                                            <a href="<?= $page->projekt_1_website() ?>" target="_blank" rel="noopener noreferrer"><?= $page->projekt_1_website() ?></a>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                                 
                                 <?php if ($page->projekt_1_socials()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>Social Media:</span><br>
-                                        <?php foreach ($page->projekt_1_socials()->toStructure() as $social): ?>
-                                            <a href="<?= $social->url() ?>" target="_blank" rel="noopener noreferrer">
-                                                <?= ucfirst($social->plattform()->value()) ?>
-                                            </a><br>
-                                        <?php endforeach ?>
+                                        <div class="contact-detail-title">Social Media:</div>
+                                        <div class="contact-detail-content">
+                                            <?php foreach ($page->projekt_1_socials()->toStructure() as $social): ?>
+                                                <a href="<?= $social->url() ?>" target="_blank" rel="noopener noreferrer">
+                                                    <?= ucfirst($social->plattform()->value()) ?>
+                                                </a><br>
+                                            <?php endforeach ?>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                             </div>
@@ -151,35 +168,52 @@
                             <div class="contact-project-details">
                                 <?php if ($page->projekt_2_adresse()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>Adresse:</span><br>
-                                        <?= nl2br($page->projekt_2_adresse()) ?>
+                                        <div class="contact-detail-title">Adresse:</div>
+                                        <div class="contact-detail-content">
+                                            <?= nl2br($page->projekt_2_adresse()) ?>
+                                        </div>
+                                    </div>
+                                <?php endif ?>
+                                
+                                <?php if ($page->projekt_2_telefon()->isNotEmpty()): ?>
+                                    <div class="contact-detail">
+                                        <div class="contact-detail-title">Telefon:</div>
+                                        <div class="contact-detail-content">
+                                            <a href="tel:<?= preg_replace('/[^\d+]/', '', $page->projekt_2_telefon()) ?>"><?= $page->projekt_2_telefon() ?></a>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                                 
                                 <?php if ($page->projekt_2_emails()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>E-Mail:</span><br>
+                                        <div class="contact-detail-title">E-Mail:</div>
+                                        <div class="contact-detail-content">
                                         <?php foreach ($page->projekt_2_emails()->toStructure() as $email): ?>
-                                            <a href="mailto:<?= $email->email() ?>"><?= $email->email() ?></a><br>
-                                        <?php endforeach ?>
+                                                <a href="mailto:<?= $email->email() ?>"><?= $email->email() ?></a><br>
+                                            <?php endforeach ?>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                                 
                                 <?php if ($page->projekt_2_website()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>Website:</span><br>
-                                        <a href="<?= $page->projekt_2_website() ?>" target="_blank" rel="noopener noreferrer"><?= $page->projekt_2_website() ?></a>
+                                        <div class="contact-detail-title">Website:</div>
+                                        <div class="contact-detail-content">
+                                            <a href="<?= $page->projekt_2_website() ?>" target="_blank" rel="noopener noreferrer"><?= $page->projekt_2_website() ?></a>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                                 
                                 <?php if ($page->projekt_2_socials()->isNotEmpty()): ?>
                                     <div class="contact-detail">
-                                        <span>Social Media:</span><br>
+                                        <div class="contact-detail-title">Social Media:</div>
+                                        <div class="contact-detail-content">
                                         <?php foreach ($page->projekt_2_socials()->toStructure() as $social): ?>
                                             <a href="<?= $social->url() ?>" target="_blank" rel="noopener noreferrer">
                                                 <?= ucfirst($social->plattform()->value()) ?>
-                                            </a><br>
-                                        <?php endforeach ?>
+                                                </a><br>
+                                            <?php endforeach ?>
+                                        </div>
                                     </div>
                                 <?php endif ?>
                             </div>
