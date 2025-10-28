@@ -34,6 +34,10 @@
         @include mobile {
             padding-top: 11.3rem;
         }
+
+        @include tablet {
+            padding-top: calc(var(--top-menu-element-height) * 4);
+        }
     }
 
     &.scrolled {
@@ -128,6 +132,10 @@
         column-gap: var(--page-padding);
 
         @include mobile {
+            column-count: 1;
+        }
+
+        @include tablet {
             column-count: 1;
         }
     }

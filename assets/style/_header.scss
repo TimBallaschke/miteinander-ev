@@ -142,6 +142,10 @@
     @include mobile {
         display: none;
     }
+
+    @include tablet {
+        display: none;
+    }
 }
 
 .list-view-header {
@@ -159,7 +163,7 @@
 #top-menu {
     background-color: black;
     color: white;
-    font-size: var(--mono-font-size-large);
+    font-size: var(--regular-font-size-large);
     border-right: solid 1px white;
     z-index: 100;
     position: fixed;
@@ -211,6 +215,10 @@
                 transform: translateY(0.15rem) scale(1);
 
                 @include mobile {
+                    transform: translateY(-0.1rem) scale(1);
+                }
+
+                @include tablet {
                     transform: translateY(-0.1rem) scale(1);
                 }
             }
@@ -271,7 +279,7 @@
     height: 1.6rem;
     position: absolute;
     right: var(--page-padding);
-    top: 0.8rem;
+    top: 1.15rem;
     opacity: 0;
     pointer-events: none;
     cursor: pointer;

@@ -30,6 +30,18 @@
     --search-bar-container-height: 3.4rem;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    --sidebar-width: 35vw;
+    --top-menu-element-height: 4rem;
+    --search-bar-container-height: 5rem;
+    --mono-font-size-small: 1.1rem;
+    --mono-font-size-large: 2.4rem;
+    --regular-font-size-large: 2.4rem;
+    --regular-small-font-size: 1.8rem;
+    --font-size-title: 4.3rem;
+  }
+}
 
 html {
   box-sizing: border-box;
@@ -122,6 +134,11 @@ a {
     padding-top: 11.3rem;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  #content.list {
+    padding-top: calc(var(--top-menu-element-height) * 4);
+  }
+}
 #content.scrolled {
   padding-top: calc(var(--top-menu-element-height) * 2 + var(--page-padding));
 }
@@ -209,6 +226,12 @@ a {
        column-gap: var(--page-padding);
 }
 @media (max-width: 767px) {
+  #article-overview.grid {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
   #article-overview.grid {
     -moz-column-count: 1;
          column-count: 1;
@@ -606,6 +629,11 @@ a {
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .list-view-header-container {
+    display: none;
+  }
+}
 
 .list-view-header {
   display: grid;
@@ -619,7 +647,7 @@ a {
 #top-menu {
   background-color: black;
   color: white;
-  font-size: var(--mono-font-size-large);
+  font-size: var(--regular-font-size-large);
   border-right: solid 1px white;
   z-index: 100;
   position: fixed;
@@ -672,6 +700,11 @@ a {
     transform: translateY(-0.1rem) scale(1);
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .top-menu-element-container.active .top-menu-element::before {
+    transform: translateY(-0.1rem) scale(1);
+  }
+}
 .scrolled .top-menu-element-container {
   height: 0;
   border-bottom: none;
@@ -718,7 +751,7 @@ a {
   height: 1.6rem;
   position: absolute;
   right: var(--page-padding);
-  top: 0.8rem;
+  top: 1.15rem;
   opacity: 0;
   pointer-events: none;
   cursor: pointer;
@@ -864,6 +897,31 @@ a {
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .list .article-container {
+    grid-template-columns: 1fr auto;
+  }
+  .list .article-container .article-tags {
+    display: flex;
+    align-items: center;
+    grid-column: 2/3;
+  }
+  .list .article-container .article-tag {
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    overflow: hidden;
+    color: transparent;
+    padding: 0;
+    margin-left: 0.1rem;
+  }
+  .list .article-container .paedagogische-fachkraft {
+    display: none;
+  }
+  .list .article-container .article-publisher {
+    display: none;
+  }
+}
 .article-headline {
   font-family: "Monument Mono";
   line-height: 1.2;
@@ -950,7 +1008,7 @@ a {
 }
 
 .article-content {
-  padding: var(--page-padding);
+  padding: 0 var(--page-padding) var(--page-padding) var(--page-padding);
 }
 
 .article-page-title {
@@ -965,7 +1023,7 @@ a {
   font-family: "Monument Mono";
   font-size: var(--mono-font-size-large);
   line-height: 1.2;
-  border-radius: var(--small-mono-border-radius);
+  border-radius: 1rem;
   margin-top: calc(var(--mono-font-size-large) * 1.2);
   padding: var(--page-padding);
 }

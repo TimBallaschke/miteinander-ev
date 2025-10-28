@@ -62,4 +62,19 @@
 
         --search-bar-container-height: 3.4rem;
     }
+
+    @include tablet {
+        --sidebar-width: 35vw;
+        --top-menu-element-height: 4rem;
+        --search-bar-container-height: 5rem;
+
+        --mono-font-size-small: 1.1rem;
+        --mono-font-size-large: 2.4rem;
+        --regular-font-size-large: 2.4rem;
+        --regular-small-font-size: 1.8rem;
+
+
+        --font-size-title: 4.3rem;
+
+    }
 }

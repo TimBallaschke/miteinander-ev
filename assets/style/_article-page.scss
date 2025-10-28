@@ -1,5 +1,5 @@
 .article-content {
-    padding: var(--page-padding);
+    padding: 0 var(--page-padding) var(--page-padding) var(--page-padding);
 }
 
 .article-page-title {
@@ -14,7 +14,7 @@
     font-family: "Monument Mono";
     font-size: var(--mono-font-size-large);
     line-height: 1.2;
-    border-radius: var(--small-mono-border-radius);
+    border-radius: 1rem;
     margin-top: calc(var(--mono-font-size-large) * 1.2);
     padding: var(--page-padding);
 
