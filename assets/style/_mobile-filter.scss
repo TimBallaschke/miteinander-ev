@@ -8,11 +8,16 @@
     width: 100%;
     overflow: scroll;
     pointer-events: none;
+    display: none;
 
     .options-title {
         font-family: "Monument";
         font-size: var(--regular-small-font-size-small);
         padding-bottom: 0.6rem;
+    }
+
+    @include mobile {
+        display: block;
     }
 }
 

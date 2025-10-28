@@ -15,7 +15,7 @@
         </div>
     </div>
     <div id="content" :class="view + (isScrolled ? ' scrolled' : '') + (mobileFilterVisible ? ' filter-visible' : '')">
-        <div id="intro-text" :class="{ 'unfolded': introTextUnfolded }">
+        <div id="intro-text" :class="{ 'unfolded': introTextUnfolded }" @click="introTextUnfolded = !introTextUnfolded">
             <?php 
             $fullText = page('startseite')?->flow_text()->value() ?? '';
             // Convert *italic* to <em>italic</em>
@@ -41,9 +41,9 @@
                 <?= $truncatedText ?>
             </div>
             <div x-show="introTextUnfolded">
-                <?= page('startseite')?->flow_text()->kt() ?>
+                <?= page('startseite')?->flow_text()->kt() ?> <em>(weniger lesen)</em>
             </div>
-            <div class="intro-text-plus" @click="introTextUnfolded = !introTextUnfolded">
+            <div class="intro-text-plus">
                 <div class="plus-line-horizontal"></div>
                 <div class="plus-line-vertical"></div>
             </div>

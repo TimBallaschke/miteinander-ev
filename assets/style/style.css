@@ -23,8 +23,9 @@
   :root {
     --mono-font-size-small: 0.83rem;
     --regular-font-size-large: 1.6rem;
-    --mono-font-size-large: 1.5rem;
+    --mono-font-size-large: 1.4rem;
     --regular-small-font-size-small: 0.95rem;
+    --font-size-title: 3rem;
     --page-padding: 1rem;
     --search-bar-container-height: 3.4rem;
   }
@@ -111,6 +112,18 @@ a {
 #content.scrolled {
   padding-top: calc(var(--top-menu-element-height) * 2 + var(--page-padding));
 }
+@media (max-width: 767px) {
+  #content.not-landing {
+    padding-top: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  #content {
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+  }
+}
 
 #intro-text {
   font-size: var(--regular-font-size-large);
@@ -135,6 +148,11 @@ a {
   cursor: pointer;
   transition: var(--transition-s);
 }
+@media (max-width: 767px) {
+  #intro-text .intro-text-plus {
+    display: none;
+  }
+}
 #intro-text.unfolded .intro-text-plus {
   transform: rotate(45deg);
 }
@@ -158,6 +176,11 @@ a {
 }
 .list #intro-text {
   display: none;
+}
+@media (max-width: 767px) {
+  #intro-text {
+    font-size: var(--regular-small-font-size);
+  }
 }
 
 #article-overview {
@@ -755,7 +778,6 @@ a {
 .article-tags {
   margin-top: var(--page-padding);
 }
-
 .article-tag {
   display: inline-block;
   font-family: "Monument Mono";
@@ -1131,11 +1153,17 @@ a {
   width: 100%;
   overflow: scroll;
   pointer-events: none;
+  display: none;
 }
 .mobile-filter-header .options-title {
   font-family: "Monument";
   font-size: var(--regular-small-font-size-small);
   padding-bottom: 0.6rem;
+}
+@media (max-width: 767px) {
+  .mobile-filter-header {
+    display: block;
+  }
 }
 
 .mobile-filter-header-title-container {

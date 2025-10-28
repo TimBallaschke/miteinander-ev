@@ -33,6 +33,20 @@
     &.scrolled {
         padding-top: calc(var(--top-menu-element-height) * 2 + var(--page-padding));
     }
+
+    &.not-landing {
+        @include mobile {
+            padding-top: 5rem;
+        }
+    }
+
+    @include mobile {
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        word-wrap: break-word;
+    }
 }
 
 #intro-text {
@@ -58,6 +72,10 @@
         top: 0.2rem;
         cursor: pointer;
         transition: var(--transition-s);
+
+        @include mobile {
+            display: none;
+        }
     }
 
     &.unfolded .intro-text-plus {
@@ -86,6 +104,10 @@
 
     .list & {
         display: none;
+    }
+
+    @include mobile {
+        font-size: var(--regular-small-font-size);
     }
 }
 

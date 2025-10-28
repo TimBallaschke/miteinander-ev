@@ -101,6 +101,12 @@
 
 .article-tags {
     margin-top: var(--page-padding);
+
+    .not-landing & {
+        @include mobile {
+            // margin-top: 0;
+        }
+    }
 }
 
 .article-tag {
