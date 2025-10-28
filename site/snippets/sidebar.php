@@ -30,7 +30,7 @@
     <div id="sidebar-content" :class="{ 'scrolled': isScrolled, 'menu-unfolded': menuUnfolded }">
         <?php if ($page->isHomePage()): ?>
         <div id="sidebar-search">
-            <input id="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
+            <input class="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
         </div>
         <div class="sidebar-options">
             <div class="options-container">

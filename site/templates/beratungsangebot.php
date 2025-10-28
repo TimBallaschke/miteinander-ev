@@ -18,12 +18,23 @@
     menuUnfolded: false,
     introTextUnfolded: false,
     mobileFilterVisible: false,
+    mobileMenuUnfolded: false,
     init() {
         this.$watch('audience', (value) => {
             if (value === 'teacher') {
                 this.teacherTypes = ['school', 'kita', 'social'];
             } else {
                 this.teacherTypes = [];
+            }
+        });
+        this.$watch('mobileMenuUnfolded', (value) => {
+            if (value === true) {
+                this.mobileFilterVisible = false;
+            }
+        });
+        this.$watch('mobileFilterVisible', (value) => {
+            if (value === true) {
+                this.mobileMenuUnfolded = false;
             }
         });
     }

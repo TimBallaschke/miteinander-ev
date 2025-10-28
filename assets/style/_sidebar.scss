@@ -41,8 +41,6 @@
             padding-top: calc(var(--top-menu-element-height) * 4);
         }
     }
-
-
 }
 
 #sidebar-search {
@@ -60,7 +58,7 @@
 }
 
 
-#sidebar-search-input {
+.sidebar-search-input {
     width: 100%;
     font-family: "Monument Mono";
     font-size: var(--mono-font-size-small);

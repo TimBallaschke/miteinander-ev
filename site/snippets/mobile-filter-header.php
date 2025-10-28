@@ -1,10 +1,10 @@
-<div class="mobile-filter-header" :class="{ 'filter-visible': mobileFilterVisible }">
+<div class="mobile-filter-header" :class="{ 'filter-visible': mobileFilterVisible, 'mobile-menu-unfolded': mobileMenuUnfolded }">
     <div class="mobile-filter-header-title-container" @click="mobileFilterVisible = !mobileFilterVisible">
         <div class="mobile-filter-header-title">Filter</div>
         <div class="mobile-filter-header-button"></div>
     </div>
     <div id="sidebar-search">
-        <input id="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
+        <input class="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
     </div>
     <div class="mobile-filter-header-content">
         <div class="sidebar-options">

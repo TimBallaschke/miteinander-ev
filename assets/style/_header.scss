@@ -1,3 +1,12 @@
+#header-main {
+
+    @include mobile {
+        position: fixed;
+        width: 100%;
+        z-index: 300;
+    }
+}
+
 #website-title-container {
     position: fixed;
     top: 0;
@@ -20,6 +29,7 @@
     }
 
     @include mobile {
+        position: relative;
         width: 100%;
         font-size: var(--regular-font-size-large);
         height: 4.8rem;
@@ -273,4 +283,38 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.mobile-menu-plus-button {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: var(--page-padding);
+    top: 1.4rem;
+    cursor: pointer;
+    transition: var(--transition-s);
+
+    &.unfolded {
+        transform: rotate(45deg);
+    }
+
+    .plus-line-horizontal {
+        width: 100%;
+        height: 0;
+        border-top: solid 1px white;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .plus-line-vertical {
+        width: 0;
+        height: 100%;
+        border-right: solid 1px white;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
