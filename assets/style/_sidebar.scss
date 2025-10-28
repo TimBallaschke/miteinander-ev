@@ -206,13 +206,16 @@
     font-size: var(--mono-font-size-small);
     padding: var(--small-mono-padding-v) var(--small-mono-padding-h);
     border-radius: var(--small-mono-border-radius);
-    cursor: pointer;
     border: none;
     opacity: 0.5;
     margin-left: 1.8rem;
     white-space: nowrap;
     margin-bottom: var(--small-mono-padding-v);
     position: relative;
+
+    &.active {
+        cursor: pointer;
+    }
 
     .button-content {
         transition: var(--transition-s);

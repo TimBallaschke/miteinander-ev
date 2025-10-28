@@ -169,6 +169,9 @@ a {
 #intro-text p {
   width: 90%;
 }
+#intro-text em {
+  cursor: pointer;
+}
 #intro-text .intro-text-plus {
   width: 1.6rem;
   height: 1.6rem;
@@ -437,13 +440,15 @@ a {
   font-size: var(--mono-font-size-small);
   padding: var(--small-mono-padding-v) var(--small-mono-padding-h);
   border-radius: var(--small-mono-border-radius);
-  cursor: pointer;
   border: none;
   opacity: 0.5;
   margin-left: 1.8rem;
   white-space: nowrap;
   margin-bottom: var(--small-mono-padding-v);
   position: relative;
+}
+.multi-select-button.active {
+  cursor: pointer;
 }
 .multi-select-button .button-content {
   transition: var(--transition-s);
