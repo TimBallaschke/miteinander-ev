@@ -113,7 +113,12 @@ a {
   }
 }
 #content.list {
-  padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding) + var(--search-bar-container-height));
+  padding-top: calc(var(--top-menu-element-height) * 4 + var(--search-bar-container-height));
+}
+@media (max-width: 767px) {
+  #content.list {
+    padding-top: 11.3rem;
+  }
 }
 #content.scrolled {
   padding-top: calc(var(--top-menu-element-height) * 2 + var(--page-padding));
@@ -186,6 +191,7 @@ a {
 @media (max-width: 767px) {
   #intro-text {
     font-size: var(--regular-small-font-size);
+    padding-top: 0.5rem;
   }
 }
 
@@ -575,6 +581,11 @@ a {
   transform: translateY(0);
   transition-delay: 0.2s;
 }
+@media (max-width: 767px) {
+  .list-view-header-container {
+    display: none;
+  }
+}
 
 .list-view-header {
   display: grid;
@@ -622,6 +633,11 @@ a {
   opacity: 1;
   transform: translateY(0.15rem) scale(1);
 }
+@media (max-width: 767px) {
+  .top-menu-element-container:hover .top-menu-element::before {
+    transform: translateY(-0.1rem) scale(1);
+  }
+}
 .top-menu-element-container.active .top-menu-element {
   transform: translateX(0);
 }
@@ -630,6 +646,11 @@ a {
   width: 1.6rem;
   opacity: 1;
   transform: translateY(0.15rem) scale(1);
+}
+@media (max-width: 767px) {
+  .top-menu-element-container.active .top-menu-element::before {
+    transform: translateY(-0.1rem) scale(1);
+  }
 }
 .scrolled .top-menu-element-container {
   height: 0;
@@ -792,6 +813,31 @@ a {
 .list .article-container .paedagogische-fachkraft {
   display: none;
 }
+@media (max-width: 767px) {
+  .list .article-container {
+    grid-template-columns: 1fr auto;
+  }
+  .list .article-container .article-tags {
+    display: flex;
+    align-items: center;
+    grid-column: 2/3;
+  }
+  .list .article-container .article-tag {
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    overflow: hidden;
+    color: transparent;
+    padding: 0;
+    margin-left: 0.1rem;
+  }
+  .list .article-container .paedagogische-fachkraft {
+    display: none;
+  }
+  .list .article-container .article-publisher {
+    display: none;
+  }
+}
 .article-headline {
   font-family: "Monument Mono";
   line-height: 1.2;
@@ -910,6 +956,11 @@ a {
 .article-disclaimer.cyan {
   background-color: #82E8FC;
 }
+@media (max-width: 767px) {
+  .article-disclaimer {
+    border-radius: 1rem;
+  }
+}
 
 .article-flow-text {
   font-size: var(--mono-font-size-large);
@@ -917,6 +968,11 @@ a {
 }
 .article-flow-text p {
   padding-top: calc(var(--mono-font-size-large) * 1.2);
+}
+@media (max-width: 767px) {
+  .article-flow-text {
+    font-size: var(--regular-font-size-large);
+  }
 }
 
 .article-qa-block * {

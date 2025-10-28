@@ -29,7 +29,11 @@
     }
 
     &.list {
-        padding-top: calc(var(--top-menu-element-height) * 4 + var(--page-padding) + var(--search-bar-container-height));
+        padding-top: calc(var(--top-menu-element-height) * 4 + var(--search-bar-container-height));
+
+        @include mobile {
+            padding-top: 11.3rem;
+        }
     }
 
     &.scrolled {
@@ -110,6 +114,7 @@
 
     @include mobile {
         font-size: var(--regular-small-font-size);
+        padding-top: 0.5rem;
     }
 }
 

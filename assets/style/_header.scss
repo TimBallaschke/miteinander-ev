@@ -129,6 +129,10 @@
             }
         }
     }
+
+    @include mobile {
+        display: none;
+    }
 }
 
 .list-view-header {
@@ -180,6 +184,10 @@
                 width: 1.6rem;
                 opacity: 1;
                 transform: translateY(0.15rem) scale(1);
+
+                @include mobile {
+                    transform: translateY(-0.1rem) scale(1);
+                }
             }
         }
     }
@@ -192,6 +200,10 @@
                 width: 1.6rem;
                 opacity: 1;
                 transform: translateY(0.15rem) scale(1);
+
+                @include mobile {
+                    transform: translateY(-0.1rem) scale(1);
+                }
             }
         }
     }

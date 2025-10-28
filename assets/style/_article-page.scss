@@ -34,6 +34,10 @@
     &.cyan {
         background-color: #82E8FC;
     }
+
+    @include mobile {
+        border-radius: 1rem;
+    }
 }
 
 .article-flow-text {
@@ -42,6 +46,10 @@
 
     p {
         padding-top: calc(var(--mono-font-size-large) * 1.2);
+    }
+
+    @include mobile {
+        font-size: var(--regular-font-size-large);
     }
 }
 
