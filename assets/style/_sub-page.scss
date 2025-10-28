@@ -1,13 +1,23 @@
 .subpage-content {
     padding: var(--page-padding);
+    max-width: 100%;
+    overflow-x: hidden;
 
     .article-qa-block {
         p {
             padding-left: var(--sidebar-width);
+
+            @include mobile {
+                padding-left: 0;
+            }
         }
 
         ul {
             padding-left: var(--sidebar-width);
+
+            @include mobile {
+                padding-left: 0;
+            }
 
             p {
                 padding-left: 0;
@@ -24,12 +34,21 @@
     font-family: "Monument Mono";
     padding-left: calc(var(--sidebar-width));
     padding-bottom: 0;
+
+    @include mobile {
+        padding-left: 0;
+    }
 }
 
 .subpage-flow-text {
     font-size: var(--mono-font-size-large);
     line-height: 1.2;
     padding-left: calc(var(--sidebar-width));
+
+    @include mobile {
+        padding-left: 0;
+        font-size: var(--regular-font-size-large);
+    }
 
     p {
         padding-top: calc(var(--mono-font-size-large) * 1.2);
@@ -45,17 +64,53 @@
     padding-bottom: 1rem;
     margin-top: 5rem;
     border-top: solid 1px black;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+
+
+    @include mobile {
+        grid-template-columns: 1fr;
+        border-top: none;
+        font-size: var(--regular-small-font-size);
+    }
+
+    > * {
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
 
     .bundesland-title {
         font-family: "Monument Mono";
+        border-bottom: solid 1px black;
+        padding-bottom: 1rem;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+
+        @include mobile {
+            font-size: var(--mono-font-size-large);
+        }
     }
 
     span {
         font-family: "Monument Mono";
+        overflow-wrap: break-word;
+        word-break: break-word;
     }
 
     .counseling-item {
         padding-bottom: 1rem;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+
+        @include mobile {
+            padding-top: 1rem;
+        }
     }
 
     .counseling-item + .counseling-item {
@@ -66,6 +121,9 @@
     .counseling-title {
         position: relative;
         padding-left: 2.5rem;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
         
         &::before {
             content: "";
@@ -82,16 +140,33 @@
 
     .counseling-detail {
         padding-left: 8rem;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+
+        @include mobile {
+            padding-left: 2.5rem;
+        }
     }
 
     .sub-counseling-list {
         padding-top: calc(var(--mono-font-size-large) * 1.2);
         padding-left: 8rem;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+
+        @include mobile {
+            padding-left: 2.5rem;
+        }
     }
 
     .counseling-sub-title {
         position: relative;
         padding-left: 2.5rem;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
         
         &::before {
             content: "";
@@ -120,20 +195,52 @@
     padding-bottom: 1rem;
     margin-top: 5rem;
     border-top: solid 1px black;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+
+    @include mobile {
+        grid-template-columns: 1fr;
+        border-top: none;
+        font-size: var(--regular-font-size-large);
+    }
+
+    > * {
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
 
     .contact-project-title {
         font-family: "Monument Mono";
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
     }
 
     span {
         font-family: "Monument Mono";
+        overflow-wrap: break-word;
+        word-break: break-word;
     }
 
     .contact-project-details {
         padding-left: 8rem;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+
+        @include mobile {
+            padding-left: 0;
+        }
     }
 
     .contact-detail {
         padding-top: calc(var(--mono-font-size-large) * 1.2);
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
     }
 }

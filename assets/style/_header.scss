@@ -4,6 +4,7 @@
         position: fixed;
         width: 100%;
         z-index: 300;
+        pointer-events: none;
     }
 }
 
@@ -23,6 +24,7 @@
     z-index: 310;
     transition: var(--transition-s);
     transform: translateY(0);
+    pointer-events: auto;
 
     &.scrolled {
         transform: translateY(-100%);

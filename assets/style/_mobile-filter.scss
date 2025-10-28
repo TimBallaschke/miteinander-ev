@@ -74,6 +74,10 @@
 
 .mobile-menu-content {
     position: relative;
+    z-index: 400;
+    pointer-events: auto;
+    font-size: var(--font-size-title);
+
 
     .top-menu-element-container {
         height: 0;
@@ -82,7 +86,7 @@
         transition: var(--transition-s);
 
         .mobile-menu-unfolded & {
-            height: var(--top-menu-element-height);
+            height: 4.3rem;
             border-bottom: solid 1px white;
         }
     }
