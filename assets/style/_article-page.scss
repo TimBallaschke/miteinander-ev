@@ -178,6 +178,10 @@
         }
     }
 
+    p:first-child {
+        padding-top: 0;
+    }
+
 
     &.no-question-circles {
         h2 {
@@ -194,6 +198,14 @@
             &::before {
                 display: none;
             }
+        }
+    }
+    
+    .qa-section-content {
+        cursor: pointer;
+        
+        .read-more-toggle {
+            white-space: nowrap;
         }
     }
 }

@@ -45,7 +45,7 @@
         <div id="header-main">
             <div id="header-main-large" :class="{ 'scrolled': isScrolled }">
                 <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
+                    <a href="<?= url() ?>" id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</a>
                     <div class="mobile-menu-plus-button" :class="{ 'unfolded': mobileMenuUnfolded }" @click="mobileMenuUnfolded = !mobileMenuUnfolded">
                         <div class="plus-line-horizontal"></div>
                         <div class="plus-line-vertical"></div>
@@ -55,7 +55,7 @@
             </div>
             <div id="header-main-small" :class="{ 'scrolled': isScrolled }">
                 <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
+                    <a href="<?= url() ?>" id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</a>
                 </div>
                 <?php snippet('mobile-menu-header') ?>
                 <?php snippet('list-view-header') ?>

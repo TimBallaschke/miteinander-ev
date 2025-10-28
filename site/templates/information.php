@@ -74,7 +74,7 @@
         <div id="header-main">
             <div id="header-main-large" :class="{ 'scrolled': isScrolled }">
                 <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</div>
+                    <a href="<?= url() ?>" id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</a>
                     <div class="mobile-menu-plus-button" :class="{ 'unfolded': mobileMenuUnfolded }" @click="mobileMenuUnfolded = !mobileMenuUnfolded">
                         <div class="plus-line-horizontal"></div>
                         <div class="plus-line-vertical"></div>
@@ -84,7 +84,7 @@
             </div>
             <div id="header-main-small" :class="{ 'scrolled': isScrolled }">
                 <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
-                    <div id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</div>
+                    <a href="<?= url() ?>" id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</a>
                 </div>
                 <?php snippet('mobile-menu-header') ?>
                 <?php snippet('list-view-header') ?>
@@ -105,40 +105,63 @@
                 
                 <?php if ($page->question_answer_block()->isNotEmpty()): ?>
                     <div class="article-qa-block">
-                        <?= $page->question_answer_block()->toBlocks() ?>
-                    </div>
-                <?php endif ?>
-                
-                <?php if ($page->flow_text_2()->isNotEmpty()): ?>
-                    <div class="subpage-flow-text">
                         <?php 
-                        $text = $page->flow_text_2()->value();
-                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                        echo kirbytext($text);
+                        // Get the HTML output from blocks
+                        $blocksHtml = (string)$page->question_answer_block()->toBlocks();
+                        
+                        // Split by h2 tags, keeping the h2 in the split
+                        $parts = preg_split('/(<h2[^>]*>.*?<\/h2>)/is', $blocksHtml, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
+                        
+                        $sections = [];
+                        for ($i = 0; $i < count($parts); $i++) {
+                            // Check if this part is an h2
+                            if (preg_match('/<h2[^>]*>.*?<\/h2>/is', $parts[$i])) {
+                                // This is a heading, next part should be content
+                                $sections[] = [
+                                    'heading' => $parts[$i],
+                                    'content' => isset($parts[$i + 1]) ? $parts[$i + 1] : ''
+                                ];
+                                $i++; // Skip the content part in next iteration
+                            }
+                        }
+                        
+                        // If no sections were found, just output the original HTML
+                        if (empty($sections)) {
+                            echo $blocksHtml;
+                        } else {
+                            // Output each section with collapsible functionality
+                            foreach ($sections as $index => $section):
+                                $sectionId = 'section_' . $index;
+                                
+                                // Extract plain text from content for truncation
+                                $contentText = strip_tags($section['content']);
+                                $words = preg_split('/\s+/u', trim($contentText), -1, PREG_SPLIT_NO_EMPTY);
+                                $truncatedWords = array_slice($words, 0, 20);
+                                $truncatedText = implode(' ', $truncatedWords);
+                                
+                                // Add "mehr lesen" if there are more than 20 words
+                                $hasMoreText = count($words) > 20;
+                            ?>
+                                <div x-data="{ <?= $sectionId ?>Unfolded: false }">
+                                    <?= $section['heading'] ?>
+                                    
+                                    <div class="qa-section-content" :class="{ 'unfolded': <?= $sectionId ?>Unfolded }" @click="<?= $sectionId ?>Unfolded = !<?= $sectionId ?>Unfolded">
+                                        <div x-show="!<?= $sectionId ?>Unfolded">
+                                            <p><?= $truncatedText ?><?php if ($hasMoreText): ?> ... <em class="read-more-toggle">(mehr lesen)</em><?php endif; ?></p>
+                                        </div>
+                                        <div x-show="<?= $sectionId ?>Unfolded">
+                                            <?= $section['content'] ?>
+                                            <p><em class="read-more-toggle">(weniger lesen)</em></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php 
+                            endforeach;
+                        }
                         ?>
                     </div>
                 <?php endif ?>
                 
-                <?php if ($page->content_blocks_2()->isNotEmpty()): ?>
-                    <div class="content-blocks">
-                        <?php foreach ($page->content_blocks_2()->toStructure() as $block): ?>
-                            <div class="content-block">
-                                <?php if ($block->question()->isNotEmpty()): ?>
-                                    <h3><?= $block->question() ?></h3>
-                                <?php endif ?>
-                                <?php if ($block->answers()->isNotEmpty()): ?>
-                                    <div class="content-block-answers">
-                                        <?php foreach ($block->answers()->toStructure() as $answer): ?>
-                                            <div class="content-block-answer <?= $answer->highlight()->toBool() ? 'highlighted' : '' ?>">
-                                                <?= $answer->text()->kt() ?>
-                                            </div>
-                                        <?php endforeach ?>
-                                    </div>
-                                <?php endif ?>
-                            </div>
-                        <?php endforeach ?>
-                    </div>
-                <?php endif ?>
             </div>
         </div>
     </div>

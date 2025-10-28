@@ -33,7 +33,7 @@
             <input class="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
         </div>
         <div class="sidebar-options">
-            <div class="options-container">
+            <div class="options-container inline">
                 <div class="options-title">Ansicht:</div>
                 <div id="view-switch" class="options-element">
                     <?php snippet('single-select-button', [

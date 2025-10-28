@@ -104,6 +104,11 @@
     display: block;
     margin-bottom: var(--small-mono-padding-v);
 
+    .inline & {
+        display: inline-block;
+        margin-right: 0.1rem;
+    }
+
     .button-content {
         transition: var(--transition-s);
         transform: translateY(calc(var(--mono-font-size-small) * -0.05));

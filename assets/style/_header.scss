@@ -25,6 +25,7 @@
     transition: var(--transition-s);
     transform: translateY(0);
     pointer-events: auto;
+    cursor: pointer;
 
     &.scrolled {
         transform: translateY(-100%);
@@ -40,6 +41,10 @@
 
 #website-title {
     padding-left: 2rem;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
 
     @include mobile {
         padding-left: var(--page-padding);
@@ -60,6 +65,7 @@
     transition: var(--transition-s);
     transform: translateY(-100%);
     z-index: 10;
+    cursor: pointer;
 
     &.scrolled {
         transform: translateY(0);
@@ -73,6 +79,9 @@
 
 #website-title-small {
     padding-left: var(--page-padding);
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .list-view-header-container {
@@ -307,6 +316,11 @@
     top: 1.4rem;
     cursor: pointer;
     transition: var(--transition-s);
+    display: none;
+
+    @include mobile {
+        display: block;
+    }
 
     &.unfolded {
         transform: rotate(45deg);
