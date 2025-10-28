@@ -23,7 +23,7 @@
   :root {
     --mono-font-size-small: 0.83rem;
     --regular-font-size-large: 1.4rem;
-    --mono-font-size-large: 1.4rem;
+    --mono-font-size-large: 1.3rem;
     --regular-small-font-size-small: 0.95rem;
     --font-size-title: 2.5rem;
     --page-padding: 1rem;
@@ -1354,12 +1354,98 @@ a {
   pointer-events: auto;
 }
 
+.mobile-filter-search-and-view {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-right: var(--page-padding);
+  padding-left: var(--page-padding);
+  border-bottom: solid 1px black;
+  pointer-events: auto;
+  background-color: white;
+  z-index: 350;
+  position: relative;
+}
+.mobile-filter-search-and-view #sidebar-search {
+  flex: 1;
+  border-bottom: none;
+  padding: 0;
+  height: auto;
+}
+.mobile-filter-search-and-view .mobile-view-switch {
+  display: flex;
+  gap: calc(var(--small-mono-padding-v) / 2);
+  flex-shrink: 0;
+}
+
+.view-toggle-switch {
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.toggle-track {
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: solid 1px black;
+  border-radius: calc(var(--small-mono-padding-v) * 2 + var(--mono-font-size-small));
+  font-family: "Monument Mono";
+  font-size: var(--mono-font-size-small);
+  width: 9.5rem;
+}
+
+.toggle-pill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5.05rem;
+  background-color: black;
+  border-radius: calc(var(--small-mono-padding-v) * 2 + var(--mono-font-size-small) - 2px);
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+}
+.toggle-pill.list-active {
+  transform: translateX(4.5rem);
+  width: 4.9rem;
+}
+
+.toggle-option {
+  position: relative;
+  z-index: 1;
+  background: none;
+  border: none;
+  padding-top: var(--small-mono-padding-v);
+  padding-bottom: var(--small-mono-padding-v);
+  transition: color 0.3s ease-in-out;
+  color: black;
+  font-family: inherit;
+  font-size: inherit;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.toggle-option.active {
+  color: white;
+}
+
+.toggle-option-1 {
+  padding-left: 1rem;
+  padding-right: 0rem;
+}
+
+.toggle-option-2 {
+  padding-left: 0rem;
+  padding-right: 1rem;
+}
+
 .mobile-filter-header-content {
   position: relative;
   transform: translateY(-100%);
   z-index: 0;
   transition: all 800ms ease-in-out;
-  height: calc(100dvh - 4.8rem - 3rem - var(--search-bar-container-height));
   pointer-events: none;
 }
 .filter-visible .mobile-filter-header-content {

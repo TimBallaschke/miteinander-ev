@@ -3,28 +3,14 @@
         <div class="mobile-filter-header-title">Filter</div>
         <div class="mobile-filter-header-button"></div>
     </div>
-    <div id="sidebar-search">
-        <input class="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
+    <div class="mobile-filter-search-and-view">
+        <div id="sidebar-search">
+            <input class="sidebar-search-input" type="text" placeholder="Suche (Titel, Herausgeber*in, etc.)" x-model="searchQuery">
+        </div>
+        <?php snippet('view-toggle-switch') ?>
     </div>
     <div class="mobile-filter-header-content">
         <div class="sidebar-options">
-            <!-- <div class="options-container">
-                <div class="options-title">Ansicht:</div>
-                <div id="view-switch" class="options-element">
-                    <?php snippet('single-select-button', [
-                        'variable' => 'view',
-                        'value' => 'grid',
-                        'label' => 'Kachel',
-                        'colorClass' => 'outline'
-                    ]) ?>
-                    <?php snippet('single-select-button', [
-                        'variable' => 'view',
-                        'value' => 'list',
-                        'label' => 'Liste',
-                        'colorClass' => 'outline'
-                    ]) ?>
-                </div>
-            </div> -->
             <div class="options-container">
                 <div class="options-title">Mein Hintergrund:</div>
                 <div id="audience-filter" class="options-element">
