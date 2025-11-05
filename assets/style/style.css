@@ -1252,6 +1252,9 @@ a {
     padding-left: 0;
   }
 }
+.subpage-content .article-qa-block.information-qa-block p {
+  padding-right: 2rem;
+}
 .subpage-content .article-qa-block ul {
   padding-left: var(--sidebar-width);
 }

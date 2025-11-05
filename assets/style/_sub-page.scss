@@ -20,6 +20,12 @@
             }
         }
 
+        &.information-qa-block {
+            p {
+                padding-right: 2rem;
+            }
+        }
+
         ul {
             padding-left: var(--sidebar-width);
 

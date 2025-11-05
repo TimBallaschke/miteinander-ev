@@ -107,7 +107,7 @@
                 <?php endif ?>
                 
                 <?php if ($page->question_answer_block()->isNotEmpty()): ?>
-                    <div class="article-qa-block">
+                    <div class="article-qa-block information-qa-block">
                         <?php 
                         // Get the HTML output from blocks
                         $blocksHtml = (string)$page->question_answer_block()->toBlocks();
