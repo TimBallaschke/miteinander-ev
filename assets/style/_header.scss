@@ -279,7 +279,7 @@
     height: 1.6rem;
     position: absolute;
     right: var(--page-padding);
-    top: 1.15rem;
+    top: 0.85rem;
     opacity: 0;
     pointer-events: none;
     cursor: pointer;
@@ -293,6 +293,10 @@
     .menu-unfolded & {
         transform: rotate(45deg);
         pointer-events: auto;
+    }
+
+    @include tablet {
+        top: 1.15rem;
     }
 }
 
