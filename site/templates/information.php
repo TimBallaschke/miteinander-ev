@@ -158,6 +158,10 @@
                                             <?= $section['content'] ?>
                                             <p><em class="read-more-toggle">(weniger lesen)</em></p>
                                         </div>
+                                        <div class="qa-section-plus" :class="{ 'unfolded': <?= $sectionId ?>Unfolded }">
+                                            <div class="plus-line-horizontal"></div>
+                                            <div class="plus-line-vertical"></div>
+                                        </div>
                                     </div>
                                 </div>
                             <?php 
