@@ -685,7 +685,7 @@ a {
   height: 1.6rem;
   width: 1.6rem;
   opacity: 1;
-  transform: translateY(0.15rem) scale(1);
+  transform: translateY(0.1rem) scale(1);
 }
 @media (max-width: 767px) {
   .top-menu-element-container:hover .top-menu-element::before {
@@ -699,7 +699,7 @@ a {
   height: 1.6rem;
   width: 1.6rem;
   opacity: 1;
-  transform: translateY(0.15rem) scale(1);
+  transform: translateY(0.1rem) scale(1);
 }
 @media (max-width: 767px) {
   .top-menu-element-container.active .top-menu-element::before {
@@ -1282,13 +1282,13 @@ a {
   cursor: pointer;
   transition: var(--transition-s);
 }
-.subpage-content .qa-section-plus.unfolded {
-  transform: rotate(45deg);
-}
 @media (max-width: 767px) {
   .subpage-content .qa-section-plus {
-    display: none;
+    top: 0rem;
   }
+}
+.subpage-content .qa-section-plus.unfolded {
+  transform: rotate(45deg);
 }
 .subpage-content .qa-section-plus .plus-line-horizontal {
   width: 100%;
@@ -1558,6 +1558,19 @@ a {
   overflow-wrap: break-word;
   word-break: break-word;
   border-bottom: solid 1px black;
+  position: relative;
+  padding-left: 2.7rem;
+}
+.legal-section .legal-section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #AAFF67;
+  display: inline-block;
+  border-radius: 50%;
 }
 @media (max-width: 767px) {
   .legal-section .legal-section-title {
@@ -1634,22 +1647,24 @@ a {
 
 .footer-logos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  grid-template-columns: auto auto auto;
   grid-template-rows: repeat(2, auto);
-  gap: 2rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  row-gap: 1rem;
   align-items: center;
   width: 100%;
 }
 @media (max-width: 767px) {
   .footer-logos {
     display: block;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem 1rem 0rem;
   }
 }
 
 .footer-logo-image {
   max-width: 100%;
-  height: auto;
+  height: 8rem;
   display: block;
   -o-object-fit: contain;
      object-fit: contain;
@@ -1657,16 +1672,22 @@ a {
 }
 @media (max-width: 767px) {
   .footer-logo-image {
-    padding-top: 1rem;
+    padding-top: 3rem;
+    height: 12rem;
   }
 }
 
 .footer-logo-title {
   font-family: "Monument";
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   line-height: 1.2;
   grid-row: 2;
   padding-top: 1rem;
+}
+@media (max-width: 767px) {
+  .footer-logo-title {
+    font-size: 0.8rem;
+  }
 }
 
 .mobile-filter-header {

@@ -11,7 +11,7 @@ Logos:
 - 
   logo_title: ""
   logo_file:
-    - file://rittMAqCCUlSYK39
+    - file://mKp8eRnX7wQvYzTu
 - 
   logo_title: >
     Die Veröffentlichung stellt keine
