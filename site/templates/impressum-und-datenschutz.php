@@ -38,8 +38,7 @@
             }
         });
     }
-}" 
-@scroll.window="isScrolled = (window.pageYOffset > 0) && (window.innerWidth > 767)">
+}">
     <div id="sidebar" class="no-sidebar">
         <div id="top-menu" :class="{ 'scrolled': isScrolled, 'menu-unfolded': menuUnfolded }">
             <div id="top-menu-content">
@@ -95,46 +94,50 @@
                 <div class="subpage-title"><?= $page->title() ?></div>
                 
                 <?php if ($page->impressum_sections()->isNotEmpty()): ?>
-                    <div class="impressum-section">
-                        <h2>Impressum</h2>
-                        <?php foreach ($page->impressum_sections()->toStructure() as $section): ?>
-                            <div class="impressum-block">
-                                <?php if ($section->title()->isNotEmpty()): ?>
-                                    <h3><?= $section->title() ?></h3>
-                                <?php endif ?>
-                                <?php if ($section->text()->isNotEmpty()): ?>
-                                    <div class="impressum-text">
-                                        <?php 
-                                        $text = $section->text()->value();
-                                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                                        echo kirbytext($text);
-                                        ?>
-                                    </div>
-                                <?php endif ?>
-                            </div>
-                        <?php endforeach ?>
+                    <div class="legal-section">
+                        <div class="legal-section-title">Impressum</div>
+                        <div class="legal-section-content">
+                            <?php foreach ($page->impressum_sections()->toStructure() as $section): ?>
+                                <div class="legal-block">
+                                    <?php if ($section->title()->isNotEmpty()): ?>
+                                        <div class="legal-block-title"><?= $section->title() ?></div>
+                                    <?php endif ?>
+                                    <?php if ($section->text()->isNotEmpty()): ?>
+                                        <div class="legal-block-text">
+                                            <?php 
+                                            $text = $section->text()->value();
+                                            $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
+                                            echo kirbytext($text);
+                                            ?>
+                                        </div>
+                                    <?php endif ?>
+                                </div>
+                            <?php endforeach ?>
+                        </div>
                     </div>
                 <?php endif ?>
                 
                 <?php if ($page->datenschutz_sections()->isNotEmpty()): ?>
-                    <div class="datenschutz-section">
-                        <h2>Datenschutz</h2>
-                        <?php foreach ($page->datenschutz_sections()->toStructure() as $section): ?>
-                            <div class="datenschutz-block">
-                                <?php if ($section->title()->isNotEmpty()): ?>
-                                    <h3><?= $section->title() ?></h3>
-                                <?php endif ?>
-                                <?php if ($section->text()->isNotEmpty()): ?>
-                                    <div class="datenschutz-text">
-                                        <?php 
-                                        $text = $section->text()->value();
-                                        $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                                        echo kirbytext($text);
-                                        ?>
-                                    </div>
-                                <?php endif ?>
-                            </div>
-                        <?php endforeach ?>
+                    <div class="legal-section">
+                        <div class="legal-section-title">Datenschutz</div>
+                        <div class="legal-section-content">
+                            <?php foreach ($page->datenschutz_sections()->toStructure() as $section): ?>
+                                <div class="legal-block">
+                                    <?php if ($section->title()->isNotEmpty()): ?>
+                                        <div class="legal-block-title"><?= $section->title() ?></div>
+                                    <?php endif ?>
+                                    <?php if ($section->text()->isNotEmpty()): ?>
+                                        <div class="legal-block-text">
+                                            <?php 
+                                            $text = $section->text()->value();
+                                            $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
+                                            echo kirbytext($text);
+                                            ?>
+                                        </div>
+                                    <?php endif ?>
+                                </div>
+                            <?php endforeach ?>
+                        </div>
                     </div>
                 <?php endif ?>
             </div>
