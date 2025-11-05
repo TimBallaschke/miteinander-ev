@@ -26,6 +26,31 @@
     }
 }
 
+.mobile-filter-header-button {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 2rem;
+    height: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#line-1 {
+    width: 100%;
+    border-top: solid 1px white;
+}
+#line-2 {
+    width: 80%;
+    border-top: solid 1px white;
+}
+#line-3 {
+    width: 60%;
+    border-top: solid 1px white;
+}
+
+
+
 .mobile-filter-header-title-container {
     position: relative;
     display: flex;
@@ -39,6 +64,36 @@
     padding-right: var(--page-padding);
     z-index: 300;
     pointer-events: auto;
+}
+
+.mobile-filter-header-title {
+    transform: translateX(-2.2rem) translateY(-0.04rem);
+    transition: var(--transition-s);
+    
+    &::before {
+        content: '';
+        height: 1.3rem;
+        width: 1.3rem;
+        margin-right: 0.5rem;
+        border-radius: 50%;
+        background-color: white;
+        transform: translateY(0.2rem) scale(0.1);
+        transform-origin: center center;
+        display: inline-block;
+        transition: all 0.3s ease;
+        opacity: 0;
+    }
+    
+    &.active {
+        transform: translateX(0) translateY(-0.04rem);
+        
+        &::before {
+            height: 1.3rem;
+            width: 1.3rem;
+            opacity: 1;
+            transform: translateY(0.2rem) scale(1);
+        }
+    }
 }
 
 .mobile-filter-search-and-view {

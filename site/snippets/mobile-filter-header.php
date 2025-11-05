@@ -1,7 +1,11 @@
-<div class="mobile-filter-header" :class="{ 'filter-visible': mobileFilterVisible, 'mobile-menu-unfolded': mobileMenuUnfolded }">
+<div class="mobile-filter-header" :class="{ 'filter-visible': mobileFilterVisible, 'mobile-menu-unfolded': mobileMenuUnfolded, 'filter-active': audience !== 'all' || content !== 'all' }">
     <div class="mobile-filter-header-title-container" @click="mobileFilterVisible = !mobileFilterVisible">
-        <div class="mobile-filter-header-title">Filter</div>
-        <div class="mobile-filter-header-button"></div>
+        <div class="mobile-filter-header-title" :class="{ 'active': audience !== 'all' || content !== 'all' }">Filter</div>
+        <div class="mobile-filter-header-button">
+            <div id="line-1"></div>
+            <div id="line-2"></div>
+            <div id="line-3"></div>
+        </div>
     </div>
     <div class="mobile-filter-search-and-view">
         <div id="sidebar-search">
