@@ -107,7 +107,10 @@
                         <?php 
                         $text = $page->disclaimer()->value();
                         $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                        echo kirbytext($text);
+                        $html = kirbytext($text);
+                        // Remove all &nbsp; entities from the final HTML
+                        $html = str_replace('&nbsp;', '', $html);
+                        echo $html;
                         ?>
                     </div>
                 <?php endif ?>  
@@ -117,7 +120,10 @@
                         <?php 
                         $text = $page->flow_text_1()->value();
                         $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                        echo kirbytext($text);
+                        $html = kirbytext($text);
+                        // Remove all &nbsp; entities from the final HTML
+                        $html = str_replace('&nbsp;', '', $html);
+                        echo $html;
                         ?>
                     </div>
                 <?php endif ?>
@@ -128,7 +134,11 @@
                 
                 <?php if ($page->question_answer_block()->isNotEmpty()): ?>
                     <div class="article-qa-block">
-                        <?= $page->question_answer_block()->toBlocks() ?>
+                        <?php 
+                        $html = (string)$page->question_answer_block()->toBlocks();
+                        // Remove all &nbsp; entities from the final HTML
+                        echo str_replace('&nbsp;', '', $html);
+                        ?>
                     </div>
                 <?php endif ?>
                 

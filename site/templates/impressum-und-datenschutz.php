@@ -107,7 +107,10 @@
                                             <?php 
                                             $text = $section->text()->value();
                                             $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                                            echo kirbytext($text);
+                                            $html = kirbytext($text);
+                                            // Remove all &nbsp; entities from the final HTML
+                                            $html = str_replace('&nbsp;', '', $html);
+                                            echo $html;
                                             ?>
                                         </div>
                                     <?php endif ?>
@@ -131,7 +134,10 @@
                                             <?php 
                                             $text = $section->text()->value();
                                             $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                                            echo kirbytext($text);
+                                            $html = kirbytext($text);
+                                            // Remove all &nbsp; entities from the final HTML
+                                            $html = str_replace('&nbsp;', '', $html);
+                                            echo $html;
                                             ?>
                                         </div>
                                     <?php endif ?>

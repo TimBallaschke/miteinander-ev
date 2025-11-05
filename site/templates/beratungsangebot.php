@@ -98,7 +98,10 @@
                         <?php 
                         $text = $page->flow_text_1()->value();
                         $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                        echo kirbytext($text);
+                        $html = kirbytext($text);
+                        // Remove all &nbsp; entities from the final HTML
+                        $html = str_replace('&nbsp;', '', $html);
+                        echo $html;
                         ?>
                     </div>
                 <?php endif ?>

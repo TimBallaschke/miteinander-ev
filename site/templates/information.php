@@ -98,7 +98,10 @@
                         <?php 
                         $text = $page->flow_text_1()->value();
                         $text = preg_replace("/(?<!\n)\n(?!\n)/", "\n\n", $text);
-                        echo kirbytext($text);
+                        $html = kirbytext($text);
+                        // Remove all &nbsp; entities from the final HTML
+                        $html = str_replace('&nbsp;', '', $html);
+                        echo $html;
                         ?>
                     </div>
                 <?php endif ?>
@@ -108,6 +111,8 @@
                         <?php 
                         // Get the HTML output from blocks
                         $blocksHtml = (string)$page->question_answer_block()->toBlocks();
+                        // Remove all &nbsp; entities from the final HTML
+                        $blocksHtml = str_replace('&nbsp;', '', $blocksHtml);
                         
                         // Split by h2 tags, keeping the h2 in the split
                         $parts = preg_split('/(<h2[^>]*>.*?<\/h2>)/is', $blocksHtml, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
