@@ -1,0 +1,57 @@
+Title: Neutrale Schule? Grundlagen und Grenzen des Neutralitätsgebots in Schule
+
+----
+
+Page-title: Neutrale Schule? Grundlagen und Grenzen des Neutralitätsgebots in Schule
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: 'Neutrale Schule - Grundlagen und Grenzen des Neutralitätsgebots in Schule'
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'Neutrale Schule - Grundlagen und Grenzen des Neutralitätsgebots in Schule'
+  external_link: 'https://stadt.muenchen.de/dam/jcr:bd23e732-0f8a-44e7-bad1-a15c3985b953/Neutrale%20Schule_101224.pdf'
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Die Broschüre „Neutrale Schule?“ klärt über das Neutralitätsgebot an Schulen auf. Sie zeigt, warum demokratische Bildung keine politische Indoktrination ist, und gibt Lehrkräften Argumente und Tipps, um Haltung zu zeigen und Rechtspopulismus im Klassenzimmer zu begegnen.
+
+----
+
+Publisher: Fachstelle für Demokratie der Landeshauptstadt München
+
+----
+
+Year: 2024
+
+----
+
+Pdf-title: 
+
+----
+
+Uuid: TiogoMsoEcO2gXxA

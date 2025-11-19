@@ -1,0 +1,57 @@
+Title: Mit Rückgrat gegen PAKOs!
+
+----
+
+Page-title: Mit Rückgrat gegen PAKOs! Eine Step by Step-Anleitung für die Jugendarbeit zur Gestaltung und Selbstevaluation von Angeboten gegen Pauschalisierende Ablehnungskonstruktionen
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: 'Mit Rückgrat gegen PAKOs! '
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'https://www.bpb.de/system/files/dokument_pdf/Handreichung-R%C3%BCckgrat-2017_0.pdf'
+  external_link: 'https://www.bpb.de/system/files/dokument_pdf/Handreichung-R%C3%BCckgrat-2017_0.pdf'
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Die Handreichung bietet Fachkräften der Jugendarbeit eine Schritt-für-Schritt-Anleitung zur Entwicklung und Bewertung von Angeboten gegen pauschalisierende Ablehnungskonstruktionen. Sie fördert strategisches, reflektiertes und demokratiestärkendes Handeln.
+
+----
+
+Publisher: Kurt Möller - Hochschule Esslingen
+
+----
+
+Year: 2017
+
+----
+
+Uuid: wZ7joQcNlEFiUwj6

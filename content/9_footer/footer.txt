@@ -2,7 +2,7 @@ Title: Footer
 
 ----
 
-Sender: 
+Sender: Das Projekt wird gefördert vom Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend im Rahmen des Bundesprogramms „Demokratie Leben!“ sowie durch das Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung des Landes Sachsen-Anhalt.
 
 ----
 
@@ -11,7 +11,7 @@ Logos:
 - 
   logo_title: ""
   logo_file:
-    - file://mKp8eRnX7wQvYzTu
+    - file://rittMAqCCUlSYK39
 - 
   logo_title: >
     Die Veröffentlichung stellt keine
@@ -24,7 +24,7 @@ Logos:
 - 
   logo_title: ""
   logo_file:
-    - file://Lhdr5cRNW6uQNe9C
+    - file://8oLFvM3WT6MJfxQh
 
 ----
 

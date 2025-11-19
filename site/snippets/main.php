@@ -2,7 +2,7 @@
     <div id="header-main">
         <div id="header-main-large" :class="{ 'scrolled': isScrolled }">
             <div id="website-title-container" :class="{ 'scrolled': isScrolled }">
-                <a href="<?= url() ?>" id="website-title">Rechtsextremismus in Famlilien<br> und Pädagogik begegnen</a>
+                <a href="<?= url() ?>" id="website-title">Rechtsextremismus in Familien<br> und Pädagogik begegnen</a>
                 <div class="mobile-menu-plus-button" :class="{ 'unfolded': mobileMenuUnfolded }" @click="mobileMenuUnfolded = !mobileMenuUnfolded">
                     <div class="plus-line-horizontal"></div>
                     <div class="plus-line-vertical"></div>
@@ -12,7 +12,7 @@
         </div>
         <div id="header-main-small" :class="{ 'scrolled': isScrolled }">
             <div id="website-title-container-small" :class="{ 'scrolled': isScrolled }">
-                <a href="<?= url() ?>" id="website-title-small">Rechtsextremismus in Famlilien und Pädagogik begegnen</a>
+                <a href="<?= url() ?>" id="website-title-small">Rechtsextremismus in Familien und Pädagogik begegnen</a>
             </div>
             <?php snippet('mobile-menu-header') ?>
             <?php snippet('mobile-filter-header') ?>
@@ -20,30 +20,47 @@
         </div>
     </div>
     <div id="content" :class="view + (isScrolled ? ' scrolled' : '') + (mobileFilterVisible ? ' filter-visible' : '')">
-        <div id="intro-text" :class="{ 'unfolded': introTextUnfolded }" @click="introTextUnfolded = !introTextUnfolded">
+        <div id="intro-text" :class="{ 'unfolded': introTextUnfolded }" @click="introTextUnfolded = !introTextUnfolded"
+             x-data="{ isMobile: window.innerWidth <= 767 }"
+             @resize.window="isMobile = window.innerWidth <= 767">
             <?php 
             $fullText = page('startseite')?->flow_text()->value() ?? '';
             // Convert *italic* to <em>italic</em>
             $processedText = preg_replace('/\*([^\*]+)\*/', '<em>$1</em>', $fullText);
             // Split by spaces, preserving UTF-8 characters (strip tags for word count)
             $words = preg_split('/\s+/u', strip_tags($processedText), -1, PREG_SPLIT_NO_EMPTY);
-            $truncatedWords = array_slice($words, 0, 18);
-            // Re-apply formatting to truncated text
-            $truncatedText = $processedText;
+            
+            // Create mobile version (12 words)
+            $truncatedWordsMobile = array_slice($words, 0, 12);
+            $truncatedTextMobile = $processedText;
             foreach ($words as $i => $word) {
-                if ($i >= 18) {
-                    // Find and cut after the 18th word
-                    $pattern = '/(' . preg_quote($truncatedWords[17], '/') . ').*$/us';
-                    $truncatedText = preg_replace($pattern, '$1', $processedText);
+                if ($i >= 12) {
+                    $pattern = '/(' . preg_quote($truncatedWordsMobile[11], '/') . ').*$/us';
+                    $truncatedTextMobile = preg_replace($pattern, '$1', $processedText);
                     break;
                 }
             }
-            if (count($words) > 18) {
-                $truncatedText .= ' ... <em>(mehr lesen)</em>';
+            if (count($words) > 12) {
+                $truncatedTextMobile .= ' ... <em>(mehr lesen)</em>';
+            }
+            
+            // Create desktop version (40 words)
+            $truncatedWordsDesktop = array_slice($words, 0, 40);
+            $truncatedTextDesktop = $processedText;
+            foreach ($words as $i => $word) {
+                if ($i >= 40) {
+                    $pattern = '/(' . preg_quote($truncatedWordsDesktop[39], '/') . ').*$/us';
+                    $truncatedTextDesktop = preg_replace($pattern, '$1', $processedText);
+                    break;
+                }
+            }
+            if (count($words) > 40) {
+                $truncatedTextDesktop .= ' ... <em>(mehr lesen)</em>';
             }
             ?>
             <div x-show="!introTextUnfolded">
-                <?= $truncatedText ?>
+                <span x-show="isMobile"><?= $truncatedTextMobile ?></span>
+                <span x-show="!isMobile"><?= $truncatedTextDesktop ?></span>
             </div>
             <div x-show="introTextUnfolded">
                 <?= page('startseite')?->flow_text()->kt() ?> <em>(weniger lesen)</em>

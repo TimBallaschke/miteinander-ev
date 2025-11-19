@@ -1,5 +1,5 @@
 .article-content {
-    padding: 0 var(--page-padding) var(--page-padding) var(--page-padding);
+    padding: 0 calc(var(--page-padding) * 4) var(--page-padding) var(--page-padding);
 
     @include mobile {
         padding: var(--page-padding);
@@ -21,7 +21,7 @@
 .article-disclaimer {
     font-family: "Monument Mono";
     font-size: var(--mono-font-size-large);
-    line-height: 1.2;
+    line-height: 1.3;
     border-radius: 1rem;
     margin-top: calc(var(--mono-font-size-large) * 1.2);
     padding: var(--page-padding);
@@ -50,7 +50,7 @@
 
 .article-flow-text {
     font-size: var(--mono-font-size-large);
-    line-height: 1.2;
+    line-height: 1.3;
 
     p {
         padding-top: calc(var(--mono-font-size-large) * 1.2);
@@ -65,7 +65,7 @@
     * {
         text-decoration: none !important;
         font-size: var(--mono-font-size-large);
-        line-height: 1.2;
+        line-height: 1.3;
     }
 
     h2 {
@@ -160,8 +160,9 @@
 
     p {
         font-size: var(--mono-font-size-large);
-        line-height: 1.2;
+        line-height: 1.3;
         padding-top: calc(var(--mono-font-size-large) * 1.2);
+        // border-top: solid 1px black;
 
         strong {
             display: block;
@@ -230,7 +231,7 @@
     .related-materials-title {
         font-family: "Monument";
         font-size: var(--regular-small-font-size-small);
-        line-height: 1.2;
+        line-height: 1.3;
         padding-bottom: var(--page-padding);
     }
 }

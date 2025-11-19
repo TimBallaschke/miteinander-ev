@@ -1,0 +1,63 @@
+Title: Handlungsleitlinien für Schulleitungen und Lehrkräfte
+
+----
+
+Page-title: Handlungsleitlinien für Schulleitungen und Lehrkräfte im Umgang mit antidemokratischen Verhaltensweisen und Positionen an Brandenburger Schulen
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Handlungsleitlinien für Schulleitungen
+    und Lehrkräfte im Umgang mit
+    antidemokratischen Verhaltensweisen und
+    Positionen an Brandenburger Schulen
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    https://mbjs.brandenburg.de/sixcms/media.php/140/broschuere_handlungsleitlinien-fuer-schulleitungen-und-lehrkraefte-im-umgang-mit-antidemokratischen-verhaltensweisen.pdf
+  external_link: >
+    https://mbjs.brandenburg.de/sixcms/media.php/140/broschuere_handlungsleitlinien-fuer-schulleitungen-und-lehrkraefte-im-umgang-mit-antidemokratischen-verhaltensweisen.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Die Broschüre bietet Schulleitungen und Lehrkräften konkrete Handlungsleitlinien im Umgang mit antidemokratischen, diskriminierenden und menschenfeindlichen Vorfällen. Anhand realitätsnaher Fallbeispiele werden rechtliche Einordnungen, schulische Maßnahmen und Unterstützungsangebote vermittelt, um demokratische Schulentwicklung zu stärken.
+
+----
+
+Publisher: Ministerium für Bildung, Jugend und Sport des Landes Brandenburg
+
+----
+
+Year: 2023
+
+----
+
+Uuid: DTnJu7VPkRYNSb2u

@@ -1,0 +1,225 @@
+Title: Queerfeindlichkeit im Jugendclub
+
+----
+
+Page-title: Queerfeindlichkeit im Jugendclub
+
+----
+
+Disclaimer:
+
+Die folgenden Fallbeispiele stammen aus langjähriger Beratungspraxis und wurden für diese Zwecke anonymisiert und teilweise fiktionalisiert. Sie dienen der Veranschaulichung typischer Situationen und möglicher Handlungsoptionen.
+
+Bei realen rechtsextremen Vorfällen ist jedoch stets eine fallspezifische, bedarfsgerechte Analyse erforderlich, da sich Zusammenhänge je nach Kontext unterschiedlich darstellen und bewerten lassen.
+
+----
+
+Flow-text-1: Eine Jugendliche wendet sich vertrauensvoll an die Sozialarbeiterin eines Jugendclubs, weil sie sich dort zunehmend unwohl fühlt und unsicher ist, ob sie den Club weiterhin besuchen möchte. Sie erzählt, dass in den letzten Wochen immer wieder Sticker in Regenbogenfarben von einer Gruppe anderer Jugendlicher abgeschabt oder mit anderen Aufklebern einer rechtsextremen Jugendgruppe überklebt wurden. Darüber hinaus hat sie die Jugendlichen auf einer von rechtsextremen Akteuren organisierten Demonstration gegen eine CSD-Veranstaltung gesehen. Ein Jugendlicher aus der Gruppe habe dort ein T-Shirt mit der Aufschrift „Auch ohne Sonne braun“ getragen und andere aus der Gruppe hätten eindeutig in der rechten Szene verwendete Handzeichen gezeigt. Der Sozialarbeiterin ist bereits aufgefallen, dass sich das soziale Miteinander im Jugendclub verändert hat und einige Jugendliche nicht mehr kommen.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"60e4399b-c88e-4faf-8fba-91ca7a0bd93b","isHidden":false,"type":"heading"},{"content":{"text":"<p>Jugendliche aus dem Jugendclub besuchen queerfeindliche Veranstaltungen und tragen rechtsextreme Codes und Symbole zur Schau. Sie tragen ihre Gesinnung unter anderem durch das Verkleben von Stickern rechtsextremer Jugendverbände auch in den Jugendclub.</p><p>Queere Personen und Betroffene fühlen sich im Jugendclub nicht mehr sicher und ziehen sich aus dem Club zurück.</p><p>Der Jugendclub, der insbesondere demokratischen Jugendkulturen einen Raum bieten möchte, wird zunehmend von rechten Jugendlichen vereinnahmt.</p>"},"id":"bb364354-c40a-4108-9aa6-f339f8b22d90","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"014c10ae-1595-4415-a183-c447cb94b11e","isHidden":false,"type":"heading"},{"content":{"text":"<p>Betroffenenperspektive einbinden:</p><ul><li><p>Zeigen, dass der vertrauensvolle Hinweis der Jugendlichen wichtig und richtig war und ihre Beobachtungen ernst genommen werden</p></li><li><p>Welchen Umgang mit der Situation wünschen sich die Jugendliche und die anderen betroffenen Jugendlichen?</p></li><li><p>Die Jugendliche und die anderen betroffenen Jugendlichen in ihrer Haltung bestärken und eventuell in die Maßnahmen gegen die Vereinnahmung durch rechte Jugendkulturen einbinden</p></li></ul><p>Verständigung im Team über gemeinsame Maßnahmen</p><ul><li><p>Gegenüber allen Beteiligten (und bei Bedarf auch gegenüber der Öffentlichkeit) deutlich machen, dass im Jugendclub nur Platz für demokratische Jugendkulturen ist</p></li></ul><p>Gespräche mit den anderen Jugendlichen im Jugendclub führen</p><ul><li><p>Erklären, warum rechte Parolen, Musik, Symbole u.ä. nicht geduldet werden</p></li><li><p>Gemeinsame Regeln für den Jugendclub in Bezug auf diskriminierendes Verhalten, rechtsextreme Symbolik und das allgemeine Miteinander aufstellen</p></li><li><p>Innerhalb des Jugendclubs klare Regeln für den Umgang untereinander aufstellen. Hierbei ist es sinnvoll, nach Möglichkeit auch die Jugendlichen einzubeziehen.</p></li><li><p>In Zusammenarbeit mit allen Jugendlichen Sanktionsmaßnahmen für Regelverstöße entwickeln</p></li></ul><p>Innerhalb des Clubs Räumlichkeiten sowie Angebote für die nicht-rechtsaffinen Jugendlichen schaffen</p><p>Sticker beseitigen</p><p>Queere Themen in das Programm einbinden und ein politisches Statement abgeben</p>"},"id":"a24918b6-1707-44ab-88d7-fe2bd61c4a88","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: 'Pädagogische Praxis als Schutzraum: Orte der Demokratie und Menschlichkeit'
+  internal_link:
+    - page://5MKpsihqQZ8CtJB6
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Jugendarbeit gegen Rechtsextremismus
+  internal_link:
+    - page://UQkxYVxE548FZA1t
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Organize! Extreme Rechte und
+    Rechtspopulismus im Rahmen Sozialer
+    Arbeit
+  internal_link:
+    - page://qlD2cltDDjjVF0LS
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: (K)ein Auge zudrücken?!
+  internal_link:
+    - page://ZSX6yLgDmJtPL8V4
+  external_link_title: ""
+  external_link: ""
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Landeszentrale für politische Bildung
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/infopool-rechtsextremismus/522418/jugendarbeit-soziale-arbeit/
+- 
+  type: internal
+  internal_link_title: >
+    Eine Broschüre über Rechtsextremismus
+    als Thema in der Jugendhilfe
+  internal_link:
+    - page://C3I7jmZT4APmiViE
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Mit Rückgrat gegen PAKOs!
+  internal_link:
+    - page://wZ7joQcNlEFiUwj6
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Eine Jugendliche erzählt der Sozialarbeiterin in einem Jugendclub, dass sie sich unwohl fühlt, weil Sticker der "Jungen Alternative" über Regenbogen-Aufkleber geklebt wurden. Sie hätte die Gruppe auch bei einer rechtsextremen Demo gesehen.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: >
+        Jugendliche aus dem Jugendclub besuchen
+        queerfeindliche Veranstaltungen und
+        tragen rechtsextreme Codes und Symbole
+        zur Schau. Sie tragen ihre Gesinnung
+        unter anderem durch das Verkleben von
+        Stickern rechtsextremer Jugendverbände
+        auch in den Jugendclub.
+      highlight: 'false'
+    - 
+      text: >
+        Queere Personen und Betroffene fühlen
+        sich im Jugendclub nicht mehr sicher und
+        ziehen sich aus dem Club zurück.
+      highlight: 'false'
+    - 
+      text: >
+        Der Jugendclub, der insbesondere
+        demokratischen Jugendkulturen einen Raum
+        bieten möchte, wird zunehmend von
+        rechten Jugendlichen vereinnahmt.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: 'Betroffenenperspektive einbinden:'
+      highlight: 'false'
+    - 
+      text: >
+        Zeigen, dass der vertrauensvolle Hinweis
+        der Jugendlichen wichtig und richtig war
+        und ihre Beobachtungen ernst genommen
+        werden
+      highlight: 'true'
+    - 
+      text: >
+        Welchen Umgang mit der Situation
+        wünschen sich die Jugendliche und die
+        anderen betroffenen Jugendlichen?
+      highlight: 'true'
+    - 
+      text: >
+        Die Jugendliche und die anderen
+        betroffenen Jugendlichen in ihrer
+        Haltung bestärken und eventuell in die
+        Maßnahmen gegen die Vereinnahmung durch
+        rechte Jugendkulturen einbinden
+      highlight: 'true'
+    - 
+      text: >
+        Verständigung im Team über gemeinsame
+        Maßnahmen
+      highlight: 'false'
+    - 
+      text: >
+        Gegenüber allen Beteiligten (und bei
+        Bedarf auch gegenüber der
+        Öffentlichkeit) deutlich machen, dass
+        im Jugendclub nur Platz für
+        demokratische Jugendkulturen ist
+      highlight: 'true'
+    - 
+      text: >
+        Gespräche mit den anderen Jugendlichen
+        im Jugendclub führen
+      highlight: 'false'
+    - 
+      text: >
+        Erklären, warum rechte Parolen, Musik,
+        Symbole u.ä. nicht geduldet werden
+      highlight: 'true'
+    - 
+      text: >
+        Gemeinsame Regeln für den Jugendclub in
+        Bezug auf diskriminierendes Verhalten,
+        rechtsextreme Symbolik und das
+        allgemeine Miteinander aufstellen
+      highlight: 'true'
+    - 
+      text: >
+        Innerhalb des Jugendclubs klare Regeln
+        für den Umgang untereinander
+        aufstellen. Hierbei ist es sinnvoll,
+        nach Möglichkeit auch die Jugendlichen
+        einzubeziehen.
+      highlight: 'true'
+    - 
+      text: >
+        In Zusammenarbeit mit allen Jugendlichen
+        Sanktionsmaßnahmen für Regelverstöße
+        entwickeln
+      highlight: 'true'
+    - 
+      text: >
+        Innerhalb des Clubs Räumlichkeiten
+        sowie Angebote für die
+        nicht-rechtsaffinen Jugendlichen
+        schaffen
+      highlight: 'false'
+    - 
+      text: Sticker beseitigen
+      highlight: 'false'
+    - 
+      text: >
+        Queere Themen in das Programm einbinden
+        und ein politisches Statement abgeben
+      highlight: 'false'
+
+----
+
+Uuid: LQQK58yqfnaI9cOe

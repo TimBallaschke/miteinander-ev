@@ -1,0 +1,58 @@
+Title: Nachwuchs für Reichsbürger – Doku über Kinder in einer Parallelwelt
+
+----
+
+Page-title: Nachwuchs für Reichsbürger – Doku über Kinder in einer Parallelwelt
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Nachwuchs für Reichsbürger – Doku
+    über Kinder in einer Parallelwelt
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    Nachwuchs für Reichsbürger – Doku
+    über Kinder in einer Parallelwelt
+  external_link: >
+    https://www.swr.de/swrkultur/doku-und-feature/nachwuchs-fuer-reichsbuerger-doku-ueber-kinder-in-einer-parallelwelt-feature-2024-10-04-100.html
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Im ARD-Radiofeature begeben sich die beiden Autorinnen Eva Achinger und Christiane Hawranek auf die Spur von Kindern, die in einer Parallelwelt aufwachsen. Sie stehen vor der Frage, wo Kindeswohlgefährdung beginnt. Und sie erleben, dass die Problematik manche Behörden völlig unvorbereitet trifft.
+
+----
+
+Publisher: BR
+
+----
+
+Year: 2024
+
+----
+
+Uuid: iveBjpw3X0WGnqw4

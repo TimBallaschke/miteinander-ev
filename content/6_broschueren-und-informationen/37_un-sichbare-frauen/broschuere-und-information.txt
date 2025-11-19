@@ -1,0 +1,54 @@
+Title: (Un)sichtbare Frauen
+
+----
+
+Page-title: (Un) sichtbare Frauen - Fragestellungen und Analysen zur Kategorie Geschlecht in Präventions und Ausstiegsarbeit
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: '(Un) sichtbare Frauen - Fragestellungen und Analysen zur Kategorie Geschlecht in Präventions und Ausstiegsarbeit'
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: '(Un) sichtbare Frauen - Fragestellungen und Analysen zur Kategorie Geschlecht in Präventions und Ausstiegsarbeit'
+  external_link: >
+    https://prisma.online/wp-content/uploads/prisma_expertise3_web.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Die Broschüre fordert gendersensible Prävention: Frauen in rechtsextremen Szenen werden oft übersehen, ihre Rollen unterschätzt. Es braucht spezifische Angebote und mehr Sichtbarkeit in der Arbeit.
+
+----
+
+Publisher: Fabian Kaufmann und Lena Sierts
+
+----
+
+Year: 2021
+
+----
+
+Uuid: p99aGMZNW6U5hSVh

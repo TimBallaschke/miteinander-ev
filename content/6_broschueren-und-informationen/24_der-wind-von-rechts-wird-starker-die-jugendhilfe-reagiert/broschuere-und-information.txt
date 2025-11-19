@@ -1,0 +1,62 @@
+Title: Der Wind von rechts wird stärker – die Jugendhilfe reagiert
+
+----
+
+Page-title: Der Wind von rechts wird stärker – die Jugendhilfe reagiert
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-title: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Der Wind von rechts wird stärker –
+    die Jugendhilfe reagiert
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    Der Wind von rechts wird stärker –
+    die Jugendhilfe reagiert
+  external_link: >
+    https://www.caritas.de/neue-caritas/heftarchiv/jahrgang2022/artikel/der-wind-von-rechts-wird-staerker--die-jugendhilfe-reagiert
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Der Artikel beleuchtet, wie Fachkräfte der Kinder- und Jugendhilfe auf zunehmende rechtspopulistische und demokratiefeindliche Äußerungen reagieren können. Zum Beispiel mit praxisnahen Trainings zur eigenen Haltung und Gesprächsführungsstrategien. Fachkräfte sollen demokratische Werte verteidigen, rechtssicher handeln und jungen Menschen ein geschütztes Umfeld bieten.
+
+----
+
+Publisher: Neue Caritas
+
+----
+
+Year: 2022
+
+----
+
+Uuid: YpmKKRCzWgBPRVFf

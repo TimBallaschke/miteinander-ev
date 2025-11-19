@@ -1,0 +1,58 @@
+Title: »Was ein rechter Mann ist ...«
+
+----
+
+Page-title: »Was ein rechter Mann ist ...« Männlichkeiten im Rechtsextremismus
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    »Was ein rechter Mann ist ...«
+    Männlichkeiten im Rechtsextremismus
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    »Was ein rechter Mann ist ...«
+    Männlichkeiten im Rechtsextremismus
+  external_link: >
+    https://www.rosalux.de/fileadmin/rls_uploads/pdfs/Publ-Texte/Texte_68.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: sozialarbeit
+
+----
+
+Intro-text: Geschlecht, Sexualität und Familie stellen zentrale Kategorien für rechtsextreme Phänomene dar. Der Sammelband verfolgt eine geschlechtssensible Perspektive auf Rechtsextremismus und widmet sich insbesondere den Männlichkeitskonstruktionen.
+
+----
+
+Publisher: Robert Claus, Esther Lehnert, Yves Müller
+
+----
+
+Year: 2010
+
+----
+
+Uuid: ZN5vmmSEicmThUGg

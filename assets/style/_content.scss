@@ -60,10 +60,10 @@
 }
 
 #intro-text {
-    font-size: var(--regular-font-size-large);
-    line-height: var(--regular-line-height-large);
+    font-size: var(--regular-small-font-size);
+    line-height: 1.3;
     padding-left: var(--page-padding);
-    padding-right: var(--page-padding);
+    padding-right: calc(var(--page-padding) * 3);
     padding-bottom: var(--page-padding);
     border-bottom: solid 1px black;
     position: relative;

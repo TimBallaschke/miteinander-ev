@@ -1,0 +1,54 @@
+Title: Kindeswohlgefährdung in Neonazifamilien
+
+----
+
+Page-title: Kindeswohlgefährdung in Neonazifamilien
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: Kindeswohlgefährdung in Neonazifamilien
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Kindeswohlgefährdung in Neonazifamilien
+  external_link: >
+    https://www.youtube.com/watch?v=Gt3RNqpSOy4
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: kita
+
+----
+
+Intro-text: Das Verhältnis von Rechtsextremismus und Kindeswohlgefährdung ist ein kontroverses Thema, das Fachkräfte vor verschiedene Herausforderungen stellt. Es bewegt sich in einem Spannungsverhältnis, das juristisch wie auch pädagogisch nicht leicht aufzulösen ist. Die im LidiceHaus ansässige Fachstelle Rechtsextremismus und Familie (RuF) hat zu diesem Thema Ende 2020 die Broschüre "Funktionalisierte Kinder. Kindeswohlgefährdung in Neonazifamilien" herausgegeben. Der vorliegende Film fasst zentrale Punkte aus dem umfassenden Druckwerk übersichtlich zusammen.
+
+----
+
+Publisher: Lidice Haus
+
+----
+
+Year: 2021
+
+----
+
+Uuid: j8liwU48RlEJO53e

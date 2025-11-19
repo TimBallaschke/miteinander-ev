@@ -1,0 +1,159 @@
+Title: Neuer rechtsextremer Partner nach Trennung
+
+----
+
+Page-title: Neuer rechtsextremer Partner nach Trennung
+
+----
+
+Disclaimer:
+
+Die folgenden Fallbeispiele stammen aus langjähriger Beratungspraxis und wurden für diese Zwecke anonymisiert und teilweise fiktionalisiert. Sie dienen der Veranschaulichung typischer Situationen und möglicher Handlungsoptionen.
+
+Bei realen rechtsextremen Vorfällen ist jedoch stets eine fallspezifische, bedarfsgerechte Analyse erforderlich, da sich Zusammenhänge je nach Kontext unterschiedlich darstellen und bewerten lassen.
+
+----
+
+Flow-text-1:
+
+Ein Vater lebt seit einem Jahr getrennt von seiner ehemaligen Partnerin. Sie teilen sich das Sorgerecht für ihren 3-jährigen Sohn. Die Trennung ist konfliktreich verlaufen und von gegenseitigen Verletzungen und Vorwürfen geprägt. Das Kind leidet sichtbar unter dem Trennungskonflikt.
+Kurz nach der Trennung lernt die Kindsmutter einen neuen Partner kennen und zieht bei ihm ein. Schon bald fallen dem Vater auf WhatsApp die Status-Bilder der Kindsmutter auf. Nachdem sie sich dort gemeinsam mit neuem Partner und Kind vor einer Reichskriegsflagge gezeigt hat, entdeckt der Kindsvater auf dem öffentlich zugänglichen Facebook-Profil des neuen Partners  weitere Hinweise auf eine Zugehörigkeit zur rechtsextremen Szene: Auf einem Bild trägt ein Bekannter des neuen Freundes ein T-Shirt mit der Aufschrift „Arische Brüderschaft“, zahlreiche Seiten lokaler rechtsextremer Parteien wurden von ihm geliked, und in seinem neuesten Beitrag ruft er zum Widerstand gegen eine neue Geflüchteten-Unterkunft auf. 
+Zeitgleich erfährt der Vater aus einem Brief vom Familiengericht, dass seine Partnerin ein Sorgerechtsverfahren anstrengt. 
+Der Vater macht sich große Sorgen über den Einfluss des neuen Umfeldes auf das Wohl seines Kindes.
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"cc45343d-242b-4b3b-bcfb-296c92259759","isHidden":false,"type":"heading"},{"content":{"text":"<p>Doppelte emotionale Belastung für das Kind: Es leidet an den Trennungsauseinandersetzungen und erlebt nun eine neue Lebenswelt, die sich von der des Vaters unterscheidet und es in Loyalitäts-Konflikte bringen kann.</p><p>Überlagerung der Sorgerechtsauseinandersetzung mit der politischen Auseinandersetzung um das neue rechtsextreme Umfeld der Kindsmutter</p><p>Das Wohl des Kindes wird am wahrscheinlichsten gewahrt, wenn zu beiden Elternteilen eine stabile Beziehung aufrechterhalten wird. Gleichzeitig kann eine drohende Kindeswohlgefährdung durch das rechtextreme Umfeld des neuen Partners nicht ausgeschlossen werden (siehe Broschüre zu (link: <a href=\"https://www.vielfalt-mediathek.de/wp-content/uploads/2021/02/Fachstelle-Rechtsextremismus-und-FamilieLidicehaus_funktionalisierte_kinder_auflage2_vielfalt-mediathek.pdf\">https://www.vielfalt-mediathek.de/wp-content/uploads/2021/02/Fachstelle-Rechtsextremismus-und-FamilieLidicehaus_funktionalisierte_kinder_auflage2_vielfalt-mediathek.pdf</a> text: Kindeswohlgefährdung und Rechtsextremismus) der Fachstelle Familie und Rechtsextremismus)</p><p>Aber: Für eine Kindeswohlgefährdung nach § 8a SGBVIII muss eine konkrete körperliche oder seelische Schädigung zu erwarten sein. Dies ist nicht allein durch die rechtsextreme Einstellung des Partners gegeben.</p><p>Der Sorgerechtsstreit erschwert eine zielorientierte und konfliktfreie Verständigung um das Wohl des Kindes.</p>"},"id":"89266179-0218-46af-b7cc-95dda3389bb8","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"6e6f3b8e-7af7-4b57-81a5-a883217f9948","isHidden":false,"type":"heading"},{"content":{"text":"<p>Dem Vater wird empfohlen, professionelle Unterstützung und Beratung in Anspruch zu nehmen:</p><ul><li><p>Familienberatungsstelle zum unterstützenden Umgang mit dem Kind im Sorgerechtsprozess</p></li><li><p>Familienanwaltliche Unterstützung für den Sorgerechtsprozess</p></li><li><p>Beratungsstelle für Menschen, die im Nahumfeld mit Rechtsextremismus konfrontiert sind (Zum Beispiel die (link: <a href=\"https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/\">https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/</a> text: Kompetenzstelle Eltern und Rechtsextremismus))</p></li></ul><p>Um seine Befürchtungen bezüglich des neuen Umfelds seines Kindes zu besprechen, kann sich der Vater aktiv ans Jugendamt wenden. (Achtung: Nicht jedes Jugendamt ist für die Bedeutung von rechtsextremen Einstellungen in familiären Konflikten sensibilisiert!)</p><p>Dokumentation und Sicherung der Hinweise auf das rechtsextreme Umfeld für mögliche Verwendung im Sorgerechtsprozess.</p><p>In jedem Fall ist es wichtig, dass der Vater ein stabiles Beziehungs- und Vertrauensverhältnis zu seinem Kind bewahrt, um ihm eine alternative Lebenswirklichkeit zu bieten. Berichte von Aussteiger:innen aus rechtsextremen Szenen haben gezeigt, dass es für einen gelungenen Ausstieg immer Vertrauenspersonen außerhalb der Szene braucht.</p>"},"id":"d067e265-2ece-46c7-ac7b-a3ef2c231c78","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: >
+    Mein Kind und rechtsextrem... wie
+    abwegig ist das denn?!
+  internal_link:
+    - page://baczWdx8WpvMCl6Q
+  external_link_title: ""
+  external_link: ""
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Mein Kind und rechtsextrem?!
+  external_link: >
+    https://www.beratungsnetzwerk-mv.de/fileadmin/user_upload/Dateien/Bilder/Neuigkeiten/Roll-Up-1-5-2017.pdf
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'InfoPool Rechtsextremismus - Bundeszentrale für politische Bildung'
+  external_link: 'https://www.bpb.de/themen/rechtsextremismus/?field_filter_format=all&field_tags_keywords[0]=-1&d=1'
+- 
+  type: internal
+  internal_link_title: Kindeswohlgefährdung in Neonazifamilien
+  internal_link:
+    - page://j8liwU48RlEJO53e
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Funktionalisierte Kinder
+  internal_link:
+    - page://60xfUUVqqcKEHDJ5
+  external_link_title: ""
+  external_link: ""
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: eltern-und-angehoerige
+
+----
+
+Subcategory: 
+
+----
+
+Intro-text: Ein Vater teilt sich das Sorgerecht für seinen 3-jährigen Sohn mit der Ex-Partnerin. Nach der Trennung zieht sie mit einem neuen Partner zusammen. Der Vater entdeckt rechtsextreme Symbole und Inhalte im Umfeld des neuen Partners und sorgt sich um das Wohl seines Kindes.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: 'Doppelte emotionale Belastung für das Kind: Es leidet an den Trennungsauseinandersetzungen und erlebt nun eine neue Lebenswelt, die sich von der des Vaters unterscheidet und es in Loyalitäts-Konflikte bringen kann.'
+      highlight: 'false'
+    - 
+      text: >
+        Überlagerung der
+        Sorgerechtsauseinandersetzung mit der
+        politischen Auseinandersetzung um das
+        neue rechtsextreme Umfeld der
+        Kindsmutter
+      highlight: 'false'
+    - 
+      text: 'Das Wohl des Kindes wird am wahrscheinlichsten gewahrt, wenn zu beiden Elternteilen eine stabile Beziehung aufrechterhalten wird. Gleichzeitig kann eine drohende Kindeswohlgefährdung durch das rechtextreme Umfeld des neuen Partners nicht ausgeschlossen werden (siehe Broschüre zu (link: https://www.vielfalt-mediathek.de/wp-content/uploads/2021/02/Fachstelle-Rechtsextremismus-und-FamilieLidicehaus_funktionalisierte_kinder_auflage2_vielfalt-mediathek.pdf text: Kindeswohlgefährdung und Rechtsextremismus) der Fachstelle Familie und Rechtsextremismus)'
+      highlight: 'false'
+    - 
+      text: 'Aber: Für eine Kindeswohlgefährdung nach § 8a SGBVIII muss eine konkrete körperliche oder seelische Schädigung zu erwarten sein. Dies ist nicht allein durch die rechtsextreme Einstellung des Partners gegeben.'
+      highlight: 'false'
+    - 
+      text: >
+        Der Sorgerechtsstreit erschwert eine
+        zielorientierte und konfliktfreie
+        Verständigung um das Wohl des Kindes.
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: 'Dem Vater wird empfohlen, professionelle Unterstützung und Beratung in Anspruch zu nehmen:'
+      highlight: 'false'
+    - 
+      text: >
+        Familienberatungsstelle zum
+        unterstützenden Umgang mit dem Kind im
+        Sorgerechtsprozess
+      highlight: 'true'
+    - 
+      text: >
+        Familienanwaltliche Unterstützung für
+        den Sorgerechtsprozess
+      highlight: 'true'
+    - 
+      text: 'Beratungsstelle für Menschen, die im Nahumfeld mit Rechtsextremismus konfrontiert sind (Zum Beispiel die (link: https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/ text: Kompetenzstelle Eltern und Rechtsextremismus))'
+      highlight: 'true'
+    - 
+      text: 'Um seine Befürchtungen bezüglich des neuen Umfelds seines Kindes zu besprechen, kann sich der Vater aktiv ans Jugendamt wenden. (Achtung: Nicht jedes Jugendamt ist für die Bedeutung von rechtsextremen Einstellungen in familiären Konflikten sensibilisiert!)'
+      highlight: 'false'
+    - 
+      text: >
+        Dokumentation und Sicherung der Hinweise
+        auf das rechtsextreme Umfeld für
+        mögliche Verwendung im
+        Sorgerechtsprozess
+      highlight: 'false'
+    - 
+      text: 'In jedem Fall ist es wichtig, dass der Vater ein stabiles Beziehungs- und Vertrauensverhältnis zu seinem Kind bewahrt, um ihm eine alternative Lebenswirklichkeit zu bieten. Berichte von Aussteiger:innen aus rechtsextremen Szenen haben gezeigt, dass es für einen gelungenen Ausstieg immer Vertrauenspersonen außerhalb der Szene braucht.'
+      highlight: 'false'
+
+----
+
+Uuid: 1MoYHvGSdXQNE9OT

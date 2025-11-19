@@ -20,7 +20,7 @@ Bundesweite-beratungsangebote:
 Bundeslaender:
 
 - 
-  bundesland: Baden-Würrtemberg
+  bundesland: Baden-Würtemberg
   beratungsstellen:
     - 
       titel: 'Fachstelle mobirex - Monitoring | Bildung | Information'

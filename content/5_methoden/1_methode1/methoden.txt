@@ -1,8 +1,0 @@
-Title: methode1
-----
-
-Template: methode
-
-----
-
-Uuid: TH5CF9xdNEJ6cQzt

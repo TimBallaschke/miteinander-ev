@@ -7,9 +7,9 @@
   --small-mono-padding-h: 1.1rem;
   --small-mono-padding-v: 0.5rem;
   --small-mono-border-radius: calc(var(--small-mono-padding-v) * 2 + var(--mono-font-size-small));
-  --regular-small-font-size: 1.2rem;
+  --regular-small-font-size: 1.25rem;
   --regular-font-size-large: 2rem;
-  --regular-line-height-large: 1.2;
+  --regular-line-height-large: 1.3;
   --mono-font-size-large: 1.8rem;
   --mono-large-letter-spacing: -0.3%;
   --font-size-title: 4.8rem;
@@ -22,8 +22,8 @@
 @media (max-width: 767px) {
   :root {
     --mono-font-size-small: 0.83rem;
-    --regular-font-size-large: 1.4rem;
-    --mono-font-size-large: 1.3rem;
+    --regular-font-size-large: 1.35rem;
+    --mono-font-size-large: 1.35rem;
     --regular-small-font-size-small: 0.95rem;
     --font-size-title: 2.5rem;
     --page-padding: 1rem;
@@ -157,10 +157,10 @@ a {
 }
 
 #intro-text {
-  font-size: var(--regular-font-size-large);
-  line-height: var(--regular-line-height-large);
+  font-size: var(--regular-small-font-size);
+  line-height: 1.3;
   padding-left: var(--page-padding);
-  padding-right: var(--page-padding);
+  padding-right: calc(var(--page-padding) * 3);
   padding-bottom: var(--page-padding);
   border-bottom: solid 1px black;
   position: relative;
@@ -542,7 +542,7 @@ a {
 }
 
 #website-title {
-  padding-left: 2rem;
+  padding-left: var(--page-padding);
   text-decoration: none;
   color: inherit;
   display: block;
@@ -935,7 +935,7 @@ a {
 }
 .article-headline {
   font-family: "Monument Mono";
-  line-height: 1.2;
+  line-height: 1.3;
 }
 .list .article-headline {
   font-size: var(--mono-font-size-small);
@@ -948,7 +948,7 @@ a {
 
 .article-teaser-text {
   font-size: var(--regular-small-font-size);
-  line-height: 1.2;
+  line-height: 1.3;
   padding-top: calc(var(--mono-font-size-large) * 0.8);
 }
 .list .article-teaser-text {
@@ -1019,7 +1019,7 @@ a {
 }
 
 .article-content {
-  padding: 0 var(--page-padding) var(--page-padding) var(--page-padding);
+  padding: 0 calc(var(--page-padding) * 4) var(--page-padding) var(--page-padding);
 }
 @media (max-width: 767px) {
   .article-content {
@@ -1043,7 +1043,7 @@ a {
 .article-disclaimer {
   font-family: "Monument Mono";
   font-size: var(--mono-font-size-large);
-  line-height: 1.2;
+  line-height: 1.3;
   border-radius: 1rem;
   margin-top: calc(var(--mono-font-size-large) * 1.2);
   padding: var(--page-padding);
@@ -1069,7 +1069,7 @@ a {
 
 .article-flow-text {
   font-size: var(--mono-font-size-large);
-  line-height: 1.2;
+  line-height: 1.3;
 }
 .article-flow-text p {
   padding-top: calc(var(--mono-font-size-large) * 1.2);
@@ -1083,7 +1083,7 @@ a {
 .article-qa-block * {
   text-decoration: none !important;
   font-size: var(--mono-font-size-large);
-  line-height: 1.2;
+  line-height: 1.3;
 }
 .article-qa-block h2 {
   font-size: var(--mono-font-size-large);
@@ -1167,7 +1167,7 @@ a {
 }
 .article-qa-block p {
   font-size: var(--mono-font-size-large);
-  line-height: 1.2;
+  line-height: 1.3;
   padding-top: calc(var(--mono-font-size-large) * 1.2);
 }
 .article-qa-block p strong {
@@ -1225,12 +1225,12 @@ a {
 .article-related-materials .related-materials-title {
   font-family: "Monument";
   font-size: var(--regular-small-font-size-small);
-  line-height: 1.2;
+  line-height: 1.3;
   padding-bottom: var(--page-padding);
 }
 
 .subpage-content {
-  padding: 0 var(--page-padding) var(--page-padding) var(--page-padding);
+  padding: 0 calc(var(--page-padding) * 6) var(--page-padding) var(--page-padding);
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -1254,6 +1254,14 @@ a {
 }
 .subpage-content .article-qa-block.information-qa-block p {
   padding-right: 2rem;
+}
+.subpage-content .article-qa-block.information-qa-block h2 {
+  margin-left: calc(var(--sidebar-width));
+}
+@media (max-width: 767px) {
+  .subpage-content .article-qa-block.information-qa-block h2 {
+    margin-left: 0;
+  }
 }
 .subpage-content .article-qa-block ul {
   padding-left: var(--sidebar-width);
@@ -1324,14 +1332,14 @@ a {
 }
 
 .subpage-flow-text {
-  font-size: var(--mono-font-size-large);
-  line-height: 1.2;
+  font-size: var(--regular-small-font-size);
+  line-height: 1.3;
   padding-left: calc(var(--sidebar-width));
 }
 @media (max-width: 767px) {
   .subpage-flow-text {
     padding-left: 0;
-    font-size: var(--regular-font-size-large);
+    font-size: var(--regular-small-font-size);
   }
 }
 .subpage-flow-text p {
@@ -1342,7 +1350,7 @@ a {
   display: grid;
   grid-template-columns: calc(var(--sidebar-width)) 1fr;
   font-size: var(--mono-font-size-large);
-  line-height: 1.2;
+  line-height: 1.3;
   padding-top: 1.2rem;
   padding-bottom: 1rem;
   margin-top: 5rem;
@@ -1372,7 +1380,7 @@ a {
 }
 @media (max-width: 767px) {
   .bundesland-section .bundesland-title {
-    font-size: var(--mono-font-size-large);
+    font-size: var(--regular-small-font-size);
     border-bottom: solid 1px black;
   }
 }
@@ -1458,7 +1466,7 @@ a {
 
 .contact-project-section {
   font-size: var(--mono-font-size-large);
-  line-height: 1.2;
+  line-height: 1.3;
   padding-top: 1.2rem;
   padding-bottom: 1rem;
   margin-top: 5rem;
@@ -1470,7 +1478,7 @@ a {
   .contact-project-section {
     grid-template-columns: 1fr;
     border-top: none;
-    font-size: var(--regular-font-size-large);
+    font-size: var(--regular-small-font-size);
   }
 }
 .contact-project-section > * {
@@ -1488,6 +1496,12 @@ a {
   border-bottom: solid 1px black;
   position: relative;
   padding-left: 2.7rem;
+  margin-left: calc(var(--sidebar-width));
+}
+@media (max-width: 767px) {
+  .contact-project-section .contact-project-title {
+    margin-left: 0;
+  }
 }
 .contact-project-section .contact-project-title::before {
   content: "";
@@ -1530,7 +1544,7 @@ a {
 
 .legal-section {
   font-size: var(--regular-small-font-size);
-  line-height: 1.2;
+  line-height: 1.3;
   padding-top: 0;
   padding-bottom: 1rem;
   margin-top: 8rem;
@@ -1680,7 +1694,7 @@ a {
 .footer-logo-title {
   font-family: "Monument";
   font-size: 0.65rem;
-  line-height: 1.2;
+  line-height: 1.3;
   grid-row: 2;
   padding-top: 1rem;
 }

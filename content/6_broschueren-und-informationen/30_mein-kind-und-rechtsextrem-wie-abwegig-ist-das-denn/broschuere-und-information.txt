@@ -1,0 +1,66 @@
+Title: Mein Kind und rechtsextrem … wie abwegig ist das denn?!
+
+----
+
+Page-title: Mein Kind und rechtsextrem … wie abwegig ist das denn?! Eine Informationsbroschüre für Eltern und Angehörige
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Mein Kind und rechtsextrem … wie
+    abwegig ist das denn?! Eine
+    Informationsbroschüre für Eltern und
+    Angehörige
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    Mein Kind und rechtsextrem … wie
+    abwegig ist das denn?! Eine
+    Informationsbroschüre für Eltern und
+    Angehörige
+  external_link: >
+    https://www.lpb-mv.de/fileadmin/user_upload/Dateien/Downloads/Dokumente/lpb_mv_informationsbroschuere_mein-kind-und-rechtsextrem_web2.pdf
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: eltern-und-angehoerige
+
+----
+
+Subcategory: 
+
+----
+
+Intro-text:
+
+Die Broschüre gibt erste Hilfestellung für das Erkennen und den Umgang mit entste-
+henden Problemen, informiert über die Besonderheiten rechtsextremer
+Orientierungen bei Kindern und Jugendlichen und gibt Einblicke in rechtsextreme Lebenswelten.
+
+----
+
+Publisher: Landeszentrale für politische Bildung Mecklenburg-Vorpommern / Landeskoordinierungsstelle Demokratie und Toleranz in Zusammenarbeit mit der AG Eltern- und Angehörigenberatung
+
+----
+
+Year: 2014
+
+----
+
+Uuid: baczWdx8WpvMCl6Q

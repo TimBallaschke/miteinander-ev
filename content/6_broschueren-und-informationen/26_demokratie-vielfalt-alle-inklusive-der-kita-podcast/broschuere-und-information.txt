@@ -1,0 +1,53 @@
+Title: Demokratie & Vielfalt - Alle inklusive? Der KiTa-Podcast
+
+----
+
+Page-title: Demokratie & Vielfalt - Alle inklusive? Der KiTa-Podcast
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: 'Demokratie & Vielfalt - Alle inklusive? Der KiTa-Podcast'
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'Demokratie & Vielfalt - Alle inklusive? Der KiTa-Podcast'
+  external_link: https://www.duvk.de/podcast/
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: kita
+
+----
+
+Intro-text: Die Podcast-Reihe nimmt sich der großen Projektthemen Demokratie und Vielfalt an. Dabei werden neben Fragen nach der demokratischen Partizipation von Kindern, Eltern, Familien, Fachkräften und Kindertagespflegepersonen auch Aspekte des diskriminierungsfreien und inklusiven Umgangs mit gesellschaftlicher Vielfalt in der Kindertagesbetreuung in den Blick genommen.
+
+----
+
+Publisher: Demokratie und Vielfalt in der Kindertagesbetreuung
+
+----
+
+Year: 
+
+----
+
+Uuid: tttRn8AVGa2YSWRJ

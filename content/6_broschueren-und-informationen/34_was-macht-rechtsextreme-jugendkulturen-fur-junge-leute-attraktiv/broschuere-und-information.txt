@@ -1,0 +1,58 @@
+Title: Was macht rechtsextreme Jugendkulturen für junge Leute attraktiv?
+
+----
+
+Page-title: Was macht rechtsextreme Jugendkulturen für junge Leute attraktiv?
+
+----
+
+Upload-or-link: 
+
+----
+
+Pdf-upload: 
+
+----
+
+Related-posts:
+
+- 
+  title: >
+    Was macht rechtsextreme Jugendkulturen
+    für junge Leute attraktiv?
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: >
+    Was macht rechtsextreme Jugendkulturen
+    für junge Leute attraktiv?
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/256077/was-macht-rechtsextreme-jugendkulturen-fuer-junge-leute-attraktiv/
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: eltern-und-angehoerige
+
+----
+
+Subcategory: 
+
+----
+
+Intro-text: Der Autor Johannes Radke geht im Interview der Frage nach, was die rechtsextreme Szene für junge Menschen attraktiv macht.
+
+----
+
+Publisher: Bundeszentrale für politische Bildung
+
+----
+
+Year: 2017
+
+----
+
+Uuid: hSJQEaI2TwSe3MlD

@@ -1,0 +1,49 @@
+Title: Informationen zum Umgang mit Rechtsextremismus etc. an Schulen.
+
+----
+
+Page-title: Auch das noch?! Informationen zum Umgang mit Rechtsextremismus, Rechtspopulismus, Rassismus und Ideologien der Ungleichwertigkeit an Schulen.
+
+----
+
+Upload-or-link: pdf
+
+----
+
+Pdf-title: Auch das noch?! Informationen zum Umgang mit Rechtsextremismus, Rechtspopulismus, Rassismus und Ideologien der Ungleichwertigkeit an Schulen.
+
+----
+
+Pdf-upload: - file://qD6xo2lOxdEFbQfi
+
+----
+
+Related-posts: 
+
+----
+
+New-category: broschuere-und-information
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Die Broschüre „Auch das noch?!“ unterstützt Schulen im Umgang mit Rechtsextremismus, Rassismus und Rechtspopulismus. Sie bietet Fallbeispiele, rechtliche Grundlagen und konkrete Handlungsempfehlungen, um demokratische Schulentwicklung und klare Haltung zu stärken.
+
+----
+
+Publisher: Kulturbüro Sachsen e.V. & Courage – Werkstatt für demokratische Bildungsarbeit e.V.
+
+----
+
+Year: 2018
+
+----
+
+Uuid: DRMQVzJ1g7f0xdHf

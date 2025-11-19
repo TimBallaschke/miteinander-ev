@@ -1,0 +1,241 @@
+Title: Provokation im Kunstunterricht
+
+----
+
+Page-title: Provokation im Kunstunterricht
+
+----
+
+Disclaimer:
+
+Die folgenden Fallbeispiele stammen aus langjähriger Beratungspraxis und wurden für diese Zwecke anonymisiert und teilweise fiktionalisiert. Sie dienen der Veranschaulichung typischer Situationen und möglicher Handlungsoptionen.
+
+Bei realen rechtsextremen Vorfällen ist jedoch stets eine fallspezifische, bedarfsgerechte Analyse erforderlich, da sich Zusammenhänge je nach Kontext unterschiedlich darstellen und bewerten lassen.
+
+----
+
+Flow-text-1: Während einer Gruppenarbeit im Kunstunterricht einer 8. Klasse spielt eine Gruppe Jugendlicher kurz das Lied L’Amour toujours von Gigi D’Agostino auf dem Handy ab und grinst dabei die anderen Schüler:innen an. Der Kunstlehrer schaut nur kurz rüber und schüttelt den Kopf. Ein Schüler, der in der AG „Schule ohne Rassismus“ aktiv ist, beschwert sich beim Lehrer: „Jetzt sagen Sie doch mal was, die wollen doch mit dem Lied ganz klar rassistisch provozieren. Das machen die doch die ganze Zeit.“ Der Kunstlehrer bleibt unbeeindruckt: „Das könnt ihr gerne im Sozialkundeunterricht besprechen.“
+
+----
+
+Headline-1: 
+
+----
+
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"73b3be0c-4118-45eb-b1a9-e1a5b6cdd0a5","isHidden":false,"type":"heading"},{"content":{"text":"<p>Das Grinsen der Jugendlichen beim Abspielen des Liedes deutet auf ein Bewusstsein dafür hin, dass es sich um eine rechtsextreme Chiffre für „Deutschland den Deutschen, Ausländer raus“ handelt ((link: <a href=\"http://bit.ly/4gjLtKA\">http://bit.ly/4gjLtKA</a> text: Hintergrund )dazu).</p><p>Der Schüler, der sich Unterstützung bei der Problematisierung des Videos wünscht, wird von der Lehrkraft nicht ernst genommen.</p><p>Indem er auf den Sozialkundeunterricht verweist, entzieht sich der Lehrer der Verantwortung, die rechtsextreme Chiffre zu problematisieren.</p><p>Der Lehrer hat aber den demokratischen Erziehungsauftrag, den diskriminierenden Inhalten dieser Chiffre entgegenzutreten - siehe §1 Erziehungs- und Bildungsauftrag der Schule, Schulgesetz des Landes Sachsen-Anhalt:</p><ul><li><p>„In Erfüllung dieses Auftrages ist die Schule insbesondere gehalten, […] den Schülerinnen und Schülern Kenntnisse, Fähigkeiten und Werthaltungen zu vermitteln, welche die Gleichachtung und Gleichberechtigung der Menschen unabhängig von ihrem Geschlecht, ihrer Abstammung, ihrer Rasse, […] fördern, und über Möglichkeiten des Abbaus von Diskriminierungen und Benachteiligungen aufzuklären.“</p></li></ul>"},"id":"bf8cb31d-5de9-4510-833c-a2545f16a071","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"b6d7df26-3c0b-40e5-9ef8-5a003fdada01","isHidden":false,"type":"heading"},{"content":{"text":"<p>Der Umgang mit diskriminierenden Äußerungen muss als Querschnittsaufgabe in der Schule verstanden werden und eine Auseinandersetzung mit dem Lied direkt im Kunstunterricht stattfinden.</p><p>Dabei kann auf den Dreischritt Haltung zeigen, Betroffene schützen, Auseinandersetzung führen (formuliert im Buch (link: <a href=\"https://www.wochenschau-verlag.de/Politische-Bildung-in-reaktionaeren-Zeiten/41136\">https://www.wochenschau-verlag.de/Politische-Bildung-in-reaktionaeren-Zeiten/41136</a> text: „Politische Bildung in reaktionären Zeiten - Plädoyer für eine standhafte Schule“) von Rico Behrens, Anja Besand, Stefan Breuer) zurückgegriffen werden.</p><p>Haltung zeigen:</p><ul><li><p>Die Lehrkraft muss in diesem Fall deutlich machen, dass die rechtsextreme Chiffre in einer demokratischen Schule keinen Platz hat, da sie ein Weltbild transportiert, das gegen Teile der Bevölkerung und damit auch gegen Teile der Schülerschaft hetzt.</p></li><li><p>Schule und Lehrkraft dürfen ein solches Verhalten nicht tolerieren und müssen es klar zurückweisen.</p></li></ul><p>Betroffene schützen:</p><ul><li><p>Möglicherweise sind Schüler:innen von diesen diskriminierenden Äußerungen betroffen.</p></li><li><p>Für diese Schüler:innen muss ein Raum geschaffen werden, in dem sie darüber sprechen können, wie sie sich fühlen und was sie von der Lehrkraft brauchen.</p></li><li><p>Sie sollten diesen Raum selbst wählen können. Daher ist es sinnvoll, den Schüler:innen anzubieten, sich nach der Stunde an die Lehrkraft wenden zu können.</p></li></ul><p>Auseinandersetzung führen</p><ul><li><p>Eine solche Situation kann genutzt werden, um den gesellschaftlichen Konflikt um Rassismus und Migration auch im Klassenzimmer diskutierbar zu machen.</p></li><li><p>Damit sich alle daran beteiligen können, braucht die Diskussion jedoch klare Grenzen, die diskriminierende und beleidigende Äußerungen ausschließen.</p></li><li><p>Konkret kann zunächst die Meinung der Klasse erfragt werden: „Wie findet ihr anderen die Aussage, auf die durch das Lied angespielt wird?“</p></li><li><p>Auch die Schüler:innen, die das Lied abgespielt haben, sollten mit dieser Aussage konfrontiert, jedoch nicht bloßgestellt werden: “Warum findet ihr es lustig, eine solch hetzerische Aussage zu teilen? Welche Konsequenzen hätte diese Aussage?“</p></li><li><p>Um sinnvoll intervenieren zu können, ist es relevant herauszufinden, welche Bedürfnisse und Motivationen hinter dem Abspielen des Liedes  stecken.</p></li><li><p>Dazu eignen sich Einzelgespräche mit den Schüler:innen oder Elterngespräche, falls es wiederholt zu Vorfällen kommt.</p></li></ul>"},"id":"e01ab3e2-3245-442e-a6a8-d973c4c0585a","isHidden":false,"type":"text"}]
+
+----
+
+Related-posts:
+
+- 
+  type: internal
+  internal_link_title: >
+    Handreichung für das übergreifende
+    Thema Demokratiebildung
+  internal_link:
+    - page://EWFyMdS8gamZe6rs
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Auch das noch?! Informationen zum Umgang
+    mit Rechtsextremismus, Rechtspopulismus,
+    Rassismus und Ideologien der
+    Ungleichwertigkeit an Schulen
+  internal_link:
+    - page://DRMQVzJ1g7f0xdHf
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Warum wir nicht neutral sein dürfen
+  internal_link:
+    - page://iPqHkR9ViyWb0VFB
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Handlungsleitlinien für Schulleitungen
+    und Lehrkräfte
+  internal_link:
+    - page://DTnJu7VPkRYNSb2u
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: >
+    Neutrale Schule? Grundlagen und Gesetze
+    des Neutralitätsgebots in der Schule
+  internal_link:
+    - page://TiogoMsoEcO2gXxA
+  external_link_title: ""
+  external_link: ""
+- 
+  type: internal
+  internal_link_title: Rechtsextremismus und Schule
+  internal_link:
+    - page://p67c8vly7Zr4mog6
+  external_link_title: ""
+  external_link: ""
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: Bundeszentrale für politische Bildung
+  external_link: >
+    https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/41396/schule/
+- 
+  type: external
+  internal_link_title: ""
+  internal_link: [ ]
+  external_link_title: 'Demokratiekosmos Schule - Bundeszentrale für politische Bildung'
+  external_link: https://www.bpb.de/themen/bildung/dekos/
+
+----
+
+New-category: fallbeispiele
+
+----
+
+Category: paedagogische-fachkraft
+
+----
+
+Subcategory: schule
+
+----
+
+Intro-text: Während einer Gruppenarbeit im Kunstunterricht spielt eine Gruppe das Lied „L’Amour toujours“ und grinst dabei provozierend. Ein Schüler aus der „Schule ohne Rassismus“-AG beschwert sich, doch der Lehrer reagiert gleichgültig und verweist auf den Sozialkundeunterricht.
+
+----
+
+Template: fallbeispiel
+
+----
+
+Content-blocks-1:
+
+- 
+  question: Was ist das Problem?
+  answers:
+    - 
+      text: 'Das Grinsen der Jugendlichen beim Abspielen des Liedes deutet auf ein Bewusstsein dafür hin, dass es sich um eine rechtsextreme Chiffre für „Deutschland den Deutschen, Ausländer raus“ handelt ((link: http://bit.ly/4gjLtKA text: Hintergrund )dazu).'
+      highlight: 'false'
+    - 
+      text: >
+        Der Schüler, der sich Unterstützung
+        bei der Problematisierung des Videos
+        wünscht, wird von der Lehrkraft nicht
+        ernst genommen.
+      highlight: 'false'
+    - 
+      text: >
+        Indem er auf den Sozialkundeunterricht
+        verweist, entzieht sich der Lehrer der
+        Verantwortung, die rechtsextreme Chiffre
+        zu problematisieren.
+      highlight: 'false'
+    - 
+      text: 'Der Lehrer hat aber den demokratischen Erziehungsauftrag, den diskriminierenden Inhalten dieser Chiffre entgegenzutreten - siehe §1 Erziehungs- und Bildungsauftrag der Schule, Schulgesetz des Landes Sachsen-Anhalt:'
+      highlight: 'false'
+    - 
+      text: '„In Erfüllung dieses Auftrages ist die Schule insbesondere gehalten, […] den Schülerinnen und Schülern Kenntnisse, Fähigkeiten und Werthaltungen zu vermitteln, welche die Gleichachtung und Gleichberechtigung der Menschen unabhängig von ihrem Geschlecht, ihrer Abstammung, ihrer Rasse, […] fördern, und über Möglichkeiten des Abbaus von Diskriminierungen und Benachteiligungen aufzuklären.“'
+      highlight: 'false'
+- 
+  question: Was kann getan werden?
+  answers:
+    - 
+      text: >
+        Der Umgang mit diskriminierenden
+        Äußerungen muss als
+        Querschnittsaufgabe in der Schule
+        verstanden werden und eine
+        Auseinandersetzung mit dem Lied direkt
+        im Kunstunterricht stattfinden.
+      highlight: 'false'
+    - 
+      text: 'Dabei kann auf den Dreischritt Haltung zeigen, Betroffene schützen, Auseinandersetzung führen (formuliert im Buch (link: https://www.wochenschau-verlag.de/Politische-Bildung-in-reaktionaeren-Zeiten/41136 text: „Politische Bildung in reaktionären Zeiten - Plädoyer für eine standhafte Schule“) von Rico Behrens, Anja Besand, Stefan Breuer) zurückgegriffen werden.'
+      highlight: 'false'
+    - 
+      text: 'Haltung zeigen:'
+      highlight: 'false'
+    - 
+      text: >
+        Die Lehrkraft muss in diesem Fall
+        deutlich machen, dass die rechtsextreme
+        Chiffre in einer demokratischen Schule
+        keinen Platz hat, da sie ein Weltbild
+        transportiert, das gegen Teile der
+        Bevölkerung und damit auch gegen Teile
+        der Schülerschaft hetzt.
+      highlight: 'true'
+    - 
+      text: >
+        Schule und Lehrkraft dürfen ein solches
+        Verhalten nicht tolerieren und müssen
+        es klar zurückweisen.
+      highlight: 'true'
+    - 
+      text: 'Betroffene schützen:'
+      highlight: 'false'
+    - 
+      text: >
+        Möglicherweise sind Schüler:innen von
+        diesen diskriminierenden Äußerungen
+        betroffen.
+      highlight: 'true'
+    - 
+      text: >
+        Für diese Schüler:innen muss ein Raum
+        geschaffen werden, in dem sie darüber
+        sprechen können, wie sie sich fühlen
+        und was sie von der Lehrkraft brauchen.
+      highlight: 'true'
+    - 
+      text: >
+        Sie sollten diesen Raum selbst wählen
+        können. Daher ist es sinnvoll, den
+        Schüler:innen anzubieten, sich nach der
+        Stunde an die Lehrkraft wenden zu
+        können.
+      highlight: 'true'
+    - 
+      text: Auseinandersetzung führen
+      highlight: 'false'
+    - 
+      text: >
+        Eine solche Situation kann genutzt
+        werden, um den gesellschaftlichen
+        Konflikt um Rassismus und Migration auch
+        im Klassenzimmer diskutierbar zu machen.
+      highlight: 'true'
+    - 
+      text: >
+        Damit sich alle daran beteiligen
+        können, braucht die Diskussion jedoch
+        klare Grenzen, die diskriminierende und
+        beleidigende Äußerungen ausschließen.
+      highlight: 'true'
+    - 
+      text: 'Konkret kann zunächst die Meinung der Klasse erfragt werden: „Wie findet ihr anderen die Aussage, auf die durch das Lied angespielt wird?“'
+      highlight: 'true'
+    - 
+      text: 'Auch die Schüler:innen, die das Lied abgespielt haben, sollten mit dieser Aussage konfrontiert, jedoch nicht bloßgestellt werden: “Warum findet ihr es lustig, eine solch hetzerische Aussage zu teilen? Welche Konsequenzen hätte diese Aussage?“'
+      highlight: 'true'
+    - 
+      text: 'Um sinnvoll intervenieren zu können, ist es relevant herauszufinden, welche Bedürfnisse und Motivationen hinter dem Abspielen des Liedes  stecken.'
+      highlight: 'true'
+    - 
+      text: >
+        Dazu eignen sich Einzelgespräche mit
+        den Schüler:innen oder
+        Elterngespräche, falls es wiederholt zu
+        Vorfällen kommt.
+      highlight: 'true'
+
+----
+
+Uuid: tCsIRFmvCjVnKI6x
