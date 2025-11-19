@@ -29,3 +29,9 @@ fields:
           - mime: application/pdf
         image: true
         layout: cards
+
+      logo_link:
+        label: Link (optional)
+        type: url
+        required: false
+        placeholder: https://example.com

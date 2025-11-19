@@ -11,7 +11,13 @@ Logos:
 - 
   logo_title: ""
   logo_file:
-    - file://rittMAqCCUlSYK39
+    - file://mKp8eRnX7wQvYzTu
+  logo_link: https://www.miteinander-ev.de/
+- 
+  logo_title: ""
+  logo_file:
+    - file://8oLFvM3WT6MJfxQh
+  logo_link: ""
 - 
   logo_title: >
     Die Veröffentlichung stellt keine
@@ -21,10 +27,7 @@ Logos:
     Verantwortung.
   logo_file:
     - file://Cl87eJmgiykqzEdm
-- 
-  logo_title: ""
-  logo_file:
-    - file://8oLFvM3WT6MJfxQh
+  logo_link: ""
 
 ----
 

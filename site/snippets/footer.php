@@ -20,7 +20,13 @@ $footerPage = page('footer');
                     <?php if ($logo->logo_file()->isNotEmpty()): ?>
                         <?php $logoFile = $logo->logo_file()->toFile(); ?>
                         <?php if ($logoFile): ?>
-                            <img src="<?= $logoFile->url() ?>" alt="<?= $logo->logo_title() ?>" class="footer-logo-image">
+                            <?php if ($logo->logo_link()->isNotEmpty()): ?>
+                                <a href="<?= $logo->logo_link() ?>" target="_blank" rel="noopener noreferrer">
+                                    <img src="<?= $logoFile->url() ?>" alt="<?= $logo->logo_title() ?>" class="footer-logo-image">
+                                </a>
+                            <?php else: ?>
+                                <img src="<?= $logoFile->url() ?>" alt="<?= $logo->logo_title() ?>" class="footer-logo-image">
+                            <?php endif ?>
                         <?php endif ?>
                     <?php endif ?>
                     
