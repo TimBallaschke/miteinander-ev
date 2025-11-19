@@ -30,17 +30,17 @@
             // Split by spaces, preserving UTF-8 characters (strip tags for word count)
             $words = preg_split('/\s+/u', strip_tags($processedText), -1, PREG_SPLIT_NO_EMPTY);
             
-            // Create mobile version (12 words)
-            $truncatedWordsMobile = array_slice($words, 0, 12);
+            // Create mobile version (15 words)
+            $truncatedWordsMobile = array_slice($words, 0, 15);
             $truncatedTextMobile = $processedText;
             foreach ($words as $i => $word) {
-                if ($i >= 12) {
-                    $pattern = '/(' . preg_quote($truncatedWordsMobile[11], '/') . ').*$/us';
+                if ($i >= 15) {
+                    $pattern = '/(' . preg_quote($truncatedWordsMobile[14], '/') . ').*$/us';
                     $truncatedTextMobile = preg_replace($pattern, '$1', $processedText);
                     break;
                 }
             }
-            if (count($words) > 12) {
+            if (count($words) > 15) {
                 $truncatedTextMobile .= ' ... <em>(mehr lesen)</em>';
             }
             

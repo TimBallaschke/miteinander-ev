@@ -55,7 +55,7 @@ columns:
               linkedin: LinkedIn
               youtube: YouTube
               mastodon: Mastodon
-              andere: Andere
+              bluesky: Bluesky
 
           url:
             label: URL
@@ -105,7 +105,7 @@ columns:
               linkedin: LinkedIn
               youtube: YouTube
               mastodon: Mastodon
-              andere: Andere
+              bluesky: Bluesky
 
           url:
             label: URL

@@ -154,8 +154,17 @@
                                         <div class="contact-detail-title">Social Media:</div>
                                         <div class="contact-detail-content">
                                             <?php foreach ($page->projekt_1_socials()->toStructure() as $social): ?>
+                                                <?php 
+                                                $platform = $social->plattform()->value();
+                                                // Map platform values to display names
+                                                $platformNames = [
+                                                    'andere' => 'Bluesky',
+                                                    'bluesky' => 'Bluesky',
+                                                ];
+                                                $displayName = $platformNames[$platform] ?? ucfirst($platform);
+                                                ?>
                                                 <a href="<?= $social->url() ?>" target="_blank" rel="noopener noreferrer">
-                                                    <?= ucfirst($social->plattform()->value()) ?>
+                                                    <?= $displayName ?>
                                                 </a><br>
                                             <?php endforeach ?>
                                         </div>
@@ -212,8 +221,17 @@
                                         <div class="contact-detail-title">Social Media:</div>
                                         <div class="contact-detail-content">
                                         <?php foreach ($page->projekt_2_socials()->toStructure() as $social): ?>
+                                            <?php 
+                                            $platform = $social->plattform()->value();
+                                            // Map platform values to display names
+                                            $platformNames = [
+                                                'andere' => 'Bluesky',
+                                                'bluesky' => 'Bluesky',
+                                            ];
+                                            $displayName = $platformNames[$platform] ?? ucfirst($platform);
+                                            ?>
                                             <a href="<?= $social->url() ?>" target="_blank" rel="noopener noreferrer">
-                                                <?= ucfirst($social->plattform()->value()) ?>
+                                                <?= $displayName ?>
                                                 </a><br>
                                             <?php endforeach ?>
                                         </div>

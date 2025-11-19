@@ -11,6 +11,10 @@
         padding: var(--page-padding);
     }
 
+    a {
+        text-decoration: underline;
+    }
+
     .article-qa-block {
         p {
             padding-left: var(--sidebar-width);
@@ -139,6 +143,9 @@
     // hyphens: auto;
     // word-wrap: break-word;
 
+    a {
+        text-decoration: none !important;
+    }
 
     @include mobile {
         grid-template-columns: 1fr;
@@ -189,7 +196,7 @@
 
     .counseling-title {
         position: relative;
-        padding-left: 2.5rem;
+        padding-left: 2.4rem;
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
@@ -202,7 +209,7 @@
             content: "";
             position: absolute;
             left: 0;
-            top: 0.2rem;
+            top: 0.25rem;
             width: 1.8rem;
             height: 1.8rem;
             background-color: #AAFF67;
@@ -237,13 +244,13 @@
         word-break: break-word;
 
         @include mobile {
-            padding-left: 2.5rem;
+            padding-left: 2.4rem;
         }
     }
 
     .counseling-sub-title {
         position: relative;
-        padding-left: 2.5rem;
+        padding-left: 2.4rem;
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
@@ -256,7 +263,7 @@
             content: "";
             position: absolute;
             left: 0;
-            top: 0.2rem;
+            top: 0.25rem;
             width: 1.8rem;
             height: 1.8rem;
             border: solid 2px #AAFF67;
@@ -299,6 +306,10 @@
         word-break: break-word;
     }
 
+    a {
+        text-decoration: none !important;
+    }
+
     .contact-project-title {
         font-family: "Monument Mono";
         min-width: 0;
@@ -308,7 +319,7 @@
         padding-bottom: 1rem;
         border-bottom: solid 1px black;
         position: relative;
-        padding-left: 2.7rem;
+        padding-left: 2.4rem;
         margin-left: calc(var(--sidebar-width));
 
         @include mobile {
@@ -320,7 +331,7 @@
             content: "";
             position: absolute;
             left: 0;
-            top: 0.1rem;
+            top: 0.25rem;
             width: 1.8rem;
             height: 1.8rem;
             background-color: #AAFF67;
@@ -403,7 +414,7 @@
         word-break: break-word;
         border-bottom: solid 1px black;
         position: relative;
-        padding-left: 2.7rem;
+        padding-left: 2.4rem;
         margin-left: calc(var(--sidebar-width));
 
         @include mobile {
@@ -414,7 +425,7 @@
             content: "";
             position: absolute;
             left: 0;
-            top: 0.1rem;
+            top: 0.2rem;
             width: 1.8rem;
             height: 1.8rem;
             background-color: #AAFF67;

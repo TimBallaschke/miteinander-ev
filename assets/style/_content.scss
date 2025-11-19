@@ -70,6 +70,10 @@
     overflow: hidden;
     z-index: 1;
 
+    @include mobile {
+        padding-right: var(--page-padding);
+    }
+
     p {
         width: 90%;
     }
