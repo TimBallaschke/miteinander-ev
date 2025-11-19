@@ -176,6 +176,10 @@
 
 #top-menu-content {
     position: relative;
+
+    a {
+        text-decoration: none !important;
+    }
 }
 
 .top-menu-element-container {
@@ -250,6 +254,7 @@
             opacity: 1;
         }
     }
+
 }
 
 .top-menu-element {

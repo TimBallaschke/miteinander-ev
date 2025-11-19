@@ -201,6 +201,5 @@
             <?php endforeach ?>
         </div>
     </div>
-    <?php snippet('footer') ?>
 </div>
 

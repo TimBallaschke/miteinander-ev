@@ -28,8 +28,16 @@ fields:
         fields:
           text:
             type: writer
+            marks:
+              - italic
+              - bold
+              - link
             nodes:
+              - paragraph
               - bulletList
+              - heading
+              - hardBreak
+            breaks: true
 
   flow_text_2:
     label: Weiterer Fließtext (optional)

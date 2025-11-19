@@ -47,6 +47,7 @@ columns:
                 marks:
                   - italic
                   - bold
+                  - link
                 nodes:
                   - paragraph
                   - bulletList

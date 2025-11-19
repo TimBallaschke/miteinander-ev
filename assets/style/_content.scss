@@ -130,6 +130,7 @@
     padding-top: var(--page-padding);
     padding-left: var(--page-padding);
     padding-right: var(--page-padding);
+    min-height: calc(100dvh - var(--top-menu-element-height) * 4 - var(--page-padding) * 2);
 
     
     &.grid {

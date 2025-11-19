@@ -265,8 +265,8 @@
             </div>
             <?php endif ?>
         </div>
-    <?php snippet('footer') ?>
     </div>
+    <?php snippet('footer') ?>
 </body>
 </html>
 
