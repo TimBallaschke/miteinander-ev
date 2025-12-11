@@ -10,7 +10,8 @@
   --regular-small-font-size: 1.25rem;
   --regular-font-size-large: 2rem;
   --regular-line-height-large: 1.3;
-  --mono-font-size-large: 1.8rem;
+  --mono-font-size-large: 1.75rem;
+  --mono-font-size-large-regular: 1.8rem;
   --mono-large-letter-spacing: -0.3%;
   --font-size-title: 4.8rem;
   --line-height-title: 1;
@@ -23,7 +24,8 @@
   :root {
     --mono-font-size-small: 0.83rem;
     --regular-font-size-large: 1.35rem;
-    --mono-font-size-large: 1.35rem;
+    --mono-font-size-large: 1.3rem;
+    --mono-font-size-large-regular: 1.35rem;
     --regular-small-font-size-small: 0.95rem;
     --font-size-title: 2.5rem;
     --page-padding: 1rem;
@@ -36,7 +38,8 @@
     --top-menu-element-height: 4rem;
     --search-bar-container-height: 5rem;
     --mono-font-size-small: 1.1rem;
-    --mono-font-size-large: 2.4rem;
+    --mono-font-size-large: 2.35rem;
+    --mono-font-size-large-regular: 2.4rem;
     --regular-font-size-large: 2.4rem;
     --regular-small-font-size: 1.8rem;
     --font-size-title: 4.3rem;
@@ -565,7 +568,7 @@ a {
   right: 0;
   background-color: black;
   color: white;
-  font-size: var(--mono-font-size-large);
+  font-size: var(--mono-font-size-large-regular);
   width: var(--main-width);
   display: flex;
   align-items: center;
@@ -1075,7 +1078,7 @@ a {
 
 .article-disclaimer {
   font-family: "Monument Mono";
-  font-size: var(--mono-font-size-large);
+  font-size: 1.15rem;
   line-height: 1.3;
   border-radius: 1rem;
   margin-top: calc(var(--mono-font-size-large) * 1.2);
@@ -1115,7 +1118,7 @@ a {
 
 .article-qa-block * {
   text-decoration: none !important;
-  font-size: var(--mono-font-size-large);
+  font-size: var(--mono-font-size-large-regular);
   line-height: 1.3;
 }
 .article-qa-block * a {
@@ -1216,7 +1219,7 @@ a {
   font-family: "Monument Mono";
 }
 .article-qa-block p {
-  font-size: var(--mono-font-size-large);
+  font-size: var(--mono-font-size-large-regular);
   line-height: 1.3;
   padding-top: calc(var(--mono-font-size-large) * 1.2);
 }
@@ -1409,7 +1412,7 @@ a {
 .bundesland-section {
   display: grid;
   grid-template-columns: calc(var(--sidebar-width)) 1fr;
-  font-size: var(--mono-font-size-large);
+  font-size: var(--mono-font-size-large-regular);
   line-height: 1.3;
   padding-top: 1.2rem;
   padding-bottom: 1rem;
@@ -1437,6 +1440,7 @@ a {
   min-width: 0;
   overflow-wrap: break-word;
   word-break: break-word;
+  font-size: var(--mono-font-size-large);
 }
 @media (max-width: 767px) {
   .bundesland-section .bundesland-title {
@@ -1448,6 +1452,7 @@ a {
   font-family: "Monument Mono";
   overflow-wrap: break-word;
   word-break: break-word;
+  font-size: var(--mono-font-size-large);
 }
 .bundesland-section .counseling-item {
   padding-bottom: 1rem;
@@ -1470,6 +1475,7 @@ a {
   min-width: 0;
   overflow-wrap: break-word;
   word-break: break-word;
+  font-size: var(--mono-font-size-large-regular);
 }
 @media (max-width: 767px) {
   .bundesland-section .counseling-title {
@@ -1572,6 +1578,7 @@ a {
 }
 .contact-project-section .contact-project-title {
   font-family: "Monument Mono";
+  font-size: var(--mono-font-size-large);
   min-width: 0;
   overflow-wrap: break-word;
   word-break: break-word;
@@ -1632,6 +1639,10 @@ a {
 .contact-project-section .contact-detail-title {
   font-family: "Monument Mono";
   padding-right: 1rem;
+  font-size: var(--mono-font-size-large);
+}
+.contact-project-section .contact-detail-content {
+  font-size: var(--mono-font-size-large-regular);
 }
 
 .legal-section {

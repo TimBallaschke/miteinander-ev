@@ -131,7 +131,7 @@
 .bundesland-section {
     display: grid;
     grid-template-columns: calc(var(--sidebar-width)) 1fr;
-    font-size: var(--mono-font-size-large);
+    font-size: var(--mono-font-size-large-regular);
     line-height: 1.3;
     padding-top: 1.2rem;
     padding-bottom: 1rem;
@@ -165,6 +165,7 @@
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
+        font-size: var(--mono-font-size-large);
 
         @include mobile {
             font-size: var(--regular-small-font-size);
@@ -176,6 +177,7 @@
         font-family: "Monument Mono";
         overflow-wrap: break-word;
         word-break: break-word;
+        font-size: var(--mono-font-size-large);
     }
 
     .counseling-item {
@@ -200,6 +202,7 @@
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
+        font-size: var(--mono-font-size-large-regular);
 
         @include mobile {
             padding-left: 2rem;
@@ -312,6 +315,7 @@
 
     .contact-project-title {
         font-family: "Monument Mono";
+        font-size: var(--mono-font-size-large);
         min-width: 0;
         overflow-wrap: break-word;
         word-break: break-word;
@@ -377,6 +381,11 @@
     .contact-detail-title {
         font-family: "Monument Mono";
         padding-right: 1rem;
+        font-size: var(--mono-font-size-large);
+    }
+
+    .contact-detail-content {
+        font-size: var(--mono-font-size-large-regular);
     }
 }
 
