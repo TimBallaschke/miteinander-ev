@@ -108,32 +108,35 @@
                 
                 <?php if ($page->bundesweite_beratungsangebote()->isNotEmpty()): ?>
                     <div class="counseling-section">
-                        <div class="counseling-list">
-                            <?php foreach ($page->bundesweite_beratungsangebote()->toStructure() as $counseling): ?>
-                                <div class="counseling-item">
-                                    <h3><?= $counseling->titel_beratungsstelle() ?></h3>
-                                    <?php if ($counseling->traeger()->isNotEmpty()): ?>
-                                        <div class="counseling-detail">
-                                            <?= $counseling->traeger() ?>
-                                        </div>
-                                    <?php endif ?>
-                                    <?php if ($counseling->email()->isNotEmpty()): ?>
-                                        <div class="counseling-detail">
-                                            <strong>E-Mail:</strong> <a href="mailto:<?= $counseling->email() ?>"><?= $counseling->email() ?></a>
-                                        </div>
-                                    <?php endif ?>
-                                    <?php if ($counseling->telefon()->isNotEmpty()): ?>
-                                        <div class="counseling-detail">
-                                            <strong>Telefon:</strong> <a href="tel:<?= $counseling->telefon() ?>"><?= $counseling->telefon() ?></a>
-                                        </div>
-                                    <?php endif ?>
-                                    <?php if ($counseling->website()->isNotEmpty()): ?>
-                                        <div class="counseling-detail">
-                                            <strong>Website:</strong> <a href="<?= $counseling->website() ?>" target="_blank" rel="noopener noreferrer"><?= $counseling->website() ?></a>
-                                        </div>
-                                    <?php endif ?>
-                                </div>
-                            <?php endforeach ?>
+                        <div class="bundesland-section">
+                            <div class="bundesland-title">Bundesweit</div>
+                            <div class="counseling-list">
+                                <?php foreach ($page->bundesweite_beratungsangebote()->toStructure() as $counseling): ?>
+                                    <div class="counseling-item">
+                                        <div class="counseling-title"><?= $counseling->titel_beratungsstelle() ?></div>
+                                        <?php if ($counseling->traeger()->isNotEmpty()): ?>
+                                            <div class="counseling-detail">
+                                                <span>Träger:</span> <?= $counseling->traeger() ?>
+                                            </div>
+                                        <?php endif ?>
+                                        <?php if ($counseling->email()->isNotEmpty()): ?>
+                                            <div class="counseling-detail">
+                                                <span>E-Mail:</span> <a href="mailto:<?= $counseling->email() ?>"><?= $counseling->email() ?></a>
+                                            </div>
+                                        <?php endif ?>
+                                        <?php if ($counseling->telefon()->isNotEmpty()): ?>
+                                            <div class="counseling-detail">
+                                                <span>Telefon:</span> <a href="tel:<?= $counseling->telefon() ?>"><?= $counseling->telefon() ?></a>
+                                            </div>
+                                        <?php endif ?>
+                                        <?php if ($counseling->website()->isNotEmpty()): ?>
+                                            <div class="counseling-detail">
+                                                <span>Website:</span> <a href="<?= $counseling->website() ?>" target="_blank" rel="noopener noreferrer"><?= $counseling->website() ?></a>
+                                            </div>
+                                        <?php endif ?>
+                                    </div>
+                                <?php endforeach ?>
+                            </div>
                         </div>
                     </div>
                 <?php endif ?>

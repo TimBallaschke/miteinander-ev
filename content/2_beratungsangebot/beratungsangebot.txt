@@ -13,7 +13,26 @@ Darüber hinaus gibt es an vielen Orten spezifische Angebote, Beratungsstellen u
 
 ----
 
-Bundesweite-beratungsangebote: 
+Bundesweite-beratungsangebote:
+
+- 
+  titel_beratungsstelle: Fachstelle Rechtsextremismus und Familie
+  traeger: Lidice Haus
+  email: info@rechtsextremismus-und-familie.de
+  telefon: 0421/69 272 19
+  website: https://rechtsextremismus-und-familie.de
+- 
+  titel_beratungsstelle: 'OFEK - Beratungsstelle bei antisimitischer Gewalt und Diskriminierung'
+  traeger: ""
+  email: kontakt@ofek-beratung.de
+  telefon: "08006645268"
+  website: https://ofek-beratung.de/
+- 
+  titel_beratungsstelle: 'RIAS - Meldestellen Antisemitismus'
+  traeger: ""
+  email: info@report-antisemitism.de
+  telefon: 0 800 0 32 32 63
+  website: https://report-antisemitism.de/
 
 ----
 
@@ -797,6 +816,36 @@ Bundeslaender:
         https://www.landesdemokratiezentrum-sh.de/themen/extremismus-bekaempfen/rechtsextremismus/ausstiegs-und-distanzierungsberatung
       unterberatungsstellen: [ ]
       träger: ""
+- 
+  bundesland: Thüringen
+  beratungsstellen:
+    - 
+      titel: 'Mobile Beratung in Thüringen (Mobit) - Für Demokratie gegen Rechtsextremismus'
+      email: mail@mobit.org
+      telefon: 0361 219 26 94
+      website: https://mobit.org/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'ezra - Mobile Beratung für Opfer rechter, rassistischer und antisemitischer Gewalt'
+      email: info@ezra.de
+      telefon: 0361 218 651 33
+      website: https://ezra.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: 'elly - Hatespeechberatung in Thüringen '
+      email: info@elly-beratung.de
+      telefon: 0361 663 362 60
+      website: https://elly-beratung.de/
+      unterberatungsstellen: [ ]
+    - 
+      titel: >
+        Distanz – Distanzierungsarbeit,
+        jugendkulturelle Bildung und Beratung
+        e.V.
+      email: mail@distanz.info
+      telefon: 03643 / 878 81 87
+      website: https://www.distanz.info/
+      unterberatungsstellen: [ ]
 
 ----
 
