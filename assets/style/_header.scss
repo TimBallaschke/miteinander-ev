@@ -150,14 +150,14 @@
 
 .list-view-header {
     display: grid;
-    grid-template-columns: 2fr 2fr 5fr;
-    column-gap: var(--page-padding);
+    grid-template-columns: 1fr 1fr calc(var(--mono-font-size-small) * 3);
+    column-gap: calc(var(--page-padding) * 2);
     width: 100%;
     padding: 0 calc(var(--page-padding) * 2);
 
-    // .list-view-header-item:last-child {
-    //     text-align: right;
-    // }
+    .list-view-header-item:last-child {
+        text-align: right;
+    }
 }
 
 #top-menu {

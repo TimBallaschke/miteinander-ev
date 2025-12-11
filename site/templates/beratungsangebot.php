@@ -109,7 +109,7 @@
                 <?php if ($page->bundesweite_beratungsangebote()->isNotEmpty()): ?>
                     <div class="counseling-section">
                         <div class="bundesland-section">
-                            <div class="bundesland-title">Bundesweit</div>
+                            <div class="bundesland-title">Bundesweite Angebote</div>
                             <div class="counseling-list">
                                 <?php foreach ($page->bundesweite_beratungsangebote()->toStructure() as $counseling): ?>
                                     <div class="counseling-item">

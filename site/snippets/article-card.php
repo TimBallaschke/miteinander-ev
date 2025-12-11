@@ -36,6 +36,9 @@
         <?php if (isset($publisher) && !empty($publisher)): ?>
             <div class="article-publisher"><?= $publisher ?></div>
         <?php endif ?>
+        <?php if (isset($year) && !empty($year)): ?>
+            <div class="article-year"><?= $year ?></div>
+        <?php endif ?>
         <div class="article-tags">
             <?php if (isset($tags) && !empty($tags)): ?>
                 <?php foreach ($tags as $tag): ?>

@@ -133,3 +133,15 @@ columns:
         translate: true
         buttons:
           - italic
+
+      publisher:
+        label: Herausgeber
+        type: text
+        required: false
+
+      year:
+        label: Jahr
+        type: number
+        min: 1900
+        max: 2100
+        required: false

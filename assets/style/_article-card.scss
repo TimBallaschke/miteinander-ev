@@ -21,8 +21,8 @@
 
     .list & {
         display: grid;
-        grid-template-columns: 2fr 2fr 5fr;
-        column-gap: var(--page-padding);
+        grid-template-columns: 1fr 1fr calc(var(--mono-font-size-small) * 3);
+        column-gap: calc(var(--page-padding) * 2);
         align-items: center;
 
         .article-headline {
@@ -34,16 +34,18 @@
             padding: 0;
         }
 
-        .article-tags {
+        .article-year {
             grid-column: 3 / 4;
             margin-top: 0;
+            text-align: right;
+        }
+
+        .article-tags {
+            display: none;
         }
 
         .article-tag {
-            margin-top: 0;
-            display: inline;
-            break-inside: avoid;
-            white-space: nowrap;
+            display: none;
         }
 
         .paedagogische-fachkraft {
@@ -76,6 +78,10 @@
             .article-publisher {
                 display: none;
             }
+
+            .article-year {
+                display: none;
+            }
         }
 
         @include tablet {
@@ -102,6 +108,10 @@
             }
 
             .article-publisher {
+                display: none;
+            }
+
+            .article-year {
                 display: none;
             }
         }
@@ -153,6 +163,21 @@
     font-family: "Monument Mono";
     font-size: var(--mono-font-size-small);
     padding: calc(var(--mono-font-size-small) * 1.2) 0 0 0;
+}
+
+.article-year {
+    font-family: "Monument Mono";
+    font-size: var(--mono-font-size-small);
+    padding: calc(var(--mono-font-size-small) * 1.2) 0 0 0;
+
+    .grid & {
+        display: none;
+    }
+
+    .list & {
+        padding: 0;
+        display: block;
+    }
 }
 
 .article-tags {

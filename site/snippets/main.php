@@ -194,6 +194,7 @@
                     'headline' => $article->title()->value(),
                     'teaser' => $article->intro_text()->value(),
                     'publisher' => $article->publisher()->value(),
+                    'year' => $article->year()->value(),
                     'tags' => $tags,
                     'filterKeys' => $filterKeysJson,
                     'searchableText' => $searchableJson
