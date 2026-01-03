@@ -46,14 +46,12 @@ columns:
                 type: writer
                 marks:
                   - italic
-                  - bold
                   - link
                 nodes:
                   - paragraph
                   - bulletList
-                  - heading
+                  - orderedList
                   - hardBreak
-                breaks: true
 
       related_posts:
         label: Weiterführende Materialien (Verlinkungen)
