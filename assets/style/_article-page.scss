@@ -115,6 +115,10 @@
         }
     }
 
+    p:empty {
+        display: none; // or whatever style you need
+    }
+
     p:not(:has(strong)) {
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
@@ -187,6 +191,25 @@
 
     ol li:last-child {
         padding-bottom: 1.2rem;
+    }
+
+    ul li {
+        border-top: solid 1px black;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+
+        &::before {
+            top: 1.4rem;
+        }
+    }
+
+    h2 + ul li:first-child {
+        padding-top: 0;
+        border-top: none;
+
+        &::before {
+            top: 0.25rem;
+        }
     }
 
     em::before {

@@ -1161,6 +1161,9 @@ a {
 .article-qa-block h2 strong {
   font-weight: normal;
 }
+.article-qa-block p:empty {
+  display: none;
+}
 .article-qa-block p:not(:has(strong)) {
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
@@ -1225,6 +1228,21 @@ a {
 }
 .article-qa-block ol li:last-child {
   padding-bottom: 1.2rem;
+}
+.article-qa-block ul li {
+  border-top: solid 1px black;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+.article-qa-block ul li::before {
+  top: 1.4rem;
+}
+.article-qa-block h2 + ul li:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+.article-qa-block h2 + ul li:first-child::before {
+  top: 0.25rem;
 }
 .article-qa-block em::before {
   display: none;
