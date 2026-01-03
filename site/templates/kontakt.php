@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt - Miteinander e.V.</title>
-    <link rel="stylesheet" href="<?= url('assets/style/style.css') ?>?v=3">
+    <link rel="stylesheet" href="<?= url('assets/style/style.css') ?>?v=<?= filemtime(kirby()->root('index') . '/assets/style/style.css') ?>">
     <script src="<?= url('assets/js/alpine.min.js') ?>" defer></script>
 </head>
 <body x-data="{ 
