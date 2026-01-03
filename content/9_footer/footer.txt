@@ -16,7 +16,7 @@ Logos:
 - 
   logo_title: ""
   logo_file:
-    - file://8oLFvM3WT6MJfxQh
+    - file://tVDw4hwMTFGyNYWt
   logo_link: ""
 - 
   logo_title: >
