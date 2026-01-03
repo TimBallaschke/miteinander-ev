@@ -50,6 +50,7 @@ columns:
                 nodes:
                   - paragraph
                   - bulletList
+                  - orderedList
                   - hardBreak
 
       related_posts:
