@@ -1244,6 +1244,9 @@ a {
 .article-qa-block h2 + ul li:first-child::before {
   top: 0.25rem;
 }
+.article-qa-block ul:has(+ ol) li:last-child {
+  padding-bottom: 0 !important;
+}
 .article-qa-block em::before {
   display: none;
 }

@@ -212,6 +212,10 @@
         }
     }
 
+    ul:has(+ ol) li:last-child {
+        padding-bottom: 0 !important;
+    }
+
     em::before {
         display: none;
     }
