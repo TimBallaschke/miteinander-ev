@@ -1162,7 +1162,9 @@ a {
   font-weight: normal;
 }
 .article-qa-block p:not(:has(strong)) {
-  padding-top: calc(var(--mono-font-size-large) * 1.2);
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-top: solid 1px black;
   margin: 0;
   position: relative;
   min-height: 2rem;
@@ -1170,8 +1172,17 @@ a {
 .article-qa-block h2 + p,
 .article-qa-block :has(strong) + p {
   padding-top: 0 !important;
+  border-top: none !important;
+}
+.article-qa-block p:has(+ ol) {
+  padding-bottom: 0 !important;
 }
 .article-qa-block ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.article-qa-block ol {
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -1208,6 +1219,12 @@ a {
 }
 .article-qa-block li p::before {
   display: none;
+}
+.article-qa-block ol {
+  padding-left: 8rem;
+}
+.article-qa-block ol li:last-child {
+  padding-bottom: 1.2rem;
 }
 .article-qa-block em::before {
   display: none;
@@ -1252,6 +1269,7 @@ a {
 }
 .article-qa-block p:first-child {
   padding-top: 0;
+  border: none !important;
 }
 .article-qa-block.no-question-circles h2 {
   padding-left: 0;
