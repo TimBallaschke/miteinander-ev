@@ -1190,6 +1190,10 @@ a {
   padding-left: 0;
   margin: 0;
 }
+.article-qa-block ol li::before {
+  background-color: transparent !important;
+  border: solid 2px #AAFF67 !important;
+}
 .article-qa-block li {
   position: relative;
   padding-left: 2.4rem;

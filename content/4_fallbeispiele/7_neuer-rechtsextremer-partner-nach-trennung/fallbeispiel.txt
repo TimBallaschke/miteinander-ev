@@ -88,6 +88,14 @@ Intro-text: Ein Vater teilt sich das Sorgerecht für seinen 3-jährigen Sohn mit
 
 ----
 
+Publisher: 
+
+----
+
+Year: 
+
+----
+
 Template: fallbeispiel
 
 ----

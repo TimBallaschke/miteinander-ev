@@ -147,7 +147,14 @@
     ol {
         list-style: none;
         padding-left: 0;
-        margin: 0; 
+        margin: 0;
+        
+        li {
+            &::before {
+                background-color: transparent !important;
+                border: solid 2px #AAFF67 !important;
+            }
+        }
     }
 
     li {
