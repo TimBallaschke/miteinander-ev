@@ -180,7 +180,7 @@ Content-blocks-1:
 
 ----
 
-Publisher: name e
+Publisher:
 
 ----
 

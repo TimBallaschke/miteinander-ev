@@ -264,7 +264,7 @@ a {
 }
 @font-face {
   font-family: "Monument Mono";
-  src: url("../fonts/MonumentGroteskMono-Regular.woff") format("woff");
+  src: url("../fonts/MonumentGroteskSemi-Mono-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Monument Mono Italic";
@@ -1128,35 +1128,13 @@ a {
   font-size: var(--mono-font-size-large);
   letter-spacing: 0;
   font-family: "Monument Mono";
-  padding: calc(var(--mono-font-size-large) * 1.3 * 3) 0 0.9rem 2.4rem;
+  padding: calc(var(--mono-font-size-large) * 1.3 * 3) 0 0.9rem 0rem;
   border-bottom: solid 1px black;
   margin: 0;
   margin-bottom: 1.2rem;
   font-weight: normal;
   position: relative;
-}
-.article-qa-block h2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 7rem;
-  width: 1.8rem;
-  height: 1.8rem;
-  background-color: #AAFF67;
-  display: inline-block;
-  border-radius: 50%;
-}
-@media (max-width: 767px) {
-  .article-qa-block h2::before {
-    width: 1.5rem;
-    height: 1.5rem;
-    top: 5.1rem;
-  }
-}
-@media (max-width: 767px) {
-  .article-qa-block h2 {
-    padding-left: 2rem;
-  }
+  text-transform: uppercase;
 }
 .article-qa-block h2 strong {
   font-weight: normal;
@@ -1647,6 +1625,7 @@ a {
   position: relative;
   padding-left: 2.4rem;
   margin-left: calc(var(--sidebar-width));
+  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .contact-project-section .contact-project-title {
