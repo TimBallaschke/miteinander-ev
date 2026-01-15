@@ -28,7 +28,7 @@ Headline-1:
 
 ----
 
-Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"dc22d38d-0810-45b9-bfec-929c32a70953","isHidden":false,"type":"heading"},{"content":{"text":"<p>Konflikte um rechtsextreme Radikalisierung im Nahumfeld der Familie erzeugen einen hohen Leidensdruck.</p><p>Die Schwester scheint sich radikalisiert zu haben und bereits in rechtsextremen Strukturen eingebunden zu sein.</p><p>Der Bruder bekommt keine Unterstützung von den Eltern.</p><p>Die Eltern versuchen, den Konflikt zu entpolitisieren.</p>"},"id":"f3227aee-1354-4f03-b583-53cdb7195340","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"c1c26efc-0983-4637-b54d-359d8d87645d","isHidden":false,"type":"heading"},{"content":{"text":"<p>Zunächst sollte der Bruder für sich klären, was er in der Auseinandersetzung mit seiner Schwester erreichen will und wo dabei seine eigenen Grenzen liegen. Dazu können folgende Fragen hilfreich sein:</p><ul><li><p>Was möchte ich im Konflikt mit meiner Schwester erreichen?</p></li><li><p>Wo liegen meine Grenzen im Umgang mit meiner Schwester?</p></li><li><p>Woran merke ich, dass diese Grenzen überschritten sind? Was hilft mir meine Grenzen einzuhalten?</p></li><li><p>Was hilft mir, meine Grenzen einzuhalten?</p></li></ul><p>Für den Bruder ist es wichtig im Rahmen seiner Ressourcen zu handeln:</p><ul><li><p>Falls er dafür über genügend Ressourcen verfügt, könnte er an der Beziehung zu seiner Schwester festhalten, sich kontinuierlich und aktiv gegen ihre rechtsextremen Einstellungen positionieren und so im möglichen Distanzierungsprozess seiner Schwester eine wichtige Figur darstellen.</p></li><li><p>Falls er über diese Ressourcen jedoch nicht verfügt, ist eine Einschränkung oder Unterbrechung der Beziehung sinnvoll, um im familiären Kontext überhaupt noch handlungsfähig zu bleiben.</p></li></ul><p>Falls er dafür über genügend Ressourcen verfügt, könnte er an der Beziehung zu seiner Schwester festhalten, sich kontinuierlich und aktiv gegen ihre rechtsextremen Einstellungen positionieren und so im möglichen Distanzierungsprozess seiner Schwester eine wichtige Figur darstellen.</p><p>Falls er über diese Ressourcen jedoch nicht verfügt, ist eine Einschränkung oder Unterbrechung der Beziehung sinnvoll, um im familiären Kontext überhaupt noch handlungsfähig zu bleiben.</p><ul><li><p>Um sich in dieser Situation weniger allein zu fühlen, kann es hilfreich sein, sich im Familienumfeld Personen mit einem ähnlichen Problembewusstsein zu suchen.</p></li><li><p>Es ist immer ratsam, sich externe Unterstützung zu holen, etwa in Form einer <a href=\"https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/\">Beratungsstelle zum Umgang mit Rechtsextremismus im Familienkontext</a></p></li></ul>"},"id":"305d44f2-5a3b-4387-aa51-c3c700054253","isHidden":false,"type":"text"}]
+Question-answer-block: [{"content":{"level":"h2","text":"Was ist das Problem?"},"id":"dc22d38d-0810-45b9-bfec-929c32a70953","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Konflikte um rechtsextreme Radikalisierung im Nahumfeld der Familie erzeugen einen hohen Leidensdruck.</p></li><li><p>Die Schwester scheint sich radikalisiert zu haben und bereits in rechtsextremen Strukturen eingebunden zu sein.</p></li><li><p>Der Bruder bekommt keine Unterstützung von den Eltern.</p></li><li><p>Die Eltern versuchen, den Konflikt zu entpolitisieren.</p></li></ul>"},"id":"f3227aee-1354-4f03-b583-53cdb7195340","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Was kann getan werden?"},"id":"c1c26efc-0983-4637-b54d-359d8d87645d","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Zunächst sollte der Bruder für sich klären, was er in der Auseinandersetzung mit seiner Schwester erreichen will und wo dabei seine eigenen Grenzen liegen. Dazu können folgende Fragen hilfreich sein:</p></li></ul><ol><li><p>Was möchte ich im Konflikt mit meiner Schwester erreichen?</p></li><li><p>Wo liegen meine Grenzen im Umgang mit meiner Schwester?</p></li><li><p>Woran merke ich, dass diese Grenzen überschritten sind? Was hilft mir meine Grenzen einzuhalten?</p></li><li><p>Was hilft mir, meine Grenzen einzuhalten?</p></li></ol><ul><li><p>Für den Bruder ist es wichtig im Rahmen seiner Ressourcen zu handeln:</p></li></ul><ol><li><p>Falls er dafür über genügend Ressourcen verfügt, könnte er an der Beziehung zu seiner Schwester festhalten, sich kontinuierlich und aktiv gegen ihre rechtsextremen Einstellungen positionieren und so im möglichen Distanzierungsprozess seiner Schwester eine wichtige Figur darstellen.</p></li><li><p>Falls er über diese Ressourcen jedoch nicht verfügt, ist eine Einschränkung oder Unterbrechung der Beziehung sinnvoll, um im familiären Kontext überhaupt noch handlungsfähig zu bleiben.</p></li></ol><ul><li><p>Falls er dafür über genügend Ressourcen verfügt, könnte er an der Beziehung zu seiner Schwester festhalten, sich kontinuierlich und aktiv gegen ihre rechtsextremen Einstellungen positionieren und so im möglichen Distanzierungsprozess seiner Schwester eine wichtige Figur darstellen.</p></li></ul><ul><li><p>Falls er über diese Ressourcen jedoch nicht verfügt, ist eine Einschränkung oder Unterbrechung der Beziehung sinnvoll, um im familiären Kontext überhaupt noch handlungsfähig zu bleiben.</p></li></ul><ol><li><p>Um sich in dieser Situation weniger allein zu fühlen, kann es hilfreich sein, sich im Familienumfeld Personen mit einem ähnlichen Problembewusstsein zu suchen.</p></li><li><p>Es ist immer ratsam, sich externe Unterstützung zu holen, etwa in Form einer <a href=\"https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/\">Beratungsstelle zum Umgang mit Rechtsextremismus im Familienkontext</a></p></li></ol>"},"id":"305d44f2-5a3b-4387-aa51-c3c700054253","isHidden":false,"type":"text"}]
 
 ----
 
@@ -81,6 +81,14 @@ Subcategory: schule
 ----
 
 Intro-text: Ein Student distanziert sich von seiner jüngeren Schwester, da sie rassistische Positionen vertritt und sich einer rechtsextremen Gruppierung anschließt. Die Distanzierung führt innerhalb der Familie zu Spannungen.
+
+----
+
+Publisher: name e
+
+----
+
+Year: 
 
 ----
 
@@ -177,14 +185,6 @@ Content-blocks-1:
     - 
       text: 'Es ist immer ratsam, sich externe Unterstützung zu holen, etwa in Form einer (link: https://www.miteinander-ev.de/kompetenzstelle-eltern-und-rechtsextremismus-ker/ text: Beratungsstelle zum Umgang mit Rechtsextremismus im Familienkontext)'
       highlight: 'false'
-
-----
-
-Publisher:
-
-----
-
-Year: 
 
 ----
 
