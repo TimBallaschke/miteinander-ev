@@ -1357,6 +1357,35 @@ a {
 }
 .subpage-content .article-qa-block.information-qa-block h2 {
   margin-left: calc(var(--sidebar-width));
+  padding-left: 2.4rem;
+}
+.subpage-content .article-qa-block.information-qa-block h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #AAFF67;
+  display: inline-block;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .subpage-content .article-qa-block.information-qa-block h2::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 5.1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .subpage-content .article-qa-block.information-qa-block h2::before {
+    top: 9.8rem;
+  }
+}
+@media (max-width: 767px) {
+  .subpage-content .article-qa-block.information-qa-block h2 {
+    padding-left: 2rem;
+  }
 }
 @media (max-width: 767px) {
   .subpage-content .article-qa-block.information-qa-block h2 {
