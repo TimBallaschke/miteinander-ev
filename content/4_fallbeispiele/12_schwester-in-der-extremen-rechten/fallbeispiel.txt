@@ -84,7 +84,7 @@ Intro-text: Ein Student distanziert sich von seiner jüngeren Schwester, da sie 
 
 ----
 
-Publisher: name e
+Publisher:
 
 ----
 
