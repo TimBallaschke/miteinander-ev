@@ -141,9 +141,18 @@
                         ?>
                     </div>
                 <?php endif ?>
-                
+
+                <?php $uploadedFiles = $page->content()->has('images') ? $page->content()->get('images')->toFiles() : []; ?>
+                <?php if (count($uploadedFiles) > 0): ?>
+                    <div class="article-file-links">
+                        <?php foreach ($uploadedFiles as $file): ?>
+                            <a href="<?= $file->url() ?>" target="_blank" rel="noopener noreferrer"><?= $file->bildbeschreibung()->isNotEmpty() ? $file->bildbeschreibung()->value() : $file->filename() ?></a>
+                        <?php endforeach ?>
+                    </div>
+                <?php endif ?>
+
             </div>
-            
+
             <?php if ($page->related_posts()->isNotEmpty()): ?>
             <div class="article-related-materials mobile-only">
                 <div class="related-materials-title">Weiterführende Materialien:</div>
