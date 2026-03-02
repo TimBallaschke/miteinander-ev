@@ -1,0 +1,7 @@
+title: Datei
+
+fields:
+  linkname:
+    label: Anzeigename (optional)
+    type: text
+    required: false

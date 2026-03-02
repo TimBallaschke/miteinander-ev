@@ -142,18 +142,11 @@
                     </div>
                 <?php endif ?>
 
-                <?php $uploadedFiles = $page->content()->has('images') ? $page->content()->get('images')->toFiles() : []; ?>
-                <?php if (count($uploadedFiles) > 0): ?>
-                    <div class="article-file-links">
-                        <?php foreach ($uploadedFiles as $file): ?>
-                            <a href="<?= $file->url() ?>" target="_blank" rel="noopener noreferrer"><?= $file->bildbeschreibung()->isNotEmpty() ? $file->bildbeschreibung()->value() : $file->filename() ?></a>
-                        <?php endforeach ?>
-                    </div>
-                <?php endif ?>
 
             </div>
 
-            <?php if ($page->related_posts()->isNotEmpty()): ?>
+            <?php $uploadedFiles = $page->content()->has('images') ? $page->content()->get('images')->toFiles() : []; ?>
+            <?php if ($page->related_posts()->isNotEmpty() || count($uploadedFiles) > 0): ?>
             <div class="article-related-materials mobile-only">
                 <div class="related-materials-title">Weiterführende Materialien:</div>
                 <?php 
@@ -256,6 +249,15 @@
                         'isExternal' => $isExternal,
                         'showExternalTag' => $showExternalTag ?? false,
                         'tags' => $tags ?? []
+                    ]) ?>
+                <?php endforeach ?>
+                <?php foreach ($uploadedFiles as $file): ?>
+                    <?php snippet('related-post-card', [
+                        'url' => $file->url(),
+                        'title' => $file->linkname()->isNotEmpty() ? $file->linkname()->value() : $file->filename(),
+                        'isExternal' => true,
+                        'showExternalTag' => false,
+                        'tags' => [['label' => 'PDF', 'color' => 'red']]
                     ]) ?>
                 <?php endforeach ?>
             </div>

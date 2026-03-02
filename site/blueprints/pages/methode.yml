@@ -152,8 +152,4 @@ columns:
         multiple: true
         image:
           ratio: 16/9
-        fields:
-          - label: Bildbeschreibung
-            type: text
-            required: false
         sortable: true

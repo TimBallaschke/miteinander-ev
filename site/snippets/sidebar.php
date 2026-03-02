@@ -134,10 +134,15 @@
             </div>
         </div>
         <?php elseif ($page->template()->name() === 'fallbeispiel' || $page->template()->name() === 'methode'): ?>
-            <?php if ($page->related_posts()->isNotEmpty()): ?>
+            <?php
+            $uploadedFiles = ($page->template()->name() === 'methode' && $page->content()->has('images'))
+                ? $page->content()->get('images')->toFiles()
+                : [];
+            ?>
+            <?php if ($page->related_posts()->isNotEmpty() || count($uploadedFiles) > 0): ?>
         <div id="sidebar-related-materials">
             <div class="sidebar-section-title options-title">Weiterführende Materialien:</div>
-                <?php 
+                <?php
                 // Tag config for related posts
                 $tagConfig = [
                     'fallbeispiele' => ['label' => 'Fallbeispiele', 'color' => 'cyan'],
@@ -149,24 +154,24 @@
                     'kita' => ['label' => 'Kita', 'color' => 'purple'],
                     'sozialarbeit' => ['label' => 'Sozialarbeit, Kinder- und Jugendhilfe', 'color' => 'purple']
                 ];
-                
-                foreach ($page->related_posts()->toStructure() as $post): 
+
+                foreach ($page->related_posts()->toStructure() as $post):
                     // Always prioritize internal links over external links
                     $linkedPage = $post->internal_link()->toPage();
-                    
+
                     // Validate that internal link points to an actual article (not overview page)
                     // Check by new_category field since templates may be 'default'
                     $validArticleCategories = ['fallbeispiele', 'methoden', 'broschuere-und-information'];
-                    $isValidArticle = $linkedPage && 
-                                     $linkedPage->new_category()->isNotEmpty() && 
+                    $isValidArticle = $linkedPage &&
+                                     $linkedPage->new_category()->isNotEmpty() &&
                                      in_array($linkedPage->new_category()->value(), $validArticleCategories);
-                    
+
                     if ($isValidArticle) {
                         // Internal link exists and points to valid article - use it
                         $title = $post->internal_link_title()->value();
                         $isBrochure = $linkedPage->new_category()->value() === 'broschuere-und-information';
                         $showExternalTag = false; // Only show tag for actual external links, not brochures
-                        
+
                         if ($isBrochure) {
                             // Brochure: First try to get PDF file
                             $pdfFile = $linkedPage->files()->first();
@@ -195,7 +200,7 @@
                             $url = $linkedPage->url();
                             $isExternal = false;
                         }
-                        
+
                         // Get tags from the linked page
                         $tags = [];
                         if ($linkedPage->new_category()->isNotEmpty()) {
@@ -237,6 +242,15 @@
                         'isExternal' => $isExternal,
                         'showExternalTag' => $showExternalTag ?? false,
                         'tags' => $tags ?? []
+                    ]) ?>
+                <?php endforeach ?>
+                <?php foreach ($uploadedFiles as $file): ?>
+                    <?php snippet('related-post-card', [
+                        'url' => $file->url(),
+                        'title' => $file->linkname()->isNotEmpty() ? $file->linkname()->value() : $file->filename(),
+                        'isExternal' => true,
+                        'showExternalTag' => false,
+                        'tags' => [['label' => 'PDF', 'color' => 'red']]
                     ]) ?>
                 <?php endforeach ?>
         </div>
